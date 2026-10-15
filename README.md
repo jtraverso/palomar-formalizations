@@ -15,6 +15,8 @@ This list is updated after each accepted submission.
 | [PALOMAR-2026-10-15-000003](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000003&version=1) (v1) | The list chromatic index of complete graphs (Häggkvist–Janssen) | 2026-10-15 | [jtraverso/haggkvist-janssen @ 807e08b](https://github.com/jtraverso/haggkvist-janssen/tree/807e08bd7c480d4fae80c1b78377d23989d39ab0) |
 | [PALOMAR-2026-10-15-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000004&version=1) (v1) | Vizing's theorem and equitable edge colourings | 2026-10-15 | [jtraverso/vizing @ 01c72ed](https://github.com/jtraverso/vizing/tree/01c72ed7efde2353a4bb1654f69b5c0bc5038863) |
 | [PALOMAR-2026-10-15-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000005&version=1) (v1) | Wagner's planarity criterion and list colouring of planar and K₅-minor-free graphs | 2026-10-15 | [jtraverso/planar-list-colouring @ ec1eafb](https://github.com/jtraverso/planar-list-colouring/tree/ec1eafbc091713857eb5683a46e460902b2d47b3) |
+| [PALOMAR-2026-10-15-000008](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000008&version=1) (v1) | Dross's theorem on fractional triangle decompositions | 2026-10-15 | [jtraverso/dross-fractional-triangle-decomposition @ 7720b7b](https://github.com/jtraverso/dross-fractional-triangle-decomposition/tree/7720b7b591e606d5a56f1d935d8be650dcbf6c6f) |
+| [PALOMAR-2026-10-15-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000009&version=1) (v1) | The Beck–Fiala integer-making theorem | 2026-10-15 | [jtraverso/beck-fiala @ 52f1a12](https://github.com/jtraverso/beck-fiala/tree/52f1a12a140b0589ac39619dfd07807d98fdbaf5) |
 
 ## Entries
 
@@ -67,6 +69,21 @@ Every K₅-minor-free graph is 5-choosable (Škrekovski) and DP-5-colourable (Li
 graphs are 5-choosable (Thomassen) and DP-5-colourable (Dvořák–Postle). Some planar graph is not
 4-choosable (Voigt). The Four Colour Theorem is equivalent to Hadwiger's conjecture for K₅
 (Wagner), neither side being proved.
+
+### Dross's theorem on fractional triangle decompositions
+
+[PALOMAR-2026-10-15-000008](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000008&version=1)
+
+Every finite graph on n vertices with minimum degree at least 9n/10 has a fractional triangle
+decomposition (Dross, 2016), proved through a finite max-flow/min-cut theorem.
+
+### The Beck–Fiala integer-making theorem
+
+[PALOMAR-2026-10-15-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000009&version=1)
+
+If every column of a 0/1 matrix has at most t ones, every fractional vector in [0,1]^N can be
+rounded to a 0/1 vector changing every row sum by less than t (Beck–Fiala, 1981), keeping the
+coordinates that are already integral.
 
 ## Notes
 
