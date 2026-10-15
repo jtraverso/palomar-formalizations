@@ -17,6 +17,7 @@ This list is updated after each accepted submission.
 | [PALOMAR-2026-10-15-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000005&version=1) (v1) | Wagner's planarity criterion and list colouring of planar and K₅-minor-free graphs | 2026-10-15 | [jtraverso/planar-list-colouring @ ec1eafb](https://github.com/jtraverso/planar-list-colouring/tree/ec1eafbc091713857eb5683a46e460902b2d47b3) |
 | [PALOMAR-2026-10-15-000008](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000008&version=1) (v1) | Dross's theorem on fractional triangle decompositions | 2026-10-15 | [jtraverso/dross-fractional-triangle-decomposition @ 7720b7b](https://github.com/jtraverso/dross-fractional-triangle-decomposition/tree/7720b7b591e606d5a56f1d935d8be650dcbf6c6f) |
 | [PALOMAR-2026-10-15-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000009&version=1) (v1) | The Beck–Fiala integer-making theorem | 2026-10-15 | [jtraverso/beck-fiala @ 52f1a12](https://github.com/jtraverso/beck-fiala/tree/52f1a12a140b0589ac39619dfd07807d98fdbaf5) |
+| [PALOMAR-2026-10-15-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000011&version=1) (v1) | Near-regular hypergraph matchings and the asymptotic triangle-packing gap | 2026-10-15 | [jtraverso/asymptotic-triangle-packing @ 8c687e9](https://github.com/jtraverso/asymptotic-triangle-packing/tree/8c687e967e27800dc417203691c46044ec39c248) |
 
 ## Entries
 
@@ -84,6 +85,15 @@ decomposition (Dross, 2016), proved through a finite max-flow/min-cut theorem.
 If every column of a 0/1 matrix has at most t ones, every fractional vector in [0,1]^N can be
 rounded to a 0/1 vector changing every row sum by less than t (Beck–Fiala, 1981), keeping the
 coordinates that are already integral.
+
+### Near-regular hypergraph matchings and the asymptotic triangle-packing gap
+
+[PALOMAR-2026-10-15-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000011&version=1)
+
+A finite nibble theorem for uniform hypergraphs that are near-regular outside a small exceptional
+set, with a degree ceiling and small codegrees; and, for triangles, the fractional–integral
+packing gap ν*(G) − ν(G) = o(n²) and its cover form τ*(G) − ν(G) = o(n²) (the triangle case of
+Haxell–Rödl), uniformly over finite graphs.
 
 ## Notes
 
