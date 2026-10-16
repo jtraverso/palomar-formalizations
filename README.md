@@ -18,6 +18,10 @@ This list is updated after each accepted submission.
 | [PALOMAR-2026-10-15-000008](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000008&version=1) (v1) | Dross's theorem on fractional triangle decompositions | 2026-10-15 | [jtraverso/dross-fractional-triangle-decomposition @ 7720b7b](https://github.com/jtraverso/dross-fractional-triangle-decomposition/tree/7720b7b591e606d5a56f1d935d8be650dcbf6c6f) |
 | [PALOMAR-2026-10-15-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000009&version=1) (v1) | The Beck–Fiala integer-making theorem | 2026-10-15 | [jtraverso/beck-fiala @ 52f1a12](https://github.com/jtraverso/beck-fiala/tree/52f1a12a140b0589ac39619dfd07807d98fdbaf5) |
 | [PALOMAR-2026-10-15-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000011&version=1) (v1) | Near-regular hypergraph matchings and the asymptotic triangle-packing gap | 2026-10-15 | [jtraverso/asymptotic-triangle-packing @ 8c687e9](https://github.com/jtraverso/asymptotic-triangle-packing/tree/8c687e967e27800dc417203691c46044ec39c248) |
+| [PALOMAR-2026-10-15-000018](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000018&version=1) (v1) | Kuratowski's theorem | 2026-10-15 | [jtraverso/kuratowski @ 696ec89](https://github.com/jtraverso/kuratowski/tree/696ec897a9b91933037767d897670aa30ba3683a) |
+| [PALOMAR-2026-10-15-000019](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000019&version=1) (v1) | Kőnig's theorems and Dilworth's theorem | 2026-10-15 | [jtraverso/konig-edge-colouring @ 7c60f7e](https://github.com/jtraverso/konig-edge-colouring/tree/7c60f7efb69c1747aaf39e5dfa7a89d907cd84ef) |
+| [PALOMAR-2026-10-15-000020](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000020&version=1) (v1) | Menger's theorem and Hamiltonian cycles | 2026-10-15 | [jtraverso/menger-hamiltonian @ b6cf60e](https://github.com/jtraverso/menger-hamiltonian/tree/b6cf60e1910762fa411ca774fee148536246b545) |
+| [PALOMAR-2026-10-15-000021](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000021&version=1) (v1) | Classical bounds for graph Ramsey numbers | 2026-10-15 | [jtraverso/ramsey-graph-bounds @ 562986a](https://github.com/jtraverso/ramsey-graph-bounds/tree/562986a7ce9edf086c20b3a2b8c7d5ace2ffd843) |
 
 ## Entries
 
@@ -94,6 +98,38 @@ A finite nibble theorem for uniform hypergraphs that are near-regular outside a 
 set, with a degree ceiling and small codegrees; and, for triangles, the fractional–integral
 packing gap ν*(G) − ν(G) = o(n²) and its cover form τ*(G) − ν(G) = o(n²) (the triangle case of
 Haxell–Rödl), uniformly over finite graphs.
+
+### Kuratowski's theorem
+
+[PALOMAR-2026-10-15-000018](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000018&version=1)
+
+A finite graph is planar if and only if it contains no subdivision of K₅ and no subdivision of
+K₃,₃ (Kuratowski, 1930), derived from Wagner's minor characterization: a subdivision of H gives H
+as a minor, a K₃,₃ minor gives a K₃,₃ subdivision, and a K₅ minor gives a K₅ or a K₃,₃
+subdivision.
+
+### Kőnig's theorems and Dilworth's theorem
+
+[PALOMAR-2026-10-15-000019](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000019&version=1)
+
+Bipartite graphs have chromatic index Δ (Kőnig, 1916), proved with Kempe chains and a parity
+argument; the Kőnig–Egerváry theorem (maximum matching = minimum vertex cover in bipartite
+graphs); Dilworth's theorem and Mirsky's dual theorem for finite posets.
+
+### Menger's theorem and Hamiltonian cycles
+
+[PALOMAR-2026-10-15-000020](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000020&version=1)
+
+Menger's theorem (set form, two-vertex form, edge form and global edge form, the last two for
+Mathlib's edge connectivity); the Bondy–Chvátal closure step, Ore's and Dirac's theorems, and the
+Chvátal–Erdős theorem on Hamiltonian cycles.
+
+### Classical bounds for graph Ramsey numbers
+
+[PALOMAR-2026-10-15-000021](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000021&version=1)
+
+R(3, 3) = 6 (Greenwood–Gleason), the Erdős–Szekeres bound R(s, t) ≤ C(s + t − 2, s − 1), and
+Erdős's lower bound R(k, k) > 2^(k/2) for k ≥ 3.
 
 ## Notes
 
