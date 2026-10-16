@@ -34,6 +34,7 @@ repositories.
 | [PALOMAR-2026-10-16-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000011&version=1) (v1) | Berge's theorem and the Tutte–Berge formula | 2026-10-16 | [jtraverso/berge-matching @ b9c91bf](https://github.com/jtraverso/berge-matching/tree/b9c91bfbbe08ee7266ee3cb3543dff4e4ca8bc8c) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--berge-matching--b269b121c46f/tree/palomar/PALOMAR-2026-10-16-000011-v1/b9c91bfbbe08ee7266ee3cb3543dff4e4ca8bc8c) |
 | [PALOMAR-2026-10-16-000015](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000015&version=1) (v1) | The Gallai–Hasse–Roy–Vitaver theorem | 2026-10-16 | [jtraverso/gallai-roy @ e737218](https://github.com/jtraverso/gallai-roy/tree/e737218bf80c3d3684d670f5f8aa9a8257e1a52f) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--gallai-roy--242cd45a936c/tree/palomar/PALOMAR-2026-10-16-000015-v1/e737218bf80c3d3684d670f5f8aa9a8257e1a52f) |
 | [PALOMAR-2026-10-16-000016](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000016&version=1) (v1) | Euler's theorem on Eulerian circuits and trails, and Petersen's 2-factor theorem | 2026-10-16 | [jtraverso/euler-petersen @ 02c3f1a](https://github.com/jtraverso/euler-petersen/tree/02c3f1a5327c5f066938860bb07e9fce226b36ca) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--euler-petersen--780912a29df2/tree/palomar/PALOMAR-2026-10-16-000016-v1/02c3f1a5327c5f066938860bb07e9fce226b36ca) |
+| [PALOMAR-2026-10-16-000017](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000017&version=1) (v1) | Graphic sequences: the Erdős–Gallai and Havel–Hakimi theorems | 2026-10-16 | [jtraverso/degree-sequences @ b49808e](https://github.com/jtraverso/degree-sequences/tree/b49808e0c0aade945472b777047148399a582858) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--degree-sequences--21c02be05315/tree/palomar/PALOMAR-2026-10-16-000017-v1/b49808e0c0aade945472b777047148399a582858) |
 
 ## Entries
 
@@ -258,6 +259,17 @@ and an Eulerian trail iff it has 0 or 2 odd vertices (from a to b when those are
 even graph has an Eulerian orientation; and every finite 2k-regular graph is the edge-disjoint
 union of k 2-factors (Petersen, 1891), proved via closed-trail decompositions and Hall's theorem.
 Mathlib had the necessity directions of the Euler theorems; their sufficiency was a listed TODO.
+
+### Graphic sequences: the Erdős–Gallai and Havel–Hakimi theorems
+
+[PALOMAR-2026-10-16-000017](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000017&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--degree-sequences--21c02be05315](https://github.com/PalomarArchive/jtraverso--degree-sequences--21c02be05315/tree/palomar/PALOMAR-2026-10-16-000017-v1/b49808e0c0aade945472b777047148399a582858).
+
+A non-increasing sequence of natural numbers is the degree sequence of a finite simple graph if and
+only if its sum is even and every initial segment satisfies the Erdős–Gallai inequality (Erdős–Gallai,
+1960); equivalently, if and only if its first term is at most the number of remaining terms, the next
+d₀ terms are positive, and the Havel–Hakimi reduced sequence is graphic (Havel 1955, Hakimi 1962).
 
 ## Notes
 
