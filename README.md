@@ -32,6 +32,7 @@ repositories.
 | [PALOMAR-2026-10-16-000003](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000003&version=1) (v1) | Brooks' theorem | 2026-10-16 | [jtraverso/brooks @ e825690](https://github.com/jtraverso/brooks/tree/e82569027fe8582c647e297d7712af86af372b47) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--brooks--c255f4f55cbf/tree/palomar/PALOMAR-2026-10-16-000003-v1/e82569027fe8582c647e297d7712af86af372b47) |
 | [PALOMAR-2026-10-16-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000004&version=1) (v1) | Petersen's theorem | 2026-10-16 | [jtraverso/petersen-matching @ 77630d6](https://github.com/jtraverso/petersen-matching/tree/77630d6771d3f5a3da2185db2ff451f6c6ed5190) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--petersen-matching--386afe9ae9e1/tree/palomar/PALOMAR-2026-10-16-000004-v1/77630d6771d3f5a3da2185db2ff451f6c6ed5190) |
 | [PALOMAR-2026-10-16-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000011&version=1) (v1) | Berge's theorem and the Tutte–Berge formula | 2026-10-16 | [jtraverso/berge-matching @ b9c91bf](https://github.com/jtraverso/berge-matching/tree/b9c91bfbbe08ee7266ee3cb3543dff4e4ca8bc8c) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--berge-matching--b269b121c46f/tree/palomar/PALOMAR-2026-10-16-000011-v1/b9c91bfbbe08ee7266ee3cb3543dff4e4ca8bc8c) |
+| [PALOMAR-2026-10-16-000015](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000015&version=1) (v1) | The Gallai–Hasse–Roy–Vitaver theorem | 2026-10-16 | [jtraverso/gallai-roy @ e737218](https://github.com/jtraverso/gallai-roy/tree/e737218bf80c3d3684d670f5f8aa9a8257e1a52f) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--gallai-roy--242cd45a936c/tree/palomar/PALOMAR-2026-10-16-000015-v1/e737218bf80c3d3684d670f5f8aa9a8257e1a52f) |
 
 ## Entries
 
@@ -234,6 +235,16 @@ Archived copy: [PalomarArchive/jtraverso--berge-matching--b269b121c46f](https://
 A matching is maximum if and only if there is no augmenting path (Berge, 1957); and the maximum
 size of a matching is the minimum over vertex sets U of (|V| + |U| − odd(G − U)) / 2 (Tutte–Berge
 formula), derived from Mathlib's Tutte theorem.
+
+### The Gallai–Hasse–Roy–Vitaver theorem
+
+[PALOMAR-2026-10-16-000015](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000015&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--gallai-roy--242cd45a936c](https://github.com/PalomarArchive/jtraverso--gallai-roy--242cd45a936c/tree/palomar/PALOMAR-2026-10-16-000015-v1/e737218bf80c3d3684d670f5f8aa9a8257e1a52f).
+
+If an orientation of a finite graph has no directed path on more than k vertices, the graph is
+k-colourable; conversely, every k-colourable graph has such an orientation. Hence the chromatic
+number is the minimum, over all orientations, of the number of vertices of a longest directed path.
 
 ## Notes
 
