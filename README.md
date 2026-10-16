@@ -33,6 +33,7 @@ repositories.
 | [PALOMAR-2026-10-16-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000004&version=1) (v1) | Petersen's theorem | 2026-10-16 | [jtraverso/petersen-matching @ 77630d6](https://github.com/jtraverso/petersen-matching/tree/77630d6771d3f5a3da2185db2ff451f6c6ed5190) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--petersen-matching--386afe9ae9e1/tree/palomar/PALOMAR-2026-10-16-000004-v1/77630d6771d3f5a3da2185db2ff451f6c6ed5190) |
 | [PALOMAR-2026-10-16-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000011&version=1) (v1) | Berge's theorem and the Tutte–Berge formula | 2026-10-16 | [jtraverso/berge-matching @ b9c91bf](https://github.com/jtraverso/berge-matching/tree/b9c91bfbbe08ee7266ee3cb3543dff4e4ca8bc8c) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--berge-matching--b269b121c46f/tree/palomar/PALOMAR-2026-10-16-000011-v1/b9c91bfbbe08ee7266ee3cb3543dff4e4ca8bc8c) |
 | [PALOMAR-2026-10-16-000015](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000015&version=1) (v1) | The Gallai–Hasse–Roy–Vitaver theorem | 2026-10-16 | [jtraverso/gallai-roy @ e737218](https://github.com/jtraverso/gallai-roy/tree/e737218bf80c3d3684d670f5f8aa9a8257e1a52f) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--gallai-roy--242cd45a936c/tree/palomar/PALOMAR-2026-10-16-000015-v1/e737218bf80c3d3684d670f5f8aa9a8257e1a52f) |
+| [PALOMAR-2026-10-16-000016](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000016&version=1) (v1) | Euler's theorem on Eulerian circuits and trails, and Petersen's 2-factor theorem | 2026-10-16 | [jtraverso/euler-petersen @ 02c3f1a](https://github.com/jtraverso/euler-petersen/tree/02c3f1a5327c5f066938860bb07e9fce226b36ca) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--euler-petersen--780912a29df2/tree/palomar/PALOMAR-2026-10-16-000016-v1/02c3f1a5327c5f066938860bb07e9fce226b36ca) |
 
 ## Entries
 
@@ -245,6 +246,18 @@ Archived copy: [PalomarArchive/jtraverso--gallai-roy--242cd45a936c](https://gith
 If an orientation of a finite graph has no directed path on more than k vertices, the graph is
 k-colourable; conversely, every k-colourable graph has such an orientation. Hence the chromatic
 number is the minimum, over all orientations, of the number of vertices of a longest directed path.
+
+### Euler's theorem on Eulerian circuits and trails, and Petersen's 2-factor theorem
+
+[PALOMAR-2026-10-16-000016](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000016&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--euler-petersen--780912a29df2](https://github.com/PalomarArchive/jtraverso--euler-petersen--780912a29df2/tree/palomar/PALOMAR-2026-10-16-000016-v1/02c3f1a5327c5f066938860bb07e9fce226b36ca).
+
+A finite connected graph has an Eulerian circuit iff every degree is even (starting at any vertex),
+and an Eulerian trail iff it has 0 or 2 odd vertices (from a to b when those are a and b); every
+even graph has an Eulerian orientation; and every finite 2k-regular graph is the edge-disjoint
+union of k 2-factors (Petersen, 1891), proved via closed-trail decompositions and Hall's theorem.
+Mathlib had the necessity directions of the Euler theorems; their sufficiency was a listed TODO.
 
 ## Notes
 
