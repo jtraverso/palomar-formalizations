@@ -23,6 +23,8 @@ This list is updated after each accepted submission.
 | [PALOMAR-2026-10-15-000020](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000020&version=1) (v1) | Menger's theorem and Hamiltonian cycles | 2026-10-15 | [jtraverso/menger-hamiltonian @ b6cf60e](https://github.com/jtraverso/menger-hamiltonian/tree/b6cf60e1910762fa411ca774fee148536246b545) |
 | [PALOMAR-2026-10-15-000021](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000021&version=1) (v1) | Classical bounds for graph Ramsey numbers | 2026-10-15 | [jtraverso/ramsey-graph-bounds @ 562986a](https://github.com/jtraverso/ramsey-graph-bounds/tree/562986a7ce9edf086c20b3a2b8c7d5ace2ffd843) |
 | [PALOMAR-2026-10-16-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000001&version=1) (v1) | Mader's theorem and Hadwiger's conjecture for t ≤ 4 | 2026-10-16 | [jtraverso/hadwiger-mader @ cb10154](https://github.com/jtraverso/hadwiger-mader/tree/cb10154cd439a419d0bbf34052839dd27242b619) |
+| [PALOMAR-2026-10-16-000003](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000003&version=1) (v1) | Brooks' theorem | 2026-10-16 | [jtraverso/brooks @ e825690](https://github.com/jtraverso/brooks/tree/e82569027fe8582c647e297d7712af86af372b47) |
+| [PALOMAR-2026-10-16-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000004&version=1) (v1) | Petersen's theorem | 2026-10-16 | [jtraverso/petersen-matching @ 77630d6](https://github.com/jtraverso/petersen-matching/tree/77630d6771d3f5a3da2185db2ff451f6c6ed5190) |
 
 ## Entries
 
@@ -140,6 +142,21 @@ A nonempty graph of average degree at least 2^(r−2) has a K_r minor (Mader, 19
 a K₄ minor has a vertex of degree at most two and at most 2n − 3 edges (Dirac, 1952); graphs without
 a K₃ minor are 2-colourable and graphs without a K₄ minor are 3-colourable (Hadwiger's conjecture
 for t ≤ 4).
+
+### Brooks' theorem
+
+[PALOMAR-2026-10-16-000003](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000003&version=1)
+
+For k ≥ 3, a finite graph of maximum degree at most k without a (k+1)-clique is k-colourable;
+and a connected graph that is neither complete nor an odd cycle is Δ-colourable (Brooks, 1941),
+with greedy colourings in Lovász's style.
+
+### Petersen's theorem
+
+[PALOMAR-2026-10-16-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000004&version=1)
+
+Every finite bridgeless cubic graph has a perfect matching (Petersen, 1891), and every edge of such
+a graph lies in some perfect matching; both derived from Tutte's theorem.
 
 ## Notes
 
