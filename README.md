@@ -9,6 +9,9 @@ commit.
 This list is updated after each accepted submission. Each registered commit is also preserved by
 Palomar in an archive copy under the [PalomarArchive](https://github.com/PalomarArchive) organization
 (linked for every entry), so the registered sources remain available independently of the original
+repositories. Each registered commit is also preserved by
+Palomar in an archive copy under the [PalomarArchive](https://github.com/PalomarArchive) organization
+(linked for every entry), so the registered sources remain available independently of the original
 repositories.
 
 | Palomar entry | Result | Registered | Source | Archived copy |
@@ -28,6 +31,7 @@ repositories.
 | [PALOMAR-2026-10-16-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000001&version=1) (v1) | Mader's theorem and Hadwiger's conjecture for t ≤ 4 | 2026-10-16 | [jtraverso/hadwiger-mader @ cb10154](https://github.com/jtraverso/hadwiger-mader/tree/cb10154cd439a419d0bbf34052839dd27242b619) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--hadwiger-mader--a4b96dfb7362/tree/palomar/PALOMAR-2026-10-16-000001-v1/cb10154cd439a419d0bbf34052839dd27242b619) |
 | [PALOMAR-2026-10-16-000003](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000003&version=1) (v1) | Brooks' theorem | 2026-10-16 | [jtraverso/brooks @ e825690](https://github.com/jtraverso/brooks/tree/e82569027fe8582c647e297d7712af86af372b47) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--brooks--c255f4f55cbf/tree/palomar/PALOMAR-2026-10-16-000003-v1/e82569027fe8582c647e297d7712af86af372b47) |
 | [PALOMAR-2026-10-16-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000004&version=1) (v1) | Petersen's theorem | 2026-10-16 | [jtraverso/petersen-matching @ 77630d6](https://github.com/jtraverso/petersen-matching/tree/77630d6771d3f5a3da2185db2ff451f6c6ed5190) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--petersen-matching--386afe9ae9e1/tree/palomar/PALOMAR-2026-10-16-000004-v1/77630d6771d3f5a3da2185db2ff451f6c6ed5190) |
+| [PALOMAR-2026-10-16-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000011&version=1) (v1) | Berge's theorem and the Tutte–Berge formula | 2026-10-16 | [jtraverso/berge-matching @ b9c91bf](https://github.com/jtraverso/berge-matching/tree/b9c91bfbbe08ee7266ee3cb3543dff4e4ca8bc8c) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--berge-matching--b269b121c46f/tree/palomar/PALOMAR-2026-10-16-000011-v1/b9c91bfbbe08ee7266ee3cb3543dff4e4ca8bc8c) |
 
 ## Entries
 
@@ -35,6 +39,8 @@ repositories.
 
 [PALOMAR-2026-10-13-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-13-000005&version=2)
 (version 2; version 1 contained the first two results)
+
+Archived copy: [PalomarArchive/jtraverso--grotzsch-ore--8ebd0df3e665](https://github.com/PalomarArchive/jtraverso--grotzsch-ore--8ebd0df3e665/tree/palomar/PALOMAR-2026-10-13-000005-v2/ff6d5123c06e4c99bb6074e0a72e8be8d595eefa).
 
 Archived copy: [PalomarArchive/jtraverso--grotzsch-ore--8ebd0df3e665](https://github.com/PalomarArchive/jtraverso--grotzsch-ore--8ebd0df3e665/tree/palomar/PALOMAR-2026-10-13-000005-v2/ff6d5123c06e4c99bb6074e0a72e8be8d595eefa).
 
@@ -54,6 +60,8 @@ rotation systems.
 
 Archived copy: [PalomarArchive/jtraverso--hajnal-szemeredi--c11276c44bab](https://github.com/PalomarArchive/jtraverso--hajnal-szemeredi--c11276c44bab/tree/palomar/PALOMAR-2026-10-13-000007-v1/ba34061e3cf12dfc8297610d5d7b3f0afac7ec54).
 
+Archived copy: [PalomarArchive/jtraverso--hajnal-szemeredi--c11276c44bab](https://github.com/PalomarArchive/jtraverso--hajnal-szemeredi--c11276c44bab/tree/palomar/PALOMAR-2026-10-13-000007-v1/ba34061e3cf12dfc8297610d5d7b3f0afac7ec54).
+
 Every finite graph of maximum degree at most r has an equitable (r + 1)-colouring: the colour
 classes differ in size by at most one (Hajnal–Szemerédi, 1970), following the short proof of
 Kierstead and Kostochka (2008). Also the exact form: if |V| = s(r + 1), there is a proper
@@ -62,6 +70,8 @@ Kierstead and Kostochka (2008). Also the exact form: if |V| = s(r + 1), there is
 ### The list chromatic index of complete graphs (Häggkvist–Janssen)
 
 [PALOMAR-2026-10-15-000003](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000003&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--haggkvist-janssen--3449623606b5](https://github.com/PalomarArchive/jtraverso--haggkvist-janssen--3449623606b5/tree/palomar/PALOMAR-2026-10-15-000003-v1/807e08bd7c480d4fae80c1b78377d23989d39ab0).
 
 Archived copy: [PalomarArchive/jtraverso--haggkvist-janssen--3449623606b5](https://github.com/PalomarArchive/jtraverso--haggkvist-janssen--3449623606b5/tree/palomar/PALOMAR-2026-10-15-000003-v1/807e08bd7c480d4fae80c1b78377d23989d39ab0).
 
@@ -75,6 +85,8 @@ Alon–Tarsi polynomial method with a certificate built from permutations.
 
 Archived copy: [PalomarArchive/jtraverso--vizing--01fa5f875100](https://github.com/PalomarArchive/jtraverso--vizing--01fa5f875100/tree/palomar/PALOMAR-2026-10-15-000004-v1/01c72ed7efde2353a4bb1654f69b5c0bc5038863).
 
+Archived copy: [PalomarArchive/jtraverso--vizing--01fa5f875100](https://github.com/PalomarArchive/jtraverso--vizing--01fa5f875100/tree/palomar/PALOMAR-2026-10-15-000004-v1/01c72ed7efde2353a4bb1654f69b5c0bc5038863).
+
 Every finite simple graph has a proper edge colouring with Δ + 1 colours (Vizing, 1964), proved
 with fans and Kempe chains; moreover, for every c ≥ Δ + 1 there is a proper edge colouring with
 c colours whose colour classes differ in size by at most one (McDiarmid, 1972).
@@ -82,6 +94,8 @@ c colours whose colour classes differ in size by at most one (McDiarmid, 1972).
 ### Wagner's planarity criterion and list colouring
 
 [PALOMAR-2026-10-15-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000005&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--planar-list-colouring--03a15f1929ab](https://github.com/PalomarArchive/jtraverso--planar-list-colouring--03a15f1929ab/tree/palomar/PALOMAR-2026-10-15-000005-v1/ec1eafbc091713857eb5683a46e460902b2d47b3).
 
 Archived copy: [PalomarArchive/jtraverso--planar-list-colouring--03a15f1929ab](https://github.com/PalomarArchive/jtraverso--planar-list-colouring--03a15f1929ab/tree/palomar/PALOMAR-2026-10-15-000005-v1/ec1eafbc091713857eb5683a46e460902b2d47b3).
 
@@ -97,12 +111,16 @@ graphs are 5-choosable (Thomassen) and DP-5-colourable (Dvořák–Postle). Some
 
 Archived copy: [PalomarArchive/jtraverso--dross-fractional-triangle-decomposition--f57504b1525c](https://github.com/PalomarArchive/jtraverso--dross-fractional-triangle-decomposition--f57504b1525c/tree/palomar/PALOMAR-2026-10-15-000008-v1/7720b7b591e606d5a56f1d935d8be650dcbf6c6f).
 
+Archived copy: [PalomarArchive/jtraverso--dross-fractional-triangle-decomposition--f57504b1525c](https://github.com/PalomarArchive/jtraverso--dross-fractional-triangle-decomposition--f57504b1525c/tree/palomar/PALOMAR-2026-10-15-000008-v1/7720b7b591e606d5a56f1d935d8be650dcbf6c6f).
+
 Every finite graph on n vertices with minimum degree at least 9n/10 has a fractional triangle
 decomposition (Dross, 2016), proved through a finite max-flow/min-cut theorem.
 
 ### The Beck–Fiala integer-making theorem
 
 [PALOMAR-2026-10-15-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000009&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--beck-fiala--f2fa29dec96f](https://github.com/PalomarArchive/jtraverso--beck-fiala--f2fa29dec96f/tree/palomar/PALOMAR-2026-10-15-000009-v1/52f1a12a140b0589ac39619dfd07807d98fdbaf5).
 
 Archived copy: [PalomarArchive/jtraverso--beck-fiala--f2fa29dec96f](https://github.com/PalomarArchive/jtraverso--beck-fiala--f2fa29dec96f/tree/palomar/PALOMAR-2026-10-15-000009-v1/52f1a12a140b0589ac39619dfd07807d98fdbaf5).
 
@@ -113,6 +131,8 @@ coordinates that are already integral.
 ### Near-regular hypergraph matchings and the asymptotic triangle-packing gap
 
 [PALOMAR-2026-10-15-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000011&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--asymptotic-triangle-packing--a2c3300bc8ff](https://github.com/PalomarArchive/jtraverso--asymptotic-triangle-packing--a2c3300bc8ff/tree/palomar/PALOMAR-2026-10-15-000011-v1/8c687e967e27800dc417203691c46044ec39c248).
 
 Archived copy: [PalomarArchive/jtraverso--asymptotic-triangle-packing--a2c3300bc8ff](https://github.com/PalomarArchive/jtraverso--asymptotic-triangle-packing--a2c3300bc8ff/tree/palomar/PALOMAR-2026-10-15-000011-v1/8c687e967e27800dc417203691c46044ec39c248).
 
@@ -127,6 +147,8 @@ Haxell–Rödl), uniformly over finite graphs.
 
 Archived copy: [PalomarArchive/jtraverso--kuratowski--c5380f41889a](https://github.com/PalomarArchive/jtraverso--kuratowski--c5380f41889a/tree/palomar/PALOMAR-2026-10-15-000018-v1/696ec897a9b91933037767d897670aa30ba3683a).
 
+Archived copy: [PalomarArchive/jtraverso--kuratowski--c5380f41889a](https://github.com/PalomarArchive/jtraverso--kuratowski--c5380f41889a/tree/palomar/PALOMAR-2026-10-15-000018-v1/696ec897a9b91933037767d897670aa30ba3683a).
+
 A finite graph is planar if and only if it contains no subdivision of K₅ and no subdivision of
 K₃,₃ (Kuratowski, 1930), derived from Wagner's minor characterization: a subdivision of H gives H
 as a minor, a K₃,₃ minor gives a K₃,₃ subdivision, and a K₅ minor gives a K₅ or a K₃,₃
@@ -135,6 +157,8 @@ subdivision.
 ### Kőnig's theorems and Dilworth's theorem
 
 [PALOMAR-2026-10-15-000019](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000019&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--konig-edge-colouring--5e0f844003ab](https://github.com/PalomarArchive/jtraverso--konig-edge-colouring--5e0f844003ab/tree/palomar/PALOMAR-2026-10-15-000019-v1/7c60f7efb69c1747aaf39e5dfa7a89d907cd84ef).
 
 Archived copy: [PalomarArchive/jtraverso--konig-edge-colouring--5e0f844003ab](https://github.com/PalomarArchive/jtraverso--konig-edge-colouring--5e0f844003ab/tree/palomar/PALOMAR-2026-10-15-000019-v1/7c60f7efb69c1747aaf39e5dfa7a89d907cd84ef).
 
@@ -148,6 +172,8 @@ graphs); Dilworth's theorem and Mirsky's dual theorem for finite posets.
 
 Archived copy: [PalomarArchive/jtraverso--menger-hamiltonian--0fd5dfe41e84](https://github.com/PalomarArchive/jtraverso--menger-hamiltonian--0fd5dfe41e84/tree/palomar/PALOMAR-2026-10-15-000020-v1/b6cf60e1910762fa411ca774fee148536246b545).
 
+Archived copy: [PalomarArchive/jtraverso--menger-hamiltonian--0fd5dfe41e84](https://github.com/PalomarArchive/jtraverso--menger-hamiltonian--0fd5dfe41e84/tree/palomar/PALOMAR-2026-10-15-000020-v1/b6cf60e1910762fa411ca774fee148536246b545).
+
 Menger's theorem (set form, two-vertex form, edge form and global edge form, the last two for
 Mathlib's edge connectivity); the Bondy–Chvátal closure step, Ore's and Dirac's theorems, and the
 Chvátal–Erdős theorem on Hamiltonian cycles.
@@ -158,12 +184,16 @@ Chvátal–Erdős theorem on Hamiltonian cycles.
 
 Archived copy: [PalomarArchive/jtraverso--ramsey-graph-bounds--d35ec49e7ff6](https://github.com/PalomarArchive/jtraverso--ramsey-graph-bounds--d35ec49e7ff6/tree/palomar/PALOMAR-2026-10-15-000021-v1/562986a7ce9edf086c20b3a2b8c7d5ace2ffd843).
 
+Archived copy: [PalomarArchive/jtraverso--ramsey-graph-bounds--d35ec49e7ff6](https://github.com/PalomarArchive/jtraverso--ramsey-graph-bounds--d35ec49e7ff6/tree/palomar/PALOMAR-2026-10-15-000021-v1/562986a7ce9edf086c20b3a2b8c7d5ace2ffd843).
+
 R(3, 3) = 6 (Greenwood–Gleason), the Erdős–Szekeres bound R(s, t) ≤ C(s + t − 2, s − 1), and
 Erdős's lower bound R(k, k) > 2^(k/2) for k ≥ 3.
 
 ### Mader's theorem and Hadwiger's conjecture for t ≤ 4
 
 [PALOMAR-2026-10-16-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000001&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--hadwiger-mader--a4b96dfb7362](https://github.com/PalomarArchive/jtraverso--hadwiger-mader--a4b96dfb7362/tree/palomar/PALOMAR-2026-10-16-000001-v1/cb10154cd439a419d0bbf34052839dd27242b619).
 
 Archived copy: [PalomarArchive/jtraverso--hadwiger-mader--a4b96dfb7362](https://github.com/PalomarArchive/jtraverso--hadwiger-mader--a4b96dfb7362/tree/palomar/PALOMAR-2026-10-16-000001-v1/cb10154cd439a419d0bbf34052839dd27242b619).
 
@@ -178,6 +208,8 @@ for t ≤ 4).
 
 Archived copy: [PalomarArchive/jtraverso--brooks--c255f4f55cbf](https://github.com/PalomarArchive/jtraverso--brooks--c255f4f55cbf/tree/palomar/PALOMAR-2026-10-16-000003-v1/e82569027fe8582c647e297d7712af86af372b47).
 
+Archived copy: [PalomarArchive/jtraverso--brooks--c255f4f55cbf](https://github.com/PalomarArchive/jtraverso--brooks--c255f4f55cbf/tree/palomar/PALOMAR-2026-10-16-000003-v1/e82569027fe8582c647e297d7712af86af372b47).
+
 For k ≥ 3, a finite graph of maximum degree at most k without a (k+1)-clique is k-colourable;
 and a connected graph that is neither complete nor an odd cycle is Δ-colourable (Brooks, 1941),
 with greedy colourings in Lovász's style.
@@ -188,8 +220,20 @@ with greedy colourings in Lovász's style.
 
 Archived copy: [PalomarArchive/jtraverso--petersen-matching--386afe9ae9e1](https://github.com/PalomarArchive/jtraverso--petersen-matching--386afe9ae9e1/tree/palomar/PALOMAR-2026-10-16-000004-v1/77630d6771d3f5a3da2185db2ff451f6c6ed5190).
 
+Archived copy: [PalomarArchive/jtraverso--petersen-matching--386afe9ae9e1](https://github.com/PalomarArchive/jtraverso--petersen-matching--386afe9ae9e1/tree/palomar/PALOMAR-2026-10-16-000004-v1/77630d6771d3f5a3da2185db2ff451f6c6ed5190).
+
 Every finite bridgeless cubic graph has a perfect matching (Petersen, 1891), and every edge of such
 a graph lies in some perfect matching; both derived from Tutte's theorem.
+
+### Berge's theorem and the Tutte–Berge formula
+
+[PALOMAR-2026-10-16-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000011&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--berge-matching--b269b121c46f](https://github.com/PalomarArchive/jtraverso--berge-matching--b269b121c46f/tree/palomar/PALOMAR-2026-10-16-000011-v1/b9c91bfbbe08ee7266ee3cb3543dff4e4ca8bc8c).
+
+A matching is maximum if and only if there is no augmenting path (Berge, 1957); and the maximum
+size of a matching is the minimum over vertex sets U of (|V| + |U| − odd(G − U)) / 2 (Tutte–Berge
+formula), derived from Mathlib's Tutte theorem.
 
 ## Notes
 
