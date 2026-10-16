@@ -22,6 +22,7 @@ This list is updated after each accepted submission.
 | [PALOMAR-2026-10-15-000019](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000019&version=1) (v1) | Kőnig's theorems and Dilworth's theorem | 2026-10-15 | [jtraverso/konig-edge-colouring @ 7c60f7e](https://github.com/jtraverso/konig-edge-colouring/tree/7c60f7efb69c1747aaf39e5dfa7a89d907cd84ef) |
 | [PALOMAR-2026-10-15-000020](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000020&version=1) (v1) | Menger's theorem and Hamiltonian cycles | 2026-10-15 | [jtraverso/menger-hamiltonian @ b6cf60e](https://github.com/jtraverso/menger-hamiltonian/tree/b6cf60e1910762fa411ca774fee148536246b545) |
 | [PALOMAR-2026-10-15-000021](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000021&version=1) (v1) | Classical bounds for graph Ramsey numbers | 2026-10-15 | [jtraverso/ramsey-graph-bounds @ 562986a](https://github.com/jtraverso/ramsey-graph-bounds/tree/562986a7ce9edf086c20b3a2b8c7d5ace2ffd843) |
+| [PALOMAR-2026-10-16-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000001&version=1) (v1) | Mader's theorem and Hadwiger's conjecture for t ≤ 4 | 2026-10-16 | [jtraverso/hadwiger-mader @ cb10154](https://github.com/jtraverso/hadwiger-mader/tree/cb10154cd439a419d0bbf34052839dd27242b619) |
 
 ## Entries
 
@@ -130,6 +131,15 @@ Chvátal–Erdős theorem on Hamiltonian cycles.
 
 R(3, 3) = 6 (Greenwood–Gleason), the Erdős–Szekeres bound R(s, t) ≤ C(s + t − 2, s − 1), and
 Erdős's lower bound R(k, k) > 2^(k/2) for k ≥ 3.
+
+### Mader's theorem and Hadwiger's conjecture for t ≤ 4
+
+[PALOMAR-2026-10-16-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000001&version=1)
+
+A nonempty graph of average degree at least 2^(r−2) has a K_r minor (Mader, 1967); a graph without
+a K₄ minor has a vertex of degree at most two and at most 2n − 3 edges (Dirac, 1952); graphs without
+a K₃ minor are 2-colourable and graphs without a K₄ minor are 3-colourable (Hadwiger's conjecture
+for t ≤ 4).
 
 ## Notes
 
