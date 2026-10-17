@@ -36,6 +36,7 @@ repositories.
 | [PALOMAR-2026-10-16-000016](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000016&version=1) (v1) | Euler's theorem on Eulerian circuits and trails, and Petersen's 2-factor theorem | 2026-10-16 | [jtraverso/euler-petersen @ 02c3f1a](https://github.com/jtraverso/euler-petersen/tree/02c3f1a5327c5f066938860bb07e9fce226b36ca) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--euler-petersen--780912a29df2/tree/palomar/PALOMAR-2026-10-16-000016-v1/02c3f1a5327c5f066938860bb07e9fce226b36ca) |
 | [PALOMAR-2026-10-16-000017](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000017&version=1) (v1) | Graphic sequences: the Erdős–Gallai and Havel–Hakimi theorems | 2026-10-16 | [jtraverso/degree-sequences @ b49808e](https://github.com/jtraverso/degree-sequences/tree/b49808e0c0aade945472b777047148399a582858) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--degree-sequences--21c02be05315/tree/palomar/PALOMAR-2026-10-16-000017-v1/b49808e0c0aade945472b777047148399a582858) |
 | [PALOMAR-2026-10-16-000019](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000019&version=1) (v1) | The Cauchy–Binet formula, Kirchhoff's matrix-tree theorem and Cayley's formula | 2026-10-16 | [jtraverso/matrix-tree @ aeab0f2](https://github.com/jtraverso/matrix-tree/tree/aeab0f267c523dd3cac9a287b589f65a99d20d01) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--matrix-tree--5efe2b63de2b/tree/palomar/PALOMAR-2026-10-16-000019-v1/aeab0f267c523dd3cac9a287b589f65a99d20d01) |
+| [PALOMAR-2026-10-16-000024](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000024&version=1) (v1) | Füredi's stability theorem and the Erdős–Simonovits stability theorem | 2026-10-16 | [jtraverso/turan-stability @ 3eb9903](https://github.com/jtraverso/turan-stability/tree/3eb99033cc931add291781f77b7446dcba8f5f9d) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--turan-stability--e49ed8b57e3c/tree/palomar/PALOMAR-2026-10-16-000024-v1/3eb99033cc931add291781f77b7446dcba8f5f9d) |
 
 ## Entries
 
@@ -282,6 +283,18 @@ The Cauchy–Binet formula for determinants of products of rectangular matrices 
 rings (not in Mathlib); Kirchhoff's matrix-tree theorem: the number of spanning trees of a finite
 graph is any principal cofactor of Mathlib's Laplacian matrix; and Cayley's formula n^(n−2) for
 labelled trees on n ≥ 1 vertices, derived from the matrix-tree theorem for the complete graph.
+
+### Füredi's stability theorem and the Erdős–Simonovits stability theorem
+
+[PALOMAR-2026-10-16-000024](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000024&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--turan-stability--e49ed8b57e3c](https://github.com/PalomarArchive/jtraverso--turan-stability--e49ed8b57e3c/tree/palomar/PALOMAR-2026-10-16-000024-v1/3eb99033cc931add291781f77b7446dcba8f5f9d).
+
+Füredi's sharp stability theorem for cliques (a K_{p+1}-free graph with t(n,p) − t edges has a
+p-partite subgraph with at least e(G) − t edges, via his partition inequality); the clique counting
+lemma in ε-uniform parts, the clique removal lemma and the embedding lemma (extending Mathlib's
+regularity theory beyond triangles); and the Erdős–Simonovits stability theorem for every
+(p+1)-colourable forbidden graph, derived from them as in Füredi's paper.
 
 ## Notes
 
