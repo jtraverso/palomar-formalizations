@@ -37,6 +37,7 @@ repositories.
 | [PALOMAR-2026-10-16-000017](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000017&version=1) (v1) | Graphic sequences: the Erdős–Gallai and Havel–Hakimi theorems | 2026-10-16 | [jtraverso/degree-sequences @ b49808e](https://github.com/jtraverso/degree-sequences/tree/b49808e0c0aade945472b777047148399a582858) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--degree-sequences--21c02be05315/tree/palomar/PALOMAR-2026-10-16-000017-v1/b49808e0c0aade945472b777047148399a582858) |
 | [PALOMAR-2026-10-16-000019](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000019&version=1) (v1) | The Cauchy–Binet formula, Kirchhoff's matrix-tree theorem and Cayley's formula | 2026-10-16 | [jtraverso/matrix-tree @ aeab0f2](https://github.com/jtraverso/matrix-tree/tree/aeab0f267c523dd3cac9a287b589f65a99d20d01) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--matrix-tree--5efe2b63de2b/tree/palomar/PALOMAR-2026-10-16-000019-v1/aeab0f267c523dd3cac9a287b589f65a99d20d01) |
 | [PALOMAR-2026-10-16-000024](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000024&version=1) (v1) | Füredi's stability theorem and the Erdős–Simonovits stability theorem | 2026-10-16 | [jtraverso/turan-stability @ 3eb9903](https://github.com/jtraverso/turan-stability/tree/3eb99033cc931add291781f77b7446dcba8f5f9d) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--turan-stability--e49ed8b57e3c/tree/palomar/PALOMAR-2026-10-16-000024-v1/3eb99033cc931add291781f77b7446dcba8f5f9d) |
+| [PALOMAR-2026-10-17-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-17-000004&version=1) (v1) | Pseudorandom hypergraph matchings (Ehard–Glock–Joos) | 2026-10-17 | [jtraverso/pseudorandom-hypergraph-matchings @ 3957f3c](https://github.com/jtraverso/pseudorandom-hypergraph-matchings/tree/3957f3c0dbc34fd310cb5fecf7941fddc9ef6c8f) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--pseudorandom-hypergraph-matchings--40c1ca802506/tree/palomar/PALOMAR-2026-10-17-000004-v1/3957f3c0dbc34fd310cb5fecf7941fddc9ef6c8f) |
 
 ## Entries
 
@@ -295,6 +296,19 @@ p-partite subgraph with at least e(G) − t edges, via his partition inequality)
 lemma in ε-uniform parts, the clique removal lemma and the embedding lemma (extending Mathlib's
 regularity theory beyond triangles); and the Erdős–Simonovits stability theorem for every
 (p+1)-colourable forbidden graph, derived from them as in Füredi's paper.
+
+### Pseudorandom hypergraph matchings (Ehard–Glock–Joos)
+
+[PALOMAR-2026-10-17-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-17-000004&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--pseudorandom-hypergraph-matchings--40c1ca802506](https://github.com/PalomarArchive/jtraverso--pseudorandom-hypergraph-matchings--40c1ca802506/tree/palomar/PALOMAR-2026-10-17-000004-v1/3957f3c0dbc34fd310cb5fecf7941fddc9ef6c8f).
+
+The main results of Ehard, Glock and Joos (CPC 2020): Pippenger's theorem (Theorem 1.1); in any
+r-uniform hypergraph with Δ(H) ≤ Δ, codegrees ≤ Δ^{1−δ} and at most exp(Δ^{ε²}) edges, a matching M
+with ω(M) = (1 ± Δ^{−ε}) ω(E(H))/Δ for up to exp(Δ^{ε²}) weight functions at once (Theorem 1.2) and
+for weights on ℓ-tuples of edges (Theorem 1.3); the concentration inequality for pattern weights
+(Theorem 3.1); and pseudorandom partial Steiner systems (Theorem 4.1). Self-contained over Mathlib:
+Freedman and Bernstein are proved inside, and the paper's Molloy–Reed black box is replaced by a nibble.
 
 ## Notes
 
