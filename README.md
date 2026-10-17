@@ -320,15 +320,17 @@ Freedman and Bernstein are proved inside, and the paper's Molloy–Reed black bo
 
 ## arXiv endorsement
 
-These formalizations accompany my preprint series on Erdős Problem #81
-([erdos-81-chordal-clique-partitions](https://github.com/jtraverso/erdos-81-chordal-clique-partitions)),
-which I am preparing to submit to arXiv (math.CO). If you are an arXiv author eligible to endorse
+Some of these formalizations grew out of my work on Erdős Problem #81, whose preprint series
+([erdos-81-chordal-clique-partitions](https://github.com/jtraverso/erdos-81-chordal-clique-partitions))
+I am preparing to submit to arXiv (math.CO); the others are independent formalizations of classical
+and recent results in graph theory and combinatorics. If you are an arXiv author eligible to endorse
 in math.CO and found this work valuable, you can endorse me at https://arxiv.org/auth/endorse?x=N8V4R6 (code `N8V4R6`). An
 endorsement only confirms that the work is appropriate for the subject area; it is not a review of
 the results. Thank you.
 
-*En español:* estas formalizaciones acompañan mi serie de preprints sobre el problema #81 de Erdős,
-que preparo para enviar a arXiv (math.CO). Si eres autor de arXiv habilitado para dar endorsement
+*En español:* algunas de estas formalizaciones surgieron de mi trabajo sobre el problema #81 de
+Erdős, cuya serie de preprints preparo para enviar a arXiv (math.CO); las demás son formalizaciones
+independientes de resultados clásicos y recientes de teoría de grafos y combinatoria. Si eres autor de arXiv habilitado para dar endorsement
 en math.CO y este trabajo te pareció valioso, puedes dármelo en https://arxiv.org/auth/endorse?x=N8V4R6 (código `N8V4R6`). El
 endorsement solo confirma que el trabajo es adecuado para el área; no es una revisión de los
 resultados. ¡Gracias!
