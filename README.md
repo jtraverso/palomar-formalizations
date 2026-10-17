@@ -38,6 +38,8 @@ repositories.
 | [PALOMAR-2026-10-16-000019](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000019&version=1) (v1) | The Cauchy–Binet formula, Kirchhoff's matrix-tree theorem and Cayley's formula | 2026-10-16 | [jtraverso/matrix-tree @ aeab0f2](https://github.com/jtraverso/matrix-tree/tree/aeab0f267c523dd3cac9a287b589f65a99d20d01) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--matrix-tree--5efe2b63de2b/tree/palomar/PALOMAR-2026-10-16-000019-v1/aeab0f267c523dd3cac9a287b589f65a99d20d01) |
 | [PALOMAR-2026-10-16-000024](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000024&version=1) (v1) | Füredi's stability theorem and the Erdős–Simonovits stability theorem | 2026-10-16 | [jtraverso/turan-stability @ 3eb9903](https://github.com/jtraverso/turan-stability/tree/3eb99033cc931add291781f77b7446dcba8f5f9d) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--turan-stability--e49ed8b57e3c/tree/palomar/PALOMAR-2026-10-16-000024-v1/3eb99033cc931add291781f77b7446dcba8f5f9d) |
 | [PALOMAR-2026-10-17-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-17-000004&version=1) (v1) | Pseudorandom hypergraph matchings (Ehard–Glock–Joos) | 2026-10-17 | [jtraverso/pseudorandom-hypergraph-matchings @ 3957f3c](https://github.com/jtraverso/pseudorandom-hypergraph-matchings/tree/3957f3c0dbc34fd310cb5fecf7941fddc9ef6c8f) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--pseudorandom-hypergraph-matchings--40c1ca802506/tree/palomar/PALOMAR-2026-10-17-000004-v1/3957f3c0dbc34fd310cb5fecf7941fddc9ef6c8f) |
+| [PALOMAR-2026-10-17-000008](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-17-000008&version=1) (v1) | The Nash-Williams–Tutte tree packing theorem and Nash-Williams' arboricity theorem | 2026-10-17 | [jtraverso/nash-williams-trees @ 101e488](https://github.com/jtraverso/nash-williams-trees/tree/101e48847a929dd8102521f57723e2137989ce2e) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--nash-williams-trees--9280327cd578/tree/palomar/PALOMAR-2026-10-17-000008-v1/101e48847a929dd8102521f57723e2137989ce2e) |
+| [PALOMAR-2026-10-17-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-17-000009&version=1) (v1) | Erdős' theorem on graphs of large girth and large chromatic number | 2026-10-17 | [jtraverso/erdos-girth-chromatic @ e41d749](https://github.com/jtraverso/erdos-girth-chromatic/tree/e41d7493430ba42f18da380192a4111763155064) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--erdos-girth-chromatic--0532ff066cce/tree/palomar/PALOMAR-2026-10-17-000009-v1/e41d7493430ba42f18da380192a4111763155064) |
 
 ## Entries
 
@@ -309,6 +311,22 @@ with ω(M) = (1 ± Δ^{−ε}) ω(E(H))/Δ for up to exp(Δ^{ε²}) weight funct
 for weights on ℓ-tuples of edges (Theorem 1.3); the concentration inequality for pattern weights
 (Theorem 3.1); and pseudorandom partial Steiner systems (Theorem 4.1). Self-contained over Mathlib:
 Freedman and Bernstein are proved inside, and the paper's Molloy–Reed black box is replaced by a nibble.
+
+### The Nash-Williams–Tutte tree packing theorem and Nash-Williams' arboricity theorem
+
+[PALOMAR-2026-10-17-000008](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-17-000008&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--nash-williams-trees--9280327cd578](https://github.com/PalomarArchive/jtraverso--nash-williams-trees--9280327cd578/tree/palomar/PALOMAR-2026-10-17-000008-v1/101e48847a929dd8102521f57723e2137989ce2e).
+
+A Lean 4 / Mathlib formalization of three classical results on edge-disjoint trees and forests in finite simple graphs, none of which is in Mathlib. (1) The Nash-Williams–Tutte tree packing theorem: a graph has k edge-disjoint spanning trees if and only if every partition of its vertices into m parts has at least k(m − 1) edges between different parts. (2) Nash-Williams' arboricity theorem: the edges can be covered by k forests if and only if every nonempty vertex set S spans at most k(|S| − 1) edges. (3) The corollary that every 2k-edge-connected graph has k edge-disjoint spanning trees. Mathlib has no matroid union theorem and no graphic matroid; the proofs are direct edge-exchange arguments.
+
+### Erdős' theorem on graphs of large girth and large chromatic number
+
+[PALOMAR-2026-10-17-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-17-000009&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--erdos-girth-chromatic--0532ff066cce](https://github.com/PalomarArchive/jtraverso--erdos-girth-chromatic--0532ff066cce/tree/palomar/PALOMAR-2026-10-17-000009-v1/e41d7493430ba42f18da380192a4111763155064).
+
+A Lean 4 / Mathlib formalization of Erdős' 1959 theorem: for every g and k there is a finite graph with girth greater than g and chromatic number greater than k. The formalization proves the structural form given by Erdős' probabilistic argument: for every g and every ε > 0, for all sufficiently large n there is a graph on n vertices with no cycle of length at most g in which every independent set has fewer than εn vertices; hence, for all large n, a graph on n vertices with girth greater than g that is not k-colourable. Mathlib has girth and chromatic number but not this theorem; Mycielski's construction (registered separately by another author) gives triangle-free graphs only.
 
 ## Notes
 
