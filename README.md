@@ -290,3 +290,18 @@ labelled trees on n ≥ 1 vertices, derived from the matrix-tree theorem for the
   `Quot.sound`.
 * The formalizations were written with AI assistance (Claude Code and Harmonic's Aristotle) under
   the author's direction; each entry's `formalization.yaml` describes the process.
+
+## arXiv endorsement
+
+These formalizations accompany my preprint series on Erdős Problem #81
+([erdos-81-chordal-clique-partitions](https://github.com/jtraverso/erdos-81-chordal-clique-partitions)),
+which I am preparing to submit to arXiv (math.CO). If you are an arXiv author eligible to endorse
+in math.CO and found this work valuable, you can endorse me at https://arxiv.org/auth/endorse?x=N8V4R6 (code `N8V4R6`). An
+endorsement only confirms that the work is appropriate for the subject area; it is not a review of
+the results. Thank you.
+
+*En español:* estas formalizaciones acompañan mi serie de preprints sobre el problema #81 de Erdős,
+que preparo para enviar a arXiv (math.CO). Si eres autor de arXiv habilitado para dar endorsement
+en math.CO y este trabajo te pareció valioso, puedes dármelo en https://arxiv.org/auth/endorse?x=N8V4R6 (código `N8V4R6`). El
+endorsement solo confirma que el trabajo es adecuado para el área; no es una revisión de los
+resultados. ¡Gracias!
