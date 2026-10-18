@@ -48,7 +48,7 @@ repositories.
 | [PALOMAR-2026-10-18-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000009&version=1) (v1) | Jaeger's 4-flow theorem | 2026-10-18 | [jtraverso/jaeger-four-flow @ f80cdd9](https://github.com/jtraverso/jaeger-four-flow/tree/f80cdd9128c8ce918978db640cc50623286e21fd) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--jaeger-four-flow--4443e53b8984/tree/palomar/PALOMAR-2026-10-18-000009-v1/f80cdd9128c8ce918978db640cc50623286e21fd) |
 | [PALOMAR-2026-10-18-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000011&version=1) (v1) | Dirac's theorem: k vertices of a k-connected graph lie on a common cycle | 2026-10-18 | [jtraverso/dirac-common-cycle @ 3c9e996](https://github.com/jtraverso/dirac-common-cycle/tree/3c9e9966662cb99c0e4f11d771011bc904dc627f) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--dirac-common-cycle--7eeee5978914/tree/palomar/PALOMAR-2026-10-18-000011-v1/3c9e9966662cb99c0e4f11d771011bc904dc627f) |
 | [PALOMAR-2026-10-18-000016](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000016&version=1) (v1) | Spectral bounds on the chromatic and independence numbers | 2026-10-18 | [jtraverso/spectral-graph-bounds @ 8d8b4ce](https://github.com/jtraverso/spectral-graph-bounds/tree/8d8b4ce17e56165b5f1ad3b285fb141666804e1c) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--spectral-graph-bounds--08d3a675ea5f/tree/palomar/PALOMAR-2026-10-18-000016-v1/8d8b4ce17e56165b5f1ad3b285fb141666804e1c) |
-| [PALOMAR-2026-10-18-000022](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000022&version=1) (v1) | Robbins' theorem on strongly connected orientations | 2026-10-18 | [jtraverso/robbins-strong-orientation @ 076e734](https://github.com/jtraverso/robbins-strong-orientation/tree/076e734e9949720d3e4fcc2cc3cad4284871442c) |
+| [PALOMAR-2026-10-18-000022](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000022&version=1) (v1) | Robbins' theorem on strongly connected orientations | 2026-10-18 | [jtraverso/robbins-strong-orientation @ 076e734](https://github.com/jtraverso/robbins-strong-orientation/tree/076e734e9949720d3e4fcc2cc3cad4284871442c) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--robbins-strong-orientation--f05c2621ca9e/tree/palomar/PALOMAR-2026-10-18-000022-v1/076e734e9949720d3e4fcc2cc3cad4284871442c) |
 
 ## Entries
 
@@ -374,6 +374,8 @@ A Lean 4 / Mathlib formalization of classical eigenvalue bounds for a finite sim
 ### Robbins' theorem on strongly connected orientations
 
 [PALOMAR-2026-10-18-000022](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000022&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--robbins-strong-orientation--f05c2621ca9e](https://github.com/PalomarArchive/jtraverso--robbins-strong-orientation--f05c2621ca9e/tree/palomar/PALOMAR-2026-10-18-000022-v1/076e734e9949720d3e4fcc2cc3cad4284871442c).
 
 A Lean 4 / Mathlib formalization of Robbins' theorem: a finite connected simple graph has a strongly connected orientation (a digraph with underlying graph G, never containing both u → v and v → u, in which every vertex reaches every other) if and only if no edge of it is a bridge. As a corollary, every finite 2-edge-connected graph on a nonempty vertex type has a strongly connected orientation. Mathlib has bridges, edge connectivity and digraphs, but not this theorem.
 
