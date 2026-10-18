@@ -47,6 +47,7 @@ repositories.
 | [PALOMAR-2026-10-18-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000006&version=1) (v1) | Chordal, split, threshold and cograph structure | 2026-10-18 | [jtraverso/chordal-split-threshold-graphs @ ed65dcd](https://github.com/jtraverso/chordal-split-threshold-graphs/tree/ed65dcdc7339767d3e8e412420abbf54eae65ddb) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--chordal-split-threshold-graphs--600d961f6749/tree/palomar/PALOMAR-2026-10-18-000006-v1/ed65dcdc7339767d3e8e412420abbf54eae65ddb) |
 | [PALOMAR-2026-10-18-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000009&version=1) (v1) | Jaeger's 4-flow theorem | 2026-10-18 | [jtraverso/jaeger-four-flow @ f80cdd9](https://github.com/jtraverso/jaeger-four-flow/tree/f80cdd9128c8ce918978db640cc50623286e21fd) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--jaeger-four-flow--4443e53b8984/tree/palomar/PALOMAR-2026-10-18-000009-v1/f80cdd9128c8ce918978db640cc50623286e21fd) |
 | [PALOMAR-2026-10-18-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000011&version=1) (v1) | Dirac's theorem: k vertices of a k-connected graph lie on a common cycle | 2026-10-18 | [jtraverso/dirac-common-cycle @ 3c9e996](https://github.com/jtraverso/dirac-common-cycle/tree/3c9e9966662cb99c0e4f11d771011bc904dc627f) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--dirac-common-cycle--7eeee5978914/tree/palomar/PALOMAR-2026-10-18-000011-v1/3c9e9966662cb99c0e4f11d771011bc904dc627f) |
+| [PALOMAR-2026-10-18-000016](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000016&version=1) (v1) | Spectral bounds on the chromatic and independence numbers | 2026-10-18 | [jtraverso/spectral-graph-bounds @ 8d8b4ce](https://github.com/jtraverso/spectral-graph-bounds/tree/8d8b4ce17e56165b5f1ad3b285fb141666804e1c) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--spectral-graph-bounds--08d3a675ea5f/tree/palomar/PALOMAR-2026-10-18-000016-v1/8d8b4ce17e56165b5f1ad3b285fb141666804e1c) |
 
 ## Entries
 
@@ -360,6 +361,14 @@ A Lean 4 / Mathlib formalization of Jaeger's 4-flow theorem: every finite 4-edge
 Archived copy: [PalomarArchive/jtraverso--dirac-common-cycle--7eeee5978914](https://github.com/PalomarArchive/jtraverso--dirac-common-cycle--7eeee5978914/tree/palomar/PALOMAR-2026-10-18-000011-v1/3c9e9966662cb99c0e4f11d771011bc904dc627f).
 
 A Lean 4 / Mathlib formalization of Dirac's 1960 theorem: in a k-connected finite simple graph with k ≥ 2 (more than k vertices, and connected after deleting any set of fewer than k vertices), any set of at most k vertices lies on a common cycle. In particular, in a 2-connected finite graph any two vertices lie on a common cycle. Cycles are Mathlib's `SimpleGraph.Walk.IsCycle`. Mathlib does not have this theorem.
+
+### Spectral bounds on the chromatic and independence numbers
+
+[PALOMAR-2026-10-18-000016](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000016&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--spectral-graph-bounds--08d3a675ea5f](https://github.com/PalomarArchive/jtraverso--spectral-graph-bounds--08d3a675ea5f/tree/palomar/PALOMAR-2026-10-18-000016-v1/8d8b4ce17e56165b5f1ad3b285fb141666804e1c).
+
+A Lean 4 / Mathlib formalization of classical eigenvalue bounds for a finite simple graph G on a nonempty vertex type, with λ_max and λ_min the largest and smallest eigenvalues of its real adjacency matrix: the average degree is at most λ_max and λ_max is at most the maximum degree (Collatz–Sinogowitz); G is (⌊λ_max⌋ + 1)-colourable (Wilf 1967); if G has an edge, every proper colouring uses at least 1 − λ_max/λ_min colours (Hoffman 1970); and if G is k-regular with k ≥ 1, every independent set has at most n(−λ_min)/(k − λ_min) vertices (Hoffman's ratio bound). Mathlib has the spectral theorem for Hermitian matrices but none of these bounds.
 
 ## Notes
 
