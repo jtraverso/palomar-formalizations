@@ -42,6 +42,7 @@ repositories.
 | [PALOMAR-2026-10-17-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-17-000009&version=1) (v1) | Erdős' theorem on graphs of large girth and large chromatic number | 2026-10-17 | [jtraverso/erdos-girth-chromatic @ e41d749](https://github.com/jtraverso/erdos-girth-chromatic/tree/e41d7493430ba42f18da380192a4111763155064) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--erdos-girth-chromatic--0532ff066cce/tree/palomar/PALOMAR-2026-10-17-000009-v1/e41d7493430ba42f18da380192a4111763155064) |
 | [PALOMAR-2026-10-17-000018](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-17-000018&version=1) (v1) | Moore graphs of diameter two: the Hoffman–Singleton theorem | 2026-10-17 | [jtraverso/moore-graphs-hoffman-singleton @ 8819ccf](https://github.com/jtraverso/moore-graphs-hoffman-singleton/tree/8819ccfea5474fab3d1cbc17e703860a4e008254) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--moore-graphs-hoffman-singleton--c0de8dabed2e/tree/palomar/PALOMAR-2026-10-17-000018-v1/8819ccfea5474fab3d1cbc17e703860a4e008254) |
 | [PALOMAR-2026-10-18-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000001&version=1) (v1) | Chvátal's and Pósa's degree conditions for Hamiltonian cycles | 2026-10-18 | [jtraverso/chvatal-posa-hamiltonian @ 6be0ebd](https://github.com/jtraverso/chvatal-posa-hamiltonian/tree/6be0ebda7b457b85ad400f6d7f92ad156d6e7712) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--chvatal-posa-hamiltonian--3158a08a16e2/tree/palomar/PALOMAR-2026-10-18-000001-v1/6be0ebda7b457b85ad400f6d7f92ad156d6e7712) |
+| [PALOMAR-2026-10-18-000002](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000002&version=1) (v1) | The graph removal lemma for every fixed graph | 2026-10-18 | [jtraverso/graph-removal-lemma @ 589cf03](https://github.com/jtraverso/graph-removal-lemma/tree/589cf03ef1e4c80ea8cdd6be77778232c62dd37c) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--graph-removal-lemma--03befbbe3fbf/tree/palomar/PALOMAR-2026-10-18-000002-v1/589cf03ef1e4c80ea8cdd6be77778232c62dd37c) |
 
 ## Entries
 
@@ -315,6 +316,14 @@ A Lean 4 / Mathlib formalization of the Hoffman–Singleton theorem on Moore gra
 Archived copy: [PalomarArchive/jtraverso--chvatal-posa-hamiltonian--3158a08a16e2](https://github.com/PalomarArchive/jtraverso--chvatal-posa-hamiltonian--3158a08a16e2/tree/palomar/PALOMAR-2026-10-18-000001-v1/6be0ebda7b457b85ad400f6d7f92ad156d6e7712).
 
 A Lean 4 / Mathlib formalization of two classical degree-sequence conditions for Hamiltonicity of a finite simple graph on n ≥ 3 vertices with degrees d₁ ≤ ⋯ ≤ dₙ. Chvátal's theorem (1972): if for every i < n/2, dᵢ ≤ i implies d_{n−i} ≥ n − i, then the graph is Hamiltonian (stated without sorting: if at least i vertices have degree at most i, then at least i + 1 vertices have degree at least n − i). Pósa's theorem (1962): if for every k with 1 ≤ k < (n − 1)/2 fewer than k vertices have degree at most k, and, for odd n, at most (n − 1)/2 vertices have degree at most (n − 1)/2, then the graph is Hamiltonian. Mathlib has Hamiltonian cycles but neither theorem.
+
+### The graph removal lemma for every fixed graph
+
+[PALOMAR-2026-10-18-000002](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000002&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--graph-removal-lemma--03befbbe3fbf](https://github.com/PalomarArchive/jtraverso--graph-removal-lemma--03befbbe3fbf/tree/palomar/PALOMAR-2026-10-18-000002-v1/589cf03ef1e4c80ea8cdd6be77778232c62dd37c).
+
+A Lean 4 / Mathlib formalization of the graph removal lemma of Erdős, Frankl and Rödl for an arbitrary fixed finite graph H on k vertices: for every ε > 0 there is δ > 0, depending only on H and ε, such that every finite graph on n vertices with fewer than δ nᵏ labelled copies of H can be made H-free by deleting fewer than ε n² edges; equivalently (far form), a graph from which at least ε n² edges must be deleted to destroy all copies of H has at least δ nᵏ labelled copies. Also included is the counting lemma used in the proof: if parts s x (one for each vertex x of H) are robustly dense with density at least d along the edges of H, with 2kη ≤ dᵏ and #(s x) ≥ 4k/dᵏ, then at least (dᵏ/4)ᵏ ∏ #(s x) injective maps send H into G with f x ∈ s x. Mathlib has the regularity lemma and the triangle removal lemma, but not the removal lemma for a general H.
 
 ## Notes
 
