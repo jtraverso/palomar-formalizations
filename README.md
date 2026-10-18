@@ -46,6 +46,7 @@ repositories.
 | [PALOMAR-2026-10-18-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000005&version=1) (v1) | Tutte's f-factor theorem | 2026-10-18 | [jtraverso/tutte-f-factor @ dc3bbce](https://github.com/jtraverso/tutte-f-factor/tree/dc3bbce463c80c499d3e9fa072d13f9145d907d0) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--tutte-f-factor--c791dc403ea0/tree/palomar/PALOMAR-2026-10-18-000005-v1/dc3bbce463c80c499d3e9fa072d13f9145d907d0) |
 | [PALOMAR-2026-10-18-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000006&version=1) (v1) | Chordal, split, threshold and cograph structure | 2026-10-18 | [jtraverso/chordal-split-threshold-graphs @ ed65dcd](https://github.com/jtraverso/chordal-split-threshold-graphs/tree/ed65dcdc7339767d3e8e412420abbf54eae65ddb) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--chordal-split-threshold-graphs--600d961f6749/tree/palomar/PALOMAR-2026-10-18-000006-v1/ed65dcdc7339767d3e8e412420abbf54eae65ddb) |
 | [PALOMAR-2026-10-18-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000009&version=1) (v1) | Jaeger's 4-flow theorem | 2026-10-18 | [jtraverso/jaeger-four-flow @ f80cdd9](https://github.com/jtraverso/jaeger-four-flow/tree/f80cdd9128c8ce918978db640cc50623286e21fd) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--jaeger-four-flow--4443e53b8984/tree/palomar/PALOMAR-2026-10-18-000009-v1/f80cdd9128c8ce918978db640cc50623286e21fd) |
+| [PALOMAR-2026-10-18-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000011&version=1) (v1) | Dirac's theorem: k vertices of a k-connected graph lie on a common cycle | 2026-10-18 | [jtraverso/dirac-common-cycle @ 3c9e996](https://github.com/jtraverso/dirac-common-cycle/tree/3c9e9966662cb99c0e4f11d771011bc904dc627f) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--dirac-common-cycle--7eeee5978914/tree/palomar/PALOMAR-2026-10-18-000011-v1/3c9e9966662cb99c0e4f11d771011bc904dc627f) |
 
 ## Entries
 
@@ -351,6 +352,14 @@ A Lean 4 / Mathlib formalization of classical structure theorems for finite simp
 Archived copy: [PalomarArchive/jtraverso--jaeger-four-flow--4443e53b8984](https://github.com/PalomarArchive/jtraverso--jaeger-four-flow--4443e53b8984/tree/palomar/PALOMAR-2026-10-18-000009-v1/f80cdd9128c8ce918978db640cc50623286e21fd).
 
 A Lean 4 / Mathlib formalization of Jaeger's 4-flow theorem: every finite 4-edge-connected simple graph has a nowhere-zero integer 4-flow, i.e. an antisymmetric function on darts with values in {±1, ±2, ±3} that is conserved at every vertex. Also proved: a graph with two edge-disjoint spanning trees has its edges covered by two even subgraphs (a nowhere-zero ℤ₂ × ℤ₂-flow) and has a nowhere-zero integer 4-flow. Mathlib has no flows. Jaeger's 8-flow theorem for bridgeless graphs is not included.
+
+### Dirac's theorem: k vertices of a k-connected graph lie on a common cycle
+
+[PALOMAR-2026-10-18-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000011&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--dirac-common-cycle--7eeee5978914](https://github.com/PalomarArchive/jtraverso--dirac-common-cycle--7eeee5978914/tree/palomar/PALOMAR-2026-10-18-000011-v1/3c9e9966662cb99c0e4f11d771011bc904dc627f).
+
+A Lean 4 / Mathlib formalization of Dirac's 1960 theorem: in a k-connected finite simple graph with k ≥ 2 (more than k vertices, and connected after deleting any set of fewer than k vertices), any set of at most k vertices lies on a common cycle. In particular, in a 2-connected finite graph any two vertices lie on a common cycle. Cycles are Mathlib's `SimpleGraph.Walk.IsCycle`. Mathlib does not have this theorem.
 
 ## Notes
 
