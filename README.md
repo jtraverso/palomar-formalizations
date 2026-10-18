@@ -40,6 +40,7 @@ repositories.
 | [PALOMAR-2026-10-17-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-17-000004&version=1) (v1) | Pseudorandom hypergraph matchings (Ehard–Glock–Joos) | 2026-10-17 | [jtraverso/pseudorandom-hypergraph-matchings @ 3957f3c](https://github.com/jtraverso/pseudorandom-hypergraph-matchings/tree/3957f3c0dbc34fd310cb5fecf7941fddc9ef6c8f) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--pseudorandom-hypergraph-matchings--40c1ca802506/tree/palomar/PALOMAR-2026-10-17-000004-v1/3957f3c0dbc34fd310cb5fecf7941fddc9ef6c8f) |
 | [PALOMAR-2026-10-17-000008](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-17-000008&version=1) (v1) | The Nash-Williams–Tutte tree packing theorem and Nash-Williams' arboricity theorem | 2026-10-17 | [jtraverso/nash-williams-trees @ 101e488](https://github.com/jtraverso/nash-williams-trees/tree/101e48847a929dd8102521f57723e2137989ce2e) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--nash-williams-trees--9280327cd578/tree/palomar/PALOMAR-2026-10-17-000008-v1/101e48847a929dd8102521f57723e2137989ce2e) |
 | [PALOMAR-2026-10-17-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-17-000009&version=1) (v1) | Erdős' theorem on graphs of large girth and large chromatic number | 2026-10-17 | [jtraverso/erdos-girth-chromatic @ e41d749](https://github.com/jtraverso/erdos-girth-chromatic/tree/e41d7493430ba42f18da380192a4111763155064) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--erdos-girth-chromatic--0532ff066cce/tree/palomar/PALOMAR-2026-10-17-000009-v1/e41d7493430ba42f18da380192a4111763155064) |
+| [PALOMAR-2026-10-17-000018](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-17-000018&version=1) (v1) | Moore graphs of diameter two: the Hoffman–Singleton theorem | 2026-10-17 | [jtraverso/moore-graphs-hoffman-singleton @ 8819ccf](https://github.com/jtraverso/moore-graphs-hoffman-singleton/tree/8819ccfea5474fab3d1cbc17e703860a4e008254) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--moore-graphs-hoffman-singleton--c0de8dabed2e/tree/palomar/PALOMAR-2026-10-17-000018-v1/8819ccfea5474fab3d1cbc17e703860a4e008254) |
 
 ## Entries
 
@@ -297,6 +298,14 @@ A Lean 4 / Mathlib formalization of three classical results on edge-disjoint tre
 Archived copy: [PalomarArchive/jtraverso--erdos-girth-chromatic--0532ff066cce](https://github.com/PalomarArchive/jtraverso--erdos-girth-chromatic--0532ff066cce/tree/palomar/PALOMAR-2026-10-17-000009-v1/e41d7493430ba42f18da380192a4111763155064).
 
 A Lean 4 / Mathlib formalization of Erdős' 1959 theorem: for every g and k there is a finite graph with girth greater than g and chromatic number greater than k. The formalization proves the structural form given by Erdős' probabilistic argument: for every g and every ε > 0, for all sufficiently large n there is a graph on n vertices with no cycle of length at most g in which every independent set has fewer than εn vertices; hence, for all large n, a graph on n vertices with girth greater than g that is not k-colourable. Mathlib has girth and chromatic number but not this theorem; Mycielski's construction (registered separately by another author) gives triangle-free graphs only.
+
+### Moore graphs of diameter two: the Hoffman–Singleton theorem
+
+[PALOMAR-2026-10-17-000018](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-17-000018&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--moore-graphs-hoffman-singleton--c0de8dabed2e](https://github.com/PalomarArchive/jtraverso--moore-graphs-hoffman-singleton--c0de8dabed2e/tree/palomar/PALOMAR-2026-10-17-000018-v1/8819ccfea5474fab3d1cbc17e703860a4e008254).
+
+A Lean 4 / Mathlib formalization of the Hoffman–Singleton theorem on Moore graphs of diameter two. For a finite k-regular graph of diameter at most two: the Moore bound n ≤ k² + 1; if moreover the girth is at least five, then n = k² + 1 and the graph is strongly regular with parameters (k² + 1, k, 0, 1); and, if k ≥ 2, then k ∈ {2, 3, 7, 57}. Mathlib has strongly regular graphs and the spectral theorem for Hermitian matrices, but not this theorem.
 
 ## Notes
 
