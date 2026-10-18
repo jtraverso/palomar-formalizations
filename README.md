@@ -45,6 +45,7 @@ repositories.
 | [PALOMAR-2026-10-18-000002](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000002&version=1) (v1) | The graph removal lemma for every fixed graph | 2026-10-18 | [jtraverso/graph-removal-lemma @ 589cf03](https://github.com/jtraverso/graph-removal-lemma/tree/589cf03ef1e4c80ea8cdd6be77778232c62dd37c) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--graph-removal-lemma--03befbbe3fbf/tree/palomar/PALOMAR-2026-10-18-000002-v1/589cf03ef1e4c80ea8cdd6be77778232c62dd37c) |
 | [PALOMAR-2026-10-18-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000005&version=1) (v1) | Tutte's f-factor theorem | 2026-10-18 | [jtraverso/tutte-f-factor @ dc3bbce](https://github.com/jtraverso/tutte-f-factor/tree/dc3bbce463c80c499d3e9fa072d13f9145d907d0) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--tutte-f-factor--c791dc403ea0/tree/palomar/PALOMAR-2026-10-18-000005-v1/dc3bbce463c80c499d3e9fa072d13f9145d907d0) |
 | [PALOMAR-2026-10-18-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000006&version=1) (v1) | Chordal, split, threshold and cograph structure | 2026-10-18 | [jtraverso/chordal-split-threshold-graphs @ ed65dcd](https://github.com/jtraverso/chordal-split-threshold-graphs/tree/ed65dcdc7339767d3e8e412420abbf54eae65ddb) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--chordal-split-threshold-graphs--600d961f6749/tree/palomar/PALOMAR-2026-10-18-000006-v1/ed65dcdc7339767d3e8e412420abbf54eae65ddb) |
+| [PALOMAR-2026-10-18-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000009&version=1) (v1) | Jaeger's 4-flow theorem | 2026-10-18 | [jtraverso/jaeger-four-flow @ f80cdd9](https://github.com/jtraverso/jaeger-four-flow/tree/f80cdd9128c8ce918978db640cc50623286e21fd) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--jaeger-four-flow--4443e53b8984/tree/palomar/PALOMAR-2026-10-18-000009-v1/f80cdd9128c8ce918978db640cc50623286e21fd) |
 
 ## Entries
 
@@ -342,6 +343,14 @@ A Lean 4 / Mathlib formalization of Tutte's f-factor theorem: a finite simple gr
 Archived copy: [PalomarArchive/jtraverso--chordal-split-threshold-graphs--600d961f6749](https://github.com/PalomarArchive/jtraverso--chordal-split-threshold-graphs--600d961f6749/tree/palomar/PALOMAR-2026-10-18-000006-v1/ed65dcdc7339767d3e8e412420abbf54eae65ddb).
 
 A Lean 4 / Mathlib formalization of classical structure theorems for finite simple graphs. Chordal graphs: every minimal a–b separator is a clique, a nonempty finite chordal graph has a simplicial vertex, and a connected non-complete one has two non-adjacent simplicial vertices (Dirac 1961); a finite graph is chordal iff it has a perfect elimination order (Fulkerson–Gross 1965), iff it is the intersection graph of subtrees of a finite tree (Gavril 1974); a nonempty finite chordal graph has treewidth ω − 1, and every finite graph has ω ≤ tw + 1. Split graphs: split iff the graph and its complement are chordal, iff no induced 2K₂, C₄ or C₅ (Földes–Hammer 1977). Threshold graphs: threshold iff no induced 2K₂, C₄ or P₄ (Chvátal–Hammer 1977), iff split and a cograph (no induced P₄). Mathlib has none of these graph classes; their definitions are stated in the Challenge.
+
+### Jaeger's 4-flow theorem
+
+[PALOMAR-2026-10-18-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000009&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--jaeger-four-flow--4443e53b8984](https://github.com/PalomarArchive/jtraverso--jaeger-four-flow--4443e53b8984/tree/palomar/PALOMAR-2026-10-18-000009-v1/f80cdd9128c8ce918978db640cc50623286e21fd).
+
+A Lean 4 / Mathlib formalization of Jaeger's 4-flow theorem: every finite 4-edge-connected simple graph has a nowhere-zero integer 4-flow, i.e. an antisymmetric function on darts with values in {±1, ±2, ±3} that is conserved at every vertex. Also proved: a graph with two edge-disjoint spanning trees has its edges covered by two even subgraphs (a nowhere-zero ℤ₂ × ℤ₂-flow) and has a nowhere-zero integer 4-flow. Mathlib has no flows. Jaeger's 8-flow theorem for bridgeless graphs is not included.
 
 ## Notes
 
