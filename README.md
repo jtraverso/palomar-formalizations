@@ -41,6 +41,7 @@ repositories.
 | [PALOMAR-2026-10-17-000008](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-17-000008&version=1) (v1) | The Nash-Williams–Tutte tree packing theorem and Nash-Williams' arboricity theorem | 2026-10-17 | [jtraverso/nash-williams-trees @ 101e488](https://github.com/jtraverso/nash-williams-trees/tree/101e48847a929dd8102521f57723e2137989ce2e) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--nash-williams-trees--9280327cd578/tree/palomar/PALOMAR-2026-10-17-000008-v1/101e48847a929dd8102521f57723e2137989ce2e) |
 | [PALOMAR-2026-10-17-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-17-000009&version=1) (v1) | Erdős' theorem on graphs of large girth and large chromatic number | 2026-10-17 | [jtraverso/erdos-girth-chromatic @ e41d749](https://github.com/jtraverso/erdos-girth-chromatic/tree/e41d7493430ba42f18da380192a4111763155064) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--erdos-girth-chromatic--0532ff066cce/tree/palomar/PALOMAR-2026-10-17-000009-v1/e41d7493430ba42f18da380192a4111763155064) |
 | [PALOMAR-2026-10-17-000018](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-17-000018&version=1) (v1) | Moore graphs of diameter two: the Hoffman–Singleton theorem | 2026-10-17 | [jtraverso/moore-graphs-hoffman-singleton @ 8819ccf](https://github.com/jtraverso/moore-graphs-hoffman-singleton/tree/8819ccfea5474fab3d1cbc17e703860a4e008254) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--moore-graphs-hoffman-singleton--c0de8dabed2e/tree/palomar/PALOMAR-2026-10-17-000018-v1/8819ccfea5474fab3d1cbc17e703860a4e008254) |
+| [PALOMAR-2026-10-18-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000001&version=1) (v1) | Chvátal's and Pósa's degree conditions for Hamiltonian cycles | 2026-10-18 | [jtraverso/chvatal-posa-hamiltonian @ 6be0ebd](https://github.com/jtraverso/chvatal-posa-hamiltonian/tree/6be0ebda7b457b85ad400f6d7f92ad156d6e7712) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--chvatal-posa-hamiltonian--3158a08a16e2/tree/palomar/PALOMAR-2026-10-18-000001-v1/6be0ebda7b457b85ad400f6d7f92ad156d6e7712) |
 
 ## Entries
 
@@ -306,6 +307,14 @@ A Lean 4 / Mathlib formalization of Erdős' 1959 theorem: for every g and k ther
 Archived copy: [PalomarArchive/jtraverso--moore-graphs-hoffman-singleton--c0de8dabed2e](https://github.com/PalomarArchive/jtraverso--moore-graphs-hoffman-singleton--c0de8dabed2e/tree/palomar/PALOMAR-2026-10-17-000018-v1/8819ccfea5474fab3d1cbc17e703860a4e008254).
 
 A Lean 4 / Mathlib formalization of the Hoffman–Singleton theorem on Moore graphs of diameter two. For a finite k-regular graph of diameter at most two: the Moore bound n ≤ k² + 1; if moreover the girth is at least five, then n = k² + 1 and the graph is strongly regular with parameters (k² + 1, k, 0, 1); and, if k ≥ 2, then k ∈ {2, 3, 7, 57}. Mathlib has strongly regular graphs and the spectral theorem for Hermitian matrices, but not this theorem.
+
+### Chvátal's and Pósa's degree conditions for Hamiltonian cycles
+
+[PALOMAR-2026-10-18-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000001&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--chvatal-posa-hamiltonian--3158a08a16e2](https://github.com/PalomarArchive/jtraverso--chvatal-posa-hamiltonian--3158a08a16e2/tree/palomar/PALOMAR-2026-10-18-000001-v1/6be0ebda7b457b85ad400f6d7f92ad156d6e7712).
+
+A Lean 4 / Mathlib formalization of two classical degree-sequence conditions for Hamiltonicity of a finite simple graph on n ≥ 3 vertices with degrees d₁ ≤ ⋯ ≤ dₙ. Chvátal's theorem (1972): if for every i < n/2, dᵢ ≤ i implies d_{n−i} ≥ n − i, then the graph is Hamiltonian (stated without sorting: if at least i vertices have degree at most i, then at least i + 1 vertices have degree at least n − i). Pósa's theorem (1962): if for every k with 1 ≤ k < (n − 1)/2 fewer than k vertices have degree at most k, and, for odd n, at most (n − 1)/2 vertices have degree at most (n − 1)/2, then the graph is Hamiltonian. Mathlib has Hamiltonian cycles but neither theorem.
 
 ## Notes
 
