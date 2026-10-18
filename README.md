@@ -43,6 +43,8 @@ repositories.
 | [PALOMAR-2026-10-17-000018](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-17-000018&version=1) (v1) | Moore graphs of diameter two: the Hoffman–Singleton theorem | 2026-10-17 | [jtraverso/moore-graphs-hoffman-singleton @ 8819ccf](https://github.com/jtraverso/moore-graphs-hoffman-singleton/tree/8819ccfea5474fab3d1cbc17e703860a4e008254) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--moore-graphs-hoffman-singleton--c0de8dabed2e/tree/palomar/PALOMAR-2026-10-17-000018-v1/8819ccfea5474fab3d1cbc17e703860a4e008254) |
 | [PALOMAR-2026-10-18-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000001&version=1) (v1) | Chvátal's and Pósa's degree conditions for Hamiltonian cycles | 2026-10-18 | [jtraverso/chvatal-posa-hamiltonian @ 6be0ebd](https://github.com/jtraverso/chvatal-posa-hamiltonian/tree/6be0ebda7b457b85ad400f6d7f92ad156d6e7712) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--chvatal-posa-hamiltonian--3158a08a16e2/tree/palomar/PALOMAR-2026-10-18-000001-v1/6be0ebda7b457b85ad400f6d7f92ad156d6e7712) |
 | [PALOMAR-2026-10-18-000002](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000002&version=1) (v1) | The graph removal lemma for every fixed graph | 2026-10-18 | [jtraverso/graph-removal-lemma @ 589cf03](https://github.com/jtraverso/graph-removal-lemma/tree/589cf03ef1e4c80ea8cdd6be77778232c62dd37c) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--graph-removal-lemma--03befbbe3fbf/tree/palomar/PALOMAR-2026-10-18-000002-v1/589cf03ef1e4c80ea8cdd6be77778232c62dd37c) |
+| [PALOMAR-2026-10-18-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000005&version=1) (v1) | Tutte's f-factor theorem | 2026-10-18 | [jtraverso/tutte-f-factor @ dc3bbce](https://github.com/jtraverso/tutte-f-factor/tree/dc3bbce463c80c499d3e9fa072d13f9145d907d0) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--tutte-f-factor--c791dc403ea0/tree/palomar/PALOMAR-2026-10-18-000005-v1/dc3bbce463c80c499d3e9fa072d13f9145d907d0) |
+| [PALOMAR-2026-10-18-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000006&version=1) (v1) | Chordal, split, threshold and cograph structure | 2026-10-18 | [jtraverso/chordal-split-threshold-graphs @ ed65dcd](https://github.com/jtraverso/chordal-split-threshold-graphs/tree/ed65dcdc7339767d3e8e412420abbf54eae65ddb) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--chordal-split-threshold-graphs--600d961f6749/tree/palomar/PALOMAR-2026-10-18-000006-v1/ed65dcdc7339767d3e8e412420abbf54eae65ddb) |
 
 ## Entries
 
@@ -324,6 +326,22 @@ A Lean 4 / Mathlib formalization of two classical degree-sequence conditions for
 Archived copy: [PalomarArchive/jtraverso--graph-removal-lemma--03befbbe3fbf](https://github.com/PalomarArchive/jtraverso--graph-removal-lemma--03befbbe3fbf/tree/palomar/PALOMAR-2026-10-18-000002-v1/589cf03ef1e4c80ea8cdd6be77778232c62dd37c).
 
 A Lean 4 / Mathlib formalization of the graph removal lemma of Erdős, Frankl and Rödl for an arbitrary fixed finite graph H on k vertices: for every ε > 0 there is δ > 0, depending only on H and ε, such that every finite graph on n vertices with fewer than δ nᵏ labelled copies of H can be made H-free by deleting fewer than ε n² edges; equivalently (far form), a graph from which at least ε n² edges must be deleted to destroy all copies of H has at least δ nᵏ labelled copies. Also included is the counting lemma used in the proof: if parts s x (one for each vertex x of H) are robustly dense with density at least d along the edges of H, with 2kη ≤ dᵏ and #(s x) ≥ 4k/dᵏ, then at least (dᵏ/4)ᵏ ∏ #(s x) injective maps send H into G with f x ∈ s x. Mathlib has the regularity lemma and the triangle removal lemma, but not the removal lemma for a general H.
+
+### Tutte's f-factor theorem
+
+[PALOMAR-2026-10-18-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000005&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--tutte-f-factor--c791dc403ea0](https://github.com/PalomarArchive/jtraverso--tutte-f-factor--c791dc403ea0/tree/palomar/PALOMAR-2026-10-18-000005-v1/dc3bbce463c80c499d3e9fa072d13f9145d907d0).
+
+A Lean 4 / Mathlib formalization of Tutte's f-factor theorem: a finite simple graph G has a spanning subgraph H with deg_H v = f v for every vertex v if and only if, for all disjoint vertex sets S and T, q(S, T) ≤ ∑_{v ∈ S} f v − ∑_{v ∈ T} f v + ∑_{v ∈ T} deg_{G−S} v, where q(S, T) is the number of connected components C of G − (S ∪ T) for which ∑_{v ∈ C} f v + e(C, T) is odd and deg_{G−S} v is the number of neighbours of v outside S. Mathlib has Tutte's 1-factor theorem but not the f-factor theorem.
+
+### Chordal, split, threshold and cograph structure
+
+[PALOMAR-2026-10-18-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000006&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--chordal-split-threshold-graphs--600d961f6749](https://github.com/PalomarArchive/jtraverso--chordal-split-threshold-graphs--600d961f6749/tree/palomar/PALOMAR-2026-10-18-000006-v1/ed65dcdc7339767d3e8e412420abbf54eae65ddb).
+
+A Lean 4 / Mathlib formalization of classical structure theorems for finite simple graphs. Chordal graphs: every minimal a–b separator is a clique, a nonempty finite chordal graph has a simplicial vertex, and a connected non-complete one has two non-adjacent simplicial vertices (Dirac 1961); a finite graph is chordal iff it has a perfect elimination order (Fulkerson–Gross 1965), iff it is the intersection graph of subtrees of a finite tree (Gavril 1974); a nonempty finite chordal graph has treewidth ω − 1, and every finite graph has ω ≤ tw + 1. Split graphs: split iff the graph and its complement are chordal, iff no induced 2K₂, C₄ or C₅ (Földes–Hammer 1977). Threshold graphs: threshold iff no induced 2K₂, C₄ or P₄ (Chvátal–Hammer 1977), iff split and a cograph (no induced P₄). Mathlib has none of these graph classes; their definitions are stated in the Challenge.
 
 ## Notes
 
