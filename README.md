@@ -50,6 +50,7 @@ repositories.
 | [PALOMAR-2026-10-18-000016](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000016&version=1) (v1) | Spectral bounds on the chromatic and independence numbers | 2026-10-18 | [jtraverso/spectral-graph-bounds @ 8d8b4ce](https://github.com/jtraverso/spectral-graph-bounds/tree/8d8b4ce17e56165b5f1ad3b285fb141666804e1c) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--spectral-graph-bounds--08d3a675ea5f/tree/palomar/PALOMAR-2026-10-18-000016-v1/8d8b4ce17e56165b5f1ad3b285fb141666804e1c) |
 | [PALOMAR-2026-10-18-000022](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000022&version=1) (v1) | Robbins' theorem on strongly connected orientations | 2026-10-18 | [jtraverso/robbins-strong-orientation @ 076e734](https://github.com/jtraverso/robbins-strong-orientation/tree/076e734e9949720d3e4fcc2cc3cad4284871442c) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--robbins-strong-orientation--f05c2621ca9e/tree/palomar/PALOMAR-2026-10-18-000022-v1/076e734e9949720d3e4fcc2cc3cad4284871442c) |
 | [PALOMAR-2026-10-18-000029](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000029&version=1) (v1) | Galvin's theorem, the Dinitz problem and stable matchings | 2026-10-18 | [jtraverso/galvin-dinitz @ 0aa98fc](https://github.com/jtraverso/galvin-dinitz/tree/0aa98fc17e1e96ec408f7bad3198ce37a08d26fc) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--galvin-dinitz--befd03f21f2b/tree/palomar/PALOMAR-2026-10-18-000029-v1/0aa98fc17e1e96ec408f7bad3198ce37a08d26fc) |
+| [PALOMAR-2026-10-19-000013](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-19-000013&version=1) (v1) | The Alon–Tarsi theorem and 3-choosability of planar bipartite graphs | 2026-10-19 | [jtraverso/alon-tarsi-choosability @ 4ab98b1](https://github.com/jtraverso/alon-tarsi-choosability/tree/4ab98b11f340ea2160b34d0b57ef7102452b98cc) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--alon-tarsi-choosability--e8601c7736f7/tree/palomar/PALOMAR-2026-10-19-000013-v1/4ab98b11f340ea2160b34d0b57ef7102452b98cc) |
 
 ## Entries
 
@@ -387,6 +388,14 @@ A Lean 4 / Mathlib formalization of Robbins' theorem: a finite connected simple 
 Archived copy: [PalomarArchive/jtraverso--galvin-dinitz--befd03f21f2b](https://github.com/PalomarArchive/jtraverso--galvin-dinitz--befd03f21f2b/tree/palomar/PALOMAR-2026-10-18-000029-v1/0aa98fc17e1e96ec408f7bad3198ce37a08d26fc).
 
 A Lean 4 / Mathlib formalization of Galvin's theorem that the list chromatic index of a finite bipartite graph equals its maximum degree (if every edge has a list of at least Δ colours, a proper edge colouring can be chosen from the lists), of its corollary solving the Dinitz problem (an n × n array with lists of n symbols per cell admits a choice with distinct symbols in every row and column), and of the Gale–Shapley theorem on the existence of stable matchings with strict preferences and incomplete acceptability lists, which provides the kernels in Galvin's argument. Mathlib has line graphs and colourings but none of these results.
+
+### The Alon–Tarsi theorem and 3-choosability of planar bipartite graphs
+
+[PALOMAR-2026-10-19-000013](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-19-000013&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--alon-tarsi-choosability--e8601c7736f7](https://github.com/PalomarArchive/jtraverso--alon-tarsi-choosability--e8601c7736f7/tree/palomar/PALOMAR-2026-10-19-000013-v1/4ab98b11f340ea2160b34d0b57ef7102452b98cc).
+
+A Lean 4 / Mathlib formalization of the Alon–Tarsi theorem: if a finite simple graph has an orientation whose numbers of even and odd Eulerian subdigraphs differ, then it can be properly coloured from any lists larger than the out-degrees; and of its corollary that every finite planar bipartite graph is 3-choosable. Planarity is the combinatorial notion of a plane map (a rotation system of genus zero) of the registered entry PALOMAR-2026-10-15-000005, whose definitions are reproduced verbatim in the Challenge. The proof uses the graph polynomial and Mathlib's Combinatorial Nullstellensatz, Euler's formula for plane maps, and an out-degree-2 orientation obtained from Hall's theorem.
 
 ## Notes
 
