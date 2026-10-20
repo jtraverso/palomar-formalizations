@@ -52,6 +52,8 @@ repositories.
 | [PALOMAR-2026-10-18-000029](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000029&version=1) (v1) | Galvin's theorem, the Dinitz problem and stable matchings | 2026-10-18 | [jtraverso/galvin-dinitz @ 0aa98fc](https://github.com/jtraverso/galvin-dinitz/tree/0aa98fc17e1e96ec408f7bad3198ce37a08d26fc) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--galvin-dinitz--befd03f21f2b/tree/palomar/PALOMAR-2026-10-18-000029-v1/0aa98fc17e1e96ec408f7bad3198ce37a08d26fc) |
 | [PALOMAR-2026-10-19-000013](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-19-000013&version=1) (v1) | The Alon–Tarsi theorem and 3-choosability of planar bipartite graphs | 2026-10-19 | [jtraverso/alon-tarsi-choosability @ 4ab98b1](https://github.com/jtraverso/alon-tarsi-choosability/tree/4ab98b11f340ea2160b34d0b57ef7102452b98cc) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--alon-tarsi-choosability--e8601c7736f7/tree/palomar/PALOMAR-2026-10-19-000013-v1/4ab98b11f340ea2160b34d0b57ef7102452b98cc) |
 | [PALOMAR-2026-10-20-000003](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-20-000003&version=1) (v1) | The Erdős–Pósa theorem for cycles | 2026-10-20 | [jtraverso/erdos-posa-cycles @ 67bfea6](https://github.com/jtraverso/erdos-posa-cycles/tree/67bfea6b3893ffdf57e76cd83c9c3538647bdec8) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--erdos-posa-cycles--495ed139acca/tree/palomar/PALOMAR-2026-10-20-000003-v1/67bfea6b3893ffdf57e76cd83c9c3538647bdec8) |
+| [PALOMAR-2026-10-20-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-20-000004&version=1) (v1) | The Lovász Local Lemma and two applications | 2026-10-20 | [jtraverso/lovasz-local-lemma @ 9d020fa](https://github.com/jtraverso/lovasz-local-lemma/tree/9d020fa8fb20e9426c2d6780a3cfab4a68794d89) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--lovasz-local-lemma--3b6f209cddb3/tree/palomar/PALOMAR-2026-10-20-000004-v1/9d020fa8fb20e9426c2d6780a3cfab4a68794d89) |
+| [PALOMAR-2026-10-20-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-20-000006&version=1) (v1) | Kneser's conjecture and the octahedral Tucker lemma | 2026-10-20 | [jtraverso/kneser-lovasz @ 6699c87](https://github.com/jtraverso/kneser-lovasz/tree/6699c87d87f4ddb159fc42271263fc429e63004a) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--kneser-lovasz--c99016c66bcc/tree/palomar/PALOMAR-2026-10-20-000006-v1/6699c87d87f4ddb159fc42271263fc429e63004a) |
 
 ## Entries
 
@@ -399,6 +401,22 @@ A Lean 4 / Mathlib formalization of the Alon–Tarsi theorem: if a finite simple
 Archived copy: [PalomarArchive/jtraverso--erdos-posa-cycles--495ed139acca](https://github.com/PalomarArchive/jtraverso--erdos-posa-cycles--495ed139acca/tree/palomar/PALOMAR-2026-10-20-000003-v1/67bfea6b3893ffdf57e76cd83c9c3538647bdec8).
 
 A Lean 4 / Mathlib formalization of the Erdős–Pósa theorem: for every k, every finite simple graph either contains k vertex-disjoint cycles or has a set of at most c (k + 1)(log₂(k + 1) + 1) vertices meeting every cycle, for a fixed constant c (the proof gives c = 65); together with the qualitative Erdős–Pósa property and the easy converse that a feedback vertex set of size s rules out s + 1 disjoint cycles. Mathlib has acyclic graphs but not this theorem.
+
+### The Lovász Local Lemma and two applications
+
+[PALOMAR-2026-10-20-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-20-000004&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--lovasz-local-lemma--3b6f209cddb3](https://github.com/PalomarArchive/jtraverso--lovasz-local-lemma--3b6f209cddb3/tree/palomar/PALOMAR-2026-10-20-000004-v1/9d020fa8fb20e9426c2d6780a3cfab4a68794d89).
+
+A Lean 4 / Mathlib formalization of the Lovász Local Lemma for finitely many events in a probability space with a dependency graph (each event mutually independent, in the sense of Mathlib's `ProbabilityTheory.Indep` of generated σ-algebras, of its non-neighbours), in its general form (P(A_i) ≤ x_i ∏_{j∼i}(1 − x_j) implies P(no event) ≥ ∏(1 − x_i)) and its symmetric form (e p (d + 1) ≤ 1 implies P(no event) > 0); and of two applications: Spencer's Ramsey lower bound (if 2e(C(k,2)C(n,k−2) + 1) ≤ 2^C(k,2) then R(k,k) > n) and the Erdős–Lovász property B theorem for k-uniform hypergraphs (each edge meeting at most d others with e(d + 1) ≤ 2^(k−1); and the case where every vertex lies in at most k edges, for k ≥ 9). Mathlib has independence and product measures but not the Local Lemma.
+
+### Kneser's conjecture and the octahedral Tucker lemma
+
+[PALOMAR-2026-10-20-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-20-000006&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--kneser-lovasz--c99016c66bcc](https://github.com/PalomarArchive/jtraverso--kneser-lovasz--c99016c66bcc/tree/palomar/PALOMAR-2026-10-20-000006-v1/6699c87d87f4ddb159fc42271263fc429e63004a).
+
+A Lean 4 / Mathlib formalization of Lovász's theorem (Kneser's conjecture): for 0 < k and 2k ≤ n the Kneser graph KG(n, k) of k-subsets of an n-set, adjacent when disjoint, has chromatic number exactly n − 2k + 2; proved combinatorially from the octahedral Tucker lemma (an antipodal labelling of the nonzero sign vectors of length n by nonzero integers in [−m, m] with m < n has a complementary pair x ≼ y with λ(x) = −λ(y)), which is itself proved by Ky Fan's parity argument. Mathlib has neither Kneser graphs nor Tucker's lemma.
 
 ## Notes
 
