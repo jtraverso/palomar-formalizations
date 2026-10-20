@@ -54,6 +54,7 @@ repositories.
 | [PALOMAR-2026-10-20-000003](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-20-000003&version=1) (v1) | The Erdős–Pósa theorem for cycles | 2026-10-20 | [jtraverso/erdos-posa-cycles @ 67bfea6](https://github.com/jtraverso/erdos-posa-cycles/tree/67bfea6b3893ffdf57e76cd83c9c3538647bdec8) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--erdos-posa-cycles--495ed139acca/tree/palomar/PALOMAR-2026-10-20-000003-v1/67bfea6b3893ffdf57e76cd83c9c3538647bdec8) |
 | [PALOMAR-2026-10-20-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-20-000004&version=1) (v1) | The Lovász Local Lemma and two applications | 2026-10-20 | [jtraverso/lovasz-local-lemma @ 9d020fa](https://github.com/jtraverso/lovasz-local-lemma/tree/9d020fa8fb20e9426c2d6780a3cfab4a68794d89) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--lovasz-local-lemma--3b6f209cddb3/tree/palomar/PALOMAR-2026-10-20-000004-v1/9d020fa8fb20e9426c2d6780a3cfab4a68794d89) |
 | [PALOMAR-2026-10-20-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-20-000006&version=1) (v1) | Kneser's conjecture and the octahedral Tucker lemma | 2026-10-20 | [jtraverso/kneser-lovasz @ 6699c87](https://github.com/jtraverso/kneser-lovasz/tree/6699c87d87f4ddb159fc42271263fc429e63004a) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--kneser-lovasz--c99016c66bcc/tree/palomar/PALOMAR-2026-10-20-000006-v1/6699c87d87f4ddb159fc42271263fc429e63004a) |
+| [PALOMAR-2026-10-20-000012](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-20-000012&version=1) (v1) | Jin's theorem on dense triangle-free graphs | 2026-10-20 | [jtraverso/jin-triangle-free @ ae47df0](https://github.com/jtraverso/jin-triangle-free/tree/ae47df0ddb29c58a71afed658f9bf74aef1b6e90) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--jin-triangle-free--8d9fbb5efd5d/tree/palomar/PALOMAR-2026-10-20-000012-v1/ae47df0ddb29c58a71afed658f9bf74aef1b6e90) |
 
 ## Entries
 
@@ -417,6 +418,14 @@ A Lean 4 / Mathlib formalization of the Lovász Local Lemma for finitely many ev
 Archived copy: [PalomarArchive/jtraverso--kneser-lovasz--c99016c66bcc](https://github.com/PalomarArchive/jtraverso--kneser-lovasz--c99016c66bcc/tree/palomar/PALOMAR-2026-10-20-000006-v1/6699c87d87f4ddb159fc42271263fc429e63004a).
 
 A Lean 4 / Mathlib formalization of Lovász's theorem (Kneser's conjecture): for 0 < k and 2k ≤ n the Kneser graph KG(n, k) of k-subsets of an n-set, adjacent when disjoint, has chromatic number exactly n − 2k + 2; proved combinatorially from the octahedral Tucker lemma (an antipodal labelling of the nonzero sign vectors of length n by nonzero integers in [−m, m] with m < n has a complementary pair x ≼ y with λ(x) = −λ(y)), which is itself proved by Ky Fan's parity argument. Mathlib has neither Kneser graphs nor Tucker's lemma.
+
+### Jin's theorem on dense triangle-free graphs
+
+[PALOMAR-2026-10-20-000012](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-20-000012&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--jin-triangle-free--8d9fbb5efd5d](https://github.com/PalomarArchive/jtraverso--jin-triangle-free--8d9fbb5efd5d/tree/palomar/PALOMAR-2026-10-20-000012-v1/ae47df0ddb29c58a71afed658f9bf74aef1b6e90).
+
+A Lean 4 / Mathlib formalization of Jin's theorem: a finite triangle-free graph on n vertices with minimum degree greater than 10n/29 is 3-colourable; and of its sharpness: for every m ≥ 1 the blow-up of the Grötzsch graph with weights 3m, 2m, 4m is a triangle-free 10m-regular graph on 29m vertices that is not 3-colourable (Häggkvist). This extends the case r = 2 of the Andrásfai–Erdős–Sós theorem, which is in Mathlib. Mathlib does not have Jin's theorem.
 
 ## Notes
 
