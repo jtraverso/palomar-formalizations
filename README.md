@@ -51,6 +51,7 @@ repositories.
 | [PALOMAR-2026-10-18-000022](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000022&version=1) (v1) | Robbins' theorem on strongly connected orientations | 2026-10-18 | [jtraverso/robbins-strong-orientation @ 076e734](https://github.com/jtraverso/robbins-strong-orientation/tree/076e734e9949720d3e4fcc2cc3cad4284871442c) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--robbins-strong-orientation--f05c2621ca9e/tree/palomar/PALOMAR-2026-10-18-000022-v1/076e734e9949720d3e4fcc2cc3cad4284871442c) |
 | [PALOMAR-2026-10-18-000029](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000029&version=1) (v1) | Galvin's theorem, the Dinitz problem and stable matchings | 2026-10-18 | [jtraverso/galvin-dinitz @ 0aa98fc](https://github.com/jtraverso/galvin-dinitz/tree/0aa98fc17e1e96ec408f7bad3198ce37a08d26fc) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--galvin-dinitz--befd03f21f2b/tree/palomar/PALOMAR-2026-10-18-000029-v1/0aa98fc17e1e96ec408f7bad3198ce37a08d26fc) |
 | [PALOMAR-2026-10-19-000013](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-19-000013&version=1) (v1) | The Alon–Tarsi theorem and 3-choosability of planar bipartite graphs | 2026-10-19 | [jtraverso/alon-tarsi-choosability @ 4ab98b1](https://github.com/jtraverso/alon-tarsi-choosability/tree/4ab98b11f340ea2160b34d0b57ef7102452b98cc) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--alon-tarsi-choosability--e8601c7736f7/tree/palomar/PALOMAR-2026-10-19-000013-v1/4ab98b11f340ea2160b34d0b57ef7102452b98cc) |
+| [PALOMAR-2026-10-20-000003](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-20-000003&version=1) (v1) | The Erdős–Pósa theorem for cycles | 2026-10-20 | [jtraverso/erdos-posa-cycles @ 67bfea6](https://github.com/jtraverso/erdos-posa-cycles/tree/67bfea6b3893ffdf57e76cd83c9c3538647bdec8) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--erdos-posa-cycles--495ed139acca/tree/palomar/PALOMAR-2026-10-20-000003-v1/67bfea6b3893ffdf57e76cd83c9c3538647bdec8) |
 
 ## Entries
 
@@ -390,6 +391,14 @@ A Lean 4 / Mathlib formalization of Galvin's theorem that the list chromatic ind
 Archived copy: [PalomarArchive/jtraverso--alon-tarsi-choosability--e8601c7736f7](https://github.com/PalomarArchive/jtraverso--alon-tarsi-choosability--e8601c7736f7/tree/palomar/PALOMAR-2026-10-19-000013-v1/4ab98b11f340ea2160b34d0b57ef7102452b98cc).
 
 A Lean 4 / Mathlib formalization of the Alon–Tarsi theorem: if a finite simple graph has an orientation whose numbers of even and odd Eulerian subdigraphs differ, then it can be properly coloured from any lists larger than the out-degrees; and of its corollary that every finite planar bipartite graph is 3-choosable. Planarity is the combinatorial notion of a plane map (a rotation system of genus zero) of the registered entry PALOMAR-2026-10-15-000005, whose definitions are reproduced verbatim in the Challenge. The proof uses the graph polynomial and Mathlib's Combinatorial Nullstellensatz, Euler's formula for plane maps, and an out-degree-2 orientation obtained from Hall's theorem.
+
+### The Erdős–Pósa theorem for cycles
+
+[PALOMAR-2026-10-20-000003](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-20-000003&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--erdos-posa-cycles--495ed139acca](https://github.com/PalomarArchive/jtraverso--erdos-posa-cycles--495ed139acca/tree/palomar/PALOMAR-2026-10-20-000003-v1/67bfea6b3893ffdf57e76cd83c9c3538647bdec8).
+
+A Lean 4 / Mathlib formalization of the Erdős–Pósa theorem: for every k, every finite simple graph either contains k vertex-disjoint cycles or has a set of at most c (k + 1)(log₂(k + 1) + 1) vertices meeting every cycle, for a fixed constant c (the proof gives c = 65); together with the qualitative Erdős–Pósa property and the easy converse that a feedback vertex set of size s rules out s + 1 disjoint cycles. Mathlib has acyclic graphs but not this theorem.
 
 ## Notes
 
