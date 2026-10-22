@@ -59,6 +59,7 @@ repositories.
 | [PALOMAR-2026-10-21-000007](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-21-000007&version=1) (v1) | Lovász's perfect graph theorems | 2026-10-21 | [jtraverso/perfect-graphs @ 7969224](https://github.com/jtraverso/perfect-graphs/tree/796922460172c4e51c39c96575d03957652c0bab) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--perfect-graphs--f01c6e39f696/tree/palomar/PALOMAR-2026-10-21-000007-v1/796922460172c4e51c39c96575d03957652c0bab) |
 | [PALOMAR-2026-10-21-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-21-000009&version=1) (v1) | The Nash–Williams triangle-decomposition theorem | 2026-10-21 | [jtraverso/nash-williams-lean @ 2603197](https://github.com/jtraverso/nash-williams-lean/tree/2603197abdbf0a600ec663f6f046f70fbd209d4a) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--nash-williams-lean--252fc7828395/tree/palomar/PALOMAR-2026-10-21-000009-v1/2603197abdbf0a600ec663f6f046f70fbd209d4a) |
 | [PALOMAR-2026-10-22-000017](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-22-000017&version=1) (v1) | Counting Steiner triple systems: Wilson (1974) and Linial–Luria (2013) | 2026-10-22 | [jtraverso/counting-steiner-triple-systems @ b07ead4](https://github.com/jtraverso/counting-steiner-triple-systems/tree/b07ead43af1e87be61e75f8ab2c37a684488850e) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--counting-steiner-triple-systems--25dd3ac3d9ea/tree/palomar/PALOMAR-2026-10-22-000017-v1/b07ead43af1e87be61e75f8ab2c37a684488850e) |
+| [PALOMAR-2026-10-22-000035](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-22-000035&version=1) (v1) | The expander mixing lemma and the Alon–Boppana bound | 2026-10-22 | [jtraverso/expander-spectral @ f96a998](https://github.com/jtraverso/expander-spectral/tree/f96a99893d4d31495af5f8d9e6181f7b4c91e0ba) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--expander-spectral--c7934103ea1e/tree/palomar/PALOMAR-2026-10-22-000035-v1/f96a99893d4d31495af5f8d9e6181f7b4c91e0ba) |
 
 ## Entries
 
@@ -462,6 +463,14 @@ A Lean 4 / Mathlib formalization of the Nash–Williams theorem for large graphs
 Archived copy: [PalomarArchive/jtraverso--counting-steiner-triple-systems--25dd3ac3d9ea](https://github.com/PalomarArchive/jtraverso--counting-steiner-triple-systems--25dd3ac3d9ea/tree/palomar/PALOMAR-2026-10-22-000017-v1/b07ead43af1e87be61e75f8ab2c37a684488850e).
 
 A complete Lean 4 / Mathlib formalization of R. M. Wilson's "Nonisomorphic Steiner triple systems" (inequality (2.1), Theorems 1–4, Lemmas 3–5, including the exact numbers of Latin squares of orders 6, 7 and 8 and the bounds N(19) ≥ 2450, N(21) ≥ 2160980, N(25) ≥ 163929929318400) and of N. Linial and Z. Luria's "An upper bound on the number of Steiner triple systems" (Theorems 1.1 and 1.2 with explicit error terms). The parts of Wilson's Theorems 2 and 3 that rely on the van der Waerden permanent conjecture are stated with that conjecture as an explicit hypothesis, as in the paper. Finite computations are kernel-checked certificates (no native_decide). Mathlib does not contain these results.
+
+### The expander mixing lemma and the Alon–Boppana bound
+
+[PALOMAR-2026-10-22-000035](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-22-000035&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--expander-spectral--c7934103ea1e](https://github.com/PalomarArchive/jtraverso--expander-spectral--c7934103ea1e/tree/palomar/PALOMAR-2026-10-22-000035-v1/f96a99893d4d31495af5f8d9e6181f7b4c91e0ba).
+
+The expander mixing lemma of Alon and Chung (for a d-regular graph whose adjacency form on 𝟙⊥ is bounded by μ, |e(S,T) − d|S||T|/n| ≤ μ√(|S||T|)) and the Alon–Boppana bound in Nilli's form (a d-regular graph with two vertices at distance at least 2k + 4 has second eigenvalue at least 2√(d−1) − (2√(d−1) − 1)/(k+1)), stated through the adjacency quadratic form on vectors orthogonal to the all-ones vector.
 
 ## Notes
 
