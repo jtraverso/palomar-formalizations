@@ -58,6 +58,7 @@ repositories.
 | [PALOMAR-2026-10-21-000003](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-21-000003&version=1) (v1) | Lovász's bound on the Shannon capacity | 2026-10-21 | [jtraverso/lovasz-theta @ 2d506b5](https://github.com/jtraverso/lovasz-theta/tree/2d506b5abca378d9133b5e3f1264a5316843c9a7) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--lovasz-theta--8c936f7e6f5c/tree/palomar/PALOMAR-2026-10-21-000003-v1/2d506b5abca378d9133b5e3f1264a5316843c9a7) |
 | [PALOMAR-2026-10-21-000007](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-21-000007&version=1) (v1) | Lovász's perfect graph theorems | 2026-10-21 | [jtraverso/perfect-graphs @ 7969224](https://github.com/jtraverso/perfect-graphs/tree/796922460172c4e51c39c96575d03957652c0bab) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--perfect-graphs--f01c6e39f696/tree/palomar/PALOMAR-2026-10-21-000007-v1/796922460172c4e51c39c96575d03957652c0bab) |
 | [PALOMAR-2026-10-21-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-21-000009&version=1) (v1) | The Nash–Williams triangle-decomposition theorem | 2026-10-21 | [jtraverso/nash-williams-lean @ 2603197](https://github.com/jtraverso/nash-williams-lean/tree/2603197abdbf0a600ec663f6f046f70fbd209d4a) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--nash-williams-lean--252fc7828395/tree/palomar/PALOMAR-2026-10-21-000009-v1/2603197abdbf0a600ec663f6f046f70fbd209d4a) |
+| [PALOMAR-2026-10-22-000017](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-22-000017&version=1) (v1) | Counting Steiner triple systems: Wilson (1974) and Linial–Luria (2013) | 2026-10-22 | [jtraverso/counting-steiner-triple-systems @ b07ead4](https://github.com/jtraverso/counting-steiner-triple-systems/tree/b07ead43af1e87be61e75f8ab2c37a684488850e) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--counting-steiner-triple-systems--25dd3ac3d9ea/tree/palomar/PALOMAR-2026-10-22-000017-v1/b07ead43af1e87be61e75f8ab2c37a684488850e) |
 
 ## Entries
 
@@ -453,6 +454,14 @@ A Lean 4 / Mathlib formalization of Lovász's 1972 theorems on perfect graphs: a
 Archived copy: [PalomarArchive/jtraverso--nash-williams-lean--252fc7828395](https://github.com/PalomarArchive/jtraverso--nash-williams-lean--252fc7828395/tree/palomar/PALOMAR-2026-10-21-000009-v1/2603197abdbf0a600ec663f6f046f70fbd209d4a).
 
 A Lean 4 / Mathlib formalization of the Nash–Williams theorem for large graphs proved by Delcourt and Postle: there is N such that every finite simple graph on n ≥ N vertices that is triangle-divisible (3 divides the number of edges and every degree is even) and has minimum degree at least 3n/4 has a triangle decomposition; together with Delcourt–Postle's fractional threshold (every graph with 3n ≤ 4δ has a fractional triangle decomposition) and their fractional stability theorem (with an additional order threshold). The proof follows their extremal/non-extremal case division but does not assume their Theorem 13.16, whose proof is assigned to an unpublished manuscript: the extremal residuals are decomposed with typed absorption results developed in the same project, and the non-extremal case with a protected covering-round argument. The development has 1,070 modules.
+
+### Counting Steiner triple systems: Wilson (1974) and Linial–Luria (2013)
+
+[PALOMAR-2026-10-22-000017](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-22-000017&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--counting-steiner-triple-systems--25dd3ac3d9ea](https://github.com/PalomarArchive/jtraverso--counting-steiner-triple-systems--25dd3ac3d9ea/tree/palomar/PALOMAR-2026-10-22-000017-v1/b07ead43af1e87be61e75f8ab2c37a684488850e).
+
+A complete Lean 4 / Mathlib formalization of R. M. Wilson's "Nonisomorphic Steiner triple systems" (inequality (2.1), Theorems 1–4, Lemmas 3–5, including the exact numbers of Latin squares of orders 6, 7 and 8 and the bounds N(19) ≥ 2450, N(21) ≥ 2160980, N(25) ≥ 163929929318400) and of N. Linial and Z. Luria's "An upper bound on the number of Steiner triple systems" (Theorems 1.1 and 1.2 with explicit error terms). The parts of Wilson's Theorems 2 and 3 that rely on the van der Waerden permanent conjecture are stated with that conjecture as an explicit hypothesis, as in the paper. Finite computations are kernel-checked certificates (no native_decide). Mathlib does not contain these results.
 
 ## Notes
 
