@@ -60,6 +60,7 @@ repositories.
 | [PALOMAR-2026-10-22-000043](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-22-000043&version=1) (v1) | The Bondy–Simonovits even cycle theorem | 2026-10-22 | [jtraverso/bondy-simonovits @ a4ca4b2](https://github.com/jtraverso/bondy-simonovits/tree/a4ca4b28a0d82735316fd73a5a11303231109fc7) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--bondy-simonovits--28aa00457e93/tree/palomar/PALOMAR-2026-10-22-000043-v1/a4ca4b28a0d82735316fd73a5a11303231109fc7) |
 | [PALOMAR-2026-10-23-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-23-000006&version=1) (v1) | The Graham–Pollak theorem | 2026-10-23 | [jtraverso/graham-pollak @ 68d32f0](https://github.com/jtraverso/graham-pollak/tree/68d32f0faf102fc1716ac89ffc861eefe897e749) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--graham-pollak--3485c9d9d4a5/tree/palomar/PALOMAR-2026-10-23-000006-v1/68d32f0faf102fc1716ac89ffc861eefe897e749) |
 | [PALOMAR-2026-10-23-000013](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-23-000013&version=1) (v1) | Robust absorption for typed triangles (Triangle decompositions II) | 2026-10-23 | [jtraverso/typed-triangle-absorption @ 673c6d4](https://github.com/jtraverso/typed-triangle-absorption/tree/673c6d4118b5679783bafa7606fd2c611161a254) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--typed-triangle-absorption--055c1b37404f/tree/palomar/PALOMAR-2026-10-23-000013-v1/673c6d4118b5679783bafa7606fd2c611161a254) |
+| [PALOMAR-2026-10-23-000016](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-23-000016&version=1) (v1) | Mader's theorem on highly connected subgraphs | 2026-10-23 | [jtraverso/mader-connectivity @ b471abc](https://github.com/jtraverso/mader-connectivity/tree/b471abcdfbb303aabc1af26f4531e080729bb469) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--mader-connectivity--54c8125a286e/tree/palomar/PALOMAR-2026-10-23-000016-v1/b471abcdfbb303aabc1af26f4531e080729bb469) |
 
 ## Entries
 
@@ -495,6 +496,14 @@ The Graham–Pollak theorem: the edge set of K_n cannot be partitioned into fewe
 Archived copy: [PalomarArchive/jtraverso--typed-triangle-absorption--055c1b37404f](https://github.com/PalomarArchive/jtraverso--typed-triangle-absorption--055c1b37404f/tree/palomar/PALOMAR-2026-10-23-000013-v1/673c6d4118b5679783bafa7606fd2c611161a254).
 
 A Lean 4 / Mathlib formalization of the typed triangle decomposition results of Paper II of the author's Nash–Williams series ([release page](https://github.com/jtraverso/nash-williams-triangle-decompositions-release)): a typical-host theorem under three-step links for four-label families; its nearly complete and balanced deductions with explicit type-weight hypotheses; a semidense two-label mixed-triangle theorem; a computer-assisted typical-host theorem for every admissible four-label family (a finite census checked by the kernel); and a terminal absorber obtained from a bounded signed certificate and explicit hinge supply. Divisibility includes global edge counts and local degree profiles; the typical-host hypotheses are kept, and the result is not asserted for arbitrary divisible hosts. These results supply the extremal residual decompositions used by the registered Nash–Williams entry PALOMAR-2026-10-21-000009.
+
+### Mader's theorem on highly connected subgraphs
+
+[PALOMAR-2026-10-23-000016](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-23-000016&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--mader-connectivity--54c8125a286e](https://github.com/PalomarArchive/jtraverso--mader-connectivity--54c8125a286e/tree/palomar/PALOMAR-2026-10-23-000016-v1/b471abcdfbb303aabc1af26f4531e080729bb469).
+
+A Lean 4 / Mathlib formalization of Mader's 1972 theorem in the form of Diestel's Theorem 1.4.3: for k ≥ 1, every nonempty finite simple graph with average degree at least 4k has a (k + 1)-connected induced subgraph H with e(H)/|H| > e(G)/|G| − k. Vertex connectivity is defined by deletion of fewer than k vertices (same definition as in the Menger–Hamiltonicity entry). Mathlib does not contain vertex connectivity or this theorem.
 
 ## Notes
 
