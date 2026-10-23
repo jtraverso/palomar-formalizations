@@ -9,9 +9,6 @@ commit.
 This list is updated after each accepted submission. Each registered commit is also preserved by
 Palomar in an archive copy under the [PalomarArchive](https://github.com/PalomarArchive) organization
 (linked for every entry), so the registered sources remain available independently of the original
-repositories. Each registered commit is also preserved by
-Palomar in an archive copy under the [PalomarArchive](https://github.com/PalomarArchive) organization
-(linked for every entry), so the registered sources remain available independently of the original
 repositories.
 
 | Palomar entry | Result | Registered | Source | Archived copy |
@@ -62,6 +59,7 @@ repositories.
 | [PALOMAR-2026-10-22-000035](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-22-000035&version=1) (v1) | The expander mixing lemma and the Alon–Boppana bound | 2026-10-22 | [jtraverso/expander-spectral @ f96a998](https://github.com/jtraverso/expander-spectral/tree/f96a99893d4d31495af5f8d9e6181f7b4c91e0ba) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--expander-spectral--c7934103ea1e/tree/palomar/PALOMAR-2026-10-22-000035-v1/f96a99893d4d31495af5f8d9e6181f7b4c91e0ba) |
 | [PALOMAR-2026-10-22-000043](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-22-000043&version=1) (v1) | The Bondy–Simonovits even cycle theorem | 2026-10-22 | [jtraverso/bondy-simonovits @ a4ca4b2](https://github.com/jtraverso/bondy-simonovits/tree/a4ca4b28a0d82735316fd73a5a11303231109fc7) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--bondy-simonovits--28aa00457e93/tree/palomar/PALOMAR-2026-10-22-000043-v1/a4ca4b28a0d82735316fd73a5a11303231109fc7) |
 | [PALOMAR-2026-10-23-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-23-000006&version=1) (v1) | The Graham–Pollak theorem | 2026-10-23 | [jtraverso/graham-pollak @ 68d32f0](https://github.com/jtraverso/graham-pollak/tree/68d32f0faf102fc1716ac89ffc861eefe897e749) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--graham-pollak--3485c9d9d4a5/tree/palomar/PALOMAR-2026-10-23-000006-v1/68d32f0faf102fc1716ac89ffc861eefe897e749) |
+| [PALOMAR-2026-10-23-000013](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-23-000013&version=1) (v1) | Robust absorption for typed triangles (Triangle decompositions II) | 2026-10-23 | [jtraverso/typed-triangle-absorption @ 673c6d4](https://github.com/jtraverso/typed-triangle-absorption/tree/673c6d4118b5679783bafa7606fd2c611161a254) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--typed-triangle-absorption--055c1b37404f/tree/palomar/PALOMAR-2026-10-23-000013-v1/673c6d4118b5679783bafa7606fd2c611161a254) |
 
 ## Entries
 
@@ -489,6 +487,14 @@ The Bondy–Simonovits theorem: for every k ≥ 2 there is C (the proof gives C 
 Archived copy: [PalomarArchive/jtraverso--graham-pollak--3485c9d9d4a5](https://github.com/PalomarArchive/jtraverso--graham-pollak--3485c9d9d4a5/tree/palomar/PALOMAR-2026-10-23-000006-v1/68d32f0faf102fc1716ac89ffc861eefe897e749).
 
 The Graham–Pollak theorem: the edge set of K_n cannot be partitioned into fewer than n − 1 complete bipartite graphs (Tverberg’s linear-algebra proof), together with the matching construction by n − 1 stars.
+
+### Robust absorption for typed triangles (Triangle decompositions II)
+
+[PALOMAR-2026-10-23-000013](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-23-000013&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--typed-triangle-absorption--055c1b37404f](https://github.com/PalomarArchive/jtraverso--typed-triangle-absorption--055c1b37404f/tree/palomar/PALOMAR-2026-10-23-000013-v1/673c6d4118b5679783bafa7606fd2c611161a254).
+
+A Lean 4 / Mathlib formalization of the typed triangle decomposition results of Paper II of the author's Nash–Williams series ([release page](https://github.com/jtraverso/nash-williams-triangle-decompositions-release)): a typical-host theorem under three-step links for four-label families; its nearly complete and balanced deductions with explicit type-weight hypotheses; a semidense two-label mixed-triangle theorem; a computer-assisted typical-host theorem for every admissible four-label family (a finite census checked by the kernel); and a terminal absorber obtained from a bounded signed certificate and explicit hinge supply. Divisibility includes global edge counts and local degree profiles; the typical-host hypotheses are kept, and the result is not asserted for arbitrary divisible hosts. These results supply the extremal residual decompositions used by the registered Nash–Williams entry PALOMAR-2026-10-21-000009.
 
 ## Notes
 
