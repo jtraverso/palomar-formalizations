@@ -60,6 +60,7 @@ repositories.
 | [PALOMAR-2026-10-21-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-21-000009&version=1) (v1) | The Nash–Williams triangle-decomposition theorem | 2026-10-21 | [jtraverso/nash-williams-lean @ 2603197](https://github.com/jtraverso/nash-williams-lean/tree/2603197abdbf0a600ec663f6f046f70fbd209d4a) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--nash-williams-lean--252fc7828395/tree/palomar/PALOMAR-2026-10-21-000009-v1/2603197abdbf0a600ec663f6f046f70fbd209d4a) |
 | [PALOMAR-2026-10-22-000017](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-22-000017&version=2) (v2) | Counting Steiner triple systems: Wilson (1974) and Linial–Luria (2013) | 2026-10-22 | [jtraverso/counting-steiner-triple-systems @ 52fda83](https://github.com/jtraverso/counting-steiner-triple-systems/tree/52fda83038df7442c576e17edffba591db703cb8) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--counting-steiner-triple-systems--25dd3ac3d9ea/tree/palomar/PALOMAR-2026-10-22-000017-v1/52fda83038df7442c576e17edffba591db703cb8) |
 | [PALOMAR-2026-10-22-000035](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-22-000035&version=1) (v1) | The expander mixing lemma and the Alon–Boppana bound | 2026-10-22 | [jtraverso/expander-spectral @ f96a998](https://github.com/jtraverso/expander-spectral/tree/f96a99893d4d31495af5f8d9e6181f7b4c91e0ba) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--expander-spectral--c7934103ea1e/tree/palomar/PALOMAR-2026-10-22-000035-v1/f96a99893d4d31495af5f8d9e6181f7b4c91e0ba) |
+| [PALOMAR-2026-10-22-000043](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-22-000043&version=1) (v1) | The Bondy–Simonovits even cycle theorem | 2026-10-22 | [jtraverso/bondy-simonovits @ a4ca4b2](https://github.com/jtraverso/bondy-simonovits/tree/a4ca4b28a0d82735316fd73a5a11303231109fc7) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--bondy-simonovits--28aa00457e93/tree/palomar/PALOMAR-2026-10-22-000043-v1/a4ca4b28a0d82735316fd73a5a11303231109fc7) |
 
 ## Entries
 
@@ -471,6 +472,14 @@ A complete Lean 4 / Mathlib formalization of R. M. Wilson's "Nonisomorphic Stein
 Archived copy: [PalomarArchive/jtraverso--expander-spectral--c7934103ea1e](https://github.com/PalomarArchive/jtraverso--expander-spectral--c7934103ea1e/tree/palomar/PALOMAR-2026-10-22-000035-v1/f96a99893d4d31495af5f8d9e6181f7b4c91e0ba).
 
 The expander mixing lemma of Alon and Chung (for a d-regular graph whose adjacency form on 𝟙⊥ is bounded by μ, |e(S,T) − d|S||T|/n| ≤ μ√(|S||T|)) and the Alon–Boppana bound in Nilli's form (a d-regular graph with two vertices at distance at least 2k + 4 has second eigenvalue at least 2√(d−1) − (2√(d−1) − 1)/(k+1)), stated through the adjacency quadratic form on vectors orthogonal to the all-ones vector.
+
+### The Bondy–Simonovits even cycle theorem
+
+[PALOMAR-2026-10-22-000043](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-22-000043&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--bondy-simonovits--28aa00457e93](https://github.com/PalomarArchive/jtraverso--bondy-simonovits--28aa00457e93/tree/palomar/PALOMAR-2026-10-22-000043-v1/a4ca4b28a0d82735316fd73a5a11303231109fc7).
+
+The Bondy–Simonovits theorem: for every k ≥ 2 there is C (the proof gives C = 16k + 4) such that every n-vertex graph with no cycle of length exactly 2k has at most C·n^(1+1/k) edges, i.e. ex(n, C_2k) = O(n^(1+1/k)).
 
 ## Notes
 
