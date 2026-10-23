@@ -61,6 +61,7 @@ repositories.
 | [PALOMAR-2026-10-22-000017](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-22-000017&version=2) (v2) | Counting Steiner triple systems: Wilson (1974) and Linial–Luria (2013) | 2026-10-22 | [jtraverso/counting-steiner-triple-systems @ 52fda83](https://github.com/jtraverso/counting-steiner-triple-systems/tree/52fda83038df7442c576e17edffba591db703cb8) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--counting-steiner-triple-systems--25dd3ac3d9ea/tree/palomar/PALOMAR-2026-10-22-000017-v1/52fda83038df7442c576e17edffba591db703cb8) |
 | [PALOMAR-2026-10-22-000035](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-22-000035&version=1) (v1) | The expander mixing lemma and the Alon–Boppana bound | 2026-10-22 | [jtraverso/expander-spectral @ f96a998](https://github.com/jtraverso/expander-spectral/tree/f96a99893d4d31495af5f8d9e6181f7b4c91e0ba) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--expander-spectral--c7934103ea1e/tree/palomar/PALOMAR-2026-10-22-000035-v1/f96a99893d4d31495af5f8d9e6181f7b4c91e0ba) |
 | [PALOMAR-2026-10-22-000043](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-22-000043&version=1) (v1) | The Bondy–Simonovits even cycle theorem | 2026-10-22 | [jtraverso/bondy-simonovits @ a4ca4b2](https://github.com/jtraverso/bondy-simonovits/tree/a4ca4b28a0d82735316fd73a5a11303231109fc7) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--bondy-simonovits--28aa00457e93/tree/palomar/PALOMAR-2026-10-22-000043-v1/a4ca4b28a0d82735316fd73a5a11303231109fc7) |
+| [PALOMAR-2026-10-23-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-23-000006&version=1) (v1) | The Graham–Pollak theorem | 2026-10-23 | [jtraverso/graham-pollak @ 68d32f0](https://github.com/jtraverso/graham-pollak/tree/68d32f0faf102fc1716ac89ffc861eefe897e749) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--graham-pollak--3485c9d9d4a5/tree/palomar/PALOMAR-2026-10-23-000006-v1/68d32f0faf102fc1716ac89ffc861eefe897e749) |
 
 ## Entries
 
@@ -480,6 +481,14 @@ The expander mixing lemma of Alon and Chung (for a d-regular graph whose adjacen
 Archived copy: [PalomarArchive/jtraverso--bondy-simonovits--28aa00457e93](https://github.com/PalomarArchive/jtraverso--bondy-simonovits--28aa00457e93/tree/palomar/PALOMAR-2026-10-22-000043-v1/a4ca4b28a0d82735316fd73a5a11303231109fc7).
 
 The Bondy–Simonovits theorem: for every k ≥ 2 there is C (the proof gives C = 16k + 4) such that every n-vertex graph with no cycle of length exactly 2k has at most C·n^(1+1/k) edges, i.e. ex(n, C_2k) = O(n^(1+1/k)).
+
+### The Graham–Pollak theorem
+
+[PALOMAR-2026-10-23-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-23-000006&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--graham-pollak--3485c9d9d4a5](https://github.com/PalomarArchive/jtraverso--graham-pollak--3485c9d9d4a5/tree/palomar/PALOMAR-2026-10-23-000006-v1/68d32f0faf102fc1716ac89ffc861eefe897e749).
+
+The Graham–Pollak theorem: the edge set of K_n cannot be partitioned into fewer than n − 1 complete bipartite graphs (Tverberg’s linear-algebra proof), together with the matching construction by n − 1 stars.
 
 ## Notes
 
