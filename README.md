@@ -61,6 +61,7 @@ repositories.
 | [PALOMAR-2026-10-23-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-23-000006&version=1) (v1) | The Graham–Pollak theorem | 2026-10-23 | [jtraverso/graham-pollak @ 68d32f0](https://github.com/jtraverso/graham-pollak/tree/68d32f0faf102fc1716ac89ffc861eefe897e749) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--graham-pollak--3485c9d9d4a5/tree/palomar/PALOMAR-2026-10-23-000006-v1/68d32f0faf102fc1716ac89ffc861eefe897e749) |
 | [PALOMAR-2026-10-23-000013](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-23-000013&version=1) (v1) | Robust absorption for typed triangles (Triangle decompositions II) | 2026-10-23 | [jtraverso/typed-triangle-absorption @ 673c6d4](https://github.com/jtraverso/typed-triangle-absorption/tree/673c6d4118b5679783bafa7606fd2c611161a254) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--typed-triangle-absorption--055c1b37404f/tree/palomar/PALOMAR-2026-10-23-000013-v1/673c6d4118b5679783bafa7606fd2c611161a254) |
 | [PALOMAR-2026-10-23-000016](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-23-000016&version=1) (v1) | Mader's theorem on highly connected subgraphs | 2026-10-23 | [jtraverso/mader-connectivity @ b471abc](https://github.com/jtraverso/mader-connectivity/tree/b471abcdfbb303aabc1af26f4531e080729bb469) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--mader-connectivity--54c8125a286e/tree/palomar/PALOMAR-2026-10-23-000016-v1/b471abcdfbb303aabc1af26f4531e080729bb469) |
+| [PALOMAR-2026-10-26-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-26-000001&version=1) (v1) | Regular subgraphs of almost regular graphs (Alon–Friedland–Kalai) | 2026-10-26 | [jtraverso/regular-subgraphs @ daea9b3](https://github.com/jtraverso/regular-subgraphs/tree/daea9b30d10bfae6c75ba7be5904080119bbbdba) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--regular-subgraphs--8e423f4bda53/tree/palomar/PALOMAR-2026-10-26-000001-v1/daea9b30d10bfae6c75ba7be5904080119bbbdba) |
 
 ## Entries
 
@@ -504,6 +505,14 @@ A Lean 4 / Mathlib formalization of the typed triangle decomposition results of 
 Archived copy: [PalomarArchive/jtraverso--mader-connectivity--54c8125a286e](https://github.com/PalomarArchive/jtraverso--mader-connectivity--54c8125a286e/tree/palomar/PALOMAR-2026-10-23-000016-v1/b471abcdfbb303aabc1af26f4531e080729bb469).
 
 A Lean 4 / Mathlib formalization of Mader's 1972 theorem in the form of Diestel's Theorem 1.4.3: for k ≥ 1, every nonempty finite simple graph with average degree at least 4k has a (k + 1)-connected induced subgraph H with e(H)/|H| > e(G)/|G| − k. Vertex connectivity is defined by deletion of fewer than k vertices (same definition as in the Menger–Hamiltonicity entry). Mathlib does not contain vertex connectivity or this theorem.
+
+### Regular subgraphs of almost regular graphs (Alon–Friedland–Kalai)
+
+[PALOMAR-2026-10-26-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-26-000001&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--regular-subgraphs--8e423f4bda53](https://github.com/PalomarArchive/jtraverso--regular-subgraphs--8e423f4bda53/tree/palomar/PALOMAR-2026-10-26-000001-v1/daea9b30d10bfae6c75ba7be5904080119bbbdba).
+
+A Lean 4 / Mathlib formalization of the Alon–Friedland–Kalai theorem for primes: for a prime p, every finite simple graph with maximum degree at most 2p − 1 and average degree greater than 2p − 2 contains a p-regular subgraph (a nonempty subgraph with all degrees 0 or p); as a corollary, every 4-regular graph plus an edge contains a 3-regular subgraph. The prime-power case of the paper is not stated. The proof uses Mathlib's Chevalley–Warning theorem.
 
 ## Notes
 
