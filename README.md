@@ -69,6 +69,16 @@ repositories.
 | [PALOMAR-2026-10-28-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000009&version=1) (v1) | Stanley's acyclic orientations and chromatic reciprocity | 2026-10-28 | [jtraverso/stanley @ 48d36cb](https://github.com/jtraverso/stanley/tree/48d36cbaa54d14443f99b57776ce65f1f31c8331) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--stanley--df253fa631b4/tree/palomar/PALOMAR-2026-10-28-000009-v1/48d36cbaa54d14443f99b57776ce65f1f31c8331) |
 | [PALOMAR-2026-10-28-000010](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000010&version=1) (v1) | Edmonds' perfect matching polytope and matching polytope | 2026-10-28 | [jtraverso/edmonds-matching-polytope @ 6198b83](https://github.com/jtraverso/edmonds-matching-polytope/tree/6198b8314ac88a5638120fcf15d5b58c024caaab) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--edmonds-matching-polytope--a32c69454bfc/tree/palomar/PALOMAR-2026-10-28-000010-v1/6198b8314ac88a5638120fcf15d5b58c024caaab) |
 
+## Research series
+
+**Triangle decompositions** (the Nash–Williams triangle-decomposition problem; publication home
+[jtraverso/nash-williams-triangle-decompositions-release](https://github.com/jtraverso/nash-williams-triangle-decompositions-release)):
+
+* Paper I — [PALOMAR-2026-10-21-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-21-000009&version=1),
+  *The Nash–Williams triangle-decomposition theorem* (jtraverso/nash-williams-lean).
+* Paper II — [PALOMAR-2026-10-23-000013](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-23-000013&version=1),
+  *Robust absorption for typed triangles* (jtraverso/typed-triangle-absorption).
+
 ## Entries
 
 ### Grötzsch's theorem, Ore's conjecture for k = 4, and the Grünbaum–Aksenov theorem
