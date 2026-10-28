@@ -67,6 +67,7 @@ repositories.
 | [PALOMAR-2026-10-28-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000004&version=1) (v1) | Nash-Williams' weak orientation theorem | 2026-10-28 | [jtraverso/nash-williams-orientation @ 3412d88](https://github.com/jtraverso/nash-williams-orientation/tree/3412d885cf3ba6680770cb8014df96af8fa3d042) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--nash-williams-orientation--96d643fb4df4/tree/palomar/PALOMAR-2026-10-28-000004-v1/3412d885cf3ba6680770cb8014df96af8fa3d042) |
 | [PALOMAR-2026-10-28-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000005&version=1) (v1) | Edmonds cardinality matroid intersection | 2026-10-28 | [jtraverso/edmonds-matroid-intersection @ 824e019](https://github.com/jtraverso/edmonds-matroid-intersection/tree/824e019d4c845e8d0ebd8638fd94f19040115cbd) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--edmonds-matroid-intersection--3c509773d989/tree/palomar/PALOMAR-2026-10-28-000005-v1/824e019d4c845e8d0ebd8638fd94f19040115cbd) |
 | [PALOMAR-2026-10-28-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000009&version=1) (v1) | Stanley's acyclic orientations and chromatic reciprocity | 2026-10-28 | [jtraverso/stanley @ 48d36cb](https://github.com/jtraverso/stanley/tree/48d36cbaa54d14443f99b57776ce65f1f31c8331) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--stanley--df253fa631b4/tree/palomar/PALOMAR-2026-10-28-000009-v1/48d36cbaa54d14443f99b57776ce65f1f31c8331) |
+| [PALOMAR-2026-10-28-000010](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000010&version=1) (v1) | Edmonds' perfect matching polytope and matching polytope | 2026-10-28 | [jtraverso/edmonds-matching-polytope @ 6198b83](https://github.com/jtraverso/edmonds-matching-polytope/tree/6198b8314ac88a5638120fcf15d5b58c024caaab) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--edmonds-matching-polytope--a32c69454bfc/tree/palomar/PALOMAR-2026-10-28-000010-v1/6198b8314ac88a5638120fcf15d5b58c024caaab) |
 
 ## Entries
 
@@ -558,6 +559,14 @@ Cardinality min-max theorem for two finite Mathlib matroids with the same ground
 Archived copy: [PalomarArchive/jtraverso--stanley--df253fa631b4](https://github.com/PalomarArchive/jtraverso--stanley--df253fa631b4/tree/palomar/PALOMAR-2026-10-28-000009-v1/48d36cbaa54d14443f99b57776ce65f1f31c8331).
 
 For every finite simple graph and k ≥ 0, the signed evaluation (−1)^n χ_G(−k) counts acyclic orientations paired with weakly compatible Fin k colorings (Stanley 1973, Theorem 1.2); at k = 1 it counts acyclic orientations (Corollary 1.3). Includes positive-evaluation correctness, induced-subgraph convolution, and the finite equivalence between well-foundedness and no directed cycles.
+
+### Edmonds' perfect matching polytope and matching polytope
+
+[PALOMAR-2026-10-28-000010](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000010&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--edmonds-matching-polytope--a32c69454bfc](https://github.com/PalomarArchive/jtraverso--edmonds-matching-polytope--a32c69454bfc/tree/palomar/PALOMAR-2026-10-28-000010-v1/6198b8314ac88a5638120fcf15d5b58c024caaab).
+
+A Lean 4 / Mathlib formalization of Edmonds' theorems (1965) for finite simple graphs: the convex hull of the incidence vectors of the perfect matchings is {x ≥ 0, x(δ(v)) = 1 for every vertex v, x(δ(S)) ≥ 1 for every odd set S}, and the convex hull of the incidence vectors of all matchings is {x ≥ 0, x(δ(v)) ≤ 1, x(E[S]) ≤ (|S| − 1)/2 for every odd S}. Vectors are indexed by the edges of the graph, the convex hull is Mathlib's convexHull, and matchings are Mathlib's Subgraph.IsMatching and Subgraph.IsPerfectMatching. The perfect matching theorem is proved for multigraphs by induction with shrinking of tight odd cuts; the matching polytope follows by the doubling construction. Mathlib does not contain these results.
 
 ## Notes
 
