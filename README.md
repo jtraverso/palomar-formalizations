@@ -69,6 +69,7 @@ repositories.
 | [PALOMAR-2026-10-28-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000009&version=1) (v1) | Stanley's acyclic orientations and chromatic reciprocity | 2026-10-28 | [jtraverso/stanley @ 48d36cb](https://github.com/jtraverso/stanley/tree/48d36cbaa54d14443f99b57776ce65f1f31c8331) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--stanley--df253fa631b4/tree/palomar/PALOMAR-2026-10-28-000009-v1/48d36cbaa54d14443f99b57776ce65f1f31c8331) |
 | [PALOMAR-2026-10-28-000010](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000010&version=1) (v1) | Edmonds' perfect matching polytope and matching polytope | 2026-10-28 | [jtraverso/edmonds-matching-polytope @ 6198b83](https://github.com/jtraverso/edmonds-matching-polytope/tree/6198b8314ac88a5638120fcf15d5b58c024caaab) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--edmonds-matching-polytope--a32c69454bfc/tree/palomar/PALOMAR-2026-10-28-000010-v1/6198b8314ac88a5638120fcf15d5b58c024caaab) |
 | [PALOMAR-2026-10-28-000012](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000012&version=1) (v1) | Ray-Chaudhuri–Wilson: uniform families with restricted intersections | 2026-10-28 | [jtraverso/restricted-intersections @ ebb9080](https://github.com/jtraverso/restricted-intersections/tree/ebb90800eda4ec83cc18c6da2135b8718757f6e2) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--restricted-intersections--ad53241811dd/tree/palomar/PALOMAR-2026-10-28-000012-v1/ebb90800eda4ec83cc18c6da2135b8718757f6e2) |
+| [PALOMAR-2026-10-28-000018](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000018&version=1) (v1) | The Pippenger–Spencer theorem on the chromatic index of hypergraphs | 2026-10-28 | [jtraverso/pippenger-spencer @ 4cca4e3](https://github.com/jtraverso/pippenger-spencer/tree/4cca4e3c641619b1622ea60f58c57dc0c28ffdbb) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--pippenger-spencer--aaba98952e76/tree/palomar/PALOMAR-2026-10-28-000018-v1/4cca4e3c641619b1622ea60f58c57dc0c28ffdbb) |
 
 ## Research series
 
@@ -586,6 +587,14 @@ A Lean 4 / Mathlib formalization of Edmonds' theorems (1965) for finite simple g
 Archived copy: [PalomarArchive/jtraverso--restricted-intersections--ad53241811dd](https://github.com/PalomarArchive/jtraverso--restricted-intersections--ad53241811dd/tree/palomar/PALOMAR-2026-10-28-000012-v1/ebb90800eda4ec83cc18c6da2135b8718757f6e2).
 
 Formalizes Theorem 3 of On t-designs (1975): a k-uniform family of subsets of an n-element ground set whose distinct-pair intersection sizes lie in L ⊆ {0,...,k−1} has at most binomial(n,|L|) members. Includes the actual-intersection-spectrum formulation, the uniform one-intersection bound, and equality examples consisting of all s-subsets.
+
+### The Pippenger–Spencer theorem on the chromatic index of hypergraphs
+
+[PALOMAR-2026-10-28-000018](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000018&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--pippenger-spencer--aaba98952e76](https://github.com/PalomarArchive/jtraverso--pippenger-spencer--aaba98952e76/tree/palomar/PALOMAR-2026-10-28-000018-v1/4cca4e3c641619b1622ea60f58c57dc0c28ffdbb).
+
+A Lean 4 / Mathlib formalization of the theorem of Pippenger and Spencer (1989): for r ≥ 2 and ε > 0 there are μ > 0 and D₀ such that every r-uniform hypergraph whose degrees lie in [(1 − μ)D, D] and whose codegrees are at most μD, with D ≥ D₀, has chromatic index at most (1 + ε)D. A second theorem gives an explicit polynomial error: if the maximum degree is at most D, the codegrees are at most D^{1−δ} and there are at most exp(D^γ) edges, then the chromatic index is at most D + D^{1−γ} for some γ = γ(r, δ) > 0. The proofs build on the author's registered formalization of Ehard–Glock–Joos (PALOMAR-2026-10-17-000004): batches of the trimmed Rödl nibble with the Lovász Local Lemma for the first theorem, and the pseudorandom matching theorem (Ehard–Glock–Joos, Theorem 1.2) applied to an auxiliary colour hypergraph for the second. Mathlib does not contain these results.
 
 ## Notes
 
