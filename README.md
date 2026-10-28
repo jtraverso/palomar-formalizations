@@ -68,6 +68,7 @@ repositories.
 | [PALOMAR-2026-10-28-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000005&version=1) (v1) | Edmonds cardinality matroid intersection | 2026-10-28 | [jtraverso/edmonds-matroid-intersection @ 824e019](https://github.com/jtraverso/edmonds-matroid-intersection/tree/824e019d4c845e8d0ebd8638fd94f19040115cbd) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--edmonds-matroid-intersection--3c509773d989/tree/palomar/PALOMAR-2026-10-28-000005-v1/824e019d4c845e8d0ebd8638fd94f19040115cbd) |
 | [PALOMAR-2026-10-28-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000009&version=1) (v1) | Stanley's acyclic orientations and chromatic reciprocity | 2026-10-28 | [jtraverso/stanley @ 48d36cb](https://github.com/jtraverso/stanley/tree/48d36cbaa54d14443f99b57776ce65f1f31c8331) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--stanley--df253fa631b4/tree/palomar/PALOMAR-2026-10-28-000009-v1/48d36cbaa54d14443f99b57776ce65f1f31c8331) |
 | [PALOMAR-2026-10-28-000010](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000010&version=1) (v1) | Edmonds' perfect matching polytope and matching polytope | 2026-10-28 | [jtraverso/edmonds-matching-polytope @ 6198b83](https://github.com/jtraverso/edmonds-matching-polytope/tree/6198b8314ac88a5638120fcf15d5b58c024caaab) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--edmonds-matching-polytope--a32c69454bfc/tree/palomar/PALOMAR-2026-10-28-000010-v1/6198b8314ac88a5638120fcf15d5b58c024caaab) |
+| [PALOMAR-2026-10-28-000012](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000012&version=1) (v1) | Ray-Chaudhuri–Wilson: uniform families with restricted intersections | 2026-10-28 | [jtraverso/restricted-intersections @ ebb9080](https://github.com/jtraverso/restricted-intersections/tree/ebb90800eda4ec83cc18c6da2135b8718757f6e2) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--restricted-intersections--ad53241811dd/tree/palomar/PALOMAR-2026-10-28-000012-v1/ebb90800eda4ec83cc18c6da2135b8718757f6e2) |
 
 ## Research series
 
@@ -577,6 +578,14 @@ For every finite simple graph and k ≥ 0, the signed evaluation (−1)^n χ_G(�
 Archived copy: [PalomarArchive/jtraverso--edmonds-matching-polytope--a32c69454bfc](https://github.com/PalomarArchive/jtraverso--edmonds-matching-polytope--a32c69454bfc/tree/palomar/PALOMAR-2026-10-28-000010-v1/6198b8314ac88a5638120fcf15d5b58c024caaab).
 
 A Lean 4 / Mathlib formalization of Edmonds' theorems (1965) for finite simple graphs: the convex hull of the incidence vectors of the perfect matchings is {x ≥ 0, x(δ(v)) = 1 for every vertex v, x(δ(S)) ≥ 1 for every odd set S}, and the convex hull of the incidence vectors of all matchings is {x ≥ 0, x(δ(v)) ≤ 1, x(E[S]) ≤ (|S| − 1)/2 for every odd S}. Vectors are indexed by the edges of the graph, the convex hull is Mathlib's convexHull, and matchings are Mathlib's Subgraph.IsMatching and Subgraph.IsPerfectMatching. The perfect matching theorem is proved for multigraphs by induction with shrinking of tight odd cuts; the matching polytope follows by the doubling construction. Mathlib does not contain these results.
+
+### Ray-Chaudhuri–Wilson: uniform families with restricted intersections
+
+[PALOMAR-2026-10-28-000012](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000012&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--restricted-intersections--ad53241811dd](https://github.com/PalomarArchive/jtraverso--restricted-intersections--ad53241811dd/tree/palomar/PALOMAR-2026-10-28-000012-v1/ebb90800eda4ec83cc18c6da2135b8718757f6e2).
+
+Formalizes Theorem 3 of On t-designs (1975): a k-uniform family of subsets of an n-element ground set whose distinct-pair intersection sizes lie in L ⊆ {0,...,k−1} has at most binomial(n,|L|) members. Includes the actual-intersection-spectrum formulation, the uniform one-intersection bound, and equality examples consisting of all s-subsets.
 
 ## Notes
 
