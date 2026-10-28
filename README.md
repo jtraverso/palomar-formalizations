@@ -73,6 +73,7 @@ repositories.
 | [PALOMAR-2026-10-28-000023](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000023&version=1) (v1) | Thomassen: planar graphs of girth at least five are 3-choosable | 2026-10-28 | [jtraverso/thomassen-girth-five @ 12765f3](https://github.com/jtraverso/thomassen-girth-five/tree/12765f3362b48fbae04ac467d33873a4f2234083) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--thomassen-girth-five--a221bbfeb126/tree/palomar/PALOMAR-2026-10-28-000023-v1/12765f3362b48fbae04ac467d33873a4f2234083) |
 | [PALOMAR-2026-10-28-000021](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000021&version=1) (v1) | Hamiltonicity and connectivity thresholds of the random graph G(n, p) | 2026-10-28 | [jtraverso/random-graph-thresholds @ 86325fa](https://github.com/jtraverso/random-graph-thresholds/tree/86325faff71fb76c0769963525b69095fa0a6241) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--random-graph-thresholds--8101b919ee82/tree/palomar/PALOMAR-2026-10-28-000021-v1/86325faff71fb76c0769963525b69095fa0a6241) |
 | [PALOMAR-2026-10-28-000022](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000022&version=1) (v1) | Nowhere-zero 3-flows in 6-edge-connected graphs | 2026-10-28 | [jtraverso/three-flows @ 2e0bc7c](https://github.com/jtraverso/three-flows/tree/2e0bc7c111b2e6d05d81ce9bd1c2dc58a4184f4c) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--three-flows--4989d8f20572/tree/palomar/PALOMAR-2026-10-28-000022-v1/2e0bc7c111b2e6d05d81ce9bd1c2dc58a4184f4c) |
+| [PALOMAR-2026-10-28-000028](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000028&version=1) (v1) | Affine profile reduction for fractional triangle packings in split graphs | 2026-10-28 | [jtraverso/erdos81-fractional-split-profiles @ b7d6d80](https://github.com/jtraverso/erdos81-fractional-split-profiles/tree/b7d6d807116d32608cad7c0d5f1c025629930179) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--erdos81-fractional-split-profiles--2f8b880d7704/tree/palomar/PALOMAR-2026-10-28-000028-v1/b7d6d807116d32608cad7c0d5f1c025629930179) |
 
 ## Research series
 
@@ -622,6 +623,14 @@ A Lean 4 / Mathlib formalization of two classical threshold results for the bino
 Archived copy: [PalomarArchive/jtraverso--three-flows--4989d8f20572](https://github.com/PalomarArchive/jtraverso--three-flows--4989d8f20572/tree/palomar/PALOMAR-2026-10-28-000022-v1/2e0bc7c111b2e6d05d81ce9bd1c2dc58a4184f4c).
 
 A Lean 4 / Mathlib formalization of the theorem of Lovász, Thomassen, Wu and Zhang: every finite 6-edge-connected simple graph has a nowhere-zero integer 3-flow (the weak 3-flow conjecture). The proof formalizes Theorem 3.1 of the paper (β-orientations of multigraphs modulo 3) and Tutte's lifting theorem. Only simple graphs are stated; the paper's multigraph version and its results on modulo k-orientations for k > 3 are not stated. Mathlib does not contain this theorem.
+
+### Affine profile reduction for fractional triangle packings in split graphs
+
+[PALOMAR-2026-10-28-000028](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000028&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--erdos81-fractional-split-profiles--2f8b880d7704](https://github.com/PalomarArchive/jtraverso--erdos81-fractional-split-profiles--2f8b880d7704/tree/palomar/PALOMAR-2026-10-28-000028-v1/b7d6d807116d32608cad7c0d5f1c025629930179).
+
+A Lean 4 / Mathlib formalization of the main result of the author's preprint "Affine Profile Reduction for Fractional Triangle Packings in Split Graphs" (Erdős #81 series, Paper I): for every finite split graph G on n vertices, |E(G)| − 2ν₃*(G) ≤ n²/6 + n/2, where ν₃* is the fractional triangle packing number (the maximum total weight of a nonnegative weighting of the triangles with load at most one on every edge). It is stated both for the paper's finite split model (clique Fin p, independent vertices, neighbourhoods) and for every split graph in Mathlib's SimpleGraph, with the definitions of split graphs and fractional triangle packings of two registered entries; the weaker bound n²/6 + n of the first edition is also included. The proof reduces the fractional packing problem to neighbourhood profiles and a three-variable linear program, using finite LP duality.
 
 ## Notes
 
