@@ -72,6 +72,7 @@ repositories.
 | [PALOMAR-2026-10-28-000018](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000018&version=1) (v1) | The Pippenger–Spencer theorem on the chromatic index of hypergraphs | 2026-10-28 | [jtraverso/pippenger-spencer @ 4cca4e3](https://github.com/jtraverso/pippenger-spencer/tree/4cca4e3c641619b1622ea60f58c57dc0c28ffdbb) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--pippenger-spencer--aaba98952e76/tree/palomar/PALOMAR-2026-10-28-000018-v1/4cca4e3c641619b1622ea60f58c57dc0c28ffdbb) |
 | [PALOMAR-2026-10-28-000023](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000023&version=1) (v1) | Thomassen: planar graphs of girth at least five are 3-choosable | 2026-10-28 | [jtraverso/thomassen-girth-five @ 12765f3](https://github.com/jtraverso/thomassen-girth-five/tree/12765f3362b48fbae04ac467d33873a4f2234083) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--thomassen-girth-five--a221bbfeb126/tree/palomar/PALOMAR-2026-10-28-000023-v1/12765f3362b48fbae04ac467d33873a4f2234083) |
 | [PALOMAR-2026-10-28-000021](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000021&version=1) (v1) | Hamiltonicity and connectivity thresholds of the random graph G(n, p) | 2026-10-28 | [jtraverso/random-graph-thresholds @ 86325fa](https://github.com/jtraverso/random-graph-thresholds/tree/86325faff71fb76c0769963525b69095fa0a6241) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--random-graph-thresholds--8101b919ee82/tree/palomar/PALOMAR-2026-10-28-000021-v1/86325faff71fb76c0769963525b69095fa0a6241) |
+| [PALOMAR-2026-10-28-000022](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000022&version=1) (v1) | Nowhere-zero 3-flows in 6-edge-connected graphs | 2026-10-28 | [jtraverso/three-flows @ 2e0bc7c](https://github.com/jtraverso/three-flows/tree/2e0bc7c111b2e6d05d81ce9bd1c2dc58a4184f4c) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--three-flows--4989d8f20572/tree/palomar/PALOMAR-2026-10-28-000022-v1/2e0bc7c111b2e6d05d81ce9bd1c2dc58a4184f4c) |
 
 ## Research series
 
@@ -613,6 +614,14 @@ Finite planar simple graphs of extended girth at least five are 3-choosable over
 Archived copy: [PalomarArchive/jtraverso--random-graph-thresholds--8101b919ee82](https://github.com/PalomarArchive/jtraverso--random-graph-thresholds--8101b919ee82/tree/palomar/PALOMAR-2026-10-28-000021-v1/86325faff71fb76c0769963525b69095fa0a6241).
 
 A Lean 4 / Mathlib formalization of two classical threshold results for the binomial random graph G(n, p), modelled as a finite product probability space with one independent Bernoulli(p) coin per pair of vertices: Pósa's theorem (1976) that G(n, p) with p ≥ C log n / n is Hamiltonian with probability tending to 1, also stated with the explicit constant C = 80 (posa_eighty), and both sides of the Erdős–Rényi connectivity threshold (1959): G(n, (log n ± ω(n))/n) with ω(n) → ∞, the edge probability clipped to [0, 1], is connected with probability tending to 1, resp. 0. Hamiltonicity and connectivity are Mathlib's SimpleGraph.IsHamiltonian and SimpleGraph.Connected. Mathlib defines the binomial random graph as a measure on graphs (SimpleGraph.binomialRandom); this project uses its own finite product model instead, and these threshold theorems are not in Mathlib.
+
+### Nowhere-zero 3-flows in 6-edge-connected graphs
+
+[PALOMAR-2026-10-28-000022](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000022&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--three-flows--4989d8f20572](https://github.com/PalomarArchive/jtraverso--three-flows--4989d8f20572/tree/palomar/PALOMAR-2026-10-28-000022-v1/2e0bc7c111b2e6d05d81ce9bd1c2dc58a4184f4c).
+
+A Lean 4 / Mathlib formalization of the theorem of Lovász, Thomassen, Wu and Zhang: every finite 6-edge-connected simple graph has a nowhere-zero integer 3-flow (the weak 3-flow conjecture). The proof formalizes Theorem 3.1 of the paper (β-orientations of multigraphs modulo 3) and Tutte's lifting theorem. Only simple graphs are stated; the paper's multigraph version and its results on modulo k-orientations for k > 3 are not stated. Mathlib does not contain this theorem.
 
 ## Notes
 
