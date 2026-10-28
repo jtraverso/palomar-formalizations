@@ -66,6 +66,7 @@ repositories.
 | [PALOMAR-2026-10-28-000003](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000003&version=1) (v1) | Kirkman's theorem on Steiner triple systems | 2026-10-28 | [jtraverso/kirkman-steiner-triple-systems @ 1855141](https://github.com/jtraverso/kirkman-steiner-triple-systems/tree/18551414d822f7fa4fb7535dc43733c4b316c3a8) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--kirkman-steiner-triple-systems--37adc3898c80/tree/palomar/PALOMAR-2026-10-28-000003-v1/18551414d822f7fa4fb7535dc43733c4b316c3a8) |
 | [PALOMAR-2026-10-28-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000004&version=1) (v1) | Nash-Williams' weak orientation theorem | 2026-10-28 | [jtraverso/nash-williams-orientation @ 3412d88](https://github.com/jtraverso/nash-williams-orientation/tree/3412d885cf3ba6680770cb8014df96af8fa3d042) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--nash-williams-orientation--96d643fb4df4/tree/palomar/PALOMAR-2026-10-28-000004-v1/3412d885cf3ba6680770cb8014df96af8fa3d042) |
 | [PALOMAR-2026-10-28-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000005&version=1) (v1) | Edmonds cardinality matroid intersection | 2026-10-28 | [jtraverso/edmonds-matroid-intersection @ 824e019](https://github.com/jtraverso/edmonds-matroid-intersection/tree/824e019d4c845e8d0ebd8638fd94f19040115cbd) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--edmonds-matroid-intersection--3c509773d989/tree/palomar/PALOMAR-2026-10-28-000005-v1/824e019d4c845e8d0ebd8638fd94f19040115cbd) |
+| [PALOMAR-2026-10-28-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000009&version=1) (v1) | Stanley's acyclic orientations and chromatic reciprocity | 2026-10-28 | [jtraverso/stanley @ 48d36cb](https://github.com/jtraverso/stanley/tree/48d36cbaa54d14443f99b57776ce65f1f31c8331) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--stanley--df253fa631b4/tree/palomar/PALOMAR-2026-10-28-000009-v1/48d36cbaa54d14443f99b57776ce65f1f31c8331) |
 
 ## Entries
 
@@ -549,6 +550,14 @@ A Lean 4 / Mathlib formalization of Nash-Williams' weak orientation theorem (196
 Archived copy: [PalomarArchive/jtraverso--edmonds-matroid-intersection--3c509773d989](https://github.com/PalomarArchive/jtraverso--edmonds-matroid-intersection--3c509773d989/tree/palomar/PALOMAR-2026-10-28-000005-v1/824e019d4c845e8d0ebd8638fd94f19040115cbd).
 
 Cardinality min-max theorem for two finite Mathlib matroids with the same ground, attained primal-dual certificates, exact-size feasibility and the equal-rank common-base criterion.
+
+### Stanley's acyclic orientations and chromatic reciprocity
+
+[PALOMAR-2026-10-28-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000009&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--stanley--df253fa631b4](https://github.com/PalomarArchive/jtraverso--stanley--df253fa631b4/tree/palomar/PALOMAR-2026-10-28-000009-v1/48d36cbaa54d14443f99b57776ce65f1f31c8331).
+
+For every finite simple graph and k ≥ 0, the signed evaluation (−1)^n χ_G(−k) counts acyclic orientations paired with weakly compatible Fin k colorings (Stanley 1973, Theorem 1.2); at k = 1 it counts acyclic orientations (Corollary 1.3). Includes positive-evaluation correctness, induced-subgraph convolution, and the finite equivalence between well-foundedness and no directed cycles.
 
 ## Notes
 
