@@ -70,6 +70,7 @@ repositories.
 | [PALOMAR-2026-10-28-000010](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000010&version=1) (v1) | Edmonds' perfect matching polytope and matching polytope | 2026-10-28 | [jtraverso/edmonds-matching-polytope @ 6198b83](https://github.com/jtraverso/edmonds-matching-polytope/tree/6198b8314ac88a5638120fcf15d5b58c024caaab) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--edmonds-matching-polytope--a32c69454bfc/tree/palomar/PALOMAR-2026-10-28-000010-v1/6198b8314ac88a5638120fcf15d5b58c024caaab) |
 | [PALOMAR-2026-10-28-000012](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000012&version=1) (v1) | Ray-Chaudhuri–Wilson: uniform families with restricted intersections | 2026-10-28 | [jtraverso/restricted-intersections @ ebb9080](https://github.com/jtraverso/restricted-intersections/tree/ebb90800eda4ec83cc18c6da2135b8718757f6e2) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--restricted-intersections--ad53241811dd/tree/palomar/PALOMAR-2026-10-28-000012-v1/ebb90800eda4ec83cc18c6da2135b8718757f6e2) |
 | [PALOMAR-2026-10-28-000018](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000018&version=1) (v1) | The Pippenger–Spencer theorem on the chromatic index of hypergraphs | 2026-10-28 | [jtraverso/pippenger-spencer @ 4cca4e3](https://github.com/jtraverso/pippenger-spencer/tree/4cca4e3c641619b1622ea60f58c57dc0c28ffdbb) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--pippenger-spencer--aaba98952e76/tree/palomar/PALOMAR-2026-10-28-000018-v1/4cca4e3c641619b1622ea60f58c57dc0c28ffdbb) |
+| [PALOMAR-2026-10-28-000023](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000023&version=1) (v1) | Thomassen: planar graphs of girth at least five are 3-choosable | 2026-10-28 | [jtraverso/thomassen-girth-five @ 12765f3](https://github.com/jtraverso/thomassen-girth-five/tree/12765f3362b48fbae04ac467d33873a4f2234083) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--thomassen-girth-five--a221bbfeb126/tree/palomar/PALOMAR-2026-10-28-000023-v1/12765f3362b48fbae04ac467d33873a4f2234083) |
 
 ## Research series
 
@@ -595,6 +596,14 @@ Formalizes Theorem 3 of On t-designs (1975): a k-uniform family of subsets of an
 Archived copy: [PalomarArchive/jtraverso--pippenger-spencer--aaba98952e76](https://github.com/PalomarArchive/jtraverso--pippenger-spencer--aaba98952e76/tree/palomar/PALOMAR-2026-10-28-000018-v1/4cca4e3c641619b1622ea60f58c57dc0c28ffdbb).
 
 A Lean 4 / Mathlib formalization of the theorem of Pippenger and Spencer (1989): for r ≥ 2 and ε > 0 there are μ > 0 and D₀ such that every r-uniform hypergraph whose degrees lie in [(1 − μ)D, D] and whose codegrees are at most μD, with D ≥ D₀, has chromatic index at most (1 + ε)D. A second theorem gives an explicit polynomial error: if the maximum degree is at most D, the codegrees are at most D^{1−δ} and there are at most exp(D^γ) edges, then the chromatic index is at most D + D^{1−γ} for some γ = γ(r, δ) > 0. The proofs build on the author's registered formalization of Ehard–Glock–Joos (PALOMAR-2026-10-17-000004): batches of the trimmed Rödl nibble with the Lovász Local Lemma for the first theorem, and the pseudorandom matching theorem (Ehard–Glock–Joos, Theorem 1.2) applied to an auxiliary colour hypergraph for the second. Mathlib does not contain these results.
+
+### Thomassen: planar graphs of girth at least five are 3-choosable
+
+[PALOMAR-2026-10-28-000023](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000023&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--thomassen-girth-five--a221bbfeb126](https://github.com/PalomarArchive/jtraverso--thomassen-girth-five--a221bbfeb126/tree/palomar/PALOMAR-2026-10-28-000023-v1/12765f3362b48fbae04ac467d33873a4f2234083).
+
+Finite planar simple graphs of extended girth at least five are 3-choosable over arbitrary colour types. Includes a complete six-vertex boundary-extension induction, actual induced-face geometry and residual list-colouring infrastructure. Additional results expose the short-path theorem, derive an infinite finite-list compactness consequence, extend arbitrary five/six-cycles, and extend outer seven-cycles. The full original Theorem 2.1 and Corollary 2.2 are also proved, including arbitrary allowed fixed-edge colours and all exterior components.
 
 ## Notes
 
