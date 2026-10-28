@@ -62,6 +62,10 @@ repositories.
 | [PALOMAR-2026-10-23-000013](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-23-000013&version=1) (v1) | Robust absorption for typed triangles (Triangle decompositions II) | 2026-10-23 | [jtraverso/typed-triangle-absorption @ 673c6d4](https://github.com/jtraverso/typed-triangle-absorption/tree/673c6d4118b5679783bafa7606fd2c611161a254) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--typed-triangle-absorption--055c1b37404f/tree/palomar/PALOMAR-2026-10-23-000013-v1/673c6d4118b5679783bafa7606fd2c611161a254) |
 | [PALOMAR-2026-10-23-000016](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-23-000016&version=1) (v1) | Mader's theorem on highly connected subgraphs | 2026-10-23 | [jtraverso/mader-connectivity @ b471abc](https://github.com/jtraverso/mader-connectivity/tree/b471abcdfbb303aabc1af26f4531e080729bb469) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--mader-connectivity--54c8125a286e/tree/palomar/PALOMAR-2026-10-23-000016-v1/b471abcdfbb303aabc1af26f4531e080729bb469) |
 | [PALOMAR-2026-10-26-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-26-000001&version=1) (v1) | Regular subgraphs of almost regular graphs (Alon–Friedland–Kalai) | 2026-10-26 | [jtraverso/regular-subgraphs @ daea9b3](https://github.com/jtraverso/regular-subgraphs/tree/daea9b30d10bfae6c75ba7be5904080119bbbdba) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--regular-subgraphs--8e423f4bda53/tree/palomar/PALOMAR-2026-10-26-000001-v1/daea9b30d10bfae6c75ba7be5904080119bbbdba) |
+| [PALOMAR-2026-10-28-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000001&version=1) (v1) | The Hilton–Milner theorem | 2026-10-28 | [jtraverso/hilton-milner @ 6059a0d](https://github.com/jtraverso/hilton-milner/tree/6059a0d6f13378b9a92fba297f2d774598ee0f7d) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--hilton-milner--c43d1f8a75cc/tree/palomar/PALOMAR-2026-10-28-000001-v1/6059a0d6f13378b9a92fba297f2d774598ee0f7d) |
+| [PALOMAR-2026-10-28-000003](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000003&version=1) (v1) | Kirkman's theorem on Steiner triple systems | 2026-10-28 | [jtraverso/kirkman-steiner-triple-systems @ 1855141](https://github.com/jtraverso/kirkman-steiner-triple-systems/tree/18551414d822f7fa4fb7535dc43733c4b316c3a8) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--kirkman-steiner-triple-systems--37adc3898c80/tree/palomar/PALOMAR-2026-10-28-000003-v1/18551414d822f7fa4fb7535dc43733c4b316c3a8) |
+| [PALOMAR-2026-10-28-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000004&version=1) (v1) | Nash-Williams' weak orientation theorem | 2026-10-28 | [jtraverso/nash-williams-orientation @ 3412d88](https://github.com/jtraverso/nash-williams-orientation/tree/3412d885cf3ba6680770cb8014df96af8fa3d042) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--nash-williams-orientation--96d643fb4df4/tree/palomar/PALOMAR-2026-10-28-000004-v1/3412d885cf3ba6680770cb8014df96af8fa3d042) |
+| [PALOMAR-2026-10-28-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000005&version=1) (v1) | Edmonds cardinality matroid intersection | 2026-10-28 | [jtraverso/edmonds-matroid-intersection @ 824e019](https://github.com/jtraverso/edmonds-matroid-intersection/tree/824e019d4c845e8d0ebd8638fd94f19040115cbd) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--edmonds-matroid-intersection--3c509773d989/tree/palomar/PALOMAR-2026-10-28-000005-v1/824e019d4c845e8d0ebd8638fd94f19040115cbd) |
 
 ## Entries
 
@@ -513,6 +517,38 @@ A Lean 4 / Mathlib formalization of Mader's 1972 theorem in the form of Diestel'
 Archived copy: [PalomarArchive/jtraverso--regular-subgraphs--8e423f4bda53](https://github.com/PalomarArchive/jtraverso--regular-subgraphs--8e423f4bda53/tree/palomar/PALOMAR-2026-10-26-000001-v1/daea9b30d10bfae6c75ba7be5904080119bbbdba).
 
 A Lean 4 / Mathlib formalization of the Alon–Friedland–Kalai theorem for primes: for a prime p, every finite simple graph with maximum degree at most 2p − 1 and average degree greater than 2p − 2 contains a p-regular subgraph (a nonempty subgraph with all degrees 0 or p); as a corollary, every 4-regular graph plus an edge contains a 3-regular subgraph. The prime-power case of the paper is not stated. The proof uses Mathlib's Chevalley–Warning theorem.
+
+### The Hilton–Milner theorem
+
+[PALOMAR-2026-10-28-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000001&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--hilton-milner--c43d1f8a75cc](https://github.com/PalomarArchive/jtraverso--hilton-milner--c43d1f8a75cc/tree/palomar/PALOMAR-2026-10-28-000001-v1/6059a0d6f13378b9a92fba297f2d774598ee0f7d).
+
+A Lean 4 / Mathlib formalization of the Hilton–Milner theorem: for k ≥ 2 and n > 2k, a nontrivial intersecting family of k-subsets of an n-set (no element lies in all members) has at most C(n−1, k−1) − C(n−k−1, k−1) + 1 members, and this bound is attained. Intersecting is Mathlib's Set.Intersecting. Mathlib contains the Erdős–Ko–Rado theorem but not this result.
+
+### Kirkman's theorem on Steiner triple systems
+
+[PALOMAR-2026-10-28-000003](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000003&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--kirkman-steiner-triple-systems--37adc3898c80](https://github.com/PalomarArchive/jtraverso--kirkman-steiner-triple-systems--37adc3898c80/tree/palomar/PALOMAR-2026-10-28-000003-v1/18551414d822f7fa4fb7535dc43733c4b316c3a8).
+
+A Lean 4 / Mathlib formalization of Kirkman's 1847 theorem: for v ≥ 1, a Steiner triple system on v points (a family of 3-subsets covering every pair of distinct points exactly once) exists if and only if v ≡ 1 or 3 (mod 6). Sufficiency is proved by Bose's and Skolem's constructions from Steiner quasigroups. Mathlib does not contain Steiner triple systems.
+
+### Nash-Williams' weak orientation theorem
+
+[PALOMAR-2026-10-28-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000004&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--nash-williams-orientation--96d643fb4df4](https://github.com/PalomarArchive/jtraverso--nash-williams-orientation--96d643fb4df4/tree/palomar/PALOMAR-2026-10-28-000004-v1/3412d885cf3ba6680770cb8014df96af8fa3d042).
+
+A Lean 4 / Mathlib formalization of Nash-Williams' weak orientation theorem (1960): every 2k-edge-connected finite graph has a k-arc-connected orientation, i.e. one in which every nonempty proper vertex set is left by at least k arcs. It is proved for finite loopless multigraphs given by an edge family, and stated for simple graphs with Mathlib's SimpleGraph.IsEdgeConnected and orientations as Mathlib Digraphs. The proof is by induction on the number of edges, with Mader's lemma (a minimally 2k-edge-connected multigraph has a vertex of degree 2k) and Lovász's splitting lemma, both proved in the project. Mathlib does not contain these results.
+
+### Edmonds cardinality matroid intersection
+
+[PALOMAR-2026-10-28-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000005&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--edmonds-matroid-intersection--3c509773d989](https://github.com/PalomarArchive/jtraverso--edmonds-matroid-intersection--3c509773d989/tree/palomar/PALOMAR-2026-10-28-000005-v1/824e019d4c845e8d0ebd8638fd94f19040115cbd).
+
+Cardinality min-max theorem for two finite Mathlib matroids with the same ground, attained primal-dual certificates, exact-size feasibility and the equal-rank common-base criterion.
 
 ## Notes
 
