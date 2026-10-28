@@ -71,6 +71,7 @@ repositories.
 | [PALOMAR-2026-10-28-000012](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000012&version=1) (v1) | Ray-Chaudhuri–Wilson: uniform families with restricted intersections | 2026-10-28 | [jtraverso/restricted-intersections @ ebb9080](https://github.com/jtraverso/restricted-intersections/tree/ebb90800eda4ec83cc18c6da2135b8718757f6e2) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--restricted-intersections--ad53241811dd/tree/palomar/PALOMAR-2026-10-28-000012-v1/ebb90800eda4ec83cc18c6da2135b8718757f6e2) |
 | [PALOMAR-2026-10-28-000018](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000018&version=1) (v1) | The Pippenger–Spencer theorem on the chromatic index of hypergraphs | 2026-10-28 | [jtraverso/pippenger-spencer @ 4cca4e3](https://github.com/jtraverso/pippenger-spencer/tree/4cca4e3c641619b1622ea60f58c57dc0c28ffdbb) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--pippenger-spencer--aaba98952e76/tree/palomar/PALOMAR-2026-10-28-000018-v1/4cca4e3c641619b1622ea60f58c57dc0c28ffdbb) |
 | [PALOMAR-2026-10-28-000023](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000023&version=1) (v1) | Thomassen: planar graphs of girth at least five are 3-choosable | 2026-10-28 | [jtraverso/thomassen-girth-five @ 12765f3](https://github.com/jtraverso/thomassen-girth-five/tree/12765f3362b48fbae04ac467d33873a4f2234083) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--thomassen-girth-five--a221bbfeb126/tree/palomar/PALOMAR-2026-10-28-000023-v1/12765f3362b48fbae04ac467d33873a4f2234083) |
+| [PALOMAR-2026-10-28-000021](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000021&version=1) (v1) | Hamiltonicity and connectivity thresholds of the random graph G(n, p) | 2026-10-28 | [jtraverso/random-graph-thresholds @ 86325fa](https://github.com/jtraverso/random-graph-thresholds/tree/86325faff71fb76c0769963525b69095fa0a6241) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--random-graph-thresholds--8101b919ee82/tree/palomar/PALOMAR-2026-10-28-000021-v1/86325faff71fb76c0769963525b69095fa0a6241) |
 
 ## Research series
 
@@ -604,6 +605,14 @@ A Lean 4 / Mathlib formalization of the theorem of Pippenger and Spencer (1989):
 Archived copy: [PalomarArchive/jtraverso--thomassen-girth-five--a221bbfeb126](https://github.com/PalomarArchive/jtraverso--thomassen-girth-five--a221bbfeb126/tree/palomar/PALOMAR-2026-10-28-000023-v1/12765f3362b48fbae04ac467d33873a4f2234083).
 
 Finite planar simple graphs of extended girth at least five are 3-choosable over arbitrary colour types. Includes a complete six-vertex boundary-extension induction, actual induced-face geometry and residual list-colouring infrastructure. Additional results expose the short-path theorem, derive an infinite finite-list compactness consequence, extend arbitrary five/six-cycles, and extend outer seven-cycles. The full original Theorem 2.1 and Corollary 2.2 are also proved, including arbitrary allowed fixed-edge colours and all exterior components.
+
+### Hamiltonicity and connectivity thresholds of the random graph G(n, p)
+
+[PALOMAR-2026-10-28-000021](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000021&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--random-graph-thresholds--8101b919ee82](https://github.com/PalomarArchive/jtraverso--random-graph-thresholds--8101b919ee82/tree/palomar/PALOMAR-2026-10-28-000021-v1/86325faff71fb76c0769963525b69095fa0a6241).
+
+A Lean 4 / Mathlib formalization of two classical threshold results for the binomial random graph G(n, p), modelled as a finite product probability space with one independent Bernoulli(p) coin per pair of vertices: Pósa's theorem (1976) that G(n, p) with p ≥ C log n / n is Hamiltonian with probability tending to 1, also stated with the explicit constant C = 80 (posa_eighty), and both sides of the Erdős–Rényi connectivity threshold (1959): G(n, (log n ± ω(n))/n) with ω(n) → ∞, the edge probability clipped to [0, 1], is connected with probability tending to 1, resp. 0. Hamiltonicity and connectivity are Mathlib's SimpleGraph.IsHamiltonian and SimpleGraph.Connected. Mathlib defines the binomial random graph as a measure on graphs (SimpleGraph.binomialRandom); this project uses its own finite product model instead, and these threshold theorems are not in Mathlib.
 
 ## Notes
 
