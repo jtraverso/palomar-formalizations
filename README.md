@@ -79,6 +79,7 @@ repositories.
 | [PALOMAR-2026-10-29-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-29-000005&version=1) (v1) | Formalizing Delcourt–Postle’s refined absorption in Lean | 2026-10-29 | [jtraverso/refined-absorption-lean @ 5bfe5c7](https://github.com/jtraverso/refined-absorption-lean/tree/5bfe5c7346a7b245581152dccebe363e22f072b6) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--refined-absorption-lean--6accc6d51192/tree/palomar/PALOMAR-2026-10-29-000005-v1/5bfe5c7346a7b245581152dccebe363e22f072b6) |
 | [PALOMAR-2026-10-29-000007](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-29-000007&version=1) (v1) | The Corrádi–Hajnal theorem on vertex-disjoint cycles | 2026-10-29 | [jtraverso/corradi-hajnal @ 2b85adc](https://github.com/jtraverso/corradi-hajnal/tree/2b85adcc37a9a057fb0cb72bc08774027f9ea077) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--corradi-hajnal--20f84b4c2e6d/tree/palomar/PALOMAR-2026-10-29-000007-v1/2b85adcc37a9a057fb0cb72bc08774027f9ea077) |
 | [PALOMAR-2026-10-29-000008](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-29-000008&version=1) (v1) | The Moser–Tardos theorem (algorithmic Lovász Local Lemma) | 2026-10-29 | [jtraverso/moser-tardos @ 5a3024a](https://github.com/jtraverso/moser-tardos/tree/5a3024a6d3eb442ac6925f9b3660b93c36cfb8b4) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--moser-tardos--5ec56ed9b1a0/tree/palomar/PALOMAR-2026-10-29-000008-v1/5a3024a6d3eb442ac6925f9b3660b93c36cfb8b4) |
+| [PALOMAR-2026-10-29-000023](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-29-000023&version=1) (v1) | Shannon's theorem on edge colourings of multigraphs | 2026-10-29 | [jtraverso/shannon-edge-colouring @ d590cfe](https://github.com/jtraverso/shannon-edge-colouring/tree/d590cfeb50d88710b454905f896aab928fcb5156) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--shannon-edge-colouring--7112faf48c4d/tree/palomar/PALOMAR-2026-10-29-000023-v1/d590cfeb50d88710b454905f896aab928fcb5156) |
 
 ## Research series
 
@@ -676,6 +677,14 @@ A Lean 4 / Mathlib formalization of the Corrádi–Hajnal theorem (1963): every 
 Archived copy: [PalomarArchive/jtraverso--moser-tardos--5ec56ed9b1a0](https://github.com/PalomarArchive/jtraverso--moser-tardos--5ec56ed9b1a0/tree/palomar/PALOMAR-2026-10-29-000008-v1/5a3024a6d3eb442ac6925f9b3660b93c36cfb8b4).
 
 A Lean 4 / Mathlib formalization of the Moser–Tardos theorem in the variable setting: finitely many independent random variables with finite ranges, n events each determined by a finite set of variables, neighbours sharing a variable. If P(A_j) ≤ x_j ∏_{k ∈ Γ(j)} (1 − x_k) with 0 ≤ x_j < 1, the resampling algorithm (always resampling the first violated event), run on a random resampling table, resamples A_j at most x_j / (1 − x_j) times in expectation among its first t steps, for every t; the expected total number of resamplings is at most ∑_j x_j / (1 − x_j); the probability that it has not stopped after t steps is at most (∑_j x_j / (1 − x_j)) / t; and some assignment avoids all events (the Lovász Local Lemma in the variable setting). The proof formalizes witness trees built from the log, the τ-check coupling with the resampling table, and the Galton–Watson bound.
+
+### Shannon's theorem on edge colourings of multigraphs
+
+[PALOMAR-2026-10-29-000023](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-29-000023&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--shannon-edge-colouring--7112faf48c4d](https://github.com/PalomarArchive/jtraverso--shannon-edge-colouring--7112faf48c4d/tree/palomar/PALOMAR-2026-10-29-000023-v1/d590cfeb50d88710b454905f896aab928fcb5156).
+
+A Lean 4 / Mathlib formalization of Shannon's theorem (1949): every finite loopless multigraph of maximum degree at most Δ has a proper edge colouring with ⌊3Δ/2⌋ colours; and its sharpness: for every Δ the Shannon triangle (three vertices with ⌊Δ/2⌋, ⌊Δ/2⌋ and ⌈Δ/2⌉ parallel edges between the three pairs) has maximum degree at most Δ and no proper edge colouring with fewer than ⌊3Δ/2⌋ colours. Multigraphs are edge families ends : ι → V × V (parallel edges allowed), a lighter representation than Mathlib's multigraph structure Graph α β (Mathlib.Combinatorics.Graph.Basic: vertex and edge sets with an incidence relation IsLink), which at the pinned revision has no degrees or edge colourings; no bridge to Graph α β is proved. Neither result is in Mathlib.
 
 ## Notes
 
