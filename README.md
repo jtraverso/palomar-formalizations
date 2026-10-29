@@ -78,6 +78,7 @@ repositories.
 | [PALOMAR-2026-10-29-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-29-000006&version=1) (v1) | Linear-error clique partitions of split graphs | 2026-10-29 | [jtraverso/erdos81-split-clique-partitions @ a98dfa4](https://github.com/jtraverso/erdos81-split-clique-partitions/tree/a98dfa413428b3c532174575a39f89eb32b268b8) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--erdos81-split-clique-partitions--91b4db9f18d8/tree/palomar/PALOMAR-2026-10-29-000006-v1/a98dfa413428b3c532174575a39f89eb32b268b8) |
 | [PALOMAR-2026-10-29-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-29-000005&version=1) (v1) | Formalizing Delcourt–Postle’s refined absorption in Lean | 2026-10-29 | [jtraverso/refined-absorption-lean @ 5bfe5c7](https://github.com/jtraverso/refined-absorption-lean/tree/5bfe5c7346a7b245581152dccebe363e22f072b6) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--refined-absorption-lean--6accc6d51192/tree/palomar/PALOMAR-2026-10-29-000005-v1/5bfe5c7346a7b245581152dccebe363e22f072b6) |
 | [PALOMAR-2026-10-29-000007](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-29-000007&version=1) (v1) | The Corrádi–Hajnal theorem on vertex-disjoint cycles | 2026-10-29 | [jtraverso/corradi-hajnal @ 2b85adc](https://github.com/jtraverso/corradi-hajnal/tree/2b85adcc37a9a057fb0cb72bc08774027f9ea077) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--corradi-hajnal--20f84b4c2e6d/tree/palomar/PALOMAR-2026-10-29-000007-v1/2b85adcc37a9a057fb0cb72bc08774027f9ea077) |
+| [PALOMAR-2026-10-29-000008](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-29-000008&version=1) (v1) | The Moser–Tardos theorem (algorithmic Lovász Local Lemma) | 2026-10-29 | [jtraverso/moser-tardos @ 5a3024a](https://github.com/jtraverso/moser-tardos/tree/5a3024a6d3eb442ac6925f9b3660b93c36cfb8b4) | [PalomarArchive](https://github.com/PalomarArchive/jtraverso--moser-tardos--5ec56ed9b1a0/tree/palomar/PALOMAR-2026-10-29-000008-v1/5a3024a6d3eb442ac6925f9b3660b93c36cfb8b4) |
 
 ## Research series
 
@@ -667,6 +668,14 @@ One assembled Lean formalization of principal refined absorption results and the
 Archived copy: [PalomarArchive/jtraverso--corradi-hajnal--20f84b4c2e6d](https://github.com/PalomarArchive/jtraverso--corradi-hajnal--20f84b4c2e6d/tree/palomar/PALOMAR-2026-10-29-000007-v1/2b85adcc37a9a057fb0cb72bc08774027f9ea077).
 
 A Lean 4 / Mathlib formalization of the Corrádi–Hajnal theorem (1963): every finite simple graph on at least 3k vertices with minimum degree at least 2k contains k vertex-disjoint cycles. Cycles are closed walks that are cycles in Mathlib's sense; the theorem is also stated with the definition of disjoint cycles of the registered Erdős–Pósa entry (k pairwise disjoint vertex sets, each inducing a subgraph that is not acyclic). Both hypotheses are shown to be needed: for k ≥ 2 the complete graph on 3k − 1 vertices has minimum degree 3k − 2 ≥ 2k and no k disjoint cycles, and for m ≥ 2k the complete bipartite graph K_{2k−1, m} has at least 3k vertices and minimum degree 2k − 1 and no k disjoint cycles. Mathlib has cycles and minimum degree but not this theorem.
+
+### The Moser–Tardos theorem (algorithmic Lovász Local Lemma)
+
+[PALOMAR-2026-10-29-000008](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-29-000008&version=1)
+
+Archived copy: [PalomarArchive/jtraverso--moser-tardos--5ec56ed9b1a0](https://github.com/PalomarArchive/jtraverso--moser-tardos--5ec56ed9b1a0/tree/palomar/PALOMAR-2026-10-29-000008-v1/5a3024a6d3eb442ac6925f9b3660b93c36cfb8b4).
+
+A Lean 4 / Mathlib formalization of the Moser–Tardos theorem in the variable setting: finitely many independent random variables with finite ranges, n events each determined by a finite set of variables, neighbours sharing a variable. If P(A_j) ≤ x_j ∏_{k ∈ Γ(j)} (1 − x_k) with 0 ≤ x_j < 1, the resampling algorithm (always resampling the first violated event), run on a random resampling table, resamples A_j at most x_j / (1 − x_j) times in expectation among its first t steps, for every t; the expected total number of resamplings is at most ∑_j x_j / (1 − x_j); the probability that it has not stopped after t steps is at most (∑_j x_j / (1 − x_j)) / t; and some assignment avoids all events (the Lovász Local Lemma in the variable setting). The proof formalizes witness trees built from the log, the τ-check coupling with the resampling table, and the Galton–Watson bound.
 
 ## Notes
 
