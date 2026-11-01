@@ -42,6 +42,23 @@ Palomar: [PALOMAR-2026-10-28-000021](https://palomar-registry.org/entry.html?id=
 * L. Pósa, *Hamiltonian circuits in random graphs*, Discrete Mathematics 14 (1976), 359–364. [doi:10.1016/0012-365X(76)90068-6](https://doi.org/10.1016/0012-365X(76)90068-6) · [free full text](https://doi.org/10.1016/0012-365x(76)90068-6)
 * P. Erdős, A. Rényi, *On random graphs I*, Publicationes Mathematicae Debrecen 6 (1959), 290–297. [doi:10.5486/PMD.1959.6.3-4.12](https://doi.org/10.5486/PMD.1959.6.3-4.12)
 
+## The Hamiltonicity threshold of the random graph G(n, p) (Komlós–Szemerédi)
+
+Palomar: [PALOMAR-2026-11-01-000032](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000032&version=1) (version 1) · code: [jtraverso/komlos-szemeredi-hamiltonicity @ 9a69e6d](https://github.com/jtraverso/komlos-szemeredi-hamiltonicity/tree/9a69e6d92eb29200d50580b9a54d07a4b37c28b8) · [archived copy](https://github.com/PalomarArchive/jtraverso--komlos-szemeredi-hamiltonicity--b380d65dec62/tree/palomar/PALOMAR-2026-11-01-000032-v1/9a69e6d92eb29200d50580b9a54d07a4b37c28b8)
+
+**What is proved.** A Lean 4 / Mathlib formalization of the sharp Hamiltonicity threshold of the binomial random graph: if ω(n) → ∞, then G(n, (log n + log log n + ω(n))/n) is Hamiltonian with probability tending to 1, and G(n, (log n + log log n − ω(n))/n) is Hamiltonian with probability tending to 0 (Komlós–Szemerédi 1983; Bollobás 1984). The edge probability is clipped to [0, 1] (min 1 above, max 0 below). The statements are given in the finite product model of the registered entry PALOMAR-2026-10-28-000021 (one independent Bernoulli(p) coin per pair of distinct vertices of Fin n) and, as corollaries, for Mathlib's SimpleGraph.binomialRandom with the edge probability projected to [0, 1]. Hamiltonicity is Mathlib's SimpleGraph.IsHamiltonian.
+
+**Sources.**
+
+* J. Komlós, E. Szemerédi, *Limit distribution for the existence of Hamiltonian cycles in a random graph*, Discrete Mathematics 43 (1983), 55–63. [doi:10.1016/0012-365X(83)90021-3](https://doi.org/10.1016/0012-365X(83)90021-3) · [free full text](https://doi.org/10.1016/0012-365x(83)90021-3)
+* M. Krivelevich, *Long paths and Hamiltonicity in random graphs*, arXiv:1507.00205: Hamiltonicity of G(n, p) at the sharp threshold (sparse expander and boosters). Published in Random Graphs, Geometry and Asymptotic Structure, LMS Student Texts 84, Cambridge University Press, 2016. [free full text](https://arxiv.org/pdf/1507.00205) (arXiv)
+
+<details><summary>Background references</summary>
+
+* B. Bollobás, *The evolution of sparse graphs*, Graph Theory and Combinatorics, Academic Press, 1984, 35–57.
+
+</details>
+
 ## Pseudorandom hypergraph matchings (Ehard–Glock–Joos)
 
 Palomar: [PALOMAR-2026-10-17-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-17-000004&version=1) (version 1) · code: [jtraverso/pseudorandom-hypergraph-matchings @ 3957f3c](https://github.com/jtraverso/pseudorandom-hypergraph-matchings/tree/3957f3c0dbc34fd310cb5fecf7941fddc9ef6c8f) · [archived copy](https://github.com/PalomarArchive/jtraverso--pseudorandom-hypergraph-matchings--40c1ca802506/tree/palomar/PALOMAR-2026-10-17-000004-v1/3957f3c0dbc34fd310cb5fecf7941fddc9ef6c8f)

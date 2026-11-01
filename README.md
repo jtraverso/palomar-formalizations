@@ -2,7 +2,7 @@
 
 Computer-checked proofs, written in [Lean 4](https://lean-lang.org) with the [Mathlib](https://github.com/leanprover-community/mathlib4) library, by **Juan Pablo Traverso Gianini**. Every entry below has been accepted by the [Palomar registry](https://palomar-registry.org), which keeps the exact statements, the proofs and the record of their verification.
 
-**77 entries:** 10 from my own research and 67 formalizations of results by other authors, mostly in graph theory and combinatorics.
+**78 entries:** 10 from my own research and 68 formalizations of results by other authors, mostly in graph theory and combinatorics.
 
 In the tables, the title leads to a page with the details of the entry (what is proved, the sources, the code); **Paper** opens a free copy of the original paper when there is one; **DOI** is the publisher's link; **Palomar** is the registered entry.
 
@@ -19,7 +19,7 @@ In the tables, the title leads to a page with the details of the entry (what is 
   * [Cycles and Hamiltonicity](#cycles-and-hamiltonicity) (4)
   * [Matchings, factors and polyhedral combinatorics](#matchings-factors-and-polyhedral-combinatorics) (8)
   * [Extremal graph theory and Ramsey theory](#extremal-graph-theory-and-ramsey-theory) (5)
-  * [Probabilistic methods and random graphs](#probabilistic-methods-and-random-graphs) (5)
+  * [Probabilistic methods and random graphs](#probabilistic-methods-and-random-graphs) (6)
   * [Decompositions and packings](#decompositions-and-packings) (5)
   * [Designs, set systems and discrepancy](#designs-set-systems-and-discrepancy) (5)
   * [Algebraic and spectral graph theory](#algebraic-and-spectral-graph-theory) (6)
@@ -145,6 +145,7 @@ Grouped by subject. **Authors** are those of the main source.
 | [Graphs of large girth and large chromatic number: Erdős, Mycielski, and the fractional chromatic number of Mycielski graphs](details/probabilistic-methods-and-random-graphs.md#graphs-of-large-girth-and-large-chromatic-number-erdős-mycielski-and-the-fractional-chromatic-number-of-mycielski-graphs) | Erdős | [PDF](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/154EF813293BC7D0652C4CBCD9D18E84/S0008414X00002947a.pdf/div-class-title-graph-theory-and-probability-div.pdf) | [10.4153/CJM-1959-003-9](https://doi.org/10.4153/CJM-1959-003-9) | [PALOMAR-2026-10-17-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-17-000009&version=2) (v2) |
 | [The Lovász Local Lemma and two applications](details/probabilistic-methods-and-random-graphs.md#the-lovász-local-lemma-and-two-applications) | Erdős, Lovász | [PDF](https://www.sciencedirect.com/science/article/pii/0012365X77900449/pdf) | [10.1016/0012-365X(77)90044-9](https://doi.org/10.1016/0012-365X(77)90044-9) | [PALOMAR-2026-10-20-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-20-000004&version=1) |
 | [Hamiltonicity and connectivity thresholds of the random graph G(n, p)](details/probabilistic-methods-and-random-graphs.md#hamiltonicity-and-connectivity-thresholds-of-the-random-graph-gn-p) | Pósa | [PDF](https://doi.org/10.1016/0012-365x(76)90068-6) | [10.1016/0012-365X(76)90068-6](https://doi.org/10.1016/0012-365X(76)90068-6) | [PALOMAR-2026-10-28-000021](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000021&version=1) |
+| [The Hamiltonicity threshold of the random graph G(n, p) (Komlós–Szemerédi)](details/probabilistic-methods-and-random-graphs.md#the-hamiltonicity-threshold-of-the-random-graph-gn-p-komlósszemerédi) | Komlós, Szemerédi | [PDF](https://doi.org/10.1016/0012-365x(83)90021-3) | [10.1016/0012-365X(83)90021-3](https://doi.org/10.1016/0012-365X(83)90021-3) | [PALOMAR-2026-11-01-000032](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000032&version=1) |
 | [Pseudorandom hypergraph matchings (Ehard–Glock–Joos)](details/probabilistic-methods-and-random-graphs.md#pseudorandom-hypergraph-matchings-ehardglockjoos) | Ehard, Glock, Joos | [PDF](https://arxiv.org/pdf/1907.09946) | [10.1017/S0963548320000280](https://doi.org/10.1017/S0963548320000280) | [PALOMAR-2026-10-17-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-17-000004&version=1) |
 | [The Moser–Tardos theorem (algorithmic Lovász Local Lemma)](details/probabilistic-methods-and-random-graphs.md#the-mosertardos-theorem-algorithmic-lovász-local-lemma) | Moser, Tardos | — | [10.1145/1667053.1667060](https://doi.org/10.1145/1667053.1667060) | [PALOMAR-2026-10-29-000008](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-29-000008&version=1) |
 
