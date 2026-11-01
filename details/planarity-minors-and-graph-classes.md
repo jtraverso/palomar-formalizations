@@ -20,7 +20,7 @@ Palomar: [PALOMAR-2026-10-15-000018](https://palomar-registry.org/entry.html?id=
 
 ## Kotzig's theorem on light edges of planar graphs
 
-Palomar: [PALOMAR-2026-11-01-000023](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000023&version=1) (version 1) · code: [jtraverso/kotzig-light-edges @ 0e9f2a2](https://github.com/jtraverso/kotzig-light-edges/tree/0e9f2a26985134c48841b5b1ce3220c3e257df28) · [archived copy](https://github.com/PalomarArchive/jtraverso--kotzig-light-edges--9922bf0b4bf4/tree/palomar/PALOMAR-2026-11-01-000023-v1/0e9f2a26985134c48841b5b1ce3220c3e257df28)
+Palomar: [PALOMAR-2026-11-01-000023](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000023&version=2) (version 2) · code: [jtraverso/kotzig-light-edges @ ccf55b1](https://github.com/jtraverso/kotzig-light-edges/tree/ccf55b1b968743ee5952ef4c9d78c88520f86bc2) · [archived copy](https://github.com/PalomarArchive/jtraverso--kotzig-light-edges--9922bf0b4bf4/tree/palomar/PALOMAR-2026-11-01-000023-v2/ccf55b1b968743ee5952ef4c9d78c88520f86bc2)
 
 **What is proved.** A Lean 4 / Mathlib formalization of Kotzig's theorem on light edges and its relatives, for finite simple graphs with the combinatorial planarity (genus-zero rotation systems) of the registered entry Kuratowski's theorem. The weight of an edge uv is deg u + deg v. A planar graph of minimum degree at least three has an edge of weight at most 13 (kotzig_borodin; the form without 3-connectivity conjectured by Erdős and proved by Borodin); a planar graph of minimum degree at least four has an edge of weight at most 11 (light_edge_minDegree_four); Kotzig's theorem (1955): a 3-connected planar graph has an edge of weight at most 13, and at most 11 if it has no vertex of degree three (kotzig); Wernicke's theorem (1904): a planar graph of minimum degree at least five has a vertex of degree five adjacent to a vertex of degree at most six (wernicke). Four statements. The proof is a discharging argument carried out directly on the rotation system, without triangulating.
 
@@ -28,13 +28,8 @@ Palomar: [PALOMAR-2026-11-01-000023](https://palomar-registry.org/entry.html?id=
 
 * Anton Kotzig, *Príspevok k teórii eulerovských polyédrov (Contribution to the theory of Eulerian polyhedra)*, Mat.-Fyz. Časopis Slovensk. Akad. Vied 5 (1955) 101–113 (in Slovak): the light edge theorem for 3-connected planar graphs.
 * Daniel W. Cranston, Douglas B. West, *An introduction to the discharging method via graph coloring*, arXiv:1306.4434v2, Section 3.1 (light edges), Lemma 3.2 and its proof; published in Discrete Math. 340 (2017) 766–793, doi:10.1016/j.disc.2016.11.022. [free full text](https://arxiv.org/pdf/1306.4434) (arXiv)
-
-<details><summary>Background references</summary>
-
-* Oleg V. Borodin, *On the total coloring of planar graphs*, J. Reine Angew. Math. 394 (1989) 180–185. [doi:10.1515/crll.1989.394.180](https://doi.org/10.1515/crll.1989.394.180)
-* Paul Wernicke, *Über den kartographischen Vierfarbensatz*, Math. Ann. 58 (1904) 413–426. [doi:10.1007/BF01444968](https://doi.org/10.1007/BF01444968) · [free full text](https://zenodo.org/record/1428228)
-
-</details>
+* Oleg V. Borodin, *On the total coloring of planar graphs*, J. Reine Angew. Math. 394 (1989) 180–185: the light edge theorem for planar graphs of minimum degree at least three. [doi:10.1515/crll.1989.394.180](https://doi.org/10.1515/crll.1989.394.180)
+* Paul Wernicke, *Über den kartographischen Vierfarbensatz*, Math. Ann. 58 (1904) 413–426: a planar graph of minimum degree five has a 5-vertex adjacent to a 5- or 6-vertex. [doi:10.1007/BF01444968](https://doi.org/10.1007/BF01444968) · [free full text](https://zenodo.org/record/1428228)
 
 ## Borodin's light triangles in planar graphs of minimum degree five
 
