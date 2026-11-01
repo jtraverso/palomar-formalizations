@@ -2,14 +2,14 @@
 
 Computer-checked proofs, written in [Lean 4](https://lean-lang.org) with the [Mathlib](https://github.com/leanprover-community/mathlib4) library, by **Juan Pablo Traverso Gianini**. Every entry below has been accepted by the [Palomar registry](https://palomar-registry.org), which keeps the exact statements, the proofs and the record of their verification.
 
-**73 entries:** 9 from my own research and 64 formalizations of results by other authors, mostly in graph theory and combinatorics.
+**74 entries:** 10 from my own research and 64 formalizations of results by other authors, mostly in graph theory and combinatorics.
 
 In the tables, the title leads to a page with the details of the entry (what is proved, the sources, the code); **Paper** opens a free copy of the original paper when there is one; **DOI** is the publisher's link; **Palomar** is the registered entry.
 
 ## Contents
 
 * [My own research](#my-own-research)
-  * [Erdős Problem #81 series](#erdős-problem-81-series) (6)
+  * [Erdős Problem #81 series](#erdős-problem-81-series) (7)
   * [Triangle decompositions series](#triangle-decompositions-series) (3)
 * [Results by other authors](#results-by-other-authors)
   * [Vertex colouring](#vertex-colouring) (8)
@@ -41,6 +41,7 @@ Clique partitions of chordal graphs and split graphs (Erdős Problem #81). Serie
 | [Optimal clique partitions under local perturbations](details/own-research.md#optimal-clique-partitions-under-local-perturbations) | [PDF](https://doi.org/10.5281/zenodo.23479507) | [10.5281/zenodo.23479507](https://doi.org/10.5281/zenodo.23479507) | [PALOMAR-2026-11-01-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000006&version=1) |
 | [Clique partitions of chordal graphs: quantitative stability and sharp eventual bounds](details/own-research.md#clique-partitions-of-chordal-graphs-quantitative-stability-and-sharp-eventual-bounds) | [PDF](https://doi.org/10.5281/zenodo.23479507) | [10.5281/zenodo.23479507](https://doi.org/10.5281/zenodo.23479507) | [PALOMAR-2026-11-01-000021](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000021&version=1) |
 | [Colorability and realizability defects in resource-dominated packing relaxations](details/own-research.md#colorability-and-realizability-defects-in-resource-dominated-packing-relaxations) | [PDF](https://doi.org/10.5281/zenodo.23479507) | [10.5281/zenodo.23479507](https://doi.org/10.5281/zenodo.23479507) | [PALOMAR-2026-11-01-000020](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000020&version=1) |
+| [Two application notes of the Erdős #81 series: realizability transfer and exact chordal stability](details/own-research.md#two-application-notes-of-the-erdős-81-series-realizability-transfer-and-exact-chordal-stability) | [PDF](https://doi.org/10.5281/zenodo.23458871) | [10.5281/zenodo.23458871](https://doi.org/10.5281/zenodo.23458871) | [PALOMAR-2026-11-01-000022](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000022&version=1) |
 
 ### Triangle decompositions series
 
