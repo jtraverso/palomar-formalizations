@@ -18,12 +18,11 @@ In the tables, the title leads to a page with the details of the entry (what is 
   * [Connectivity, orientations and flows](#connectivity-orientations-and-flows) (6)
   * [Cycles and Hamiltonicity](#cycles-and-hamiltonicity) (4)
   * [Matchings, factors and polyhedral combinatorics](#matchings-factors-and-polyhedral-combinatorics) (8)
-  * [Extremal graph theory and Ramsey theory](#extremal-graph-theory-and-ramsey-theory) (4)
+  * [Extremal graph theory and Ramsey theory](#extremal-graph-theory-and-ramsey-theory) (5)
   * [Probabilistic methods and random graphs](#probabilistic-methods-and-random-graphs) (5)
-  * [Decompositions and packings](#decompositions-and-packings) (4)
+  * [Decompositions and packings](#decompositions-and-packings) (5)
   * [Designs, set systems and discrepancy](#designs-set-systems-and-discrepancy) (5)
   * [Algebraic and spectral graph theory](#algebraic-and-spectral-graph-theory) (6)
-  * [Recently registered](#recently-registered) (2)
 * [All entries by registration date](registration-log.md)
 * [Notes](#notes)
 * [arXiv endorsement](#arxiv-endorsement)
@@ -131,6 +130,7 @@ Grouped by subject. **Authors** are those of the main source.
 | [Füredi's stability theorem and the Erdős–Simonovits stability theorem](details/extremal-graph-theory-and-ramsey-theory.md#füredis-stability-theorem-and-the-erdőssimonovits-stability-theorem) | Füredi | [PDF](https://www.sciencedirect.com/science/article/pii/S0095895615000568/pdf) | [10.1016/j.jctb.2015.05.001](https://doi.org/10.1016/j.jctb.2015.05.001) | [PALOMAR-2026-10-16-000024](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000024&version=1) |
 | [The graph removal lemma for every fixed graph](details/extremal-graph-theory-and-ramsey-theory.md#the-graph-removal-lemma-for-every-fixed-graph) | Erdős, Frankl, Rödl | — | [10.1007/BF01788085](https://doi.org/10.1007/BF01788085) | [PALOMAR-2026-10-18-000002](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000002&version=1) |
 | [The Bondy–Simonovits even cycle theorem](details/extremal-graph-theory-and-ramsey-theory.md#the-bondysimonovits-even-cycle-theorem) | Bondy, Simonovits | [PDF](https://doi.org/10.1016/0095-8956(74)90052-5) | [10.1016/0095-8956(74)90052-5](https://doi.org/10.1016/0095-8956(74)90052-5) | [PALOMAR-2026-10-22-000043](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-22-000043&version=1) |
+| [The Murty–Simon conjecture on diameter-2-critical graphs](details/extremal-graph-theory-and-ramsey-theory.md#the-murtysimon-conjecture-on-diameter-2-critical-graphs) | Das, Fox | [PDF](https://arxiv.org/pdf/2610.39032) | — | [PALOMAR-2026-11-01-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000011&version=1) |
 
 ### Probabilistic methods and random graphs
 
@@ -150,6 +150,7 @@ Grouped by subject. **Authors** are those of the main source.
 | [Near-regular hypergraph matchings and the asymptotic triangle-packing gap](details/decompositions-and-packings.md#near-regular-hypergraph-matchings-and-the-asymptotic-triangle-packing-gap) | Haxell, Rödl | — | [10.1007/s004930170003](https://doi.org/10.1007/s004930170003) | [PALOMAR-2026-10-15-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000011&version=2) (v2) |
 | [The Nash-Williams–Tutte tree packing theorem and Nash-Williams' arboricity theorem](details/decompositions-and-packings.md#the-nash-williamstutte-tree-packing-theorem-and-nash-williams-arboricity-theorem) | Nash-Williams | — | [10.1112/jlms/s1-36.1.445](https://doi.org/10.1112/jlms/s1-36.1.445) | [PALOMAR-2026-10-17-000008](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-17-000008&version=1) |
 | [Fractional triangle decompositions of dense tripartite graphs](details/decompositions-and-packings.md#fractional-triangle-decompositions-of-dense-tripartite-graphs) | Allsop et al. | [PDF](https://arxiv.org/pdf/2609.37877) | — | [PALOMAR-2026-10-30-000008](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-30-000008&version=1) |
+| [Triangle decompositions of dense tripartite graphs](details/decompositions-and-packings.md#triangle-decompositions-of-dense-tripartite-graphs) | Barber et al. | [PDF](https://arxiv.org/pdf/1603.01043) | [10.1016/j.jcta.2017.04.005](https://doi.org/10.1016/j.jcta.2017.04.005) | [PALOMAR-2026-11-01-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000005&version=1) |
 
 ### Designs, set systems and discrepancy
 
@@ -171,13 +172,6 @@ Grouped by subject. **Authors** are those of the main source.
 | [Lovász's bound on the Shannon capacity](details/algebraic-and-spectral-graph-theory.md#lovászs-bound-on-the-shannon-capacity) | Lovász | — | [10.1109/TIT.1979.1055985](https://doi.org/10.1109/TIT.1979.1055985) | [PALOMAR-2026-10-21-000003](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-21-000003&version=1) |
 | [The expander mixing lemma and the Alon–Boppana bound](details/algebraic-and-spectral-graph-theory.md#the-expander-mixing-lemma-and-the-alonboppana-bound) | Alon, Chung | [PDF](https://doi.org/10.1016/0012-365x(88)90189-6) | [10.1016/0012-365X(88)90189-6](https://doi.org/10.1016/0012-365X(88)90189-6) | [PALOMAR-2026-10-22-000035](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-22-000035&version=1) |
 | [The Graham–Pollak theorem](details/algebraic-and-spectral-graph-theory.md#the-grahampollak-theorem) | Graham, Pollak | — | [10.1002/j.1538-7305.1971.tb02618.x](https://doi.org/10.1002/j.1538-7305.1971.tb02618.x) | [PALOMAR-2026-10-23-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-23-000006&version=1) |
-
-### Recently registered
-
-| Result | Authors | Paper | DOI | Palomar |
-|---|---|---|---|---|
-| [Triangle decompositions of dense tripartite graphs](details/recently-registered.md#triangle-decompositions-of-dense-tripartite-graphs) | Barber et al. | [PDF](https://arxiv.org/pdf/1603.01043) | [10.1016/j.jcta.2017.04.005](https://doi.org/10.1016/j.jcta.2017.04.005) | [PALOMAR-2026-11-01-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000005&version=1) |
-| [The Murty–Simon conjecture on diameter-2-critical graphs](details/recently-registered.md#the-murtysimon-conjecture-on-diameter-2-critical-graphs) | Das, Fox | [PDF](https://arxiv.org/pdf/2610.39032) | — | [PALOMAR-2026-11-01-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000011&version=1) |
 
 ## Notes
 

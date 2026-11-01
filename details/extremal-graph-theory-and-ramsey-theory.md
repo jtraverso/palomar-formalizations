@@ -66,4 +66,20 @@ Palomar: [PALOMAR-2026-10-22-000043](https://palomar-registry.org/entry.html?id=
 
 </details>
 
+## The Murty–Simon conjecture on diameter-2-critical graphs
+
+Palomar: [PALOMAR-2026-11-01-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000011&version=1) (version 1) · code: [jtraverso/murty-simon-conjecture @ adadd2f](https://github.com/jtraverso/murty-simon-conjecture/tree/adadd2fbd0ba9e9c71faadd105f357f7b12a814f) · [archived copy](https://github.com/PalomarArchive/jtraverso--murty-simon-conjecture--efb269fbdc27/tree/palomar/PALOMAR-2026-11-01-000011-v1/adadd2fbd0ba9e9c71faadd105f357f7b12a814f)
+
+**What is proved.** A Lean 4 / Mathlib formalization of the proof by Sanjana Das and Jacob Fox of the Murty–Simon conjecture (arXiv:2610.39032, 2026). A graph is diameter-2-critical if its diameter is 2 and deleting any edge increases the diameter. Theorem 1.1: every diameter-2-critical graph on n vertices has at most ⌊n²/4⌋ edges (murty_simon), and a diameter-2-critical graph with ⌊n²/4⌋ edges is isomorphic to K_{⌈n/2⌉,⌊n/2⌋} (murty_simon_equality). Also: for n ≥ 3, K_{⌈n/2⌉,⌊n/2⌋} is diameter-2-critical with ⌊n²/4⌋ edges, so the bound is attained (murty_simon_sharp); Lemma 1.2, |E(G) \ M| ≤ |non-edges of G| for every maximal matching M of a diameter-2-critical graph G (lemma_1_2); and Lemma 1.3, a diameter-2-critical graph with equality in Lemma 1.2 for every maximal matching is triangle-free (lemma_1_3). Five statements; the bound holds for every n, with no lower bound on n.
+
+**Sources.**
+
+* Sanjana Das, Jacob Fox, *A proof of the Murty–Simon conjecture on diameter-2-critical graphs*, arXiv:2610.39032v1 (28 October 2026): Theorem 1.1, Lemmas 1.2 and 1.3, and their proofs in Sections 2 (Lemmas 2.2, 2.4, 2.5, 2.7, 2.9–2.11, 2.13, Corollaries 2.12 and 2.14) and 3 (Lemmas 3.1–3.3). [free full text](https://arxiv.org/pdf/2610.39032) (arXiv)
+
+<details><summary>Background references</summary>
+
+* Zoltán Füredi, *The maximum number of edges in a minimal graph of diameter 2*, Journal of Graph Theory 16 (1992) 81–98. [doi:10.1002/jgt.3190160110](https://doi.org/10.1002/jgt.3190160110)
+
+</details>
+
 [← Back to the list](../README.md)
