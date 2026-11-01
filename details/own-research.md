@@ -55,6 +55,41 @@ Palomar: [PALOMAR-2026-11-01-000006](https://palomar-registry.org/entry.html?id=
 
 </details>
 
+## Clique partitions of chordal graphs: quantitative stability and sharp eventual bounds
+
+Palomar: [PALOMAR-2026-11-01-000021](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000021&version=1) (version 1) · code: [jtraverso/erdos81-chordal-quantitative-stability @ 0e1cd91](https://github.com/jtraverso/erdos81-chordal-quantitative-stability/tree/0e1cd910f2e77955cd8165e80fffb6d8dae91378) · [archived copy](https://github.com/PalomarArchive/jtraverso--erdos81-chordal-quantitative-stability--77dfe98a72ff/tree/palomar/PALOMAR-2026-11-01-000021-v1/0e1cd910f2e77955cd8165e80fffb6d8dae91378)
+
+**What is proved.** A Lean 4 / Mathlib formalization of the chordal results of the author's preprint "Clique partitions with rooted simplicial defect: quantitative stability and sharp eventual bounds" (Erdős #81 series, Paper IV). With M(n) = ⌊n(n+1)/6⌋: there is b such that every chordal graph on n vertices has a clique partition into pieces of order at most four with at most M(n) + b pieces (Theorem A); for n large every chordal graph on n vertices has one with at most M(n) pieces, and some chordal graph on n vertices has one with exactly M(n) pieces that is optimal among all clique partitions (Theorem B, the bound asked in Erdős Problem #81 and its sharpness); 1/6 is the least quadratic coefficient (§6.3); the uniform mixed rounding of fractional triangle/K₄ packings (Theorem 3.1); integral stability with explicit constants and edit distance at most 16δ to a complete-split graph, for 0 ≤ δ ≤ γn² with γ = 10⁻¹⁶/4 (Theorem 6.1); same-root control of near-optimal partitions: one clique root satisfies all the conclusions of Theorem 6.1 and, for it, every partition with at most M(n) + τ pieces has at most τ + 48δ noncanonical pieces (Corollary 6.1a); the root-defect identity (6.7b); and the eventual classification of the extremal chordal graphs as complete-split graphs with a core of optimal size (Corollary 6.2). Eight statements. The thresholds N are existential; b and N are not claimed optimal.
+
+**Sources.**
+
+* Juan Pablo Traverso Gianini, *Clique partitions with rooted simplicial defect: quantitative stability and sharp eventual bounds*, Erdős #81 series, Paper IV, preprint v1.24.1: Theorems A, B, 3.1 and 6.1, Corollaries 6.1a and 6.2, identity (6.7b) and the optimality of the quadratic coefficient (§6.3). In the series collection on Zenodo (series concept DOI 10.5281/zenodo.21273143) and in github.com/jtraverso/erdos-81-chordal-clique-partitions (preprints/PAPER_IV). [doi:10.5281/zenodo.23479507](https://doi.org/10.5281/zenodo.23479507) · [free full text](https://doi.org/10.5281/zenodo.23479507) (Zenodo)
+
+<details><summary>Background references</summary>
+
+* Obinna Okechukwu, *Clique partitions and bounded simplicial defect*, arXiv:2609.20871v1 (15 September 2026), Theorem 1.1 and Corollary 1.2. [free full text](https://arxiv.org/pdf/2609.20871) (arXiv)
+* Anonymous (repository credits: Morluto, N0zoM1z0), *Clique partitions of chordal graphs with linear error*, Preprint of 8 September 2026, manuscript/main.pdf at commit cbde8a0a0563372b23b1b39a44180d2c0fb02f44.
+* Paul Erdős, Edward T. Ordman, Yechezkel Zalcstein, *Clique partitions of chordal graphs*, Combinatorics, Probability and Computing 2 (1993) 409–415. [doi:10.1017/S0963548300000808](https://doi.org/10.1017/S0963548300000808)
+
+</details>
+
+## Colorability and realizability defects in resource-dominated packing relaxations
+
+Palomar: [PALOMAR-2026-11-01-000020](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000020&version=1) (version 1) · code: [jtraverso/erdos81-colorability-realizability-defects @ 0c2f7df](https://github.com/jtraverso/erdos81-colorability-realizability-defects/tree/0c2f7dff52e5c578f39191c4905dd12248e7bb9a) · [archived copy](https://github.com/PalomarArchive/jtraverso--erdos81-colorability-realizability-defects--59ae4ccb591d/tree/palomar/PALOMAR-2026-11-01-000020-v1/0c2f7dff52e5c578f39191c4905dd12248e7bb9a)
+
+**What is proved.** A Lean 4 / Mathlib formalization of the main results of the author's preprint "Colorability and Realizability Defects in Resource-Dominated Packing Relaxations" (Erdős #81 series, Paper V). For a conflict system (finite objects with a symmetric irreflexive conflict relation) and a multiset X of objects, the loss between fractional and integral packings is bounded by the colourability defect D_q of the conflict graph H[X] of the copies (Lemma 3.1, Corollary 3.2, Theorems 3.3, 3.4, 3.4w), and, more generally, by the cost of a realizability certificate whose classes are realized in a fixed target system (Theorems 4.2 and 4.4). Applications: host completion through list edge colouring of bipartite multigraphs (Theorem 5.2: Galvin and Borodin–Kostochka–Woodall; Corollary 5.3; Example 5.5, a quadratic separation on K_{r,r}), the vertex-copy inequalities ν₃*(G_{v→u}) + ν₃*(G_{u→v}) ≤ 2ν₃*(G), ν₃(G_{v→u}) + ν₃(G_{u→v}) ≤ 2ν₃(G) + oct(H[T₂]) and ≤ 3ν₃(G) for triangle packings (Theorems 6.1, 6.2, Corollary 6.2a) and mixed triangle/K₄ copy inequalities (Theorem 7.3). Eighteen statements in all.
+
+**Sources.**
+
+* Juan Pablo Traverso Gianini, *Colorability and Realizability Defects in Resource-Dominated Packing Relaxations*, Erdős #81 series, Paper V, preprint 1.0 (18 October 2026): Lemma 3.1, Corollary 3.2, Theorems 3.3, 3.4, 3.4w, 4.2, 4.4, 5.2, Corollary 5.3, Example 5.5, Theorems 6.1, 6.2, Corollary 6.2a and Theorem 7.3. In the series collection on Zenodo (series concept DOI 10.5281/zenodo.21273143) and in github.com/jtraverso/erdos-81-chordal-clique-partitions (preprints/PAPER_V/01_manuscript/PAPER_V_preprint_v1.0_en.pdf). [doi:10.5281/zenodo.23479507](https://doi.org/10.5281/zenodo.23479507) · [free full text](https://doi.org/10.5281/zenodo.23479507) (Zenodo)
+
+<details><summary>Background references</summary>
+
+* Fred Galvin, *The list chromatic index of a bipartite multigraph*, J. Combin. Theory Ser. B 63 (1995) 153–158. [doi:10.1006/jctb.1995.1011](https://doi.org/10.1006/jctb.1995.1011) · [free full text](https://doi.org/10.1006/jctb.1995.1011)
+* O. V. Borodin, A. V. Kostochka, D. R. Woodall, *List edge and list total colourings of multigraphs*, J. Combin. Theory Ser. B 71 (1997) 184–204. [doi:10.1006/jctb.1997.1780](https://doi.org/10.1006/jctb.1997.1780) · [free full text](https://doi.org/10.1006/jctb.1997.1780)
+
+</details>
+
 ## The Nash–Williams triangle-decomposition theorem
 
 Palomar: [PALOMAR-2026-10-21-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-21-000009&version=1) (version 1) · code: [jtraverso/nash-williams-lean @ 2603197](https://github.com/jtraverso/nash-williams-lean/tree/2603197abdbf0a600ec663f6f046f70fbd209d4a) · [archived copy](https://github.com/PalomarArchive/jtraverso--nash-williams-lean--252fc7828395/tree/palomar/PALOMAR-2026-10-21-000009-v1/2603197abdbf0a600ec663f6f046f70fbd209d4a)
