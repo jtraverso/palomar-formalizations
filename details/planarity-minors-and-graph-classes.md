@@ -64,6 +64,16 @@ Palomar: [PALOMAR-2026-11-01-000025](https://palomar-registry.org/entry.html?id=
 
 </details>
 
+## Light 3-stars in plane graphs of minimum face size five (Madaras)
+
+Palomar: [PALOMAR-2026-11-01-000033](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000033&version=1) (version 1) · code: [jtraverso/madaras-light-stars @ 053a5ca](https://github.com/jtraverso/madaras-light-stars/tree/053a5caff546c2f700025081e5d3e0b7bf873f62) · [archived copy](https://github.com/PalomarArchive/jtraverso--madaras-light-stars--fec46a2c19c6/tree/palomar/PALOMAR-2026-11-01-000033-v1/053a5caff546c2f700025081e5d3e0b7bf873f62)
+
+**What is proved.** A Lean 4 / Mathlib formalization of Theorem 1.1 of Madaras (2004), for finite simple graphs with the combinatorial planarity (genus-zero rotation systems) of the registered entry Kuratowski's theorem. In every plane map of a finite simple graph of minimum degree at least three whose faces all have length at least five, some vertex x of degree three has three distinct neighbours a, b, c with deg a = deg b = 3 and deg c ≤ 4 (light_star3); in particular the star K1,3 is light, with degree sum at most 13. One statement. The proof is a discharging argument on the rotation system with charges deg − 4 and ℓ − 4 in which every face gives each corner at a 3-vertex a weight depending only on the degrees of the two neighbours along the face, and vertices of degree at least five give 1/5 to each 3-neighbour; the local inequalities are checked by decide in the kernel. This replaces the article's transfer of charge between adjacent 3-vertices.
+
+**Sources.**
+
+* Tomáš Madaras, *On the structure of plane graphs of minimum face size 5*, Discuss. Math. Graph Theory 24 (2004) 403–411: Theorem 1.1 and its proof (Section 2). [doi:10.7151/dmgt.1239](https://doi.org/10.7151/dmgt.1239)
+
 ## Mader's theorem and Hadwiger's conjecture for t ≤ 4
 
 Palomar: [PALOMAR-2026-10-16-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000001&version=1) (version 1) · code: [jtraverso/hadwiger-mader @ cb10154](https://github.com/jtraverso/hadwiger-mader/tree/cb10154cd439a419d0bbf34052839dd27242b619) · [archived copy](https://github.com/PalomarArchive/jtraverso--hadwiger-mader--a4b96dfb7362/tree/palomar/PALOMAR-2026-10-16-000001-v1/cb10154cd439a419d0bbf34052839dd27242b619)
