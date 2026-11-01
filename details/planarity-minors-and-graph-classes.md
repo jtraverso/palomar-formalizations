@@ -53,6 +53,22 @@ Palomar: [PALOMAR-2026-11-01-000024](https://palomar-registry.org/entry.html?id=
 
 </details>
 
+## Light stars and paths in planar graphs of minimum degree five (Jendrol'–Madaras)
+
+Palomar: [PALOMAR-2026-11-01-000025](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000025&version=1) (version 1) · code: [jtraverso/lebesgue-light-stars @ 76c43b6](https://github.com/jtraverso/lebesgue-light-stars/tree/76c43b645dc6dbf14dbf6d5151fac448a1c34835) · [archived copy](https://github.com/PalomarArchive/jtraverso--lebesgue-light-stars--768fd26189ef/tree/palomar/PALOMAR-2026-11-01-000025-v1/76c43b645dc6dbf14dbf6d5151fac448a1c34835)
+
+**What is proved.** A Lean 4 / Mathlib formalization of Theorems 1, 2 and 3 of Jendrol' and Madaras (1996), for finite simple graphs with the combinatorial planarity (genus-zero rotation systems) of the registered entry Kuratowski's theorem. Every planar graph of minimum degree at least five has: a vertex X of degree five with three distinct neighbours A1, A2, A3 such that deg A1 = 5, deg A2 ≤ 6 and deg A3 ≤ 7, or deg A1 = deg A2 = deg A3 = 6 (light_star, Theorem 1; in particular a 5-vertex with three neighbours of degree at most seven, "Lebesgue's star"); a vertex of degree five with four distinct neighbours of degree at most ten (light_star4, Theorem 2); and a path on four vertices whose degrees sum to at most 23 (light_path4, Theorem 3). Three statements. The proofs are discharging arguments run on the rotation system with face charges instead of triangulating or using edge-maximal counterexamples; the local analyses (32768, 16384, 32768 and 100000 configurations) and the parity of an 11-cycle are checked by decide in the kernel.
+
+**Sources.**
+
+* Stanislav Jendrol', Tomáš Madaras, *On light subgraphs in plane graphs of minimum degree five*, Discuss. Math. Graph Theory 16 (1996) 207–217: Theorem 1 (light 3-stars, pp. 209–211), Theorem 2 (light 4-stars, pp. 211–213) and Theorem 3 (light 4-paths, pp. 213–214), with their proofs. [doi:10.7151/dmgt.1035](https://doi.org/10.7151/dmgt.1035)
+
+<details><summary>Background references</summary>
+
+* Stanislav Jendrol', Heinz-Jürgen Voss, *Light subgraphs of graphs embedded in the plane—A survey*, Discrete Math. 313 (2013) 406–421. [doi:10.1016/j.disc.2012.11.007](https://doi.org/10.1016/j.disc.2012.11.007) · [free full text](https://www.sciencedirect.com/science/article/pii/S0012365X1200489X/pdf)
+
+</details>
+
 ## Mader's theorem and Hadwiger's conjecture for t ≤ 4
 
 Palomar: [PALOMAR-2026-10-16-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000001&version=1) (version 1) · code: [jtraverso/hadwiger-mader @ cb10154](https://github.com/jtraverso/hadwiger-mader/tree/cb10154cd439a419d0bbf34052839dd27242b619) · [archived copy](https://github.com/PalomarArchive/jtraverso--hadwiger-mader--a4b96dfb7362/tree/palomar/PALOMAR-2026-10-16-000001-v1/cb10154cd439a419d0bbf34052839dd27242b619)
