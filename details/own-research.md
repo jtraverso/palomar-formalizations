@@ -109,9 +109,9 @@ Palomar: [PALOMAR-2026-10-21-000009](https://palomar-registry.org/entry.html?id=
 
 **Sources.**
 
+* Juan Pablo Traverso Gianini, *Triangle decompositions I: Formalizing the Nash–Williams theorem in Lean*, Preprint 1.0 (2026). [doi:10.5281/zenodo.23428173](https://doi.org/10.5281/zenodo.23428173) · [free full text](https://doi.org/10.5281/zenodo.23428173) (Zenodo)
+* Juan Pablo Traverso Gianini, *Triangle decompositions II: Robust absorption for typed triangles*, Preprint 1.0 (2026). [doi:10.5281/zenodo.23502224](https://doi.org/10.5281/zenodo.23502224) · [free full text](https://doi.org/10.5281/zenodo.23502224) (Zenodo)
 * Michelle Delcourt, Luke Postle, *A Proof of Nash-Williams' Conjecture*, arXiv:2606.11178 (2026), Theorems 1.4, 1.6 and 1.8. [doi:10.48550/arXiv.2606.11178](https://doi.org/10.48550/arXiv.2606.11178) · [free full text](https://arxiv.org/pdf/2606.11178) (arXiv)
-* Juan Pablo Traverso Gianini, *Triangle decompositions I: Formalizing the Nash–Williams theorem in Lean*, Preprint 1.0 (2026).
-* Juan Pablo Traverso Gianini, *Triangle decompositions II: Robust absorption for typed triangles*, Preprint 1.0 (2026).
 
 <details><summary>Background references</summary>
 
@@ -146,9 +146,9 @@ Palomar: [PALOMAR-2026-10-29-000005](https://palomar-registry.org/entry.html?id=
 
 **Sources.**
 
+* Juan Pablo Traverso Gianini, *Formalizing Delcourt–Postle’s refined absorption in Lean*, Research note, version 1.0.1 (2026); editorial update, unchanged proof sources. [doi:10.5281/zenodo.23715622](https://doi.org/10.5281/zenodo.23715622) · [free full text](https://doi.org/10.5281/zenodo.23715622) (Zenodo)
 * Michelle Delcourt, Luke Postle, *Refined Absorption: A New Proof of the Existence Conjecture*, arXiv:2402.17855v1 (2024). [doi:10.48550/arXiv.2402.17855](https://doi.org/10.48550/arXiv.2402.17855) · [free full text](https://arxiv.org/pdf/2402.17855) (arXiv)
 * Luke Postle, *Refined Absorption: A New Proof of the Existence Conjecture and Its Applications to Extremal and Probabilistic Design Theory*, ICM 2026, Volume 6, pp. 212–231; statement baseline arXiv:2510.19978v1. [doi:10.1137/25M1805977](https://doi.org/10.1137/25M1805977) · [free full text](https://arxiv.org/pdf/2510.19978) (arXiv)
-* Juan Pablo Traverso Gianini, *Formalizing Delcourt–Postle’s refined absorption in Lean*, Research note, version 1.0.1 (2026); editorial update, unchanged proof sources. [doi:10.5281/zenodo.23715622](https://doi.org/10.5281/zenodo.23715622) · [free full text](https://doi.org/10.5281/zenodo.23715622) (Zenodo)
 * Stefan Ehard, Stefan Glock, Felix Joos, *Pseudorandom hypergraph matchings*. [doi:10.1017/S0963548320000280](https://doi.org/10.1017/S0963548320000280) · [free full text](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AE0DE17C95900E7DD3F221E2C17FE203/S0963548320000280a.pdf/div-class-title-pseudorandom-hypergraph-matchings-div.pdf)
 * Michelle Delcourt, Luke Postle, *A Proof of Nash-Williams' Conjecture*. [doi:10.48550/arXiv.2606.11178](https://doi.org/10.48550/arXiv.2606.11178) · [free full text](https://arxiv.org/pdf/2606.11178)
 
