@@ -36,6 +36,23 @@ Palomar: [PALOMAR-2026-11-01-000023](https://palomar-registry.org/entry.html?id=
 
 </details>
 
+## Borodin's light triangles in planar graphs of minimum degree five
+
+Palomar: [PALOMAR-2026-11-01-000024](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000024&version=1) (version 1) · code: [jtraverso/borodin-light-triangles @ c85ca2e](https://github.com/jtraverso/borodin-light-triangles/tree/c85ca2ea4051646c0a4eaa1e03943a44cce11f35) · [archived copy](https://github.com/PalomarArchive/jtraverso--borodin-light-triangles--5777cc51dc6e/tree/palomar/PALOMAR-2026-11-01-000024-v1/c85ca2ea4051646c0a4eaa1e03943a44cce11f35)
+
+**What is proved.** A Lean 4 / Mathlib formalization of Borodin's theorem on light triangles, for finite simple graphs with the combinatorial planarity (genus-zero rotation systems) of the registered entry Kuratowski's theorem. The weight of a triangle is the sum of the degrees of its vertices. Every plane map of a graph of minimum degree at least five has a face of length three of weight at most 17 (light_face), and hence a planar graph of minimum degree at least five has a triangle of weight at most 17 (light_triangle). Two statements. The proof is a discharging argument run on the rotation system, with face charges in place of an edge-maximal counterexample; the local analysis at 5-vertices (32768 configurations of neighbour degrees capped at eight and corner types) is checked by decide in the kernel.
+
+**Sources.**
+
+* Oleg V. Borodin, *Solution of problems of Kotzig and Grünbaum concerning the isolation of cycles in planar graphs*, Mat. Zametki 46 (1989), no. 5, 9–12 (Russian); translated in Math. Notes 46 (1989) 835–837: a plane graph of minimum degree five has a 3-face of weight at most 17. [doi:10.1007/BF01139613](https://doi.org/10.1007/BF01139613)
+* Daniel W. Cranston, Douglas B. West, *An introduction to the discharging method via graph coloring*, arXiv:1306.4434v2, Theorem 3.4 and its proof sketch (rules R1–R3); published in Discrete Math. 340 (2017) 766–793, doi:10.1016/j.disc.2016.11.022. [free full text](https://arxiv.org/pdf/1306.4434) (arXiv)
+
+<details><summary>Background references</summary>
+
+* Stanislav Jendrol', Heinz-Jürgen Voss, *Light subgraphs of graphs embedded in the plane—A survey*, Discrete Math. 313 (2013) 406–421. [doi:10.1016/j.disc.2012.11.007](https://doi.org/10.1016/j.disc.2012.11.007) · [free full text](https://www.sciencedirect.com/science/article/pii/S0012365X1200489X/pdf)
+
+</details>
+
 ## Mader's theorem and Hadwiger's conjecture for t ≤ 4
 
 Palomar: [PALOMAR-2026-10-16-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000001&version=1) (version 1) · code: [jtraverso/hadwiger-mader @ cb10154](https://github.com/jtraverso/hadwiger-mader/tree/cb10154cd439a419d0bbf34052839dd27242b619) · [archived copy](https://github.com/PalomarArchive/jtraverso--hadwiger-mader--a4b96dfb7362/tree/palomar/PALOMAR-2026-10-16-000001-v1/cb10154cd439a419d0bbf34052839dd27242b619)
