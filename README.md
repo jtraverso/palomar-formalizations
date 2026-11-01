@@ -2,7 +2,7 @@
 
 Computer-checked proofs, written in [Lean 4](https://lean-lang.org) with the [Mathlib](https://github.com/leanprover-community/mathlib4) library, by **Juan Pablo Traverso Gianini**. Every entry below has been accepted by the [Palomar registry](https://palomar-registry.org), which keeps the exact statements, the proofs and the record of their verification.
 
-**70 entries:** 7 from my own research and 63 formalizations of results by other authors, mostly in graph theory and combinatorics.
+**71 entries:** 7 from my own research and 64 formalizations of results by other authors, mostly in graph theory and combinatorics.
 
 In the tables, the title leads to a page with the details of the entry (what is proved, the sources, the code); **Paper** opens a free copy of the original paper when there is one; **DOI** is the publisher's link; **Palomar** is the registered entry.
 
@@ -23,7 +23,7 @@ In the tables, the title leads to a page with the details of the entry (what is 
   * [Decompositions and packings](#decompositions-and-packings) (4)
   * [Designs, set systems and discrepancy](#designs-set-systems-and-discrepancy) (5)
   * [Algebraic and spectral graph theory](#algebraic-and-spectral-graph-theory) (6)
-  * [Recently registered](#recently-registered) (1)
+  * [Recently registered](#recently-registered) (2)
 * [All entries by registration date](registration-log.md)
 * [Notes](#notes)
 * [arXiv endorsement](#arxiv-endorsement)
@@ -177,6 +177,7 @@ Grouped by subject. **Authors** are those of the main source.
 | Result | Authors | Paper | DOI | Palomar |
 |---|---|---|---|---|
 | [Triangle decompositions of dense tripartite graphs](details/recently-registered.md#triangle-decompositions-of-dense-tripartite-graphs) | Barber et al. | [PDF](https://arxiv.org/pdf/1603.01043) | [10.1016/j.jcta.2017.04.005](https://doi.org/10.1016/j.jcta.2017.04.005) | [PALOMAR-2026-11-01-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000005&version=1) |
+| [The Murty–Simon conjecture on diameter-2-critical graphs](details/recently-registered.md#the-murtysimon-conjecture-on-diameter-2-critical-graphs) | Das, Fox | [PDF](https://arxiv.org/pdf/2610.39032) | — | [PALOMAR-2026-11-01-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000011&version=1) |
 
 ## Notes
 
