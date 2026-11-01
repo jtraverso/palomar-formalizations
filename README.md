@@ -2,7 +2,7 @@
 
 Computer-checked proofs, written in [Lean 4](https://lean-lang.org) with the [Mathlib](https://github.com/leanprover-community/mathlib4) library, by **Juan Pablo Traverso Gianini**. Every entry below has been accepted by the [Palomar registry](https://palomar-registry.org), which keeps the exact statements, the proofs and the record of their verification.
 
-**69 entries:** 7 from my own research and 62 formalizations of results by other authors, mostly in graph theory and combinatorics.
+**70 entries:** 7 from my own research and 63 formalizations of results by other authors, mostly in graph theory and combinatorics.
 
 In the tables, the title leads to a page with the details of the entry (what is proved, the sources, the code); **Paper** opens a free copy of the original paper when there is one; **DOI** is the publisher's link; **Palomar** is the registered entry.
 
@@ -23,6 +23,7 @@ In the tables, the title leads to a page with the details of the entry (what is 
   * [Decompositions and packings](#decompositions-and-packings) (4)
   * [Designs, set systems and discrepancy](#designs-set-systems-and-discrepancy) (5)
   * [Algebraic and spectral graph theory](#algebraic-and-spectral-graph-theory) (6)
+  * [Recently registered](#recently-registered) (1)
 * [All entries by registration date](registration-log.md)
 * [Notes](#notes)
 * [arXiv endorsement](#arxiv-endorsement)
@@ -170,6 +171,12 @@ Grouped by subject. **Authors** are those of the main source.
 | [Lovász's bound on the Shannon capacity](details/algebraic-and-spectral-graph-theory.md#lovászs-bound-on-the-shannon-capacity) | Lovász | — | [10.1109/TIT.1979.1055985](https://doi.org/10.1109/TIT.1979.1055985) | [PALOMAR-2026-10-21-000003](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-21-000003&version=1) |
 | [The expander mixing lemma and the Alon–Boppana bound](details/algebraic-and-spectral-graph-theory.md#the-expander-mixing-lemma-and-the-alonboppana-bound) | Alon, Chung | [PDF](https://doi.org/10.1016/0012-365x(88)90189-6) | [10.1016/0012-365X(88)90189-6](https://doi.org/10.1016/0012-365X(88)90189-6) | [PALOMAR-2026-10-22-000035](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-22-000035&version=1) |
 | [The Graham–Pollak theorem](details/algebraic-and-spectral-graph-theory.md#the-grahampollak-theorem) | Graham, Pollak | — | [10.1002/j.1538-7305.1971.tb02618.x](https://doi.org/10.1002/j.1538-7305.1971.tb02618.x) | [PALOMAR-2026-10-23-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-23-000006&version=1) |
+
+### Recently registered
+
+| Result | Authors | Paper | DOI | Palomar |
+|---|---|---|---|---|
+| [Triangle decompositions of dense tripartite graphs](details/recently-registered.md#triangle-decompositions-of-dense-tripartite-graphs) | Barber et al. | [PDF](https://arxiv.org/pdf/1603.01043) | [10.1016/j.jcta.2017.04.005](https://doi.org/10.1016/j.jcta.2017.04.005) | [PALOMAR-2026-11-01-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000005&version=1) |
 
 ## Notes
 
