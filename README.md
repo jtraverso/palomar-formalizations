@@ -2,7 +2,7 @@
 
 Computer-checked proofs, written in [Lean 4](https://lean-lang.org) with the [Mathlib](https://github.com/leanprover-community/mathlib4) library, by **Juan Pablo Traverso Gianini**. Every entry below has been accepted by the [Palomar registry](https://palomar-registry.org), which keeps the exact statements, the proofs and the record of their verification.
 
-**79 entries:** 10 from my own research and 69 formalizations of results by other authors, mostly in graph theory and combinatorics.
+**80 entries:** 10 from my own research and 70 formalizations of results by other authors, mostly in graph theory and combinatorics.
 
 In the tables, the title leads to a page with the details of the entry (what is proved, the sources, the code); **Paper** opens a free copy of the original paper when there is one; **DOI** is the publisher's link; **Palomar** is the registered entry.
 
@@ -14,7 +14,7 @@ In the tables, the title leads to a page with the details of the entry (what is 
 * [Results by other authors](#results-by-other-authors)
   * [Vertex colouring](#vertex-colouring) (8)
   * [Edge colouring and list colouring](#edge-colouring-and-list-colouring) (9)
-  * [Planarity, minors and graph classes](#planarity-minors-and-graph-classes) (7)
+  * [Planarity, minors and graph classes](#planarity-minors-and-graph-classes) (8)
   * [Connectivity, orientations and flows](#connectivity-orientations-and-flows) (6)
   * [Cycles and Hamiltonicity](#cycles-and-hamiltonicity) (4)
   * [Matchings, factors and polyhedral combinatorics](#matchings-factors-and-polyhedral-combinatorics) (8)
@@ -93,6 +93,7 @@ Grouped by subject. **Authors** are those of the main source.
 | [Borodin's light triangles in planar graphs of minimum degree five](details/planarity-minors-and-graph-classes.md#borodins-light-triangles-in-planar-graphs-of-minimum-degree-five) | Borodin | [PDF](https://arxiv.org/pdf/1306.4434) | [10.1007/BF01139613](https://doi.org/10.1007/BF01139613) | [PALOMAR-2026-11-01-000024](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000024&version=2) (v2) |
 | [Light stars and paths in planar graphs of minimum degree five (Jendrol'–Madaras)](details/planarity-minors-and-graph-classes.md#light-stars-and-paths-in-planar-graphs-of-minimum-degree-five-jendrolmadaras) | Jendrol', Madaras | — | [10.7151/dmgt.1035](https://doi.org/10.7151/dmgt.1035) | [PALOMAR-2026-11-01-000025](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000025&version=1) |
 | [Light 3-stars and light pairs of faces in plane graphs of minimum face size five (Madaras)](details/planarity-minors-and-graph-classes.md#light-3-stars-and-light-pairs-of-faces-in-plane-graphs-of-minimum-face-size-five-madaras) | Madaras | — | [10.7151/dmgt.1239](https://doi.org/10.7151/dmgt.1239) | [PALOMAR-2026-11-01-000033](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000033&version=2) (v2) |
+| [Light paths and only paths in 3-connected planar graphs (Fabrici–Jendrol')](details/planarity-minors-and-graph-classes.md#light-paths-and-only-paths-in-3-connected-planar-graphs-fabricijendrol) | Fabrici, Jendrol' | — | [10.1007/BF03353001](https://doi.org/10.1007/BF03353001) | [PALOMAR-2026-11-02-000013](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-02-000013&version=1) |
 | [Mader's theorem and Hadwiger's conjecture for t ≤ 4](details/planarity-minors-and-graph-classes.md#maders-theorem-and-hadwigers-conjecture-for-t--4) | Mader | — | [10.1007/BF01364272](https://doi.org/10.1007/BF01364272) | [PALOMAR-2026-10-16-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000001&version=1) |
 | [Chordal, split, threshold and cograph structure](details/planarity-minors-and-graph-classes.md#chordal-split-threshold-and-cograph-structure) | Dirac | [PDF](http://msp.org/pjm/1965/15-3/pjm-v15-n3-p11-s.pdf) | [10.1007/BF02992776](https://doi.org/10.1007/BF02992776) | [PALOMAR-2026-10-18-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000006&version=1) |
 

@@ -74,6 +74,22 @@ Palomar: [PALOMAR-2026-11-01-000033](https://palomar-registry.org/entry.html?id=
 
 * Tomáš Madaras, *On the structure of plane graphs of minimum face size 5*, Discuss. Math. Graph Theory 24 (2004) 403–411: Theorems 1.1 and 1.3 and their proofs. [doi:10.7151/dmgt.1239](https://doi.org/10.7151/dmgt.1239)
 
+## Light paths and only paths in 3-connected planar graphs (Fabrici–Jendrol')
+
+Palomar: [PALOMAR-2026-11-02-000013](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-02-000013&version=1) (version 1) · code: [jtraverso/fabrici-jendrol-light-paths @ 00ea06f](https://github.com/jtraverso/fabrici-jendrol-light-paths/tree/00ea06f84dc1b2b33d58a2b17361fc3a58189814) · [archived copy](https://github.com/PalomarArchive/jtraverso--fabrici-jendrol-light-paths--422e9fe618e5/tree/palomar/PALOMAR-2026-11-02-000013-v1/00ea06f84dc1b2b33d58a2b17361fc3a58189814)
+
+**What is proved.** A Lean 4 / Mathlib formalization of the two theorems of Fabrici and Jendrol' (1997), for finite simple graphs with the combinatorial planarity (genus-zero rotation systems) of the registered entry Kuratowski's theorem. Theorem 1 (light_path): a 3-connected planar graph that contains a path on k ≥ 1 vertices contains such a path whose vertices all have degree at most 5k. Theorem 2 (only_paths_light): for every connected planar graph H that is not a path (not isomorphic to pathGraph on its vertex count) and every m, there is a 3-connected planar graph containing a copy of H in which every copy of H (an injective edge-preserving map) has a vertex of degree at least m. Two statements. Theorem 1 follows the proof reproduced in the Jendrol'–Voss survey (maximal counterexample, chords at major vertices, a major vertex with at most five major neighbours). Theorem 2 uses a different construction from the article's: H is completed to an edge-maximal planar graph, whose faces are triangles, and two chains of repeated stellations are inserted in every face, so that the light vertices induce disjoint paths; the result is a plane triangulation, hence 3-connected. The extremal example for 5k is not formalized.
+
+**Sources.**
+
+* Igor Fabrici, Stanislav Jendrol', *Subgraphs with restricted degrees of their vertices in planar 3-connected graphs*, Graphs and Combinatorics 13 (1997) 245–250: the 5k theorem for paths and the theorem that only paths are light. [doi:10.1007/BF03353001](https://doi.org/10.1007/BF03353001)
+
+<details><summary>Background references</summary>
+
+* Stanislav Jendrol', Heinz-Jürgen Voss, *Light subgraphs of graphs embedded in the plane and in the projective plane — a survey*, Section 5, Theorems 5.1 and 5.2 and their proofs. [doi:10.1016/j.disc.2012.11.007](https://doi.org/10.1016/j.disc.2012.11.007) · [free full text](https://www.sciencedirect.com/science/article/pii/S0012365X1200489X/pdf)
+
+</details>
+
 ## Mader's theorem and Hadwiger's conjecture for t ≤ 4
 
 Palomar: [PALOMAR-2026-10-16-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000001&version=1) (version 1) · code: [jtraverso/hadwiger-mader @ cb10154](https://github.com/jtraverso/hadwiger-mader/tree/cb10154cd439a419d0bbf34052839dd27242b619) · [archived copy](https://github.com/PalomarArchive/jtraverso--hadwiger-mader--a4b96dfb7362/tree/palomar/PALOMAR-2026-10-16-000001-v1/cb10154cd439a419d0bbf34052839dd27242b619)
