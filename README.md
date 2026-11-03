@@ -2,7 +2,7 @@
 
 Computer-checked proofs, written in [Lean 4](https://lean-lang.org) with the [Mathlib](https://github.com/leanprover-community/mathlib4) library, by **Juan Pablo Traverso Gianini**. Every entry below has been accepted by the [Palomar registry](https://palomar-registry.org), which keeps the exact statements, the proofs and the record of their verification.
 
-**81 entries:** 10 from my own research and 71 formalizations of results by other authors, mostly in graph theory and combinatorics.
+**81 entries:** 11 from my own research and 70 formalizations of results by other authors, mostly in graph theory and combinatorics.
 
 In the tables, the title leads to a page with the details of the entry (what is proved, the sources, the code); **Paper** opens a free copy of the original paper when there is one; **DOI** is the publisher's link; **Palomar** is the registered entry.
 
@@ -10,7 +10,7 @@ In the tables, the title leads to a page with the details of the entry (what is 
 
 * [My own research](#my-own-research)
   * [Erdős Problem #81 series](#erdős-problem-81-series) (7)
-  * [Triangle decompositions series](#triangle-decompositions-series) (3)
+  * [Triangle decompositions series](#triangle-decompositions-series) (4)
 * [Results by other authors](#results-by-other-authors)
   * [Vertex colouring](#vertex-colouring) (8)
   * [Edge colouring and list colouring](#edge-colouring-and-list-colouring) (9)
@@ -23,7 +23,6 @@ In the tables, the title leads to a page with the details of the entry (what is 
   * [Decompositions and packings](#decompositions-and-packings) (5)
   * [Designs, set systems and discrepancy](#designs-set-systems-and-discrepancy) (5)
   * [Algebraic and spectral graph theory](#algebraic-and-spectral-graph-theory) (6)
-  * [Recently registered](#recently-registered) (1)
 * [All entries by registration date](registration-log.md)
 * [Notes](#notes)
 * [arXiv endorsement](#arxiv-endorsement)
@@ -52,6 +51,7 @@ The Nash–Williams triangle-decomposition problem. Paper I ([10.5281/zenodo.234
 |---|---|---|---|
 | Paper I — [Formalizing the Nash–Williams Theorem in Lean](details/own-research.md#the-nashwilliams-triangle-decomposition-theorem) | [PDF](https://github.com/jtraverso/nash-williams-triangle-decompositions-release/blob/main/preprints/PAPER_I/01_manuscript/PAPER_I_preprint_v1.0_en.pdf) · [PDF (Delcourt–Postle)](https://arxiv.org/pdf/2606.11178) | [10.5281/zenodo.23428173](https://doi.org/10.5281/zenodo.23428173)<br>[10.48550/arXiv.2606.11178](https://doi.org/10.48550/arXiv.2606.11178) | [PALOMAR-2026-10-21-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-21-000009&version=1) |
 | Paper II — [Robust Absorption for Typed Triangles](details/own-research.md#robust-absorption-for-typed-triangles-triangle-decompositions-ii) | [PDF](https://github.com/jtraverso/nash-williams-triangle-decompositions-release/blob/main/preprints/PAPER_II/01_manuscript/PAPER_II_preprint_v1.0_en.pdf) | [10.5281/zenodo.23502224](https://doi.org/10.5281/zenodo.23502224) | [PALOMAR-2026-10-23-000013](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-23-000013&version=1) |
+| Paper III — [Physical Typed Absorption and Prescribed Statistics](details/own-research.md#triangle-decompositions-iii-physical-typed-absorption-and-prescribed-statistics) | [PDF](https://github.com/jtraverso/nash-williams-triangle-decompositions-release/blob/main/preprints/PAPER_III/01_manuscript/PAPER_III_preprint_v1.0_en.pdf) | [10.5281/zenodo.23867836](https://doi.org/10.5281/zenodo.23867836) | [PALOMAR-2026-11-03-000012](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-03-000012&version=1) |
 | Research Note I — [Formalizing Delcourt–Postle’s Refined Absorption in Lean](details/own-research.md#formalizing-delcourtpostles-refined-absorption-in-lean) | [PDF](https://github.com/jtraverso/refined-absorption-lean/blob/main/preprints/RESEARCH_NOTE_v1.0.1/01_manuscript/RESEARCH_NOTE_preprint_v1.0.1_en.pdf) | [10.5281/zenodo.23715622](https://doi.org/10.5281/zenodo.23715622) | [PALOMAR-2026-10-29-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-29-000005&version=1) |
 
 ## Results by other authors
@@ -182,12 +182,6 @@ Grouped by subject. **Authors** are those of the main source.
 | [Lovász's bound on the Shannon capacity](details/algebraic-and-spectral-graph-theory.md#lovászs-bound-on-the-shannon-capacity) | Lovász | — | [10.1109/TIT.1979.1055985](https://doi.org/10.1109/TIT.1979.1055985) | [PALOMAR-2026-10-21-000003](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-21-000003&version=1) |
 | [The expander mixing lemma and the Alon–Boppana bound](details/algebraic-and-spectral-graph-theory.md#the-expander-mixing-lemma-and-the-alonboppana-bound) | Alon, Chung | [PDF](https://doi.org/10.1016/0012-365x(88)90189-6) | [10.1016/0012-365X(88)90189-6](https://doi.org/10.1016/0012-365X(88)90189-6) | [PALOMAR-2026-10-22-000035](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-22-000035&version=1) |
 | [The Graham–Pollak theorem](details/algebraic-and-spectral-graph-theory.md#the-grahampollak-theorem) | Graham, Pollak | — | [10.1002/j.1538-7305.1971.tb02618.x](https://doi.org/10.1002/j.1538-7305.1971.tb02618.x) | [PALOMAR-2026-10-23-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-23-000006&version=1) |
-
-### Recently registered
-
-| Result | Authors | Paper | DOI | Palomar |
-|---|---|---|---|---|
-| [Triangle decompositions III: physical typed absorption and prescribed statistics](details/recently-registered.md#triangle-decompositions-iii-physical-typed-absorption-and-prescribed-statistics) | Gianini | [PDF](https://doi.org/10.5281/zenodo.23867836) | [10.5281/zenodo.23867836](https://doi.org/10.5281/zenodo.23867836) | [PALOMAR-2026-11-03-000012](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-03-000012&version=1) |
 
 ## Notes
 
