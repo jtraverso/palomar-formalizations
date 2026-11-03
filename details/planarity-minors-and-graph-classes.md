@@ -92,13 +92,14 @@ Palomar: [PALOMAR-2026-11-02-000013](https://palomar-registry.org/entry.html?id=
 
 ## Mader's theorem and Hadwiger's conjecture for t ≤ 4
 
-Palomar: [PALOMAR-2026-10-16-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000001&version=1) (version 1) · code: [jtraverso/hadwiger-mader @ cb10154](https://github.com/jtraverso/hadwiger-mader/tree/cb10154cd439a419d0bbf34052839dd27242b619) · [archived copy](https://github.com/PalomarArchive/jtraverso--hadwiger-mader--a4b96dfb7362/tree/palomar/PALOMAR-2026-10-16-000001-v1/cb10154cd439a419d0bbf34052839dd27242b619)
+Palomar: [PALOMAR-2026-10-16-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000001&version=2) (version 2) · code: [jtraverso/hadwiger-mader @ a1ffd32](https://github.com/jtraverso/hadwiger-mader/tree/a1ffd32233475c21ad474b2f80d57614911df9b0) · [archived copy](https://github.com/PalomarArchive/jtraverso--hadwiger-mader--a4b96dfb7362/tree/palomar/PALOMAR-2026-10-16-000001-v2/a1ffd32233475c21ad474b2f80d57614911df9b0)
 
-**What is proved.** A Lean 4 / Mathlib formalization of Mader's theorem (a nonempty finite graph of average degree at least 2^(r−2) has a K_r minor), of Dirac's lemma (a graph without a K4 minor has a vertex of degree at most two, hence at most 2n − 3 edges for n ≥ 2), and of Hadwiger's conjecture for t ≤ 4 (graphs without a K3 minor are 2-colourable, graphs without a K4 minor are 3-colourable). Minors are branch-set models.
+**What is proved.** A Lean 4 / Mathlib formalization of Mader's theorem (a nonempty finite graph of average degree at least 2^(r−2) has a K_r minor), of Dirac's lemma (a graph without a K4 minor has a vertex of degree at most two, hence at most 2n − 3 edges for n ≥ 2), of Mader's bound for K5 (a graph on n ≥ 3 vertices with at least 3n − 5 edges has a K5 minor; equivalently, without a K5 minor it has at most 3n − 6 edges; added in version 2), and of Hadwiger's conjecture for t ≤ 4 (graphs without a K3 minor are 2-colourable, graphs without a K4 minor are 3-colourable). Minors are branch-set models.
 
 **Sources.**
 
 * W. Mader, *Homomorphieeigenschaften und mittlere Kantendichte von Graphen*, Mathematische Annalen 174 (1967), 265–268. [doi:10.1007/BF01364272](https://doi.org/10.1007/BF01364272)
+* W. Mader, *Homomorphiesätze für Graphen*, Mathematische Annalen 178 (1968), 154–168.
 * G. A. Dirac, *A property of 4-chromatic graphs and some remarks on critical graphs*, Journal of the London Mathematical Society 27 (1952), 85–92. [doi:10.1112/jlms/s1-27.1.85](https://doi.org/10.1112/jlms/s1-27.1.85)
 * H. Hadwiger, *Über eine Klassifikation der Streckenkomplexe*, Vierteljahrsschrift der Naturforschenden Gesellschaft in Zürich 88 (1943), 133–142.
 
