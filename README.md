@@ -2,7 +2,7 @@
 
 Computer-checked proofs, written in [Lean 4](https://lean-lang.org) with the [Mathlib](https://github.com/leanprover-community/mathlib4) library, by **Juan Pablo Traverso Gianini**. Every entry below has been accepted by the [Palomar registry](https://palomar-registry.org), which keeps the exact statements, the proofs and the record of their verification.
 
-**81 entries:** 11 from my own research and 70 formalizations of results by other authors, mostly in graph theory and combinatorics.
+**82 entries:** 11 from my own research and 71 formalizations of results by other authors, mostly in graph theory and combinatorics.
 
 In the tables, the title leads to a page with the details of the entry (what is proved, the sources, the code); **Paper** opens a free copy of the original paper when there is one; **DOI** is the publisher's link; **Palomar** is the registered entry.
 
@@ -20,7 +20,7 @@ In the tables, the title leads to a page with the details of the entry (what is 
   * [Matchings, factors and polyhedral combinatorics](#matchings-factors-and-polyhedral-combinatorics) (8)
   * [Extremal graph theory and Ramsey theory](#extremal-graph-theory-and-ramsey-theory) (5)
   * [Probabilistic methods and random graphs](#probabilistic-methods-and-random-graphs) (6)
-  * [Decompositions and packings](#decompositions-and-packings) (5)
+  * [Decompositions and packings](#decompositions-and-packings) (6)
   * [Designs, set systems and discrepancy](#designs-set-systems-and-discrepancy) (5)
   * [Algebraic and spectral graph theory](#algebraic-and-spectral-graph-theory) (6)
 * [All entries by registration date](registration-log.md)
@@ -160,6 +160,7 @@ Grouped by subject. **Authors** are those of the main source.
 | [Near-regular hypergraph matchings and the asymptotic triangle-packing gap](details/decompositions-and-packings.md#near-regular-hypergraph-matchings-and-the-asymptotic-triangle-packing-gap) | Haxell, Rödl | — | [10.1007/s004930170003](https://doi.org/10.1007/s004930170003) | [PALOMAR-2026-10-15-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000011&version=2) (v2) |
 | [The Nash-Williams–Tutte tree packing theorem and Nash-Williams' arboricity theorem](details/decompositions-and-packings.md#the-nash-williamstutte-tree-packing-theorem-and-nash-williams-arboricity-theorem) | Nash-Williams | — | [10.1112/jlms/s1-36.1.445](https://doi.org/10.1112/jlms/s1-36.1.445) | [PALOMAR-2026-10-17-000008](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-17-000008&version=1) |
 | [Fractional triangle decompositions of dense tripartite graphs](details/decompositions-and-packings.md#fractional-triangle-decompositions-of-dense-tripartite-graphs) | Allsop et al. | [PDF](https://arxiv.org/pdf/2609.37877) | — | [PALOMAR-2026-10-30-000008](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-30-000008&version=1) |
+| [Fractional clique decompositions of dense partite graphs](details/decompositions-and-packings.md#fractional-clique-decompositions-of-dense-partite-graphs) | Montgomery | [PDF](https://arxiv.org/pdf/1603.01039) | — | [PALOMAR-2026-11-03-000019](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-03-000019&version=1) |
 | [Triangle decompositions of dense tripartite graphs and completion of partial Latin squares](details/decompositions-and-packings.md#triangle-decompositions-of-dense-tripartite-graphs-and-completion-of-partial-latin-squares) | Barber et al. | [PDF](https://arxiv.org/pdf/1603.01043) | [10.1016/j.jcta.2017.04.005](https://doi.org/10.1016/j.jcta.2017.04.005) | [PALOMAR-2026-11-01-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000005&version=3) (v3) |
 
 ### Designs, set systems and discrepancy

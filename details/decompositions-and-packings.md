@@ -61,6 +61,16 @@ Palomar: [PALOMAR-2026-10-30-000008](https://palomar-registry.org/entry.html?id=
 
 * Jack Allsop, Candida Bowtell, Thomas Lesgourgues, Kalina Petrova, *Improved bounds on completion of partial Latin squares*, arXiv:2609.37877v1 (30 September 2026), Theorem 1.3, Lemma 2.1, Proposition 3.1, Corollary 3.5, Definition 4.1, Propositions 4.2, 4.3 and 4.4, and Appendix A. [free full text](https://arxiv.org/pdf/2609.37877) (arXiv)
 
+## Fractional clique decompositions of dense partite graphs
+
+Palomar: [PALOMAR-2026-11-03-000019](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-03-000019&version=1) (version 1) · code: [jtraverso/montgomery-fractional-clique-decompositions @ c638d93](https://github.com/jtraverso/montgomery-fractional-clique-decompositions/tree/c638d93a5dd3fc3758c1c09c44672e2c3d6e3ba9) · [archived copy](https://github.com/PalomarArchive/jtraverso--montgomery-fractional-clique-decompositions--db620b60fa20/tree/palomar/PALOMAR-2026-11-03-000019-v1/c638d93a5dd3fc3758c1c09c44672e2c3d6e3ba9)
+
+**What is proved.** A Lean 4 / Mathlib formalization of the main theorem of R. Montgomery, "Fractional clique decompositions of dense partite graphs" (arXiv:1603.01039; Combin. Probab. Comput. 26 (2017)): for r ≥ 3, every balanced K_r-divisible r-partite graph with parts of size n in which every vertex has at least (1 − 1/(10⁶r³))n neighbours in every other part has a fractional K_r-decomposition (Theorem 1.1); and its non-partite consequence: every graph on n vertices with minimum degree at least (1 − 1/(10⁶r³))n has a fractional K_r-decomposition. The whole proof is formalized: clique counts (Proposition 3.2, Lemma 3.3), the two gadgets (Lemmas 4.2, 4.3), the splitting lemma (Lemma 4.4), the moving lemmas (Lemmas 5.2, 5.3, 5.6) and the final averaging. Not formalized: Theorem 1.2 (integral decompositions), which also needs the fractional-to-exact transfer of Barber, Kühn, Lo, Osthus and Taylor.
+
+**Sources.**
+
+* Richard Montgomery, *Fractional clique decompositions of dense partite graphs*, arXiv:1603.01039v1 (3 March 2016), Theorem 1.1, the non-partite consequence in the introduction, Proposition 3.2, Lemmas 3.3, 4.2, 4.3, 4.4, 5.2, 5.3 and 5.6. [free full text](https://arxiv.org/pdf/1603.01039) (arXiv)
+
 ## Triangle decompositions of dense tripartite graphs and completion of partial Latin squares
 
 Palomar: [PALOMAR-2026-11-01-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000005&version=3) (version 3) · code: [jtraverso/triangle-decompositions-tripartite @ fd5c713](https://github.com/jtraverso/triangle-decompositions-tripartite/tree/fd5c713e00cc03454878cdfc3acd8a7c9b0c19de) · [archived copy](https://github.com/PalomarArchive/jtraverso--triangle-decompositions-tripartite--9560d1b43409/tree/palomar/PALOMAR-2026-11-01-000005-v3/fd5c713e00cc03454878cdfc3acd8a7c9b0c19de)
