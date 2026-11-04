@@ -48,4 +48,15 @@ Palomar: [PALOMAR-2026-11-04-000014](https://palomar-registry.org/entry.html?id=
 * H. J. Ryser, *A combinatorial theorem with an application to latin rectangles*, Proceedings of the American Mathematical Society 2 (1951), 550–552.
 * D. de Werra, *Balanced schedules*, INFOR 9 (1971); the form used by Colbourn–Dinitz–Rosa.
 
+## Plantholt's overfull criterion for graphs of high minimum degree, with a 1-factorization theorem for dense regular graphs
+
+Palomar: [PALOMAR-2026-11-04-000016](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-04-000016&version=1) (version 1) · code: [jtraverso/plantholt-overfull-criterion @ 28ff33d](https://github.com/jtraverso/plantholt-overfull-criterion/tree/28ff33dd73fc858056ff0db75d5a6d6cef15c8b5) · [archived copy](https://github.com/PalomarArchive/jtraverso--plantholt-overfull-criterion--d61ff43b5134/tree/palomar/PALOMAR-2026-11-04-000016-v1/28ff33dd73fc858056ff0db75d5a6d6cef15c8b5)
+
+**What is proved.** A Lean 4 / Mathlib formalization of Theorem 1.2 of M. Plantholt, Overfull conjecture for graphs with high minimum degree (J. Graph Theory 47, 2004), and of a 1-factorization theorem for dense regular graphs in the style of Chetwynd and Hilton (1989). theorem_1_2: if c ≥ 3/4 is such that every regular graph of even order n and degree at least c n is 1-factorizable, and G has even order n with (3δ − Δ)/2 ≥ c n, then G is Class 1 (χ′ = Δ) if and only if G has no Δ-overfull subgraph. lineGraph_colorable_of_isRegular: a d-regular graph of even order 2n with 11 n ≤ 6 d is d-edge-colourable, i.e. 1-factorizable; this is a weaker form of Chetwynd–Hilton 1989, Theorem 2 (d ≥ ½(√7 − 1)|V|), proved with the same architecture. overfull_criterion: Plantholt's theorem with c = 11/12, i.e. if G has even order n and 11 n ≤ 6 (3δ − Δ), then G is Class 1 if and only if it has no Δ-overfull subgraph. Three statements. A Δ-overfull subgraph has an odd number ≥ 3 of vertices and more than Δ ⌊|V(H)|/2⌋ edges; edge colourings are colourings of the line graph.
+
+**Sources.**
+
+* Michael J. Plantholt, *Overfull conjecture for graphs with high minimum degree*, Journal of Graph Theory 47 (2004), 73–80: Theorem 1.2, Lemma 2.1. [doi:10.1002/jgt.20013](https://doi.org/10.1002/jgt.20013)
+* A. G. Chetwynd, A. J. W. Hilton, *1-factorizing regular graphs of high degree—an improved bound*, Discrete Mathematics 75 (1989), 103–112: §§2–4 (Lemma 1, Lemma 2, Theorems 4–5, proof of Theorem 1). [doi:10.1016/0012-365X(89)90082-4](https://doi.org/10.1016/0012-365X(89)90082-4) · [free full text](https://doi.org/10.1016/0012-365x(89)90082-4)
+
 [← Back to the list](../README.md)
