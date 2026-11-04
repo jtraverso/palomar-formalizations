@@ -2,7 +2,7 @@
 
 Computer-checked proofs, written in [Lean 4](https://lean-lang.org) with the [Mathlib](https://github.com/leanprover-community/mathlib4) library, by **Juan Pablo Traverso Gianini**. Every entry below has been accepted by the [Palomar registry](https://palomar-registry.org), which keeps the exact statements, the proofs and the record of their verification.
 
-**83 entries:** 11 from my own research and 72 formalizations of results by other authors, mostly in graph theory and combinatorics.
+**84 entries:** 11 from my own research and 73 formalizations of results by other authors, mostly in graph theory and combinatorics.
 
 In the tables, the title leads to a page with the details of the entry (what is proved, the sources, the code); **Paper** opens a free copy of the original paper when there is one; **DOI** is the publisher's link; **Palomar** is the registered entry.
 
@@ -23,7 +23,7 @@ In the tables, the title leads to a page with the details of the entry (what is 
   * [Decompositions and packings](#decompositions-and-packings) (6)
   * [Designs, set systems and discrepancy](#designs-set-systems-and-discrepancy) (5)
   * [Algebraic and spectral graph theory](#algebraic-and-spectral-graph-theory) (6)
-  * [Recently registered](#recently-registered) (1)
+  * [Recently registered](#recently-registered) (2)
 * [All entries by registration date](registration-log.md)
 * [Notes](#notes)
 * [arXiv endorsement](#arxiv-endorsement)
@@ -190,6 +190,7 @@ Grouped by subject. **Authors** are those of the main source.
 | Result | Authors | Paper | DOI | Palomar |
 |---|---|---|---|---|
 | [Complete minors and average degree (Kostochka–Thomason)](details/recently-registered.md#complete-minors-and-average-degree-kostochkathomason) | Alon, Krivelevich, Sudakov | [PDF](https://arxiv.org/pdf/2202.08530) | — | [PALOMAR-2026-11-04-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-04-000001&version=1) |
+| [Overfullness of critical graphs with small minimum degree (Cao–Chen–Jing–Shan, variant)](details/recently-registered.md#overfullness-of-critical-graphs-with-small-minimum-degree-caochenjingshan-variant) | Cao et al. | [PDF](https://arxiv.org/pdf/2105.05333) | — | [PALOMAR-2026-11-04-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-04-000009&version=1) |
 
 ## Notes
 
