@@ -190,7 +190,7 @@ Grouped by subject. **Authors** are those of the main source.
 | Result | Authors | Paper | DOI | Palomar |
 |---|---|---|---|---|
 | [Complete minors and average degree (Kostochka–Thomason)](details/recently-registered.md#complete-minors-and-average-degree-kostochkathomason) | Alon, Krivelevich, Sudakov | [PDF](https://arxiv.org/pdf/2202.08530) | — | [PALOMAR-2026-11-04-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-04-000001&version=1) |
-| [Overfullness of critical graphs with small minimum degree (Cao–Chen–Jing–Shan, variant)](details/recently-registered.md#overfullness-of-critical-graphs-with-small-minimum-degree-caochenjingshan-variant) | Cao et al. | [PDF](https://arxiv.org/pdf/2105.05333) | — | [PALOMAR-2026-11-04-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-04-000009&version=1) |
+| [Overfullness of critical graphs with small minimum degree (Cao–Chen–Jing–Shan; Chen–Cao)](details/recently-registered.md#overfullness-of-critical-graphs-with-small-minimum-degree-caochenjingshan-chencao) | Cao et al. | [PDF](https://arxiv.org/pdf/2105.05333) | — | [PALOMAR-2026-11-04-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-04-000009&version=2) (v2) |
 
 ## Notes
 
