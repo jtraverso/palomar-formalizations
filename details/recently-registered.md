@@ -59,4 +59,14 @@ Palomar: [PALOMAR-2026-11-04-000016](https://palomar-registry.org/entry.html?id=
 * Michael J. Plantholt, *Overfull conjecture for graphs with high minimum degree*, Journal of Graph Theory 47 (2004), 73–80: Theorem 1.2, Lemma 2.1. [doi:10.1002/jgt.20013](https://doi.org/10.1002/jgt.20013)
 * A. G. Chetwynd, A. J. W. Hilton, *1-factorizing regular graphs of high degree—an improved bound*, Discrete Mathematics 75 (1989), 103–112: §§2–4 (Lemma 1, Lemma 2, Theorems 4–5, proof of Theorem 1). [doi:10.1016/0012-365X(89)90082-4](https://doi.org/10.1016/0012-365X(89)90082-4) · [free full text](https://doi.org/10.1016/0012-365x(89)90082-4)
 
+## Equitable strong (vertex-distinguishing) edge colourings: Rudašová–Soták, Theorem 3.1
+
+Palomar: [PALOMAR-2026-11-05-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-05-000001&version=1) (version 1) · code: [jtraverso/rudasova-sotak-equitable-strong @ 57535a7](https://github.com/jtraverso/rudasova-sotak-equitable-strong/tree/57535a7c821a3186349a815482b5e3a4b987d9d6) · [archived copy](https://github.com/PalomarArchive/jtraverso--rudasova-sotak-equitable-strong--3f0f0beea131/tree/palomar/PALOMAR-2026-11-05-000001-v1/57535a7c821a3186349a815482b5e3a4b987d9d6)
+
+**What is proved.** A Lean 4 / Mathlib formalization of Theorem 3.1 of J. Rudašová and R. Soták, Vertex-distinguishing proper edge colourings of some regular graphs (Discrete Math. 308, 2008). exists_equitable_strong: if a finite simple graph G has a strong (vertex-distinguishing) proper edge colouring with m colours and m ≤ k, then G has an equitable strong proper edge colouring with k colours. One statement. Edge colourings are colourings of the line graph; the palette of a vertex is the set of colours of its edges; strong means distinct vertices have distinct palettes; equitable means the colour classes differ in size by at most one.
+
+**Sources.**
+
+* Janka Rudašová, Roman Soták, *Vertex-distinguishing proper edge colourings of some regular graphs*, Discrete Mathematics 308 (2008), 795–802: Theorem 3.1. [doi:10.1016/j.disc.2007.07.019](https://doi.org/10.1016/j.disc.2007.07.019) · [free full text](https://www.sciencedirect.com/science/article/pii/S0012365X07005237/pdf)
+
 [← Back to the list](../README.md)
