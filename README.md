@@ -2,7 +2,7 @@
 
 Computer-checked proofs, written in [Lean 4](https://lean-lang.org) with the [Mathlib](https://github.com/leanprover-community/mathlib4) library, by **Juan Pablo Traverso Gianini**. Every entry below has been accepted by the [Palomar registry](https://palomar-registry.org), which keeps the exact statements, the proofs and the record of their verification.
 
-**87 entries:** 11 from my own research and 76 formalizations of results by other authors, mostly in graph theory and combinatorics.
+**88 entries:** 11 from my own research and 77 formalizations of results by other authors, mostly in graph theory and combinatorics.
 
 In the tables, the title leads to a page with the details of the entry (what is proved, the sources, the code); **Paper** opens a free copy of the original paper when there is one; **DOI** is the publisher's link; **Palomar** is the registered entry.
 
@@ -23,7 +23,7 @@ In the tables, the title leads to a page with the details of the entry (what is 
   * [Decompositions and packings](#decompositions-and-packings) (6)
   * [Designs, set systems and discrepancy](#designs-set-systems-and-discrepancy) (5)
   * [Algebraic and spectral graph theory](#algebraic-and-spectral-graph-theory) (6)
-  * [Recently registered](#recently-registered) (5)
+  * [Recently registered](#recently-registered) (6)
 * [All entries by registration date](registration-log.md)
 * [Notes](#notes)
 * [arXiv endorsement](#arxiv-endorsement)
@@ -194,6 +194,7 @@ Grouped by subject. **Authors** are those of the main source.
 | [Bicolouring Steiner triple systems (Colbourn–Dinitz–Rosa product, Dinitz–Stinson conditions)](details/recently-registered.md#bicolouring-steiner-triple-systems-colbourndinitzrosa-product-dinitzstinson-conditions) | Colbourn, Dinitz, Rosa | [PDF](https://www.combinatorics.org/ojs/index.php/eljc/article/download/v6i1r25/pdf) | [10.37236/1457](https://doi.org/10.37236/1457) | [PALOMAR-2026-11-04-000014](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-04-000014&version=1) |
 | [Plantholt's overfull criterion for graphs of high minimum degree, with 1-factorization theorems for dense regular graphs (6/7 and 11/12)](details/recently-registered.md#plantholts-overfull-criterion-for-graphs-of-high-minimum-degree-with-1-factorization-theorems-for-dense-regular-graphs-67-and-1112) | Plantholt | [PDF](https://doi.org/10.1016/0012-365x(89)90082-4) | [10.1002/jgt.20013](https://doi.org/10.1002/jgt.20013) | [PALOMAR-2026-11-04-000016](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-04-000016&version=2) (v2) |
 | [Equitable strong (vertex-distinguishing) edge colourings: Rudašová–Soták, Theorem 3.1](details/recently-registered.md#equitable-strong-vertex-distinguishing-edge-colourings-rudašovásoták-theorem-31) | Rudašová, Soták | [PDF](https://www.sciencedirect.com/science/article/pii/S0012365X07005237/pdf) | [10.1016/j.disc.2007.07.019](https://doi.org/10.1016/j.disc.2007.07.019) | [PALOMAR-2026-11-05-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-05-000001&version=1) |
+| [Balanced edge colourings: Balister–Kostochka–Li–Schelp 2004, Theorems 1, 6, 10(2) and Corollary 12](details/recently-registered.md#balanced-edge-colourings-balisterkostochkalischelp-2004-theorems-1-6-102-and-corollary-12) | Balister et al. | [PDF](https://www.sciencedirect.com/science/article/pii/S009589560300073X/pdf) | [10.1016/S0095-8956(03)00073-X](https://doi.org/10.1016/S0095-8956(03)00073-X) | [PALOMAR-2026-11-06-000002](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-06-000002&version=1) |
 
 ## Notes
 

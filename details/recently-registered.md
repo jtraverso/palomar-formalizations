@@ -70,4 +70,14 @@ Palomar: [PALOMAR-2026-11-05-000001](https://palomar-registry.org/entry.html?id=
 
 * Janka Rudašová, Roman Soták, *Vertex-distinguishing proper edge colourings of some regular graphs*, Discrete Mathematics 308 (2008), 795–802: Theorem 3.1. [doi:10.1016/j.disc.2007.07.019](https://doi.org/10.1016/j.disc.2007.07.019) · [free full text](https://www.sciencedirect.com/science/article/pii/S0012365X07005237/pdf)
 
+## Balanced edge colourings: Balister–Kostochka–Li–Schelp 2004, Theorems 1, 6, 10(2) and Corollary 12
+
+Palomar: [PALOMAR-2026-11-06-000002](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-06-000002&version=1) (version 1) · code: [jtraverso/balanced-edge-colourings @ 736c78e](https://github.com/jtraverso/balanced-edge-colourings/tree/736c78e6addcdb77e95cd83e4e44c5c0700f13ef) · [archived copy](https://github.com/PalomarArchive/jtraverso--balanced-edge-colourings--a527efb7f56f/tree/palomar/PALOMAR-2026-11-06-000002-v1/736c78e6addcdb77e95cd83e4e44c5c0700f13ef)
+
+**What is proved.** A Lean 4 / Mathlib formalization of four results of P. N. Balister, A. V. Kostochka, H. Li and R. H. Schelp, Balanced edge colorings (J. Combin. Theory Ser. B 90, 2004). Edge colourings with k colours are colourings of the line graph with Fin k; the palette of a vertex is the set of colours of its edges; numPal C S counts the vertices with palette S and cost C is the sum of the squares of these counts. theorem1 (Theorem 1): in a k-colouring of least cost, palettes of the same size are used numbers of times differing by at most two. theorem6 (Theorem 6): a proper 3-colouring of the edges (a map Sym2 V → Fin 3 proper at every vertex) can be replaced by a proper 4-colouring in which distinct vertices with the same key see different colour sets, when two distinct vertices with equal key, degree and colour set have degree 3 and no three distinct vertices of degree 3 share a key. theorem10 (Theorem 10, part 2): if 3 ≤ k, Δ(G) ≤ k, n_0, n_1, n_2 ≤ 1, n_3, n_4, n_k ≤ 2, n_{k-1} ≤ k + 1 and n_d ≤ (d-4)/(d-3) · min(2 C(k-3, d-3), C(k, d)) - 2 for 5 ≤ d ≤ k - 2 (n_d the number of vertices of degree d), then G has a strong (vertex-distinguishing) edge colouring with k + 1 colours. corollary12 (Corollary 12): if Δ(G) ≥ √(2n) + 4 (n vertices), δ(G) ≥ 5 and k is least with n_d ≤ C(k, d) for all d, then G has a strong edge colouring with k + 1 colours and every strong edge colouring uses at least k colours. Four statements.
+
+**Sources.**
+
+* P. N. Balister, A. V. Kostochka, Hao Li, R. H. Schelp, *Balanced edge colorings*, Journal of Combinatorial Theory, Series B 90 (2004), 3–20: Theorem 1, Theorem 6, Theorem 10 (part 2), Corollary 12. [doi:10.1016/S0095-8956(03)00073-X](https://doi.org/10.1016/S0095-8956(03)00073-X) · [free full text](https://www.sciencedirect.com/science/article/pii/S009589560300073X/pdf)
+
 [← Back to the list](../README.md)
