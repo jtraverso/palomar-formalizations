@@ -2,7 +2,7 @@
 
 Computer-checked proofs, written in [Lean 4](https://lean-lang.org) with the [Mathlib](https://github.com/leanprover-community/mathlib4) library, by **Juan Pablo Traverso Gianini**. Every entry below has been accepted by the [Palomar registry](https://palomar-registry.org), which keeps the exact statements, the proofs and the record of their verification.
 
-**90 entries:** 11 from my own research and 79 formalizations of results by other authors, mostly in graph theory and combinatorics.
+**91 entries:** 11 from my own research and 80 formalizations of results by other authors, mostly in graph theory and combinatorics.
 
 In the tables, the title leads to a page with the details of the entry (what is proved, the sources, the code); **Paper** opens a free copy of the original paper when there is one; **DOI** is the publisher's link; **Palomar** is the registered entry.
 
@@ -23,7 +23,7 @@ In the tables, the title leads to a page with the details of the entry (what is 
   * [Decompositions and packings](#decompositions-and-packings) (6)
   * [Designs, set systems and discrepancy](#designs-set-systems-and-discrepancy) (5)
   * [Algebraic and spectral graph theory](#algebraic-and-spectral-graph-theory) (6)
-  * [Recently registered](#recently-registered) (8)
+  * [Recently registered](#recently-registered) (9)
 * [All entries by registration date](registration-log.md)
 * [Notes](#notes)
 * [arXiv endorsement](#arxiv-endorsement)
@@ -197,6 +197,7 @@ Grouped by subject. **Authors** are those of the main source.
 | [Balanced edge colourings: Balister–Kostochka–Li–Schelp 2004, Theorems 1, 6, 10(2) and Corollary 12](details/recently-registered.md#balanced-edge-colourings-balisterkostochkalischelp-2004-theorems-1-6-102-and-corollary-12) | Balister et al. | [PDF](https://www.sciencedirect.com/science/article/pii/S009589560300073X/pdf) | [10.1016/S0095-8956(03)00073-X](https://doi.org/10.1016/S0095-8956(03)00073-X) | [PALOMAR-2026-11-06-000002](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-06-000002&version=1) |
 | [Baranyai's theorem](details/recently-registered.md#baranyais-theorem) | Baranyai | — | — | [PALOMAR-2026-11-06-000003](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-06-000003&version=1) |
 | [Triangle decompositions of typical graphs of fixed density (Keevash, Counting designs, Theorem 2.1, weaker form)](details/recently-registered.md#triangle-decompositions-of-typical-graphs-of-fixed-density-keevash-counting-designs-theorem-21-weaker-form) | Keevash | [PDF](https://arxiv.org/pdf/1504.02909) | [10.4171/JEMS/779](https://doi.org/10.4171/JEMS/779) | [PALOMAR-2026-11-06-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-06-000011&version=1) |
+| [Gale's feasibility theorem, the Gale–Ryser theorem and Hoffman's circulation theorem](details/recently-registered.md#gales-feasibility-theorem-the-galeryser-theorem-and-hoffmans-circulation-theorem) | Gale | [PDF](http://msp.org/pjm/1957/7-2/pjm-v7-n2-p04-s.pdf) | [10.2140/pjm.1957.7.1073](https://doi.org/10.2140/pjm.1957.7.1073) | [PALOMAR-2026-11-06-000015](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-06-000015&version=1) |
 
 ## Notes
 

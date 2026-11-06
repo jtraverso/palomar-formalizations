@@ -107,4 +107,23 @@ Palomar: [PALOMAR-2026-11-06-000011](https://palomar-registry.org/entry.html?id=
 
 * Peter Keevash, *Counting designs*, Journal of the European Mathematical Society 20 (2018), 903–927; Theorem 2.1 (numbering of arXiv:1504.02909). [doi:10.4171/JEMS/779](https://doi.org/10.4171/JEMS/779) · [free full text](https://arxiv.org/pdf/1504.02909) (arXiv)
 
+## Gale's feasibility theorem, the Gale–Ryser theorem and Hoffman's circulation theorem
+
+Palomar: [PALOMAR-2026-11-06-000015](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-06-000015&version=1) (version 1) · code: [jtraverso/gale-hoffman-feasibility @ fa52c29](https://github.com/jtraverso/gale-hoffman-feasibility/tree/fa52c29c24edf7e9afdb487df3764affd43c51c7) · [archived copy](https://github.com/PalomarArchive/jtraverso--gale-hoffman-feasibility--31485ec5ef29/tree/palomar/PALOMAR-2026-11-06-000015-v1/fa52c29c24edf7e9afdb487df3764affd43c51c7)
+
+**What is proved.** A Lean 4 / Mathlib formalization of D. Gale, A theorem on flows in networks (Pacific J. Math. 7, 1957) and of Hoffman's circulation theorem (A. J. Hoffman, 1960, in the form of A. Schrijver, A Course in Combinatorial Optimization, Theorems 4.6 and 4.7). A network is a finite node type N with capacities c : N → N → ℝ, c ≥ 0 (finite capacities only); a flow is f : N → N → ℝ with f x y + f y x = 0 and f ≤ c; a demand d : N → ℝ is feasible if some flow has net inflow ∑_y f y x ≥ d x at every node. feasibility: d is feasible if and only if d(Sᶜ) ≤ c(S, Sᶜ) for every S ⊆ N (Gale's Feasibility Theorem). feasibility_int: the same for integer c and d with an integer flow (Gale's remark). feasibility_second: Gale's second formulation (for every set Y of nodes of positive demand, some flow meets the demand at all nodes of nonpositive demand and the aggregate demand of Y). gale_ryser_unsorted, gale_ryser: for a : Fin m → ℕ and b : Fin n → ℕ, a 0-1 matrix with row sums at most a i and column sums b j exists if and only if ∑_{j∈Y} b j ≤ ∑_i min(a i, |Y|) for all column sets Y, equivalently, for b nonincreasing, ∑_{j<k} b j ≤ ∑_{j<k} #{i | j < a i} for all k ≤ n (Gale's Problem I, §3). gale_ryser_exact: if moreover ∑ a = ∑ b, the row sums can be made exactly a (the Gale–Ryser theorem). hoffman, hoffman_int: on a finite directed multigraph (arc type A, tail and head maps src, tgt : A → V) with bounds d ≤ c on the arcs (real, respectively integer), there is a circulation f (real, respectively integer) with d ≤ f ≤ c if and only if d(δ^in(U)) ≤ c(δ^out(U)) for every U ⊆ V. Eight statements; no definitions beyond Mathlib's.
+
+**Sources.**
+
+* David Gale, *A theorem on flows in networks*, Pacific Journal of Mathematics 7 (1957), 1073–1082; Feasibility Theorem, Remark, second formulation (§2) and the theorem on Problem I (§3). [doi:10.2140/pjm.1957.7.1073](https://doi.org/10.2140/pjm.1957.7.1073) · [free full text](http://msp.org/pjm/1957/7-2/pjm-v7-n2-p04-s.pdf)
+* A. J. Hoffman, *Some recent applications of the theory of linear inequalities to extremal combinatorial analysis*, Combinatorial Analysis, Proceedings of Symposia in Applied Mathematics 10, American Mathematical Society (1960), 113–127. [doi:10.1090/psapm/010/0114759](https://doi.org/10.1090/psapm/010/0114759)
+* Alexander Schrijver, *A Course in Combinatorial Optimization*, Lecture notes, version of 23 March 2017, https://homepages.cwi.nl/~lex/files/dict.pdf, Section 4.5, Theorems 4.6 and 4.7.
+
+<details><summary>Background references</summary>
+
+* H. J. Ryser, *Combinatorial properties of matrices of zeros and ones*, Canadian Journal of Mathematics 9 (1957), 371–377. [doi:10.4153/CJM-1957-044-3](https://doi.org/10.4153/CJM-1957-044-3) · [free full text](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/4BE766CCFDF1704C196AA182C0C5EC88/S0008414X00044734a.pdf/div-class-title-combinatorial-properties-of-matrices-of-zeros-and-ones-div.pdf)
+* L. R. Ford, D. R. Fulkerson, *Maximal flow through a network*, Canadian Journal of Mathematics 8 (1956), 399–404. [doi:10.4153/CJM-1956-045-5](https://doi.org/10.4153/CJM-1956-045-5) · [free full text](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5D6E55D3B06C4F7B1043BC1D82D40764/S0008414X00036890a.pdf/div-class-title-maximal-flow-through-a-network-div.pdf)
+
+</details>
+
 [← Back to the list](../README.md)
