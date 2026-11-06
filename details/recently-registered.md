@@ -97,4 +97,14 @@ Palomar: [PALOMAR-2026-11-06-000003](https://palomar-registry.org/entry.html?id=
 
 </details>
 
+## Triangle decompositions of typical graphs of fixed density (Keevash, Counting designs, Theorem 2.1, weaker form)
+
+Palomar: [PALOMAR-2026-11-06-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-06-000011&version=1) (version 1) · code: [jtraverso/keevash-typical-triangle-decompositions @ 6eb072d](https://github.com/jtraverso/keevash-typical-triangle-decompositions/tree/6eb072d132ff300374286b314a4ae7ef6512a8b4) · [archived copy](https://github.com/PalomarArchive/jtraverso--keevash-typical-triangle-decompositions--6ac21d20076b/tree/palomar/PALOMAR-2026-11-06-000011-v1/6eb072d132ff300374286b314a4ae7ef6512a8b4)
+
+**What is proved.** A Lean 4 / Mathlib formalization of a weaker, fixed-density form of Theorem 2.1 of P. Keevash, Counting designs (J. Eur. Math. Soc. 20, 2018). density G is |E(G)| / C(n, 2); IsTypical G c h says that every nonempty set S of at most h vertices has (1 ± |S| c) d(G)^|S| n common neighbours; Tridivisible G says that every degree is even and 3 divides |E(G)|; IsTriangleDecomposition G D says that D is a family of triangles of G and every edge lies in exactly one of them. typical_triangle_decomposition: there is h such that for every d0 > 0 there are c0 > 0 and n0 such that every (c0, h)-typical tridivisible graph on n ≥ n0 vertices with density at least d0 has a triangle decomposition. This is weaker than the article in two ways: the density is bounded below by a fixed constant (the article allows d(G) > n^(-10^-7) with c < c0 d(G)^(10^6)), and the typicality is (c, h)-typicality for an absolute, not explicit, h (the article assumes c-typicality, which concerns only degrees and pairs). One statement.
+
+**Sources.**
+
+* Peter Keevash, *Counting designs*, Journal of the European Mathematical Society 20 (2018), 903–927; Theorem 2.1 (numbering of arXiv:1504.02909). [doi:10.4171/JEMS/779](https://doi.org/10.4171/JEMS/779) · [free full text](https://arxiv.org/pdf/1504.02909) (arXiv)
+
 [← Back to the list](../README.md)
