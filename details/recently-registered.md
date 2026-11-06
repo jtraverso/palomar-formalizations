@@ -80,4 +80,21 @@ Palomar: [PALOMAR-2026-11-06-000002](https://palomar-registry.org/entry.html?id=
 
 * P. N. Balister, A. V. Kostochka, Hao Li, R. H. Schelp, *Balanced edge colorings*, Journal of Combinatorial Theory, Series B 90 (2004), 3–20: Theorem 1, Theorem 6, Theorem 10 (part 2), Corollary 12. [doi:10.1016/S0095-8956(03)00073-X](https://doi.org/10.1016/S0095-8956(03)00073-X) · [free full text](https://www.sciencedirect.com/science/article/pii/S009589560300073X/pdf)
 
+## Baranyai's theorem
+
+Palomar: [PALOMAR-2026-11-06-000003](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-06-000003&version=1) (version 1) · code: [jtraverso/baranyai-theorem @ 0ff6d6f](https://github.com/jtraverso/baranyai-theorem/tree/0ff6d6f4005b0b68114e0b99e6d342742918b629) · [archived copy](https://github.com/PalomarArchive/jtraverso--baranyai-theorem--0fb5997ac7ea/tree/palomar/PALOMAR-2026-11-06-000003-v1/0ff6d6f4005b0b68114e0b99e6d342742918b629)
+
+**What is proved.** A Lean 4 / Mathlib formalization of Baranyai's theorem: if k divides n, the k-subsets of an n-set can be partitioned into (n−1 choose k−1) parallel classes, each a partition of the set into n/k blocks of size k (a 1-factorization of the complete k-uniform hypergraph); and of Baranyai's rounding lemma: every real matrix can be rounded entrywise to floors or ceilings so that all row sums, column sums and the total are also rounded. The proof includes the integral max-flow theorem for integer capacities. Mathlib has neither result.
+
+**Sources.**
+
+* Zsolt Baranyai, *On the factorization of the complete uniform hypergraph*, Infinite and Finite Sets (Proc. Colloq. Keszthely, 1973), Colloq. Math. Soc. János Bolyai 10, North-Holland (1975), 91–108.
+
+<details><summary>Background references</summary>
+
+* J. H. van Lint, R. M. Wilson, *A Course in Combinatorics (2nd edition)*, Cambridge University Press (2001), Chapter 38. [doi:10.1017/CBO9780511987045](https://doi.org/10.1017/CBO9780511987045)
+* L. R. Ford, D. R. Fulkerson, *Maximal flow through a network*, Canadian Journal of Mathematics 8 (1956), 399–404. [doi:10.4153/CJM-1956-045-5](https://doi.org/10.4153/CJM-1956-045-5) · [free full text](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5D6E55D3B06C4F7B1043BC1D82D40764/S0008414X00036890a.pdf/div-class-title-maximal-flow-through-a-network-div.pdf)
+
+</details>
+
 [← Back to the list](../README.md)
