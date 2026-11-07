@@ -136,4 +136,21 @@ Palomar: [PALOMAR-2026-11-07-000007](https://palomar-registry.org/entry.html?id=
 
 * W. Duke, R. Schulze-Pillot, *Representation of integers by positive ternary quadratic forms and equidistribution of lattice points on ellipsoids*, Inventiones Mathematicae 99 (1990), 49–57; Lemma 5(ii) and Theorem 3(ii). [doi:10.1007/BF01234411](https://doi.org/10.1007/BF01234411)
 
+## Thomassen: exponentially many 5-list-colourings of planar graphs
+
+Palomar: [PALOMAR-2026-11-07-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-07-000009&version=1) (version 1) · code: [jtraverso/thomassen-many-list-colourings @ 109f88e](https://github.com/jtraverso/thomassen-many-list-colourings/tree/109f88ec9084d00e523bbc7fc558faa86428da52) · [archived copy](https://github.com/PalomarArchive/jtraverso--thomassen-many-list-colourings--2e1f89cb92de/tree/palomar/PALOMAR-2026-11-07-000009-v1/109f88ec9084d00e523bbc7fc558faa86428da52)
+
+**What is proved.** A Lean 4 / Mathlib formalization of C. Thomassen, Exponentially many 5-list-colorings of planar graphs (J. Combin. Theory Ser. B 97, 2007): a finite planar graph with n vertices, every vertex of which has a list of at least five colours, has at least 2^{n/9} distinct list colourings (two_rpow_card_div_nine_le_ncard_listColourings: (2 : ℝ) ^ (n / 9) ≤ the number of maps f : V → C with f v ∈ L v and f u ≠ f v on every edge). Planarity is combinatorial: a plane map is a rotation system whose hypermap with the dart reversal has Euler defect 0 (definitions copied verbatim from the registered entry thomassen-girth-five, PALOMAR-2026-10-28-000023, so that the Challenge depends on Mathlib only). The proof follows the paper: Theorems 1–4, Claims 8–13 and the lemmas on generalized wheels they use are proved for an abstract interface of near-triangulations, which is realised by plane near-triangulations using the separation theorems of the dependency; every planar graph is a spanning subgraph of a plane near-triangulation. One statement; the definitions of the Challenge are compared with those of the Solution.
+
+**Sources.**
+
+* Carsten Thomassen, *Exponentially many 5-list-colorings of planar graphs*, Journal of Combinatorial Theory, Series B 97 (2007), 571–583; the main result (abstract and Section 6), with Theorems 1–4, Lemmas 1, 3, 4, 5 and Claims 8–13. [doi:10.1016/j.jctb.2006.09.002](https://doi.org/10.1016/j.jctb.2006.09.002) · [free full text](https://www.sciencedirect.com/science/article/pii/S0095895606001055/pdf)
+
+<details><summary>Background references</summary>
+
+* Rikke Langhede, Carsten Thomassen, *Exponentially many Z5-colorings in simple planar graphs*, arXiv:2011.12163. [free full text](https://arxiv.org/pdf/2011.12163) (arXiv)
+* Carsten Thomassen, *Every planar graph is 5-choosable*, Journal of Combinatorial Theory, Series B 62 (1994), 180–181. [doi:10.1006/jctb.1994.1062](https://doi.org/10.1006/jctb.1994.1062) · [free full text](https://doi.org/10.1006/jctb.1994.1062)
+
+</details>
+
 [← Back to the list](../README.md)
