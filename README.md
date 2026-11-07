@@ -2,7 +2,7 @@
 
 Computer-checked proofs, written in [Lean 4](https://lean-lang.org) with the [Mathlib](https://github.com/leanprover-community/mathlib4) library, by **Juan Pablo Traverso Gianini**. Every entry below has been accepted by the [Palomar registry](https://palomar-registry.org), which keeps the exact statements, the proofs and the record of their verification.
 
-**94 entries:** 11 from my own research and 83 formalizations of results by other authors, mostly in graph theory and combinatorics.
+**95 entries:** 12 from my own research and 83 formalizations of results by other authors, mostly in graph theory and combinatorics.
 
 In the tables, the title leads to a page with the details of the entry (what is proved, the sources, the code); **Paper** opens a free copy of the original paper when there is one; **DOI** is the publisher's link; **Palomar** is the registered entry.
 
@@ -11,6 +11,7 @@ In the tables, the title leads to a page with the details of the entry (what is 
 * [My own research](#my-own-research)
   * [Erdős Problem #81 series](#erdős-problem-81-series) (7)
   * [Triangle decompositions series](#triangle-decompositions-series) (4)
+  * [Colbourn–Dinitz–Rosa series](#colbourndinitzrosa-series) (1)
 * [Results by other authors](#results-by-other-authors)
   * [Vertex colouring](#vertex-colouring) (8)
   * [Edge colouring and list colouring](#edge-colouring-and-list-colouring) (9)
@@ -54,6 +55,14 @@ The Nash–Williams triangle-decomposition problem. Paper I ([10.5281/zenodo.234
 | Paper II — [Robust Absorption for Typed Triangles](details/own-research.md#robust-absorption-for-typed-triangles-triangle-decompositions-ii) | [PDF](https://github.com/jtraverso/nash-williams-triangle-decompositions-release/blob/main/preprints/PAPER_II/01_manuscript/PAPER_II_preprint_v1.0_en.pdf) | [10.5281/zenodo.23502224](https://doi.org/10.5281/zenodo.23502224) | [PALOMAR-2026-10-23-000013](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-23-000013&version=1) |
 | Paper III — [Physical Typed Absorption and Prescribed Statistics](details/own-research.md#triangle-decompositions-iii-physical-typed-absorption-and-prescribed-statistics) | [PDF](https://github.com/jtraverso/nash-williams-triangle-decompositions-release/blob/main/preprints/PAPER_III/01_manuscript/PAPER_III_preprint_v1.0_en.pdf) | [10.5281/zenodo.23867836](https://doi.org/10.5281/zenodo.23867836) | [PALOMAR-2026-11-03-000012](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-03-000012&version=1) |
 | Research Note I — [Formalizing Delcourt–Postle’s Refined Absorption in Lean](details/own-research.md#formalizing-delcourtpostles-refined-absorption-in-lean) | [PDF](https://github.com/jtraverso/refined-absorption-lean/blob/main/preprints/RESEARCH_NOTE_v1.0.1/01_manuscript/RESEARCH_NOTE_preprint_v1.0.1_en.pdf) | [10.5281/zenodo.23715622](https://doi.org/10.5281/zenodo.23715622) | [PALOMAR-2026-10-29-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-29-000005&version=1) |
+
+### Colbourn–Dinitz–Rosa series
+
+Strictly 3-bicolored Steiner triple systems. Paper I determines the exact block-type spectrum for all sufficiently large admissible profiles via typed absorption; Paper II proves the class-size conjecture of Colbourn, Dinitz and Rosa (1999). Both are verified in one shared Lean development. Publication home [jtraverso/cdr-steiner-preprints](https://github.com/jtraverso/cdr-steiner-preprints).
+
+| Publication | PDF | DOI | Palomar |
+|---|---|---|---|
+| Papers I and II — [The Exact Block-Type Spectrum in the Colbourn–Dinitz–Rosa Problem; A Proof of the Colbourn–Dinitz–Rosa Conjecture](details/own-research.md#the-colbourndinitzrosa-conjecture-and-the-exact-block-type-spectrum) | [PDF I](https://github.com/jtraverso/cdr-steiner-preprints/blob/main/preprints/PAPER_I/01_manuscript/spectrum_en.pdf) · [PDF II](https://github.com/jtraverso/cdr-steiner-preprints/blob/main/preprints/PAPER_II/01_manuscript/profiles_en.pdf) | [10.5281/zenodo.23987251](https://doi.org/10.5281/zenodo.23987251)<br>[10.5281/zenodo.23987256](https://doi.org/10.5281/zenodo.23987256) | [PALOMAR-2026-11-07-000002](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-07-000002&version=1) |
 
 ## Results by other authors
 

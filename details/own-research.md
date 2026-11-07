@@ -181,4 +181,18 @@ Palomar: [PALOMAR-2026-10-29-000005](https://palomar-registry.org/entry.html?id=
 
 </details>
 
+## The Colbourn–Dinitz–Rosa conjecture and the exact block-type spectrum
+
+Palomar: [PALOMAR-2026-11-07-000002](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-07-000002&version=1) (version 1) · code: [jtraverso/cdr-palomar-kernel @ 5d1e6fe](https://github.com/jtraverso/cdr-palomar-kernel/tree/5d1e6fe301e5fc01c92f6145aa34fddfe9c2bd10) · [archived copy](https://github.com/PalomarArchive/jtraverso--cdr-palomar-kernel--853fb49173b4/tree/palomar/PALOMAR-2026-11-07-000002-v1/5d1e6fe301e5fc01c92f6145aa34fddfe9c2bd10)
+
+**What is proved.** A Lean 4 formalization of two results on strictly 3-bicolored Steiner triple systems. For every positive triple of class sizes a,b,c, existence is equivalent to n=a+b+c being 1 or 3 modulo 6, the identity a²+b²+c²-ab-ac-bc=n, and the exclusion of two classes of size 2. For every sufficiently large admissible profile, the number of AAC blocks is characterized exactly by two explicit arithmetic tests. The first result settles the class-size conjecture posed by Colbourn, Dinitz and Rosa in 1999; the second applies the typed absorption theorems of Triangle decompositions III. Both statements are compared in one shared development.
+
+**Sources.**
+
+* Juan Pablo Traverso Gianini, *The CDR class-size characterization and exact block-type spectrum*.
+* Juan Pablo Traverso Gianini, *A proof of the Colbourn–Dinitz–Rosa conjecture*, https://doi.org/10.5281/zenodo.23987256. [doi:10.5281/zenodo.23987256](https://doi.org/10.5281/zenodo.23987256) · [free full text](https://doi.org/10.5281/zenodo.23987256) (Zenodo)
+* Juan Pablo Traverso Gianini, *The exact block-type spectrum in the Colbourn–Dinitz–Rosa problem*, https://doi.org/10.5281/zenodo.23987251. [doi:10.5281/zenodo.23987251](https://doi.org/10.5281/zenodo.23987251) · [free full text](https://doi.org/10.5281/zenodo.23987251) (Zenodo)
+* Juan Pablo Traverso Gianini, *Triangle decompositions III: Physical typed absorption and prescribed statistics*. [doi:10.5281/zenodo.23867836](https://doi.org/10.5281/zenodo.23867836) · [free full text](https://doi.org/10.5281/zenodo.23867836) (Zenodo)
+* Charles J. Colbourn, Jeffrey H. Dinitz, Alexander Rosa, *Bicoloring Steiner triple systems*. [doi:10.37236/1457](https://doi.org/10.37236/1457) · [free full text](https://www.combinatorics.org/ojs/index.php/eljc/article/download/v6i1r25/pdf)
+
 [← Back to the list](../README.md)
