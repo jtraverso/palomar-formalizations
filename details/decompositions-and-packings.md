@@ -87,4 +87,31 @@ Palomar: [PALOMAR-2026-11-01-000005](https://palomar-registry.org/entry.html?id=
 
 </details>
 
+## Triangle decompositions of typical graphs of fixed density (Keevash, Counting designs, Theorem 2.1, weaker form)
+
+Palomar: [PALOMAR-2026-11-06-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-06-000011&version=1) (version 1) · code: [jtraverso/keevash-typical-triangle-decompositions @ 6eb072d](https://github.com/jtraverso/keevash-typical-triangle-decompositions/tree/6eb072d132ff300374286b314a4ae7ef6512a8b4) · [archived copy](https://github.com/PalomarArchive/jtraverso--keevash-typical-triangle-decompositions--6ac21d20076b/tree/palomar/PALOMAR-2026-11-06-000011-v1/6eb072d132ff300374286b314a4ae7ef6512a8b4)
+
+**What is proved.** A Lean 4 / Mathlib formalization of a weaker, fixed-density form of Theorem 2.1 of P. Keevash, Counting designs (J. Eur. Math. Soc. 20, 2018). density G is |E(G)| / C(n, 2); IsTypical G c h says that every nonempty set S of at most h vertices has (1 ± |S| c) d(G)^|S| n common neighbours; Tridivisible G says that every degree is even and 3 divides |E(G)|; IsTriangleDecomposition G D says that D is a family of triangles of G and every edge lies in exactly one of them. typical_triangle_decomposition: there is h such that for every d0 > 0 there are c0 > 0 and n0 such that every (c0, h)-typical tridivisible graph on n ≥ n0 vertices with density at least d0 has a triangle decomposition. This is weaker than the article in two ways: the density is bounded below by a fixed constant (the article allows d(G) > n^(-10^-7) with c < c0 d(G)^(10^6)), and the typicality is (c, h)-typicality for an absolute, not explicit, h (the article assumes c-typicality, which concerns only degrees and pairs). One statement.
+
+**Sources.**
+
+* Peter Keevash, *Counting designs*, Journal of the European Mathematical Society 20 (2018), 903–927; Theorem 2.1 (numbering of arXiv:1504.02909). [doi:10.4171/JEMS/779](https://doi.org/10.4171/JEMS/779) · [free full text](https://arxiv.org/pdf/1504.02909) (arXiv)
+
+## Baranyai's theorem
+
+Palomar: [PALOMAR-2026-11-06-000003](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-06-000003&version=1) (version 1) · code: [jtraverso/baranyai-theorem @ 0ff6d6f](https://github.com/jtraverso/baranyai-theorem/tree/0ff6d6f4005b0b68114e0b99e6d342742918b629) · [archived copy](https://github.com/PalomarArchive/jtraverso--baranyai-theorem--0fb5997ac7ea/tree/palomar/PALOMAR-2026-11-06-000003-v1/0ff6d6f4005b0b68114e0b99e6d342742918b629)
+
+**What is proved.** A Lean 4 / Mathlib formalization of Baranyai's theorem: if k divides n, the k-subsets of an n-set can be partitioned into (n−1 choose k−1) parallel classes, each a partition of the set into n/k blocks of size k (a 1-factorization of the complete k-uniform hypergraph); and of Baranyai's rounding lemma: every real matrix can be rounded entrywise to floors or ceilings so that all row sums, column sums and the total are also rounded. The proof includes the integral max-flow theorem for integer capacities. Mathlib has neither result.
+
+**Sources.**
+
+* Zsolt Baranyai, *On the factorization of the complete uniform hypergraph*, Infinite and Finite Sets (Proc. Colloq. Keszthely, 1973), Colloq. Math. Soc. János Bolyai 10, North-Holland (1975), 91–108.
+
+<details><summary>Background references</summary>
+
+* J. H. van Lint, R. M. Wilson, *A Course in Combinatorics (2nd edition)*, Cambridge University Press (2001), Chapter 38. [doi:10.1017/CBO9780511987045](https://doi.org/10.1017/CBO9780511987045)
+* L. R. Ford, D. R. Fulkerson, *Maximal flow through a network*, Canadian Journal of Mathematics 8 (1956), 399–404. [doi:10.4153/CJM-1956-045-5](https://doi.org/10.4153/CJM-1956-045-5) · [free full text](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5D6E55D3B06C4F7B1043BC1D82D40764/S0008414X00036890a.pdf/div-class-title-maximal-flow-through-a-network-div.pdf)
+
+</details>
+
 [← Back to the list](../README.md)

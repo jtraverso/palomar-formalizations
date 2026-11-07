@@ -77,4 +77,17 @@ Palomar: [PALOMAR-2026-10-15-000009](https://palomar-registry.org/entry.html?id=
 
 * József Beck, Tibor Fiala, *“Integer-making” theorems*, Discrete Applied Mathematics 3 (1981), no. 1, 1–8. [doi:10.1016/0166-218X(81)90022-6](https://doi.org/10.1016/0166-218X(81)90022-6) · [free full text](https://doi.org/10.1016/0166-218x(81)90022-6)
 
+## Bicolouring Steiner triple systems (Colbourn–Dinitz–Rosa product, Dinitz–Stinson conditions)
+
+Palomar: [PALOMAR-2026-11-04-000014](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-04-000014&version=1) (version 1) · code: [jtraverso/cdr-bicolouring-sts @ a768a98](https://github.com/jtraverso/cdr-bicolouring-sts/tree/a768a98a648e94ad38d0d84501867c999927c546) · [archived copy](https://github.com/PalomarArchive/jtraverso--cdr-bicolouring-sts--063de2d8ca97/tree/palomar/PALOMAR-2026-11-04-000014-v1/a768a98a648e94ad38d0d84501867c999927c546)
+
+**What is proved.** A Lean 4 / Mathlib formalization of the product theorem of Colbourn, Dinitz and Rosa for bicoloured Steiner triple systems and of the necessary conditions of Dinitz and Stinson. A bicolouring of an STS colours the points so that every block receives exactly two colours. bicolourable3_mul (CDR 1999, Theorem 2.4): if there is an (a, b, c)-bicolourable STS(u) with c = max(a, b, c) and c ≤ a + b, and an (x, y, z)-bicolourable STS(v), then there is an (ax + by + cz, ay + bz + cx, az + bx + cy)-bicolourable STS(uv). Dinitz–Stinson Proposition 1.2: for a bicoloured STS on v points with colour classes of sizes c_k, 3 Σ c_k (c_k − 1) = v (v − 1) (IsSTS.three_mul_sum); no two distinct colour classes have size 2 (not_two_classes_of_size_two); and with three colour classes at most one class size is odd (Bicolourable3.not_two_odd). Four statements. The proof of Theorem 2.4 includes Lemma 2.3 of the article (forbidden latin squares exist when max(a, b, c) ≤ n/2), Ryser's theorem on completing latin arrays, and de Werra's equalized edge colourings of bipartite graphs.
+
+**Sources.**
+
+* Charles J. Colbourn, Jeffrey H. Dinitz, Alexander Rosa, *Bicoloring Steiner Triple Systems*, Electronic Journal of Combinatorics 6 (1999), #R25: Theorem 2.4, Lemma 2.3, Proposition 1.4. [doi:10.37236/1457](https://doi.org/10.37236/1457) · [free full text](https://www.combinatorics.org/ojs/index.php/eljc/article/download/v6i1r25/pdf)
+* Jeffrey H. Dinitz, Douglas R. Stinson, *A Singular Direct Product for Bicolorable Steiner Triple Systems*, Author's copy, https://site.uvm.edu/jdinitz/files/2021/04/bicolor2.pdf: Proposition 1.2.
+* H. J. Ryser, *A combinatorial theorem with an application to latin rectangles*, Proceedings of the American Mathematical Society 2 (1951), 550–552.
+* D. de Werra, *Balanced schedules*, INFOR 9 (1971); the form used by Colbourn–Dinitz–Rosa.
+
 [← Back to the list](../README.md)
