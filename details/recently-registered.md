@@ -153,4 +153,20 @@ Palomar: [PALOMAR-2026-11-07-000009](https://palomar-registry.org/entry.html?id=
 
 </details>
 
+## The three squares theorem (Gauss–Legendre)
+
+Palomar: [PALOMAR-2026-11-07-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-07-000011&version=1) (version 1) · code: [jtraverso/three-squares-gauss-legendre @ 783ec66](https://github.com/jtraverso/three-squares-gauss-legendre/tree/783ec66b0db2ff2acf75cc2cd22a9e69737411b5) · [archived copy](https://github.com/PalomarArchive/jtraverso--three-squares-gauss-legendre--2afaf7563d29/tree/palomar/PALOMAR-2026-11-07-000011-v1/783ec66b0db2ff2acf75cc2cd22a9e69737411b5)
+
+**What is proved.** A Lean 4 / Mathlib proof of the three squares theorem of Legendre (1798) and Gauss (1801): a natural number is a sum of three squares if and only if it is not of the form 4^a (8 b + 7) (sum_three_sq_iff), with the corollary that every n ≡ 3 (mod 8) is x₀² + x₁² + x₂² for some x : Fin 3 → ℤ (exists_sum_sq_of_mod_eight_eq_three). The proof uses ternary quadratic forms of determinant one: a positive definite integral ternary form of determinant one is equivalent to x² + y² + z² (proved with Minkowski's convex body theorem), and for n ≢ 0 (mod 4), n ≢ 7 (mod 8) such a form with diagonal entry n is built from a prime in an arithmetic progression (Dirichlet's theorem, as in Mathlib) and quadratic reciprocity for the Jacobi symbol. Two statements; no definitions beyond Mathlib's.
+
+**Sources.**
+
+* Carl Friedrich Gauss, *Disquisitiones Arithmeticae*, Leipzig, 1801; articles 291–292 (numbers represented as sums of three squares).
+
+<details><summary>Background references</summary>
+
+* Melvyn B. Nathanson, *Additive Number Theory: The Classical Bases*, Graduate Texts in Mathematics 164, Springer (1996), Chapter 1 (Sums of polygons). [doi:10.1007/978-1-4757-3845-2](https://doi.org/10.1007/978-1-4757-3845-2)
+
+</details>
+
 [← Back to the list](../README.md)

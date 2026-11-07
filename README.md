@@ -2,7 +2,7 @@
 
 Computer-checked proofs, written in [Lean 4](https://lean-lang.org) with the [Mathlib](https://github.com/leanprover-community/mathlib4) library, by **Juan Pablo Traverso Gianini**. Every entry below has been accepted by the [Palomar registry](https://palomar-registry.org), which keeps the exact statements, the proofs and the record of their verification.
 
-**93 entries:** 11 from my own research and 82 formalizations of results by other authors, mostly in graph theory and combinatorics.
+**94 entries:** 11 from my own research and 83 formalizations of results by other authors, mostly in graph theory and combinatorics.
 
 In the tables, the title leads to a page with the details of the entry (what is proved, the sources, the code); **Paper** opens a free copy of the original paper when there is one; **DOI** is the publisher's link; **Palomar** is the registered entry.
 
@@ -23,7 +23,7 @@ In the tables, the title leads to a page with the details of the entry (what is 
   * [Decompositions and packings](#decompositions-and-packings) (6)
   * [Designs, set systems and discrepancy](#designs-set-systems-and-discrepancy) (5)
   * [Algebraic and spectral graph theory](#algebraic-and-spectral-graph-theory) (6)
-  * [Recently registered](#recently-registered) (11)
+  * [Recently registered](#recently-registered) (12)
 * [All entries by registration date](registration-log.md)
 * [Notes](#notes)
 * [arXiv endorsement](#arxiv-endorsement)
@@ -200,6 +200,7 @@ Grouped by subject. **Authors** are those of the main source.
 | [Gale's feasibility theorem, the Gale–Ryser theorem and Hoffman's circulation theorem](details/recently-registered.md#gales-feasibility-theorem-the-galeryser-theorem-and-hoffmans-circulation-theorem) | Gale | [PDF](http://msp.org/pjm/1957/7-2/pjm-v7-n2-p04-s.pdf) | [10.2140/pjm.1957.7.1073](https://doi.org/10.2140/pjm.1957.7.1073) | [PALOMAR-2026-11-06-000015](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-06-000015&version=1) |
 | [Duke–Schulze-Pillot: the upper bound of Lemma 5(ii) and a conditional Theorem 3(ii)](details/recently-registered.md#dukeschulze-pillot-the-upper-bound-of-lemma-5ii-and-a-conditional-theorem-3ii) | Duke, Schulze-Pillot | — | [10.1007/BF01234411](https://doi.org/10.1007/BF01234411) | [PALOMAR-2026-11-07-000007](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-07-000007&version=1) |
 | [Thomassen: exponentially many 5-list-colourings of planar graphs](details/recently-registered.md#thomassen-exponentially-many-5-list-colourings-of-planar-graphs) | Thomassen | [PDF](https://www.sciencedirect.com/science/article/pii/S0095895606001055/pdf) | [10.1016/j.jctb.2006.09.002](https://doi.org/10.1016/j.jctb.2006.09.002) | [PALOMAR-2026-11-07-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-07-000009&version=1) |
+| [The three squares theorem (Gauss–Legendre)](details/recently-registered.md#the-three-squares-theorem-gausslegendre) | Gauss | — | — | [PALOMAR-2026-11-07-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-07-000011&version=1) |
 
 ## Notes
 
