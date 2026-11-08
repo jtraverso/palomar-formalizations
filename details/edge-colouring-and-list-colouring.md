@@ -232,4 +232,20 @@ Palomar: [PALOMAR-2026-11-08-000004](https://palomar-registry.org/entry.html?id=
 * Yan Cao, Guantao Chen, Guangming Jing, Songling Shan, *The overfullness of graphs with small minimum degree and large maximum degree*, SIAM Journal on Discrete Mathematics 36 (2022), 2258–2270: Theorem 1.2. [free full text](https://arxiv.org/pdf/2105.05333) (arXiv)
 * Yonglei Chen, Yan Cao, *Short brooms in edge-chromatic critical graphs*, arXiv:2512.07252v2: Theorem 1.3. [free full text](https://arxiv.org/pdf/2512.07252) (arXiv)
 
+## Walecki's decompositions of complete graphs into Hamiltonian cycles and paths
+
+Palomar: [PALOMAR-2026-11-08-000007](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-08-000007&version=1) (version 1) · code: [jtraverso/walecki-decompositions @ 5e8a6ea](https://github.com/jtraverso/walecki-decompositions/tree/5e8a6eab7b0c8dacc4eb41b5c480bb90ed449a0e) · [archived copy](https://github.com/PalomarArchive/jtraverso--walecki-decompositions--15ec67c941b9/tree/palomar/PALOMAR-2026-11-08-000007-v1/5e8a6eab7b0c8dacc4eb41b5c480bb90ed449a0e)
+
+**What is proved.** A Lean 4 / Mathlib proof of Walecki's theorem: for every m, the complete graph on 2m + 1 vertices is the edge-disjoint union of m Hamiltonian cycles (hamiltonian_cycles_odd), and the complete graph on 2m vertices is the edge-disjoint union of m Hamiltonian paths (hamiltonian_paths_even). Both are stated for an arbitrary finite vertex type of the given cardinality, with Mathlib's Walk.IsHamiltonianCycle and Walk.IsHamiltonian, pairwise disjoint edge lists, and every edge of the complete graph on some cycle (path). The proof is Walecki's zig-zag construction: on ZMod (2m) the paths i, i+1, i−1, i+2, i−2, …, i+m (0 ≤ i < m) are Hamiltonian; an edge {x, y} of the i-th path has x + y ∈ {2i, 2i+1}, which makes the paths edge-disjoint, and m (2m − 1) = C(2m, 2) shows that they cover all edges; closing each path through a new vertex gives the cycles. Two statements; no definitions beyond Mathlib's.
+
+**Sources.**
+
+* Édouard Lucas, *Récréations mathématiques, tome II*, Gauthier-Villars, Paris, 1883: the decomposition of the complete graph into Hamiltonian cycles, credited by Lucas to Walecki.
+
+<details><summary>Background references</summary>
+
+* Brian Alspach, *The wonderful Walecki construction*, Bulletin of the Institute of Combinatorics and its Applications 52 (2008), 7–20.
+
+</details>
+
 [← Back to the list](../README.md)
