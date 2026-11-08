@@ -220,4 +220,16 @@ Palomar: [PALOMAR-2026-11-07-000009](https://palomar-registry.org/entry.html?id=
 
 </details>
 
+## Overfull criteria for edge colouring (Plantholt; Chen–Cao; Cao–Chen–Jing–Shan), unified
+
+Palomar: [PALOMAR-2026-11-08-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-08-000004&version=1) (version 1) · code: [jtraverso/overfull-criteria @ 2af917d](https://github.com/jtraverso/overfull-criteria/tree/2af917da6f41ebf2275c4ee4b21d5861e02fac49) · [archived copy](https://github.com/PalomarArchive/jtraverso--overfull-criteria--2e39e1179caf/tree/palomar/PALOMAR-2026-11-08-000004-v1/2af917da6f41ebf2275c4ee4b21d5861e02fac49)
+
+**What is proved.** A thin wrapper that restates, in one vocabulary and with Mathlib definitions only, the overfull criteria proved in PALOMAR-2026-11-04-000016 and PALOMAR-2026-11-04-000009. class_two_iff_overfull_subgraph: a finite simple graph of even order n with 12 n ≤ 7 (3δ − Δ) is of class two (its line graph is not Δ-colourable) iff it has a Δ-overfull subgraph (odd order at least 3, more than Δ (|V(H)| − 1)/2 edges); this is Plantholt's criterion with Chetwynd–Hilton's 6/7. critical_overfull: a Δ-critical graph (connected, class two, every edge-deleted subgraph Δ-colourable) with 2n + 5δ ≤ 3Δ + 6 (Chen–Cao), or 3n + 7δ ≤ 4Δ + 10 (Cao–Chen–Jing–Shan, variant), or 3n + 7δ ≤ 4Δ + 17 and n + δ ≥ 27 (Cao–Chen–Jing–Shan) has odd order, is overfull (|E| > Δ ⌊n/2⌋), and so is a Δ-overfull subgraph of itself. The only new proof is the elementary step from overfullness to odd order at least 3 (degree sum) and the conversion to the subgraph form. Two statements; no definitions beyond Mathlib's.
+
+**Sources.**
+
+* Michael J. Plantholt, *Overfull conjecture for graphs with high minimum degree*, Journal of Graph Theory 47 (2004), 73–80: Theorem 1.2. [doi:10.1002/jgt.20013](https://doi.org/10.1002/jgt.20013)
+* Yan Cao, Guantao Chen, Guangming Jing, Songling Shan, *The overfullness of graphs with small minimum degree and large maximum degree*, SIAM Journal on Discrete Mathematics 36 (2022), 2258–2270: Theorem 1.2. [free full text](https://arxiv.org/pdf/2105.05333) (arXiv)
+* Yonglei Chen, Yan Cao, *Short brooms in edge-chromatic critical graphs*, arXiv:2512.07252v2: Theorem 1.3. [free full text](https://arxiv.org/pdf/2512.07252) (arXiv)
+
 [← Back to the list](../README.md)

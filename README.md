@@ -2,7 +2,7 @@
 
 Computer-checked proofs, written in [Lean 4](https://lean-lang.org) with the [Mathlib](https://github.com/leanprover-community/mathlib4) library, by **Juan Pablo Traverso Gianini**. Every entry below has been accepted by the [Palomar registry](https://palomar-registry.org), which keeps the exact statements, the proofs and the record of their verification.
 
-**96 entries:** 12 from my own research and 84 formalizations of results by other authors, mostly in graph theory and combinatorics.
+**97 entries:** 12 from my own research and 85 formalizations of results by other authors, mostly in graph theory and combinatorics.
 
 In the tables, the title leads to a page with the details of the entry (what is proved, the sources, the code); **Paper** opens a free copy of the original paper when there is one; **DOI** is the publisher's link; **Palomar** is the registered entry.
 
@@ -14,7 +14,7 @@ In the tables, the title leads to a page with the details of the entry (what is 
   * [Colbourn–Dinitz–Rosa series](#colbourndinitzrosa-series) (1)
 * [Results by other authors](#results-by-other-authors)
   * [Vertex colouring](#vertex-colouring) (8)
-  * [Edge colouring and list colouring](#edge-colouring-and-list-colouring) (14)
+  * [Edge colouring and list colouring](#edge-colouring-and-list-colouring) (15)
   * [Planarity, minors and graph classes](#planarity-minors-and-graph-classes) (9)
   * [Connectivity, orientations and flows](#connectivity-orientations-and-flows) (7)
   * [Cycles and Hamiltonicity](#cycles-and-hamiltonicity) (4)
@@ -99,6 +99,7 @@ Grouped by subject. **Authors** are those of the main source.
 | [Overfullness of critical graphs with small minimum degree (Cao–Chen–Jing–Shan; Chen–Cao)](details/edge-colouring-and-list-colouring.md#overfullness-of-critical-graphs-with-small-minimum-degree-caochenjingshan-chencao) | Cao et al. | [PDF](https://arxiv.org/pdf/2105.05333) | — | [PALOMAR-2026-11-04-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-04-000009&version=2) (v2) |
 | [Plantholt's overfull criterion for graphs of high minimum degree, with 1-factorization theorems for dense regular graphs (6/7 and 11/12)](details/edge-colouring-and-list-colouring.md#plantholts-overfull-criterion-for-graphs-of-high-minimum-degree-with-1-factorization-theorems-for-dense-regular-graphs-67-and-1112) | Plantholt | [PDF](https://doi.org/10.1016/0012-365x(89)90082-4) | [10.1002/jgt.20013](https://doi.org/10.1002/jgt.20013) | [PALOMAR-2026-11-04-000016](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-04-000016&version=2) (v2) |
 | [Thomassen: exponentially many 5-list-colourings of planar graphs](details/edge-colouring-and-list-colouring.md#thomassen-exponentially-many-5-list-colourings-of-planar-graphs) | Thomassen | [PDF](https://www.sciencedirect.com/science/article/pii/S0095895606001055/pdf) | [10.1016/j.jctb.2006.09.002](https://doi.org/10.1016/j.jctb.2006.09.002) | [PALOMAR-2026-11-07-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-07-000009&version=1) |
+| [Overfull criteria for edge colouring (Plantholt; Chen–Cao; Cao–Chen–Jing–Shan), unified](details/edge-colouring-and-list-colouring.md#overfull-criteria-for-edge-colouring-plantholt-chencao-caochenjingshan-unified) | Plantholt | [PDF](https://arxiv.org/pdf/2105.05333) | [10.1002/jgt.20013](https://doi.org/10.1002/jgt.20013) | [PALOMAR-2026-11-08-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-08-000004&version=1) |
 
 ### Planarity, minors and graph classes
 
