@@ -2,7 +2,7 @@
 
 Computer-checked proofs, written in [Lean 4](https://lean-lang.org) with the [Mathlib](https://github.com/leanprover-community/mathlib4) library, by **Juan Pablo Traverso Gianini**. Every entry below has been accepted by the [Palomar registry](https://palomar-registry.org), which keeps the exact statements, the proofs and the record of their verification.
 
-**98 entries:** 12 from my own research and 86 formalizations of results by other authors, mostly in graph theory and combinatorics.
+**99 entries:** 12 from my own research and 87 formalizations of results by other authors, mostly in graph theory and combinatorics.
 
 In the tables, the title leads to a page with the details of the entry (what is proved, the sources, the code); **Paper** opens a free copy of the original paper when there is one; **DOI** is the publisher's link; **Palomar** is the registered entry.
 
@@ -14,7 +14,7 @@ In the tables, the title leads to a page with the details of the entry (what is 
   * [Colbourn–Dinitz–Rosa series](#colbourndinitzrosa-series) (1)
 * [Results by other authors](#results-by-other-authors)
   * [Vertex colouring](#vertex-colouring) (8)
-  * [Edge colouring and list colouring](#edge-colouring-and-list-colouring) (16)
+  * [Edge colouring and list colouring](#edge-colouring-and-list-colouring) (17)
   * [Planarity, minors and graph classes](#planarity-minors-and-graph-classes) (9)
   * [Connectivity, orientations and flows](#connectivity-orientations-and-flows) (7)
   * [Cycles and Hamiltonicity](#cycles-and-hamiltonicity) (4)
@@ -101,6 +101,7 @@ Grouped by subject. **Authors** are those of the main source.
 | [Thomassen: exponentially many 5-list-colourings of planar graphs](details/edge-colouring-and-list-colouring.md#thomassen-exponentially-many-5-list-colourings-of-planar-graphs) | Thomassen | [PDF](https://www.sciencedirect.com/science/article/pii/S0095895606001055/pdf) | [10.1016/j.jctb.2006.09.002](https://doi.org/10.1016/j.jctb.2006.09.002) | [PALOMAR-2026-11-07-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-07-000009&version=1) |
 | [Overfull criteria for edge colouring (Plantholt; Chen–Cao; Cao–Chen–Jing–Shan), unified](details/edge-colouring-and-list-colouring.md#overfull-criteria-for-edge-colouring-plantholt-chencao-caochenjingshan-unified) | Plantholt | [PDF](https://arxiv.org/pdf/2105.05333) | [10.1002/jgt.20013](https://doi.org/10.1002/jgt.20013) | [PALOMAR-2026-11-08-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-08-000004&version=1) |
 | [Walecki's decompositions of complete graphs into Hamiltonian cycles and paths](details/edge-colouring-and-list-colouring.md#waleckis-decompositions-of-complete-graphs-into-hamiltonian-cycles-and-paths) | Lucas | — | — | [PALOMAR-2026-11-08-000007](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-08-000007&version=1) |
+| [Fournier's theorem: graphs whose maximum-degree vertices induce a forest are of class one](details/edge-colouring-and-list-colouring.md#fourniers-theorem-graphs-whose-maximum-degree-vertices-induce-a-forest-are-of-class-one) | Fournier | — | — | [PALOMAR-2026-11-08-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-08-000009&version=1) |
 
 ### Planarity, minors and graph classes
 

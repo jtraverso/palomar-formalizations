@@ -248,4 +248,20 @@ Palomar: [PALOMAR-2026-11-08-000007](https://palomar-registry.org/entry.html?id=
 
 </details>
 
+## Fournier's theorem: graphs whose maximum-degree vertices induce a forest are of class one
+
+Palomar: [PALOMAR-2026-11-08-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-08-000009&version=1) (version 1) · code: [jtraverso/fournier-class-one @ b7baf7b](https://github.com/jtraverso/fournier-class-one/tree/b7baf7b17023d2a2a6dd9650c0706fcabb3bc227) · [archived copy](https://github.com/PalomarArchive/jtraverso--fournier-class-one--5f73bebe9b0a/tree/palomar/PALOMAR-2026-11-08-000009-v1/b7baf7b17023d2a2a6dd9650c0706fcabb3bc227)
+
+**What is proved.** A Lean 4 / Mathlib proof of Fournier's theorem (1973): if the vertices of maximum degree of a finite simple graph G induce a forest, then G has a proper edge colouring with Δ(G) colours (fournier: G.lineGraph.Colorable G.maxDegree under (G.induce {v | G.degree v = G.maxDegree}).IsAcyclic). The proof takes an edge-minimal subgraph H of G that is not Δ(G)-edge-colourable; Vizing's theorem gives Δ(H) = Δ(G), and Vizing's adjacency lemma applied to every edge xy of H gives a neighbour of x of maximum degree other than y, so the maximum-degree vertices of H span a subgraph of minimum degree at least 2 inside the forest, which is impossible (the end of a longest path). Vizing's theorem and the adjacency lemma are imported as lake dependencies from PALOMAR-2026-10-15-000004 and PALOMAR-2026-11-04-000009. One statement; no definitions beyond Mathlib's.
+
+**Sources.**
+
+* Jean-Claude Fournier, *Colorations des arêtes d'un graphe*, Cahiers du Centre d'Études de Recherche Opérationnelle 15 (1973), 311–314.
+
+<details><summary>Background references</summary>
+
+* Michael Stiebitz, Diego Scheide, Bjarne Toft, Lene M. Favrholdt, *Graph Edge Coloring: Vizing's Theorem and Goldberg's Conjecture*, Wiley, 2012: Vizing's adjacency lemma and its corollaries for critical graphs. [doi:10.1002/9781118205587](https://doi.org/10.1002/9781118205587)
+
+</details>
+
 [← Back to the list](../README.md)
