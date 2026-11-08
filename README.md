@@ -2,7 +2,7 @@
 
 Computer-checked proofs, written in [Lean 4](https://lean-lang.org) with the [Mathlib](https://github.com/leanprover-community/mathlib4) library, by **Juan Pablo Traverso Gianini**. Every entry below has been accepted by the [Palomar registry](https://palomar-registry.org), which keeps the exact statements, the proofs and the record of their verification.
 
-**95 entries:** 12 from my own research and 83 formalizations of results by other authors, mostly in graph theory and combinatorics.
+**96 entries:** 12 from my own research and 84 formalizations of results by other authors, mostly in graph theory and combinatorics.
 
 In the tables, the title leads to a page with the details of the entry (what is proved, the sources, the code); **Paper** opens a free copy of the original paper when there is one; **DOI** is the publisher's link; **Palomar** is the registered entry.
 
@@ -24,7 +24,7 @@ In the tables, the title leads to a page with the details of the entry (what is 
   * [Decompositions and packings](#decompositions-and-packings) (8)
   * [Designs, set systems and discrepancy](#designs-set-systems-and-discrepancy) (6)
   * [Algebraic and spectral graph theory](#algebraic-and-spectral-graph-theory) (6)
-  * [Number theory](#number-theory) (2)
+  * [Number theory](#number-theory) (3)
 * [All entries by registration date](registration-log.md)
 * [Notes](#notes)
 * [arXiv endorsement](#arxiv-endorsement)
@@ -210,6 +210,7 @@ Grouped by subject. **Authors** are those of the main source.
 |---|---|---|---|---|
 | [The three squares theorem (Gauss–Legendre)](details/number-theory.md#the-three-squares-theorem-gausslegendre) | Gauss | — | — | [PALOMAR-2026-11-07-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-07-000011&version=1) |
 | [Duke–Schulze-Pillot: the upper bound of Lemma 5(ii) and a conditional Theorem 3(ii)](details/number-theory.md#dukeschulze-pillot-the-upper-bound-of-lemma-5ii-and-a-conditional-theorem-3ii) | Duke, Schulze-Pillot | — | [10.1007/BF01234411](https://doi.org/10.1007/BF01234411) | [PALOMAR-2026-11-07-000007](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-07-000007&version=1) |
+| [Four squares in caps, and Jacobi's four-square theorem for odd N](details/number-theory.md#four-squares-in-caps-and-jacobis-four-square-theorem-for-odd-n) | Andrews, Ekhad, Zeilberger | [PDF](https://arxiv.org/pdf/math/9206203) | — | [PALOMAR-2026-11-08-000002](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-08-000002&version=1) |
 
 ## Notes
 

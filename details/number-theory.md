@@ -28,4 +28,22 @@ Palomar: [PALOMAR-2026-11-07-000007](https://palomar-registry.org/entry.html?id=
 
 * W. Duke, R. Schulze-Pillot, *Representation of integers by positive ternary quadratic forms and equidistribution of lattice points on ellipsoids*, Inventiones Mathematicae 99 (1990), 49–57; Lemma 5(ii) and Theorem 3(ii). [doi:10.1007/BF01234411](https://doi.org/10.1007/BF01234411)
 
+## Four squares in caps, and Jacobi's four-square theorem for odd N
+
+Palomar: [PALOMAR-2026-11-08-000002](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-08-000002&version=1) (version 1) · code: [jtraverso/four-squares-in-caps @ a1fcaaf](https://github.com/jtraverso/four-squares-in-caps/tree/a1fcaafb270c099ea773706912192adbfec19a83) · [archived copy](https://github.com/PalomarArchive/jtraverso--four-squares-in-caps--308878e49a2e/tree/palomar/PALOMAR-2026-11-08-000002-v1/a1fcaafb270c099ea773706912192adbfec19a83)
+
+**What is proved.** A Lean 4 / Mathlib proof of two results on sums of four squares. (1) Jacobi's four-square theorem for odd N: the number of x : Fin 4 → ℤ with x₀² + x₁² + x₂² + x₃² = N equals 8 ∑_{d ∣ N} d (jacobi_four_squares_odd), following the proof of Andrews, Ekhad and Zeilberger (1993): two finite q-series identities proved by WZ telescoping, combined into a finite identity that is read modulo X^{N+1} in ℚ⟦X⟧. (2) Four squares in caps (four_squares_in_caps): for every unit vector q ∈ ℝ⁴ and every δ > 0 there is M₀ such that every odd m ≥ M₀ is β₀² + β₁² + β₂² + β₃² with β : Fin 4 → ℤ and |βᵢ − √m qᵢ| ≤ δ √m for all i, i.e. the integer points of the sphere of radius √m meet every cap of fixed angular radius. The proof uses the Duke–Friedlander–Iwaniec delta method (in Heath-Brown's form) with Gaussian weights: an exact formula through the theta transformation, Fourier bounds for the cut-off weight, and the Weil bound for Kloosterman sums, imported from the Weil Bounds Toolkit (PALOMAR-2026-11-03-000018) as a lake dependency. The main term is not evaluated: it depends on the center of the cap only through its norm, so comparing caps with a grid of centers reduces the theorem to the lower bound r₄(m) ≥ 8m for odd m, which (1) provides. All constants are effective but not explicit in the statement (M₀ is existential). Two statements; no definitions beyond Mathlib's.
+
+**Sources.**
+
+* George E. Andrews, Shalosh B. Ekhad, Doron Zeilberger, *A short proof of Jacobi's formula for the number of representations of an integer as a sum of four squares*, Amer. Math. Monthly 100 (1993), 273–276; Lemma (a), (b) and identity (3). [free full text](https://arxiv.org/pdf/math/9206203) (arXiv)
+
+<details><summary>Background references</summary>
+
+* D. R. Heath-Brown, *A new form of the circle method, and its application to quadratic forms*, J. reine angew. Math. 481 (1996), 149–206. [doi:10.1515/crll.1996.481.149](https://doi.org/10.1515/crll.1996.481.149)
+* H. D. Kloosterman, *On the representation of numbers in the form ax² + by² + cz² + dt²*, Acta Math. 49 (1926), 407–464. [doi:10.1007/BF02564115](https://doi.org/10.1007/BF02564115) · [free full text](https://projecteuclid.org/journals/acta-mathematica/volume-49/issue-3-4/Th%c3%a9orie-de-fermeture-et-le-probl%c3%a8me-de-repr%c3%a9sentation-approch%c3%a9e-des/10.1007/BF02564115.pdf)
+* Charlie Dorsey, *Weil Bounds Toolkit*, https://github.com/charliedorsey/weil-bounds-toolkit @ 0f3e4c3.
+
+</details>
+
 [← Back to the list](../README.md)
