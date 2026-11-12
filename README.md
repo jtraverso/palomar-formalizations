@@ -2,7 +2,7 @@
 
 Computer-checked proofs, written in [Lean 4](https://lean-lang.org) with the [Mathlib](https://github.com/leanprover-community/mathlib4) library, by **Juan Pablo Traverso Gianini**. Every entry below has been accepted by the [Palomar registry](https://palomar-registry.org), which keeps the exact statements, the proofs and the record of their verification.
 
-**99 entries:** 12 from my own research and 87 formalizations of results by other authors, mostly in graph theory and combinatorics.
+**101 entries:** 12 from my own research and 89 formalizations of results by other authors, mostly in graph theory and combinatorics.
 
 In the tables, the title leads to a page with the details of the entry (what is proved, the sources, the code); **Paper** opens a free copy of the original paper when there is one; **DOI** is the publisher's link; **Palomar** is the registered entry.
 
@@ -18,13 +18,13 @@ In the tables, the title leads to a page with the details of the entry (what is 
   * [Planarity, minors and graph classes](#planarity-minors-and-graph-classes) (9)
   * [Connectivity, orientations and flows](#connectivity-orientations-and-flows) (7)
   * [Cycles and Hamiltonicity](#cycles-and-hamiltonicity) (4)
-  * [Matchings, factors and polyhedral combinatorics](#matchings-factors-and-polyhedral-combinatorics) (8)
+  * [Matchings, factors and polyhedral combinatorics](#matchings-factors-and-polyhedral-combinatorics) (9)
   * [Extremal graph theory and Ramsey theory](#extremal-graph-theory-and-ramsey-theory) (5)
   * [Probabilistic methods and random graphs](#probabilistic-methods-and-random-graphs) (6)
   * [Decompositions and packings](#decompositions-and-packings) (8)
   * [Designs, set systems and discrepancy](#designs-set-systems-and-discrepancy) (6)
   * [Algebraic and spectral graph theory](#algebraic-and-spectral-graph-theory) (6)
-  * [Number theory](#number-theory) (3)
+  * [Number theory](#number-theory) (4)
 * [All entries by registration date](registration-log.md)
 * [Notes](#notes)
 * [arXiv endorsement](#arxiv-endorsement)
@@ -146,6 +146,7 @@ Grouped by subject. **Authors** are those of the main source.
 | [Berge's theorem, the Tutte–Berge formula and the Gallai–Edmonds theorem](details/matchings-factors-and-polyhedral-combinatorics.md#berges-theorem-the-tutteberge-formula-and-the-gallaiedmonds-theorem) | Berge | [PDF](http://europepmc.org/pmc/articles/PMC534337) | [10.1073/pnas.43.9.842](https://doi.org/10.1073/pnas.43.9.842) | [PALOMAR-2026-10-16-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000011&version=2) (v2) |
 | [Euler's theorem on Eulerian circuits and trails, and Petersen's 2-factor theorem](details/matchings-factors-and-polyhedral-combinatorics.md#eulers-theorem-on-eulerian-circuits-and-trails-and-petersens-2-factor-theorem) | Euler | [PDF](https://zenodo.org/record/1447429) | [10.1007/BF01442866](https://doi.org/10.1007/BF01442866) | [PALOMAR-2026-10-16-000016](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000016&version=1) |
 | [Tutte's f-factor theorem](details/matchings-factors-and-polyhedral-combinatorics.md#tuttes-f-factor-theorem) | Tutte | [PDF](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/320CE524F3E9AA34F0BF6A824642C34B/S0008414X00036270a.pdf/div-class-title-the-factors-of-graphs-div.pdf) | [10.4153/CJM-1952-028-2](https://doi.org/10.4153/CJM-1952-028-2) | [PALOMAR-2026-10-18-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-18-000005&version=1) |
+| [Lovász's (g,f)-factor theorem](details/matchings-factors-and-polyhedral-combinatorics.md#lovászs-gf-factor-theorem) | Lovász | [PDF](https://www.sciencedirect.com/science/article/pii/S0021980070800333/pdf) | [10.1016/S0021-9800(70)80033-3](https://doi.org/10.1016/S0021-9800(70)80033-3) | [PALOMAR-2026-11-12-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-12-000004&version=1) |
 | [Graphic sequences: the Erdős–Gallai and Havel–Hakimi theorems](details/matchings-factors-and-polyhedral-combinatorics.md#graphic-sequences-the-erdősgallai-and-havelhakimi-theorems) | Erdős, Gallai | [PDF](https://doi.org/10.21136/cpm.1955.108220) | [10.21136/CPM.1955.108220](https://doi.org/10.21136/CPM.1955.108220) | [PALOMAR-2026-10-16-000017](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000017&version=1) |
 | [Regular subgraphs of almost regular graphs (Alon–Friedland–Kalai)](details/matchings-factors-and-polyhedral-combinatorics.md#regular-subgraphs-of-almost-regular-graphs-alonfriedlandkalai) | Alon, Friedland, Kalai | [PDF](https://doi.org/10.1016/0095-8956(84)90047-9) | [10.1016/0095-8956(84)90047-9](https://doi.org/10.1016/0095-8956(84)90047-9) | [PALOMAR-2026-10-26-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-26-000001&version=1) |
 | [Edmonds cardinality matroid intersection](details/matchings-factors-and-polyhedral-combinatorics.md#edmonds-cardinality-matroid-intersection) | Edmonds | — | [10.1007/3-540-36478-1_2](https://doi.org/10.1007/3-540-36478-1_2) | [PALOMAR-2026-10-28-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000005&version=1) |
@@ -211,6 +212,7 @@ Grouped by subject. **Authors** are those of the main source.
 
 | Result | Authors | Paper | DOI | Palomar |
 |---|---|---|---|---|
+| [Siegel's theorem on L(1, χ) for real Dirichlet characters](details/number-theory.md#siegels-theorem-on-l1-χ-for-real-dirichlet-characters) | Siegel | [PDF](https://pmc.ncbi.nlm.nih.gov/articles/PMC388160/) | [10.1073/pnas.71.4.1055](https://doi.org/10.1073/pnas.71.4.1055) | [PALOMAR-2026-11-12-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-12-000005&version=1) |
 | [The three squares theorem (Gauss–Legendre)](details/number-theory.md#the-three-squares-theorem-gausslegendre) | Gauss | — | — | [PALOMAR-2026-11-07-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-07-000011&version=1) |
 | [Duke–Schulze-Pillot: the upper bound of Lemma 5(ii) and a conditional Theorem 3(ii)](details/number-theory.md#dukeschulze-pillot-the-upper-bound-of-lemma-5ii-and-a-conditional-theorem-3ii) | Duke, Schulze-Pillot | — | [10.1007/BF01234411](https://doi.org/10.1007/BF01234411) | [PALOMAR-2026-11-07-000007](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-07-000007&version=1) |
 | [Four squares in caps, and Jacobi's four-square theorem for odd N](details/number-theory.md#four-squares-in-caps-and-jacobis-four-square-theorem-for-odd-n) | Andrews, Ekhad, Zeilberger | [PDF](https://arxiv.org/pdf/math/9206203) | — | [PALOMAR-2026-11-08-000002](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-08-000002&version=1) |

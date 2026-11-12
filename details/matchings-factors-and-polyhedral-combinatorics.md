@@ -68,6 +68,23 @@ Palomar: [PALOMAR-2026-10-18-000005](https://palomar-registry.org/entry.html?id=
 * W. T. Tutte, *The Factors of Graphs*, Canadian Journal of Mathematics 4 (1952), 314–328. [doi:10.4153/CJM-1952-028-2](https://doi.org/10.4153/CJM-1952-028-2) · [free full text](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/320CE524F3E9AA34F0BF6A824642C34B/S0008414X00036270a.pdf/div-class-title-the-factors-of-graphs-div.pdf)
 * W. T. Tutte, *A Short Proof of the Factor Theorem for Finite Graphs*, Canadian Journal of Mathematics 6 (1954), 347–352. [doi:10.4153/CJM-1954-033-3](https://doi.org/10.4153/CJM-1954-033-3) · [free full text](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/3785657C35F370E32E5AEAFC3D1B84CE/S0008414X00023774a.pdf/div-class-title-a-short-proof-of-the-factor-theorem-for-finite-graphs-div.pdf)
 
+## Lovász's (g,f)-factor theorem
+
+Palomar: [PALOMAR-2026-11-12-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-12-000004&version=1) (version 1) · code: [jtraverso/lovasz-gf-factor @ 87f7fef](https://github.com/jtraverso/lovasz-gf-factor/tree/87f7fef730446522d4f1eb27bc90d50b370e1574) · [archived copy](https://github.com/PalomarArchive/jtraverso--lovasz-gf-factor--5a6529cf49ee/tree/palomar/PALOMAR-2026-11-12-000004-v1/87f7fef730446522d4f1eb27bc90d50b370e1574)
+
+**What is proved.** A Lean 4 / Mathlib proof of Lovász's (g,f)-factor theorem (1970): for a finite simple graph G and g ≤ f : V → ℕ, G has a spanning subgraph H with g(v) ≤ deg_H(v) ≤ f(v) for every vertex if and only if, for all disjoint vertex sets S and T, h(S,T) ≤ Σ_{v∈S} f(v) + Σ_{v∈T} (deg_{G−S}(v) − g(v)), where h(S,T) is the number of components C of G − (S ∪ T) with g = f on C and Σ_{v∈C} f(v) + e(C,T) odd (lovasz_gf_factor). As a corollary, the criterion of Heinrich, Hell, Kirkpatrick and Liu for g < f, without the component term (gf_factor_of_lt). The proof reduces the theorem to Tutte's f-factor theorem, imported as a lake dependency from PALOMAR-2026-10-18-000005, through a gadget: f(v) − g(v) slack vertices are joined to each vertex v, and the slack vertices together with one extra vertex form a clique, with target degree 1 on slack vertices and (Σ g) mod 2 on the extra vertex. One definition beyond Mathlib's (h(S,T), tightOddCount); g and f are natural-number valued.
+
+**Sources.**
+
+* László Lovász, *Subgraphs with prescribed valencies*, Journal of Combinatorial Theory 8 (1970), 391–416. [doi:10.1016/S0021-9800(70)80033-3](https://doi.org/10.1016/S0021-9800(70)80033-3) · [free full text](https://www.sciencedirect.com/science/article/pii/S0021980070800333/pdf)
+* Katherine Heinrich, Pavol Hell, David G. Kirkpatrick, Guizhen Liu, *A simple existence criterion for (g < f)-factors*, Discrete Mathematics 85 (1990), 313–317. [doi:10.1016/0012-365X(90)90387-W](https://doi.org/10.1016/0012-365X(90)90387-W) · [free full text](https://doi.org/10.1016/0012-365x(90)90387-w)
+
+<details><summary>Background references</summary>
+
+* Mikio Kano, *[a,b]-factorization of a graph*, Thesis, Osaka University (1984), hdl:11094/27765, Lemma 2.2.
+
+</details>
+
 ## Graphic sequences: the Erdős–Gallai and Havel–Hakimi theorems
 
 Palomar: [PALOMAR-2026-10-16-000017](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-16-000017&version=1) (version 1) · code: [jtraverso/degree-sequences @ b49808e](https://github.com/jtraverso/degree-sequences/tree/b49808e0c0aade945472b777047148399a582858) · [archived copy](https://github.com/PalomarArchive/jtraverso--degree-sequences--21c02be05315/tree/palomar/PALOMAR-2026-10-16-000017-v1/b49808e0c0aade945472b777047148399a582858)

@@ -2,6 +2,23 @@
 
 [← Back to the list](../README.md)
 
+## Siegel's theorem on L(1, χ) for real Dirichlet characters
+
+Palomar: [PALOMAR-2026-11-12-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-12-000005&version=1) (version 1) · code: [jtraverso/siegel-theorem @ dbe9353](https://github.com/jtraverso/siegel-theorem/tree/dbe9353374a11317bdd2d436e264536258c5762f) · [archived copy](https://github.com/PalomarArchive/jtraverso--siegel-theorem--fcfb5ef237dc/tree/palomar/PALOMAR-2026-11-12-000005-v1/dbe9353374a11317bdd2d436e264536258c5762f)
+
+**What is proved.** A Lean 4 / Mathlib proof of Siegel's theorem (1935): for every ε > 0 there is c > 0 with c·N^(-ε) ≤ ‖L(1, χ)‖ for every real non-principal Dirichlet character χ modulo N (SiegelThm.siegel, with Mathlib's DirichletCharacter.LFunction; χ need not be primitive). The proof is Goldfeld's (1974): F = ζ·L(χ₁)L(χ₂)L(χ₁χ₂) has non-negative Dirichlet coefficients with a₁ = 1; its regular part G = F − λ/(s−1) is expanded in a Taylor series at s = 2, with Cauchy's estimate on the circle |s−2| = 3/2 (where |G| ≤ 4000 (N₁N₂)²), giving ‖λ‖ ≥ (1−β)/2 · (50000 (N₁N₂)²)^(−4(1−β)) whenever Re F(β) ≤ 0 and 7/8 ≤ β < 1; Siegel's dichotomy (an exceptional zero in [1−ε/16, 1) or none, in which case χ₁ is the character mod 4) gives the ineffective constant. Characters that induce the same character as χ₁ are handled with the Euler factors (∏_{p∣n}(1−1/p) ≥ c(η)n^(−η)). Two auxiliary statements are also compared: the integral representation L(s, χ) = s∫_1^∞ A(t) t^(−s−1) dt on Re s > 0 (SiegelThm.LFunction_eq_integral, via Mathlib's Abel summation for Re s > 1, a Mellin-transform holomorphy argument and the identity theorem) and ‖∑_{k≤M} χ(k)‖ ≤ N (SiegelThm.norm_sum_Icc_le). Mathlib is the only dependency; Mathlib's continuation of ζ is not used (ζ(s) = 1/(s−1) + 1 − s∫_1^∞{t}t^(−s−1) dt is proved directly). Three statements; no definitions beyond Mathlib's.
+
+**Sources.**
+
+* Carl Ludwig Siegel, *Über die Classenzahl quadratischer Zahlkörper*, Acta Arithmetica 1 (1935), 83–86.
+* Dorian Goldfeld, *A simple proof of Siegel's theorem*, Proc. Nat. Acad. Sci. USA 71 (1974), 1055. [doi:10.1073/pnas.71.4.1055](https://doi.org/10.1073/pnas.71.4.1055) · [free full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC388160/)
+
+<details><summary>Background references</summary>
+
+* Hugh L. Montgomery, Robert C. Vaughan, *Multiplicative Number Theory I. Classical Theory*, Cambridge University Press, 2007, §11.2.
+
+</details>
+
 ## The three squares theorem (Gauss–Legendre)
 
 Palomar: [PALOMAR-2026-11-07-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-07-000011&version=1) (version 1) · code: [jtraverso/three-squares-gauss-legendre @ 783ec66](https://github.com/jtraverso/three-squares-gauss-legendre/tree/783ec66b0db2ff2acf75cc2cd22a9e69737411b5) · [archived copy](https://github.com/PalomarArchive/jtraverso--three-squares-gauss-legendre--2afaf7563d29/tree/palomar/PALOMAR-2026-11-07-000011-v1/783ec66b0db2ff2acf75cc2cd22a9e69737411b5)
