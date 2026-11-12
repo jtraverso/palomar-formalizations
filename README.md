@@ -2,7 +2,7 @@
 
 Computer-checked proofs, written in [Lean 4](https://lean-lang.org) with the [Mathlib](https://github.com/leanprover-community/mathlib4) library, by **Juan Pablo Traverso Gianini**. Every entry below has been accepted by the [Palomar registry](https://palomar-registry.org), which keeps the exact statements, the proofs and the record of their verification.
 
-**104 entries:** 12 from my own research and 92 formalizations of results by other authors, mostly in graph theory and combinatorics.
+**105 entries:** 12 from my own research and 93 formalizations of results by other authors, mostly in graph theory and combinatorics.
 
 In the tables, the title leads to a page with the details of the entry (what is proved, the sources, the code); **Paper** opens a free copy of the original paper when there is one; **DOI** is the publisher's link; **Palomar** is the registered entry.
 
@@ -14,7 +14,7 @@ In the tables, the title leads to a page with the details of the entry (what is 
   * [Colbourn–Dinitz–Rosa series](#colbourndinitzrosa-series) (1)
 * [Results by other authors](#results-by-other-authors)
   * [Vertex colouring](#vertex-colouring) (8)
-  * [Edge colouring and list colouring](#edge-colouring-and-list-colouring) (20)
+  * [Edge colouring and list colouring](#edge-colouring-and-list-colouring) (21)
   * [Planarity, minors and graph classes](#planarity-minors-and-graph-classes) (9)
   * [Connectivity, orientations and flows](#connectivity-orientations-and-flows) (7)
   * [Cycles and Hamiltonicity](#cycles-and-hamiltonicity) (4)
@@ -105,6 +105,7 @@ Grouped by subject. **Authors** are those of the main source.
 | [Chetwynd–Hilton 1989: regular graphs of degree at least ½(√7 − 1)|V| are 1-factorizable](details/edge-colouring-and-list-colouring.md#chetwyndhilton-1989-regular-graphs-of-degree-at-least-½7--1v-are-1-factorizable) | Chetwynd, Hilton | [PDF](https://doi.org/10.1016/0012-365x(89)90082-4) | [10.1016/0012-365X(89)90082-4](https://doi.org/10.1016/0012-365X(89)90082-4) | [PALOMAR-2026-11-12-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-12-000006&version=1) |
 | [Graphs whose core has maximum degree two: Hilton–Zhao structure and the Cariolaro–Cariolaro theorem](details/edge-colouring-and-list-colouring.md#graphs-whose-core-has-maximum-degree-two-hiltonzhao-structure-and-the-cariolarocariolaro-theorem) | Hilton, Zhao | — | — | [PALOMAR-2026-11-12-000007](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-12-000007&version=1) |
 | [Erdős–Wilson: almost every graph is of class one](details/edge-colouring-and-list-colouring.md#erdőswilson-almost-every-graph-is-of-class-one) | Erdős, Wilson | [PDF](https://doi.org/10.1016/0095-8956(77)90039-9) | [10.1016/0095-8956(77)90039-9](https://doi.org/10.1016/0095-8956(77)90039-9) | [PALOMAR-2026-11-12-000008](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-12-000008&version=1) |
+| [Vizing's adjacency lemma, the multifan lemma and Kierstead's lemma, as a standalone module](details/edge-colouring-and-list-colouring.md#vizings-adjacency-lemma-the-multifan-lemma-and-kiersteads-lemma-as-a-standalone-module) | Vizing | [PDF](https://www.sciencedirect.com/science/article/pii/0095895684900224/pdf) | [10.1016/0095-8956(84)90022-4](https://doi.org/10.1016/0095-8956(84)90022-4) | [PALOMAR-2026-11-12-000012](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-12-000012&version=1) |
 
 ### Planarity, minors and graph classes
 

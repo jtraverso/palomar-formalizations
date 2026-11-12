@@ -302,4 +302,16 @@ Palomar: [PALOMAR-2026-11-12-000008](https://palomar-registry.org/entry.html?id=
 
 * Paul Erdős, Robin J. Wilson, *On the chromatic index of almost all graphs*, Journal of Combinatorial Theory, Series B 23 (1977), no. 2-3, 255–257. [doi:10.1016/0095-8956(77)90039-9](https://doi.org/10.1016/0095-8956(77)90039-9) · [free full text](https://doi.org/10.1016/0095-8956(77)90039-9)
 
+## Vizing's adjacency lemma, the multifan lemma and Kierstead's lemma, as a standalone module
+
+Palomar: [PALOMAR-2026-11-12-000012](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-12-000012&version=1) (version 1) · code: [jtraverso/vizing-adjacency-lemmas @ ef2c05c](https://github.com/jtraverso/vizing-adjacency-lemmas/tree/ef2c05cff377f965f9274b578b96133bf42b52af) · [archived copy](https://github.com/PalomarArchive/jtraverso--vizing-adjacency-lemmas--9a689d4f8f8e/tree/palomar/PALOMAR-2026-11-12-000012-v1/ef2c05cff377f965f9274b578b96133bf42b52af)
+
+**What is proved.** A thin wrapper that exposes, with Mathlib definitions only, the basic recolouring lemmas of edge-colouring theory proved inside PALOMAR-2026-11-04-000009 (overfull-critical-graphs). vizing_adjacency_lemma (Vizing 1965): if G is of class two (its line graph is not Δ(G)-colourable) and G − xy is Δ(G)-edge-colourable, then x has at least Δ − d(y) + 1 neighbours of degree Δ other than y. critical_two_maxDegree_neighbours: every vertex of a Δ-critical graph has at least two neighbours of degree Δ. multifan_lemma (Stiebitz–Scheide–Toft–Favrholdt, Theorem 2.1): for a Δ(G)-colouring of G − x y₀ of a class-two graph, a multifan at x is elementary and x is joined to every fan vertex by a path coloured with any colour free at x and any colour free at that vertex. kierstead_lemma (Kierstead 1984): a Kierstead path whose interior vertices y₂, …, y_{L−2} have degree below Δ is elementary. Partial edge colourings are symmetric functions V → V → Option (Fin k); five definitions (proper partial edge colouring, colouring of G − ab, free colour, multifan, Kierstead path). The only new proof is the corollary (from Vizing's lemma) and the translation to the colourings of the Vizing entry.
+
+**Sources.**
+
+* V. G. Vizing, *Critical graphs with given chromatic class*, Diskretnyi Analiz 5 (1965), 9–17 (in Russian): Vizing's adjacency lemma.
+* H. A. Kierstead, *On the chromatic index of multigraphs without large triangles*, Journal of Combinatorial Theory, Series B 36 (1984), 156–160: Lemma 2, with Δ colours as observed by L. Zhang (Graphs and Combinatorics 16 (2000)). [doi:10.1016/0095-8956(84)90022-4](https://doi.org/10.1016/0095-8956(84)90022-4) · [free full text](https://www.sciencedirect.com/science/article/pii/0095895684900224/pdf)
+* Michael Stiebitz, Diego Scheide, Bjarne Toft, Lene M. Favrholdt, *Graph Edge Coloring: Vizing's Theorem and Goldberg's Conjecture*, Wiley, 2012: Theorem 2.1 (multifans).
+
 [← Back to the list](../README.md)
