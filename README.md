@@ -2,7 +2,7 @@
 
 Computer-checked proofs, written in [Lean 4](https://lean-lang.org) with the [Mathlib](https://github.com/leanprover-community/mathlib4) library, by **Juan Pablo Traverso Gianini**. Every entry below has been accepted by the [Palomar registry](https://palomar-registry.org), which keeps the exact statements, the proofs and the record of their verification.
 
-**105 entries:** 12 from my own research and 93 formalizations of results by other authors, mostly in graph theory and combinatorics.
+**106 entries:** 12 from my own research and 94 formalizations of results by other authors, mostly in graph theory and combinatorics.
 
 In the tables, the title leads to a page with the details of the entry (what is proved, the sources, the code); **Paper** opens a free copy of the original paper when there is one; **DOI** is the publisher's link; **Palomar** is the registered entry.
 
@@ -14,7 +14,7 @@ In the tables, the title leads to a page with the details of the entry (what is 
   * [Colbourn–Dinitz–Rosa series](#colbourndinitzrosa-series) (1)
 * [Results by other authors](#results-by-other-authors)
   * [Vertex colouring](#vertex-colouring) (8)
-  * [Edge colouring and list colouring](#edge-colouring-and-list-colouring) (21)
+  * [Edge colouring and list colouring](#edge-colouring-and-list-colouring) (22)
   * [Planarity, minors and graph classes](#planarity-minors-and-graph-classes) (9)
   * [Connectivity, orientations and flows](#connectivity-orientations-and-flows) (7)
   * [Cycles and Hamiltonicity](#cycles-and-hamiltonicity) (4)
@@ -106,6 +106,7 @@ Grouped by subject. **Authors** are those of the main source.
 | [Graphs whose core has maximum degree two: Hilton–Zhao structure and the Cariolaro–Cariolaro theorem](details/edge-colouring-and-list-colouring.md#graphs-whose-core-has-maximum-degree-two-hiltonzhao-structure-and-the-cariolarocariolaro-theorem) | Hilton, Zhao | — | — | [PALOMAR-2026-11-12-000007](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-12-000007&version=1) |
 | [Erdős–Wilson: almost every graph is of class one](details/edge-colouring-and-list-colouring.md#erdőswilson-almost-every-graph-is-of-class-one) | Erdős, Wilson | [PDF](https://doi.org/10.1016/0095-8956(77)90039-9) | [10.1016/0095-8956(77)90039-9](https://doi.org/10.1016/0095-8956(77)90039-9) | [PALOMAR-2026-11-12-000008](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-12-000008&version=1) |
 | [Vizing's adjacency lemma, the multifan lemma and Kierstead's lemma, as a standalone module](details/edge-colouring-and-list-colouring.md#vizings-adjacency-lemma-the-multifan-lemma-and-kiersteads-lemma-as-a-standalone-module) | Vizing | [PDF](https://www.sciencedirect.com/science/article/pii/0095895684900224/pdf) | [10.1016/0095-8956(84)90022-4](https://doi.org/10.1016/0095-8956(84)90022-4) | [PALOMAR-2026-11-12-000012](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-12-000012&version=1) |
+| [Asymptotic 1-factorization of dense regular graphs (Perković–Reed, via Vaughan)](details/edge-colouring-and-list-colouring.md#asymptotic-1-factorization-of-dense-regular-graphs-perkovićreed-via-vaughan) | Perković, Reed | [PDF](https://www.sciencedirect.com/science/article/pii/S0012365X96002026/pdf) | [10.1016/S0012-365X(96)00202-6](https://doi.org/10.1016/S0012-365X(96)00202-6) | [PALOMAR-2026-11-12-000014](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-12-000014&version=1) |
 
 ### Planarity, minors and graph classes
 
@@ -218,7 +219,7 @@ Grouped by subject. **Authors** are those of the main source.
 |---|---|---|---|---|
 | [Siegel's theorem on L(1, χ) for real Dirichlet characters](details/number-theory.md#siegels-theorem-on-l1-χ-for-real-dirichlet-characters) | Siegel | [PDF](https://pmc.ncbi.nlm.nih.gov/articles/PMC388160/) | [10.1073/pnas.71.4.1055](https://doi.org/10.1073/pnas.71.4.1055) | [PALOMAR-2026-11-12-000005](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-12-000005&version=1) |
 | [The three squares theorem (Gauss–Legendre)](details/number-theory.md#the-three-squares-theorem-gausslegendre) | Gauss | — | — | [PALOMAR-2026-11-07-000011](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-07-000011&version=1) |
-| [Duke–Schulze-Pillot: the upper bound of Lemma 5(ii) and a conditional Theorem 3(ii)](details/number-theory.md#dukeschulze-pillot-the-upper-bound-of-lemma-5ii-and-a-conditional-theorem-3ii) | Duke, Schulze-Pillot | — | [10.1007/BF01234411](https://doi.org/10.1007/BF01234411) | [PALOMAR-2026-11-07-000007](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-07-000007&version=1) |
+| [Duke–Schulze-Pillot bounds and squarefree three squares in fixed caps (H1)](details/number-theory.md#dukeschulze-pillot-bounds-and-squarefree-three-squares-in-fixed-caps-h1) | Duke, Schulze-Pillot | — | [10.1007/BF01234411](https://doi.org/10.1007/BF01234411) | [PALOMAR-2026-11-07-000007](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-07-000007&version=2) (v2) |
 | [Four squares in caps, and Jacobi's four-square theorem for odd N](details/number-theory.md#four-squares-in-caps-and-jacobis-four-square-theorem-for-odd-n) | Andrews, Ekhad, Zeilberger | [PDF](https://arxiv.org/pdf/math/9206203) | — | [PALOMAR-2026-11-08-000002](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-08-000002&version=1) |
 
 ## Notes

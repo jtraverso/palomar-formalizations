@@ -314,4 +314,21 @@ Palomar: [PALOMAR-2026-11-12-000012](https://palomar-registry.org/entry.html?id=
 * H. A. Kierstead, *On the chromatic index of multigraphs without large triangles*, Journal of Combinatorial Theory, Series B 36 (1984), 156–160: Lemma 2, with Δ colours as observed by L. Zhang (Graphs and Combinatorics 16 (2000)). [doi:10.1016/0095-8956(84)90022-4](https://doi.org/10.1016/0095-8956(84)90022-4) · [free full text](https://www.sciencedirect.com/science/article/pii/0095895684900224/pdf)
 * Michael Stiebitz, Diego Scheide, Bjarne Toft, Lene M. Favrholdt, *Graph Edge Coloring: Vizing's Theorem and Goldberg's Conjecture*, Wiley, 2012: Theorem 2.1 (multifans).
 
+## Asymptotic 1-factorization of dense regular graphs (Perković–Reed, via Vaughan)
+
+Palomar: [PALOMAR-2026-11-12-000014](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-12-000014&version=1) (version 1) · code: [jtraverso/asymptotic-one-factorization @ 50bc0b3](https://github.com/jtraverso/asymptotic-one-factorization/tree/50bc0b383e5447dc4b70db20e3af1c6c5efc1c2f) · [archived copy](https://github.com/PalomarArchive/jtraverso--asymptotic-one-factorization--a4d202c2f8f3/tree/palomar/PALOMAR-2026-11-12-000014-v1/50bc0b383e5447dc4b70db20e3af1c6c5efc1c2f)
+
+**What is proved.** A Lean 4 / Mathlib proof of the asymptotic form of the Chetwynd–Hilton 1-factorization conjecture (Perković and Reed 1997, Häggkvist): for every ε > 0 there is N such that every d-regular simple graph on 2n vertices with n ≥ N and d ≥ (1 + ε) n is 1-factorizable, i.e. its line graph is d-colourable (one_factorization); the integer form with (q + 1) n ≤ q d for q ≥ 1 is one_factorization_of_ge. The proof follows Vaughan (arXiv:1010.5192) for multiplicity 1: a balanced bipartition A, Aᶜ with |d_A(v) − d_{Aᶜ}(v)| < s for every vertex (Lemma 13, here by a counting Chernoff bound with no probability theory), equitable colourings of the two sides with matched class sizes (Vizing and McDiarmid's equalisation, from the registered Vizing entry), 5-edge alternating-path exchanges until every colour class is a perfect matching, completion of the classes of the leftover inside edges by Hall's theorem, and a decomposition of the remaining regular bipartite graph into perfect matchings (Hall). Vaughan's sizes n^{2/3} and n^{5/6} are replaced by linear sizes s = ⌊a/(200q)⌋ and t = ⌊a/6⌋ with a = ⌊n/q⌋; N is explicit, N = L (512 L³ + 4) with L = 200 q² for d ≥ (1 + 1/q) n (very large). No definitions beyond Mathlib's. Two statements.
+
+**Sources.**
+
+* Ljubomir Perković, Bruce Reed, *Edge coloring regular graphs of high degree*, Discrete Mathematics 165/166 (1997), 567–578. [doi:10.1016/S0012-365X(96)00202-6](https://doi.org/10.1016/S0012-365X(96)00202-6) · [free full text](https://www.sciencedirect.com/science/article/pii/S0012365X96002026/pdf)
+* E. R. Vaughan, *An Asymptotic Version of the Multigraph 1-Factorization Conjecture*, arXiv:1010.5192v1 (2010): Theorem 4 with r = 1, Lemmas 9, 13, 14. [free full text](https://arxiv.org/pdf/1010.5192) (arXiv)
+
+<details><summary>Background references</summary>
+
+* A. G. Chetwynd, A. J. W. Hilton, *Regular graphs of high degree are 1-factorizable*, Proceedings of the London Mathematical Society 50 (1985), 193–206. [doi:10.1112/plms/s3-50.2.193](https://doi.org/10.1112/plms/s3-50.2.193)
+
+</details>
+
 [← Back to the list](../README.md)
