@@ -264,4 +264,42 @@ Palomar: [PALOMAR-2026-11-08-000009](https://palomar-registry.org/entry.html?id=
 
 </details>
 
+## Chetwynd–Hilton 1989: regular graphs of degree at least ½(√7 − 1)|V| are 1-factorizable
+
+Palomar: [PALOMAR-2026-11-12-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-12-000006&version=1) (version 1) · code: [jtraverso/chetwynd-hilton-1989 @ 0f6e485](https://github.com/jtraverso/chetwynd-hilton-1989/tree/0f6e485529e810843ea13814d19c8d67b15568b9) · [archived copy](https://github.com/PalomarArchive/jtraverso--chetwynd-hilton-1989--88e35be60ebe/tree/palomar/PALOMAR-2026-11-12-000006-v1/0f6e485529e810843ea13814d19c8d67b15568b9)
+
+**What is proved.** A Lean 4 / Mathlib proof of Theorem 2 of Chetwynd and Hilton, "1-factorizing regular graphs of high degree — an improved bound" (Discrete Math. 75 (1989)): a d-regular simple graph of even order with d ≥ ½(√7 − 1)|V| (≈ 0.823|V|) is d-edge-colourable (CH89.lineGraph_colorable_of_isRegular_sqrt7), with the integer form |V| = 2n, 7n² ≤ (d + n)² (CH89.lineGraph_colorable_of_isRegular_nat). The article's proof of Theorem 1 contains an unjustified step ("we may moreover suppose that x_j comes before w_j in the list (r_m, …, r_t, l_1, …, l_m)"), which fails for an arbitrary maximal matching M₀; the formalization repairs it by choosing M₀ to minimize −K·#covered + max(T, T′), T = u_Y − u_X − μ, ordering the edges of M₀ (mixed ones outside, XX/YY alternately) and pairing X with Y by Hall's theorem with one dummy, so that at most one pair is bad, which the article's extra step q + 1 absorbs. The constant ½(√7 − 1) of the article is obtained exactly. Theorem 1 (staircase classes peeled off as near 1-factors, core of Theorem 5, re-insertion of v* and w) is assembled from the pinned dependency PALOMAR-2026-11-04-000016; Lemma 3 (a pair with r(r − 1) ≤ (2n − 1)p common non-neighbours) and the parameter inequality r(r − 1) − (2n − 1)(5n − 3d − 1) = (d + n)² − 7n² + n + 1 are proved here. Two statements; no definitions beyond Mathlib's.
+
+**Sources.**
+
+* A. G. Chetwynd, A. J. W. Hilton, *1-factorizing regular graphs of high degree — an improved bound*, Discrete Mathematics 75 (1989), 103–112: Theorems 1 and 2, Lemma 3. [doi:10.1016/0012-365X(89)90082-4](https://doi.org/10.1016/0012-365X(89)90082-4) · [free full text](https://doi.org/10.1016/0012-365x(89)90082-4)
+
+## Graphs whose core has maximum degree two: Hilton–Zhao structure and the Cariolaro–Cariolaro theorem
+
+Palomar: [PALOMAR-2026-11-12-000007](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-12-000007&version=1) (version 1) · code: [jtraverso/hilton-zhao-cariolaro @ 9cc9a2c](https://github.com/jtraverso/hilton-zhao-cariolaro/tree/9cc9a2c48913f6a8feeb266416ea6517f52eed51) · [archived copy](https://github.com/PalomarArchive/jtraverso--hilton-zhao-cariolaro--88e275c68991/tree/palomar/PALOMAR-2026-11-12-000007-v1/9cc9a2c48913f6a8feeb266416ea6517f52eed51)
+
+**What is proved.** A Lean 4 / Mathlib formalization of results on finite simple graphs G whose core (the vertices of maximum degree Δ) has maximum degree at most two, stated as: every vertex of degree Δ has at most two neighbours of degree Δ. Hilton–Zhao (1992): if G is connected and not Δ-edge-colourable, then G − e is Δ-edge-colourable for every edge e, every vertex has at least two neighbours of degree Δ (so the core is 2-regular), and every vertex has degree at least Δ − 1, with equality somewhere when Δ ≥ 3 (hiltonZhao_critical, hiltonZhao_two_le, hiltonZhao_core_regular, hiltonZhao_min_degree, hiltonZhao_min_degree_eq); corollaries: class one when some vertex of degree Δ has at most one neighbour of degree Δ, or some vertex has degree at most Δ − 2. For Δ = 3: a connected class-two graph is a petal graph (Cariolaro–Cariolaro Lemma 3: degrees 2 or 3, the degree-3 vertices induce a 2-regular graph, degree-2 vertices have only degree-3 neighbours) and 3|E| = 4|V|; and if some component of the core carries no internal petal (no vertex of degree below 3 adjacent to two of its vertices) then G is 3-edge-colourable (Cariolaro–Cariolaro Lemma 7, for a single core cycle). The graph P* (Petersen minus a vertex) is defined on Fin 9, proved isomorphic to the Petersen graph minus a vertex, and shown to satisfy the hypotheses, to be connected, of class two and not overfull. Cariolaro–Cariolaro (2003): a connected graph with Δ = 3 whose core has maximum degree at most two is not 3-edge-colourable if and only if it is isomorphic to P* (cariolaro_iff, cariolaro). The proof recolours one core cycle with its petals in a colouring of G − e (criticality): a combinatorial chorded-cycle lemma (a cyclic sequence of vertices with chords and external restrictions has a proper 3-edge-colouring whose missing colours differ along chords and avoid the restrictions, unless it is the hexagon with three antipodal chords or a chordless odd cycle with constant restrictions) proved by induction with safe local reductions; the arc reduction rests on a finite automaton whose reachable states are checked by decide. Vizing's theorem and Vizing's adjacency lemma are lake dependencies on PALOMAR-2026-10-15-000004 and PALOMAR-2026-11-04-000009; Kempe chains and their end-point lemma come from the former.
+
+**Sources.**
+
+* Anthony J. W. Hilton, Cheng Zhao, *The chromatic index of a graph whose core has maximum degree two*, Discrete Mathematics 101 (1992), 135–147.
+* David Cariolaro, Gianfranco Cariolaro, *Colouring the petals of a graph*, Electronic Journal of Combinatorics 10 (2003), #R6.
+
+<details><summary>Background references</summary>
+
+* Anthony J. W. Hilton, Cheng Zhao, *On the edge-colouring of graphs whose core has maximum degree two*, J. Combin. Math. Combin. Comput. 21 (1996), 97–108.
+* Daniel W. Cranston, Landon Rabern, *The Hilton–Zhao conjecture is true for graphs with maximum degree 4*, SIAM J. Discrete Math. 33 (2019); Lemma 1. [free full text](https://arxiv.org/pdf/1703.00959) (arXiv)
+
+</details>
+
+## Erdős–Wilson: almost every graph is of class one
+
+Palomar: [PALOMAR-2026-11-12-000008](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-12-000008&version=1) (version 1) · code: [jtraverso/erdos-wilson-class-one @ e24f896](https://github.com/jtraverso/erdos-wilson-class-one/tree/e24f896005a8678e16ac1c7ac943184fdda6d852) · [archived copy](https://github.com/PalomarArchive/jtraverso--erdos-wilson-class-one--4c8ce3683ee9/tree/palomar/PALOMAR-2026-11-12-000008-v1/e24f896005a8678e16ac1c7ac943184fdda6d852)
+
+**What is proved.** A Lean 4 / Mathlib proof of the theorem of Erdős and Wilson (1977) that almost every graph is of class one: among the 2^C(n,2) labelled graphs on Fin n, the proportion whose line graph is Δ(G)-colourable tends to 1 (erdos_wilson). On the way it proves that almost every graph has a unique vertex of maximum degree (tendsto_unique_maxDegree) and that a graph with at most one vertex of maximum degree is of class one (colorable_of_subsingleton_maxDegree, the special case of Fournier's theorem imported from PALOMAR-2026-11-08-000009). The probabilistic part is a second-moment argument with explicit binomial estimates: with X the number of vertices of degree at least a threshold k, P(X = 0) ≤ 1/(n tl_k) + bp_{k-1}^2/(4 tl_k^2) and P(two distinct vertices of equal degree ≥ k) ≤ n^2 Σ_{i ≥ k-1} bp_i^2, where bp, tl are the point probabilities and upper tails of Bin(n-2, 1/2); the joint law of two degrees is computed exactly by a symmetric-difference (translation) argument on the set of graphs, and k is chosen adaptively. Only qualitative statements (limits) are stated; no rate of convergence is claimed. Three statements; no definitions beyond Mathlib's.
+
+**Sources.**
+
+* Paul Erdős, Robin J. Wilson, *On the chromatic index of almost all graphs*, Journal of Combinatorial Theory, Series B 23 (1977), no. 2-3, 255–257. [doi:10.1016/0095-8956(77)90039-9](https://doi.org/10.1016/0095-8956(77)90039-9) · [free full text](https://doi.org/10.1016/0095-8956(77)90039-9)
+
 [← Back to the list](../README.md)
