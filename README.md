@@ -2,7 +2,7 @@
 
 Computer-checked proofs, written in [Lean 4](https://lean-lang.org) with the [Mathlib](https://github.com/leanprover-community/mathlib4) library, by **Juan Pablo Traverso Gianini**. Every entry below has been accepted by the [Palomar registry](https://palomar-registry.org), which keeps the exact statements, the proofs and the record of their verification.
 
-**106 entries:** 12 from my own research and 94 formalizations of results by other authors, mostly in graph theory and combinatorics.
+**107 entries:** 12 from my own research and 95 formalizations of results by other authors, mostly in graph theory and combinatorics.
 
 In the tables, the title leads to a page with the details of the entry (what is proved, the sources, the code); **Paper** opens a free copy of the original paper when there is one; **DOI** is the publisher's link; **Palomar** is the registered entry.
 
@@ -14,7 +14,7 @@ In the tables, the title leads to a page with the details of the entry (what is 
   * [Colbourn–Dinitz–Rosa series](#colbourndinitzrosa-series) (1)
 * [Results by other authors](#results-by-other-authors)
   * [Vertex colouring](#vertex-colouring) (8)
-  * [Edge colouring and list colouring](#edge-colouring-and-list-colouring) (22)
+  * [Edge colouring and list colouring](#edge-colouring-and-list-colouring) (23)
   * [Planarity, minors and graph classes](#planarity-minors-and-graph-classes) (9)
   * [Connectivity, orientations and flows](#connectivity-orientations-and-flows) (7)
   * [Cycles and Hamiltonicity](#cycles-and-hamiltonicity) (4)
@@ -107,6 +107,7 @@ Grouped by subject. **Authors** are those of the main source.
 | [Erdős–Wilson: almost every graph is of class one](details/edge-colouring-and-list-colouring.md#erdőswilson-almost-every-graph-is-of-class-one) | Erdős, Wilson | [PDF](https://doi.org/10.1016/0095-8956(77)90039-9) | [10.1016/0095-8956(77)90039-9](https://doi.org/10.1016/0095-8956(77)90039-9) | [PALOMAR-2026-11-12-000008](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-12-000008&version=1) |
 | [Vizing's adjacency lemma, the multifan lemma and Kierstead's lemma, as a standalone module](details/edge-colouring-and-list-colouring.md#vizings-adjacency-lemma-the-multifan-lemma-and-kiersteads-lemma-as-a-standalone-module) | Vizing | [PDF](https://www.sciencedirect.com/science/article/pii/0095895684900224/pdf) | [10.1016/0095-8956(84)90022-4](https://doi.org/10.1016/0095-8956(84)90022-4) | [PALOMAR-2026-11-12-000012](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-12-000012&version=1) |
 | [Asymptotic 1-factorization of dense regular graphs (Perković–Reed, via Vaughan)](details/edge-colouring-and-list-colouring.md#asymptotic-1-factorization-of-dense-regular-graphs-perkovićreed-via-vaughan) | Perković, Reed | [PDF](https://www.sciencedirect.com/science/article/pii/S0012365X96002026/pdf) | [10.1016/S0012-365X(96)00202-6](https://doi.org/10.1016/S0012-365X(96)00202-6) | [PALOMAR-2026-11-12-000014](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-12-000014&version=1) |
+| [Plantholt–Shan, Section 2: Hakimi's theorem, Hamilton-connectedness and spanning linear forests](details/edge-colouring-and-list-colouring.md#plantholtshan-section-2-hakimis-theorem-hamilton-connectedness-and-spanning-linear-forests) | Plantholt, Shan | [PDF](https://arxiv.org/pdf/2105.05286) | [10.1137/0110037](https://doi.org/10.1137/0110037) | [PALOMAR-2026-11-12-000016](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-12-000016&version=1) |
 
 ### Planarity, minors and graph classes
 
