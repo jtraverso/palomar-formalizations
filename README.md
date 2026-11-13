@@ -233,17 +233,25 @@ Grouped by subject. **Authors** are those of the main source.
 
 ## arXiv endorsement
 
-Some of these formalizations grew out of my work on Erdős Problem #81, whose preprint series
-([erdos-81-chordal-clique-partitions](https://github.com/jtraverso/erdos-81-chordal-clique-partitions))
-I am preparing to submit to arXiv (math.CO); the others are independent formalizations of classical
-and recent results in graph theory and combinatorics. If you are an arXiv author eligible to endorse
-in math.CO and found this work valuable, you can endorse me at https://arxiv.org/auth/endorse?x=N8V4R6 (code `N8V4R6`). An
-endorsement only confirms that the work is appropriate for the subject area; it is not a review of
-the results. Thank you.
+This list started with the formalizations behind my preprint series on Erdős Problem #81
+([erdos-81-chordal-clique-partitions](https://github.com/jtraverso/erdos-81-chordal-clique-partitions)).
+It has since grown into a broader library of more than a hundred machine-checked results: most of
+the entries are formalizations of classical and recent theorems of other authors in graph theory
+and combinatorics (colouring, matchings and factors, connectivity and flows, decompositions and
+designs, extremal and probabilistic methods, and some number theory), and a smaller part comes from
+my own research (the Erdős #81, triangle decompositions and Colbourn–Dinitz–Rosa series above).
 
-*En español:* algunas de estas formalizaciones surgieron de mi trabajo sobre el problema #81 de
-Erdős, cuya serie de preprints preparo para enviar a arXiv (math.CO); las demás son formalizaciones
-independientes de resultados clásicos y recientes de teoría de grafos y combinatoria. Si eres autor de arXiv habilitado para dar endorsement
-en math.CO y este trabajo te pareció valioso, puedes dármelo en https://arxiv.org/auth/endorse?x=N8V4R6 (código `N8V4R6`). El
+I would like to post my own preprints on arXiv (math.CO). If you are an arXiv author eligible to
+endorse in math.CO and found this work valuable, you can endorse me at
+https://arxiv.org/auth/endorse?x=N8V4R6 (code `N8V4R6`). An endorsement only confirms that the work
+is appropriate for the subject area; it is not a review of the results. Thank you.
+
+*En español:* esta lista comenzó con las formalizaciones de mi serie de preprints sobre el problema
+#81 de Erdős; hoy es una biblioteca más amplia de más de cien resultados verificados por máquina: la
+mayoría son formalizaciones de teoremas clásicos y recientes de otros autores en teoría de grafos y
+combinatoria, y una parte menor proviene de mi propia investigación (las series sobre Erdős #81,
+descomposiciones en triángulos y Colbourn–Dinitz–Rosa). Quiero publicar mis propios preprints en
+arXiv (math.CO): si eres autor de arXiv habilitado para dar endorsement en math.CO y este trabajo te
+pareció valioso, puedes dármelo en https://arxiv.org/auth/endorse?x=N8V4R6 (código `N8V4R6`). El
 endorsement solo confirma que el trabajo es adecuado para el área; no es una revisión de los
 resultados. ¡Gracias!
