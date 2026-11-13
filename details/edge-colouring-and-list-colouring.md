@@ -331,19 +331,21 @@ Palomar: [PALOMAR-2026-11-12-000014](https://palomar-registry.org/entry.html?id=
 
 </details>
 
-## Plantholt–Shan, Section 2: Hakimi's theorem, Hamilton-connectedness and spanning linear forests
+## Plantholt–Shan: the overfull conjecture for graphs of minimum degree at least (1 + ε) n
 
-Palomar: [PALOMAR-2026-11-12-000016](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-12-000016&version=1) (version 1) · code: [jtraverso/plantholt-shan-overfull @ 53b50cd](https://github.com/jtraverso/plantholt-shan-overfull/tree/53b50cde049abe0c722ad7de80e862a7e9b84fd5) · [archived copy](https://github.com/PalomarArchive/jtraverso--plantholt-shan-overfull--1a3be3444c4d/tree/palomar/PALOMAR-2026-11-12-000016-v1/53b50cde049abe0c722ad7de80e862a7e9b84fd5)
+Palomar: [PALOMAR-2026-11-12-000016](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-12-000016&version=2) (version 2) · code: [jtraverso/plantholt-shan-overfull @ 39cf759](https://github.com/jtraverso/plantholt-shan-overfull/tree/39cf759850c7911f75fbf32d8e003a04578f9866) · [archived copy](https://github.com/PalomarArchive/jtraverso--plantholt-shan-overfull--1a3be3444c4d/tree/palomar/PALOMAR-2026-11-12-000016-v2/39cf759850c7911f75fbf32d8e003a04578f9866)
 
-**What is proved.** The auxiliary results of Plantholt and Shan's proof of the asymptotic overfull conjecture (arXiv:2105.05286, Section 2), in Lean 4 / Mathlib, as a first version of a package that will add their Theorems 1.2 and 1.3. hakimi (Theorem 2.5, Hakimi 1962): d : V → ℕ is the degree function of a loopless multigraph (symmetric multiplicities with zero diagonal) iff ∑ d is even and 2 d v ≤ ∑ d for every v. hamiltonConnected_of_minDegree (Theorem 2.6, Hamilton-connected part, in the form δ ≥ n/2 + 1): a graph on n ≥ 5 vertices with n + 2 ≤ 2δ has a Hamiltonian path between any two distinct vertices (Dirac's theorem on G − u − v, from the registered menger-hamiltonian entry, and a pigeonhole choice of consecutive cycle neighbours). exists_spanning_paths (Lemma 2.12): for t + 1 pairs (aᵢ, bᵢ) of vertices, all distinct, in a graph with n + 6(t + 1) + 2 ≤ 2δ and 3(t + 1) + 5 ≤ n, there are pairwise vertex-disjoint paths from aᵢ to bᵢ covering all vertices (join a₀, b₀ through a common neighbour, delete the three vertices, recurse; the last pair is joined by a Hamiltonian path). One definition (IsMultigraph). Three statements.
+**What is proved.** M. J. Plantholt and S. Shan, Edge coloring graphs with large minimum degree (arXiv:2105.05286), in Lean 4 / Mathlib. theorem_1_2 (Theorem 1.2): for every ε > 0 there is N such that a graph G on 2n vertices, n ≥ N, with δ(G) ≥ (1 + ε) n is Δ(G)-edge-colourable iff it has no Δ(G)-overfull subgraph (PlantholtShan.HasOverfullSubgraph, the definition of the registered plantholt-overfull-criterion entry restated in the challenge: an odd set of at least three vertices spanning more than Δ(G)(|S| − 1)/2 edges). theorem_1_3b (Theorem 1.3, Condition (b)): two vertices x ≠ y with d(x) = d(y) ≥ (1/2 + 3ε/2) n, all other vertices of degree Δ(G) ≥ (1 + ε) n and Δ(G) − δ(G) ≤ (1/2 − ε/2) n give χ′ = Δ for n ≥ N. theorem_1_3c (Condition (c)): Δ(G) − δ(G) ≥ n^{6/7}, at least n^{6/7} vertices of degree δ(G), at least n + 1 of degree Δ(G) and δ(G) ≥ (1 + ε) n give χ′ = Δ for n ≥ N (n^{6/7} as a real power). Condition (a) (regular graphs) is the registered asymptotic-one-factorization entry. lemma_2_11 (Lemma 2.11): a bipartite graph with sides of size n, all degrees at least t and at most t vertices of degree below n/2 has a perfect matching. Kept from version 1: hakimi (Theorem 2.5), hamiltonConnected_of_minDegree (Theorem 2.6, δ ≥ n/2 + 1) and exists_spanning_paths (Lemma 2.12). The thresholds N are explicit but huge (e.g. (2^60 q + 1)^21 with 1/q < ε) and not optimized. Two definitions (IsMultigraph, HasOverfullSubgraph). Seven statements.
 
 **Sources.**
 
-* Michael J. Plantholt, Songling Shan, *Edge coloring graphs with large minimum degree*, arXiv:2105.05286v2: Theorem 2.5, Theorem 2.6 (second part), Lemma 2.12. [free full text](https://arxiv.org/pdf/2105.05286) (arXiv)
+* Michael J. Plantholt, Songling Shan, *Edge coloring graphs with large minimum degree*, arXiv:2105.05286v2: Theorems 1.2 and 1.3 (b), (c); Theorem 2.5, Theorem 2.6 (second part), Lemmas 2.11 and 2.12; Section 4. [free full text](https://arxiv.org/pdf/2105.05286) (arXiv)
 * S. L. Hakimi, *On Realizability of a Set of Integers as Degrees of the Vertices of a Linear Graph. I*, Journal of the Society for Industrial and Applied Mathematics 10 (1962), 496–506. [doi:10.1137/0110037](https://doi.org/10.1137/0110037)
+* Colin McDiarmid, *The chromatic index of multigraphs that are nearly full*, The equalization lemma for multigraph edge colourings (Plantholt–Shan, Lemma 2.3).
 
 <details><summary>Background references</summary>
 
+* E. R. Vaughan, *An asymptotic version of the multigraph 1-factorization conjecture*, arXiv:1010.5192, Lemma 14 (the scheme extended in Plantholt–Shan, Section 4). [free full text](https://arxiv.org/pdf/1010.5192) (arXiv)
 * Øystein Ore, *Hamilton connected graphs*, Journal de Mathématiques Pures et Appliquées 42 (1963), 21–27.
 
 </details>
