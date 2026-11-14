@@ -350,4 +350,15 @@ Palomar: [PALOMAR-2026-11-12-000016](https://palomar-registry.org/entry.html?id=
 
 </details>
 
+## Elementary graphs are chromatic-choosable
+
+Palomar: [PALOMAR-2026-11-14-000002](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-14-000002&version=1) (version 1) · code: [jtraverso/elementary-graphs-choosable @ 01fb4e5](https://github.com/jtraverso/elementary-graphs-choosable/tree/01fb4e5b5cecc9d86b577a1c6cc2c05eac6c3245) · [archived copy](https://github.com/PalomarArchive/jtraverso--elementary-graphs-choosable--87711d57fda6/tree/palomar/PALOMAR-2026-11-14-000002-v1/01fb4e5b5cecc9d86b577a1c6cc2c05eac6c3245)
+
+**What is proved.** A Lean 4 / Mathlib formalization of the theorem of Narayanan, Vasudevan and Somasundaram (arXiv:2610.16258) that every finite elementary graph satisfies ch(G) = χ(G) = ω(G) (chromaticChoosable_of_isElementary; clique number at most k implies k-choosability for every colour type, choosable_of_isElementary), together with the structure theorem of Maffray and Reed (JCTB 75, 1999, Theorem 2, (i) ⇒ (iii)) that the proof starts from: every finite elementary graph is an augmentation of the line graph of a bipartite multigraph, given by an explicit edge representation (rep_of_isElementary; IsAugLineGraphRep: vertex v is the edge {a v, b v} of a bipartite multigraph; non-adjacent pairs sharing an end share exactly one end, which is a hub with at most two neighbours; no edge joins two hubs). The earlier statements for the representation class are kept (choosable_of_rep, chromaticChoosable_of_rep, isElementary_of_rep, rep_of_lineGraph, rep_of_cobipartite). The choosability proof follows the paper (Hall, the Deficiency Lemma, saturation, Proposition 3.7, Galvin; Kőnig avoided). The Maffray–Reed proof follows the paper's induction by compression of strong homogeneous pairs (growth procedure from an induced D, claims (1)–(2), A-components, Theorem 5), with every forbidden-subgraph step done as a parity argument on a fixed elementary colouring; Theorems 3–4 are replaced by a "bend" lemma, and two exposition gaps of the paper (p. 143 and Case 3 of claim (2)) are repaired. Galvin's theorem for bipartite multigraphs is imported as a lake dependency from PALOMAR-2026-10-18-000029 v2.
+
+**Sources.**
+
+* Narayanan N, Nandana K. Vasudevan, K. Somasundaram, *Elementary graphs are chromatic-choosable*, arXiv:2610.16258v1 (2026): Theorems 1.1 and 3.4, Lemmas 2.1–2.5, 3.3–3.8, Proposition 3.7. [free full text](https://arxiv.org/pdf/2610.16258) (arXiv)
+* Frédéric Maffray, Bruce A. Reed, *A description of claw-free perfect graphs*, J. Combin. Theory Ser. B 75 (1999), 134–156: Theorem 2, (i) ⇒ (iii), with Theorem 5 and the growth procedure of Section 5. [doi:10.1006/jctb.1998.1872](https://doi.org/10.1006/jctb.1998.1872) · [free full text](https://doi.org/10.1006/jctb.1998.1872)
+
 [← Back to the list](../README.md)
