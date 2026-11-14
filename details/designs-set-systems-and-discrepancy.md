@@ -41,6 +41,16 @@ Palomar: [PALOMAR-2026-10-22-000017](https://palomar-registry.org/entry.html?id=
 
 </details>
 
+## Keevash, Counting designs, Theorem 2.1: triangle decompositions of (c,16)-typical graphs
+
+Palomar: [PALOMAR-2026-11-14-000022](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-14-000022&version=1) (version 1) · code: [jtraverso/keevash-triangle-decompositions @ d2dac04](https://github.com/jtraverso/keevash-triangle-decompositions/tree/d2dac04ee5299b1a60bfa20b7eb60afda4527483) · [archived copy](https://github.com/PalomarArchive/jtraverso--keevash-triangle-decompositions--8091ac93e742/tree/palomar/PALOMAR-2026-11-14-000022-v1/d2dac04ee5299b1a60bfa20b7eb60afda4527483)
+
+**What is proved.** A Lean 4 / Mathlib formalization of Theorem 2.1 of P. Keevash, "Counting designs" (arXiv:1504.02909), for (c,16)-typical graphs: there are c₀ > 0 and n₀ such that every graph G on n ≥ n₀ vertices with all degrees even and 3 | e(G) that is (c,16)-typical, with density d(G) > n^(-10^-7) and c ≤ c₀·d(G)^(10^6), has a triangle decomposition (KeevashTri.theorem_2_1). (c,h)-typical means |⋂_{x∈S} G(x)| = (1 ± |S|c)·d(G)^|S|·n for every vertex set S with |S| ≤ h; the paper's theorem assumes only c-typicality (h = 2, with the paper's tolerance), so the hypothesis here is stronger, and the paper's c-typical version is not covered. The density and typicality thresholds are the paper's (n^(-10^-7) and c₀·d^(10^6)); c₀ and n₀ are not explicit. The proof follows the paper's strategy (random algebraic template over F₂^a, Nibble, Cover, Hole, Completion), with every random greedy algorithm of the Completion replaced by a deterministic potential (pessimistic-estimator) argument. Earlier registered entries are imported as lake dependencies: the hypergraph matching nibble of Ehard–Glock–Joos (PALOMAR-2026-10-17-000004) and the Steiner triple system material of PALOMAR-2026-10-22-000017 v2. Mathlib does not contain this result.
+
+**Sources.**
+
+* Peter Keevash, *Counting designs*, arXiv:1504.02909v1; J. Eur. Math. Soc. 20 (2018), 903–927: Theorem 2.1, Sections 2–4 (Setup 2.2–2.3, Lemmas 2.4–2.10, 3.1–3.2, 4.1–4.3). [free full text](https://arxiv.org/pdf/1504.02909) (arXiv)
+
 ## The Hilton–Milner theorem
 
 Palomar: [PALOMAR-2026-10-28-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000001&version=1) (version 1) · code: [jtraverso/hilton-milner @ 6059a0d](https://github.com/jtraverso/hilton-milner/tree/6059a0d6f13378b9a92fba297f2d774598ee0f7d) · [archived copy](https://github.com/PalomarArchive/jtraverso--hilton-milner--c43d1f8a75cc/tree/palomar/PALOMAR-2026-10-28-000001-v1/6059a0d6f13378b9a92fba297f2d774598ee0f7d)
