@@ -181,18 +181,26 @@ Palomar: [PALOMAR-2026-10-29-000005](https://palomar-registry.org/entry.html?id=
 
 </details>
 
-## The Colbourn–Dinitz–Rosa conjecture and the exact block-type spectrum
+## Prescribed block types and abundance in bicolored Steiner triple systems
 
-Palomar: [PALOMAR-2026-11-07-000002](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-07-000002&version=1) (version 1) · code: [jtraverso/cdr-palomar-kernel @ 5d1e6fe](https://github.com/jtraverso/cdr-palomar-kernel/tree/5d1e6fe301e5fc01c92f6145aa34fddfe9c2bd10) · [archived copy](https://github.com/PalomarArchive/jtraverso--cdr-palomar-kernel--853fb49173b4/tree/palomar/PALOMAR-2026-11-07-000002-v1/5d1e6fe301e5fc01c92f6145aa34fddfe9c2bd10)
+Palomar: [PALOMAR-2026-11-16-000019](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-16-000019&version=1) (version 1) · code: [jtraverso/cdr-palomar-kernel @ dd0a659](https://github.com/jtraverso/cdr-palomar-kernel/tree/dd0a6595d5c45372ffadd19a35e3775e9b930f55) · [archived copy](https://github.com/PalomarArchive/jtraverso--cdr-palomar-kernel--853fb49173b4/tree/palomar/PALOMAR-2026-11-16-000019-v1/dd0a6595d5c45372ffadd19a35e3775e9b930f55)
 
-**What is proved.** A Lean 4 formalization of two results on strictly 3-bicolored Steiner triple systems. For every positive triple of class sizes a,b,c, existence is equivalent to n=a+b+c being 1 or 3 modulo 6, the identity a²+b²+c²-ab-ac-bc=n, and the exclusion of two classes of size 2. For every sufficiently large admissible profile, the number of AAC blocks is characterized exactly by two explicit arithmetic tests. The first result settles the class-size conjecture posed by Colbourn, Dinitz and Rosa in 1999; the second applies the typed absorption theorems of Triangle decompositions III. Both statements are compared in one shared development.
+**What is proved.** Four Lean results for bicolored Steiner triple systems. For each fixed number k >= 3 of color classes, sufficiently large compatible labelled profiles with positive class and type margins admit exact prescribed block-type counts while completing any sufficiently sparse allowed packing. Uniformly over such prescribed matrices, the logarithm of the number of realizations has optimal leading coefficient 1/6 in n squared times log n. For any fixed K, the same exact type matrix has K realizations with distinct Pasch counts. For every fixed k >= 4, all sufficiently large admissible orders admit a k-bicoloring. The final threshold is ineffective.
 
 **Sources.**
 
-* Juan Pablo Traverso Gianini, *The CDR class-size characterization and exact block-type spectrum*.
-* Juan Pablo Traverso Gianini, *A proof of the Colbourn–Dinitz–Rosa conjecture*, https://doi.org/10.5281/zenodo.23987256. [doi:10.5281/zenodo.23987256](https://doi.org/10.5281/zenodo.23987256) · [free full text](https://doi.org/10.5281/zenodo.23987256) (Zenodo)
-* Juan Pablo Traverso Gianini, *The exact block-type spectrum in the Colbourn–Dinitz–Rosa problem*, https://doi.org/10.5281/zenodo.23987251. [doi:10.5281/zenodo.23987251](https://doi.org/10.5281/zenodo.23987251) · [free full text](https://doi.org/10.5281/zenodo.23987251) (Zenodo)
-* Juan Pablo Traverso Gianini, *Triangle decompositions III: Physical typed absorption and prescribed statistics*. [doi:10.5281/zenodo.23867836](https://doi.org/10.5281/zenodo.23867836) · [free full text](https://doi.org/10.5281/zenodo.23867836) (Zenodo)
+* Juan Pablo Traverso Gianini, *Prescribed block types and abundance in bicolored Steiner triple systems*, https://doi.org/10.5281/zenodo.24201563. [doi:10.5281/zenodo.24201563](https://doi.org/10.5281/zenodo.24201563) · [free full text](https://doi.org/10.5281/zenodo.24201563) (Zenodo)
+
+<details><summary>Background references</summary>
+
 * Charles J. Colbourn, Jeffrey H. Dinitz, Alexander Rosa, *Bicoloring Steiner triple systems*. [doi:10.37236/1457](https://doi.org/10.37236/1457) · [free full text](https://www.combinatorics.org/ojs/index.php/eljc/article/download/v6i1r25/pdf)
+* Juan Pablo Traverso Gianini, *Triangle decompositions III: Physical typed absorption and prescribed statistics*. [doi:10.5281/zenodo.23867836](https://doi.org/10.5281/zenodo.23867836) · [free full text](https://doi.org/10.5281/zenodo.23867836) (Zenodo)
+* Juan Pablo Traverso Gianini, *The exact block-type spectrum in the Colbourn-Dinitz-Rosa problem*. [doi:10.5281/zenodo.23987251](https://doi.org/10.5281/zenodo.23987251) · [free full text](https://doi.org/10.5281/zenodo.23987251) (Zenodo)
+* David Gale, *A theorem on flows in networks*, Pacific Journal of Mathematics 7 (1957), 1073-1082.
+* William Duke, *Hyperbolic distribution problems and half-integral weight Maass forms*. [doi:10.1007/BF01393993](https://doi.org/10.1007/BF01393993)
+* Richard M. Wilson, *Nonisomorphic Steiner triple systems*. [doi:10.1007/BF01215371](https://doi.org/10.1007/BF01215371)
+* Nathan Linial, Zur Luria, *An upper bound on the number of Steiner triple systems*. [doi:10.1002/rsa.20487](https://doi.org/10.1002/rsa.20487)
+
+</details>
 
 [← Back to the list](../README.md)

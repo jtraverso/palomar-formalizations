@@ -2,7 +2,7 @@
 
 Computer-checked proofs, written in [Lean 4](https://lean-lang.org) with the [Mathlib](https://github.com/leanprover-community/mathlib4) library, by **Juan Pablo Traverso Gianini**. Every entry below has been accepted by the [Palomar registry](https://palomar-registry.org), which keeps the exact statements, the proofs and the record of their verification.
 
-**109 entries:** 12 from my own research and 97 formalizations of results by other authors, mostly in graph theory and combinatorics.
+**110 entries:** 12 from my own research and 98 formalizations of results by other authors, mostly in graph theory and combinatorics.
 
 In the tables, the title leads to a page with the details of the entry (what is proved, the sources, the code); **Paper** opens a free copy of the original paper when there is one; **DOI** is the publisher's link; **Palomar** is the registered entry.
 
@@ -62,7 +62,7 @@ Strictly 3-bicolored Steiner triple systems. Paper I determines the exact block-
 
 | Publication | PDF | DOI | Palomar |
 |---|---|---|---|
-| Papers I and II — [The Exact Block-Type Spectrum in the Colbourn–Dinitz–Rosa Problem; A Proof of the Colbourn–Dinitz–Rosa Conjecture](details/own-research.md#the-colbourndinitzrosa-conjecture-and-the-exact-block-type-spectrum) | [PDF I](https://github.com/jtraverso/cdr-steiner-preprints/blob/main/preprints/PAPER_I/01_manuscript/spectrum_en.pdf) · [PDF II](https://github.com/jtraverso/cdr-steiner-preprints/blob/main/preprints/PAPER_II/01_manuscript/profiles_en.pdf) | [10.5281/zenodo.23987251](https://doi.org/10.5281/zenodo.23987251)<br>[10.5281/zenodo.23987256](https://doi.org/10.5281/zenodo.23987256) | [PALOMAR-2026-11-07-000002](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-07-000002&version=1) |
+| Papers I and II — [The Exact Block-Type Spectrum in the Colbourn–Dinitz–Rosa Problem; A Proof of the Colbourn–Dinitz–Rosa Conjecture](details/own-research.md#prescribed-block-types-and-abundance-in-bicolored-steiner-triple-systems) | [PDF I](https://github.com/jtraverso/cdr-steiner-preprints/blob/main/preprints/PAPER_I/01_manuscript/spectrum_en.pdf) · [PDF II](https://github.com/jtraverso/cdr-steiner-preprints/blob/main/preprints/PAPER_II/01_manuscript/profiles_en.pdf) | [10.5281/zenodo.23987251](https://doi.org/10.5281/zenodo.23987251)<br>[10.5281/zenodo.23987256](https://doi.org/10.5281/zenodo.23987256) | [PALOMAR-2026-11-16-000019](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-16-000019&version=1) |
 
 ## Results by other authors
 
