@@ -37,7 +37,7 @@ Palomar: [PALOMAR-2026-11-07-000011](https://palomar-registry.org/entry.html?id=
 
 ## Duke–Schulze-Pillot bounds and squarefree three squares in fixed caps (H1)
 
-Palomar: [PALOMAR-2026-11-07-000007](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-07-000007&version=2) (version 2) · code: [jtraverso/duke-schulze-pillot-ternary @ 21575ff](https://github.com/jtraverso/duke-schulze-pillot-ternary/tree/21575ff924c98165ea1b451f7cbcc27c016ebd3e) · [archived copy](https://github.com/PalomarArchive/jtraverso--duke-schulze-pillot-ternary--b885fd33e73a/tree/palomar/PALOMAR-2026-11-07-000007-v2/21575ff924c98165ea1b451f7cbcc27c016ebd3e)
+Palomar: [PALOMAR-2026-11-07-000007](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-07-000007&version=3) (version 3) · code: [jtraverso/duke-schulze-pillot-ternary @ 8dc4a97](https://github.com/jtraverso/duke-schulze-pillot-ternary/tree/8dc4a9706bbd44ac4589d4b4beb0b9d00363bb31) · [archived copy](https://github.com/PalomarArchive/jtraverso--duke-schulze-pillot-ternary--b885fd33e73a/tree/palomar/PALOMAR-2026-11-07-000007-v3/8dc4a9706bbd44ac4589d4b4beb0b9d00363bb31)
 
 **What is proved.** A Lean 4 / Mathlib formalization retaining the upper representation bounds and the conditional consequence of Duke–Schulze-Pillot (Invent. Math. 99, 1990), and adding an unconditional fixed-cap theorem for x^2+y^2+z^2. H1: for every unit vector u in R^3 and every epsilon > 0 there is T such that every squarefree t >= T with t congruent to 3 modulo 8 has an integer representation x with sum x_i^2=t and |x_i-sqrt(t)u_i| <= epsilon sqrt(t) for every coordinate. The new statement takes no analytic estimate as a hypothesis. Its proof combines finite-degree harmonic Weyl bounds, odd-degree cancellation, a positive minimum of finitely many degree-dependent savings, and a representation lower bound supplied by the verified Siegel theorem. The threshold is ineffective. The original three unconditional upper/divisor bounds and two conditional statements are retained unchanged; the latter still require hThm1 and hThm3i for general ternary forms. No unconditional general Duke–Schulze-Pillot theorem, sharp 1/175 exponent, spinor-genus lower bound or numerical cutoff is claimed.
 
@@ -49,10 +49,8 @@ Palomar: [PALOMAR-2026-11-07-000007](https://palomar-registry.org/entry.html?id=
 
 <details><summary>Background references</summary>
 
-* Juan Pablo Traverso Gianini, *Siegel's theorem for real Dirichlet characters (Goldfeld's proof)*, https://github.com/jtraverso/siegel-theorem @ dbe9353.
-* Charlie Dorsey, *Weil Bounds Toolkit*, https://github.com/charliedorsey/weil-bounds-toolkit @ 0f3e4c3.
-* Juan Pablo Traverso Gianini, *The three squares theorem (Gauss–Legendre)*, https://github.com/jtraverso/three-squares-gauss-legendre @ 783ec66.
-* Juan Pablo Traverso Gianini, *Four squares in caps and Jacobi's four-square theorem for odd N*, https://github.com/jtraverso/four-squares-in-caps @ a1fcaaf.
+* *LeanLab: verified Siegel theorem and Dirichlet L-function integral representation*.
+* *Weil bounds toolkit, archived source*.
 
 </details>
 
