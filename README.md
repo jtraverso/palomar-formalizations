@@ -2,7 +2,7 @@
 
 Computer-checked proofs, written in [Lean 4](https://lean-lang.org) with the [Mathlib](https://github.com/leanprover-community/mathlib4) library, by **Juan Pablo Traverso Gianini**. Every entry below has been accepted by the [Palomar registry](https://palomar-registry.org), which keeps the exact statements, the proofs and the record of their verification.
 
-**110 entries:** 12 from my own research and 98 formalizations of results by other authors, mostly in graph theory and combinatorics.
+**110 entries:** 13 from my own research and 97 formalizations of results by other authors, mostly in graph theory and combinatorics.
 
 In the tables, the title leads to a page with the details of the entry (what is proved, the sources, the code); **Paper** opens a free copy of the original paper when there is one; **DOI** is the publisher's link; **Palomar** is the registered entry.
 
@@ -11,7 +11,7 @@ In the tables, the title leads to a page with the details of the entry (what is 
 * [My own research](#my-own-research)
   * [Erdős Problem #81 series](#erdős-problem-81-series) (7)
   * [Triangle decompositions series](#triangle-decompositions-series) (4)
-  * [Colbourn–Dinitz–Rosa series](#colbourndinitzrosa-series) (1)
+  * [Colbourn–Dinitz–Rosa series](#colbourndinitzrosa-series) (2)
 * [Results by other authors](#results-by-other-authors)
   * [Vertex colouring](#vertex-colouring) (8)
   * [Edge colouring and list colouring](#edge-colouring-and-list-colouring) (24)
@@ -43,7 +43,8 @@ Clique partitions of chordal graphs and split graphs (Erdős Problem #81). Serie
 | Paper IV — [Clique Partitions with Rooted Simplicial Defect: Quantitative Stability and Sharp Eventual Bounds](details/own-research.md#clique-partitions-of-chordal-graphs-quantitative-stability-and-sharp-eventual-bounds) | [PDF](https://github.com/jtraverso/erdos-81-chordal-clique-partitions/blob/main/preprints/PAPER_IV/01_manuscript/PAPER_IV_preprint_v1.24.1_en.pdf) | [10.5281/zenodo.23479507](https://doi.org/10.5281/zenodo.23479507) | [PALOMAR-2026-11-01-000021](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000021&version=2) (v2) |
 | Paper V — [Colorability and Realizability Defects in Resource-Dominated Packing Relaxations](details/own-research.md#colorability-and-realizability-defects-in-resource-dominated-packing-relaxations) | [PDF](https://github.com/jtraverso/erdos-81-chordal-clique-partitions/blob/main/preprints/PAPER_V/01_manuscript/PAPER_V_preprint_v1.0_en.pdf) | [10.5281/zenodo.23479507](https://doi.org/10.5281/zenodo.23479507) | [PALOMAR-2026-11-01-000020](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000020&version=1) |
 | Paper VI — [Optimal Clique Partitions under Local Perturbations](details/own-research.md#optimal-clique-partitions-under-local-perturbations) | [PDF](https://github.com/jtraverso/erdos-81-chordal-clique-partitions/blob/main/preprints/PAPER_VI/01_manuscript/PAPER_VI_preprint_v1.0_en.pdf) | [10.5281/zenodo.23479507](https://doi.org/10.5281/zenodo.23479507) | [PALOMAR-2026-11-01-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000006&version=1) |
-| Research Notes I and II — [From Realizability Certificates to the Erdős 81 Bound; Exact Stability for Nearly Extremal Chordal Clique Partitions](details/own-research.md#two-application-notes-of-the-erdős-81-series-realizability-transfer-and-exact-chordal-stability) | [PDF I](https://github.com/jtraverso/erdos-81-chordal-clique-partitions/blob/main/series_notes/NOTE_I_ERDOS81_TRANSFER/01_manuscript/ERDOS81_TRANSFER_NOTE_v1.0_en.pdf) · [PDF II](https://github.com/jtraverso/erdos-81-chordal-clique-partitions/blob/main/series_notes/NOTE_II_CHORDAL_STABILITY/01_manuscript/CHORDAL_STABILITY_NOTE_v1.0_en.pdf) | [10.5281/zenodo.23458871](https://doi.org/10.5281/zenodo.23458871) | [PALOMAR-2026-11-01-000022](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000022&version=1) |
+| Research Note I — [From Realizability Certificates to the Erdős 81 Bound](details/own-research.md#two-application-notes-of-the-erdős-81-series-realizability-transfer-and-exact-chordal-stability) | [PDF](https://github.com/jtraverso/erdos-81-chordal-clique-partitions/blob/main/series_notes/NOTE_I_ERDOS81_TRANSFER/01_manuscript/ERDOS81_TRANSFER_NOTE_v1.0_en.pdf) | [10.5281/zenodo.23458871](https://doi.org/10.5281/zenodo.23458871) | [PALOMAR-2026-11-01-000022](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000022&version=1) |
+| Research Note II — [Exact Stability for Nearly Extremal Chordal Clique Partitions](details/own-research.md#two-application-notes-of-the-erdős-81-series-realizability-transfer-and-exact-chordal-stability) | [PDF](https://github.com/jtraverso/erdos-81-chordal-clique-partitions/blob/main/series_notes/NOTE_II_CHORDAL_STABILITY/01_manuscript/CHORDAL_STABILITY_NOTE_v1.0_en.pdf) | [10.5281/zenodo.23458871](https://doi.org/10.5281/zenodo.23458871) | [PALOMAR-2026-11-01-000022](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000022&version=1) |
 
 ### Triangle decompositions series
 
@@ -58,11 +59,13 @@ The Nash–Williams triangle-decomposition problem. Paper I ([10.5281/zenodo.234
 
 ### Colbourn–Dinitz–Rosa series
 
-Strictly 3-bicolored Steiner triple systems. Paper I determines the exact block-type spectrum for all sufficiently large admissible profiles via typed absorption; Paper II proves the class-size conjecture of Colbourn, Dinitz and Rosa (1999). Both are verified in one shared Lean development. Publication home [jtraverso/cdr-steiner-preprints](https://github.com/jtraverso/cdr-steiner-preprints).
+Strictly 3-bicolored Steiner triple systems. Paper I determines the exact block-type spectrum for all sufficiently large admissible profiles via typed absorption; Paper II proves the class-size conjecture of Colbourn, Dinitz and Rosa (1999); Paper III prescribes interior block-type matrices for a fixed number of colours and proves the abundance results. Papers I and II are verified in one shared Lean development and Paper III extends it. Publication home [jtraverso/cdr-steiner-preprints](https://github.com/jtraverso/cdr-steiner-preprints).
 
 | Publication | PDF | DOI | Palomar |
 |---|---|---|---|
-| Papers I and II — [The Exact Block-Type Spectrum in the Colbourn–Dinitz–Rosa Problem; A Proof of the Colbourn–Dinitz–Rosa Conjecture](details/own-research.md#prescribed-block-types-and-abundance-in-bicolored-steiner-triple-systems) | [PDF I](https://github.com/jtraverso/cdr-steiner-preprints/blob/main/preprints/PAPER_I/01_manuscript/spectrum_en.pdf) · [PDF II](https://github.com/jtraverso/cdr-steiner-preprints/blob/main/preprints/PAPER_II/01_manuscript/profiles_en.pdf) | [10.5281/zenodo.23987251](https://doi.org/10.5281/zenodo.23987251)<br>[10.5281/zenodo.23987256](https://doi.org/10.5281/zenodo.23987256) | [PALOMAR-2026-11-16-000019](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-16-000019&version=1) |
+| Paper I — [The Exact Block-Type Spectrum in the Colbourn–Dinitz–Rosa Problem](details/own-research.md#the-colbourndinitzrosa-conjecture-and-the-exact-block-type-spectrum) | [PDF](https://github.com/jtraverso/cdr-steiner-preprints/blob/main/preprints/PAPER_I/01_manuscript/spectrum_en.pdf) | [10.5281/zenodo.23987251](https://doi.org/10.5281/zenodo.23987251) | [PALOMAR-2026-11-07-000002](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-07-000002&version=1) |
+| Paper II — [A Proof of the Colbourn–Dinitz–Rosa Conjecture](details/own-research.md#the-colbourndinitzrosa-conjecture-and-the-exact-block-type-spectrum) | [PDF](https://github.com/jtraverso/cdr-steiner-preprints/blob/main/preprints/PAPER_II/01_manuscript/profiles_en.pdf) | [10.5281/zenodo.23987256](https://doi.org/10.5281/zenodo.23987256) | [PALOMAR-2026-11-07-000002](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-07-000002&version=1) |
+| Paper III — [Prescribed Block Types and Abundance in Bicolored Steiner Triple Systems](details/own-research.md#prescribed-block-types-and-abundance-in-bicolored-steiner-triple-systems) | [PDF](https://github.com/jtraverso/cdr-steiner-preprints/blob/main/preprints/PAPER_III/01_manuscript/prescribed_en.pdf) | [10.5281/zenodo.24201563](https://doi.org/10.5281/zenodo.24201563) | [PALOMAR-2026-11-16-000019](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-16-000019&version=1) |
 
 ## Results by other authors
 
