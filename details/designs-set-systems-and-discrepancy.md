@@ -51,6 +51,22 @@ Palomar: [PALOMAR-2026-11-14-000022](https://palomar-registry.org/entry.html?id=
 
 * Peter Keevash, *Counting designs*, arXiv:1504.02909v1; J. Eur. Math. Soc. 20 (2018), 903–927: Theorem 2.1, Sections 2–4 (Setup 2.2–2.3, Lemmas 2.4–2.10, 3.1–3.2, 4.1–4.3). [free full text](https://arxiv.org/pdf/1504.02909) (arXiv)
 
+## Keevash, The existence of designs II, Lemma 3.8 (ext*): extensions in the random algebraic template
+
+Palomar: [PALOMAR-2026-11-17-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-17-000009&version=1) (version 1) · code: [jtraverso/keevash-designs-ii-extension-lemma @ 0338614](https://github.com/jtraverso/keevash-designs-ii-extension-lemma/tree/033861405884cecb052530b636e2f76e51aa21f5) · [archived copy](https://github.com/PalomarArchive/jtraverso--keevash-designs-ii-extension-lemma--34b2df4b4733/tree/palomar/PALOMAR-2026-11-17-000009-v1/033861405884cecb052530b636e2f76e51aa21f5)
+
+**What is proved.** A Lean 4 / Mathlib formalization of Lemma 3.8 (Lemma ext*) of P. Keevash, "The existence of designs II" (arXiv:1802.05900): in the random algebraic template M* built from independent uniform injections f_j : [n] → F_{p^a}-like field K (j < z), random colours T_e and orders π_e of the r-sets, random A_φ and activations, the number of configurations of an extension all of whose atoms γ(ψ) lie below ∂^γ M* is at least an explicit expectation-type lower bound minus 2εN^v, except with an explicit failure probability (a with-high-probability statement in the regime described below). The statement DesignsII.TParams.lemma_3_8 is fully quantitative, an explicit finite-N bound: the lower bound is |C|·(z+1−kd)_m·(a^m − m²·K_c·(n^(q−r))^(m−2))·p^m − 2εN^v (K_c occurs once, also for m = 2) with a = ω|V(Φ)|^(q−r) − (q−r)·s·n^(q−r−1), K_c = q^(r+1) n^(q−r−1) q^r n^(q−r) (1+C(q,r)) and p = (2N^(q−r))^(-1) z^(-C(q,r)) ((q−r)!/q!)^C(q,r) |𝒜|^(-1) k_min/N_act, and the failure probability is at most C(z,kd)·p_deg^kd + 2exp(−ε²N/(2c₁)) + 2exp(−ε²N/(2c₂)) with explicit constants c₁ = c₁(z,q,r,m,Δ) and c₂ = c₂(z,q,r,m,Δ,Smax), where Smax bounds the sizes of the non-colour coordinates (|𝒜|, N_act, ...) (p_deg = |F|^s N^(s−1) (N−s)!/N! bounds the probability that a colour is degenerate at the s fixed vertices). The bound holds for all permitted parameters. Asymptotic remarks (the Lean theorem itself is a finite-N inequality): every term of the failure probability tends to 0 as N → ∞ when s ≥ 1, 1 ≤ kd ≤ z and z, q, r, m, Δ, Smax, |F|, s, kd and ε > 0 are fixed (it does not for kd = 0 or s = 0). No claim is made that the lower bound is positive: for m ≥ 1 it is ≤ 0 for instance if m > z+1−kd, k_min = 0 or a ≤ 0, and for any m if 2εN^v exceeds the main term (for m = 0, the empty configuration, the main term is |C|). When q > r and m ≥ 2 the correction is at most a constant times n^((q−r)m−1), hence o(a^m) if moreover a ≥ c·n^(q−r) for a fixed c > 0; when q = r or m = 1 it need not be of lower order. The hypotheses are those of the paper: Φ is a Σ-adapted [q]-complex, (Φ, γ[G]) is (ω,h)-extendable (Definition 2.9), the copies used are Φ-embeddings of A = Σ^≤ and those with γ(φ) ≤_γ G are activated with threshold ≥ k_min. The proof follows the paper (Lemma e|E for the conditional probabilities given the fixed vertices, a two-stage Lipschitz concentration for the covering count, the template decomposition of Designs I Lemma 3.3), with the corrections recorded under fidelity. Mathlib does not contain this result.
+
+**Sources.**
+
+* Peter Keevash, *The existence of designs II*, arXiv:1802.05900v1: Section 2 (Definitions 2.1–2.9, 2.11–2.12, 2.17–2.23, Lemma 2.21), Section 3.2 (Definition 3.2, the template), Section 3.3 (local events, Lemma 3.6 e|E, Lemma 3.8 ext*). [free full text](https://arxiv.org/pdf/1802.05900) (arXiv)
+
+<details><summary>Background references</summary>
+
+* Peter Keevash, *The existence of designs*, Section 3 (the template, Lemma 3.3), Lemmas 2.11 (lip3), 3.6 and 3.8. [free full text](https://arxiv.org/pdf/1401.3665) (arXiv)
+
+</details>
+
 ## The Hilton–Milner theorem
 
 Palomar: [PALOMAR-2026-10-28-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000001&version=1) (version 1) · code: [jtraverso/hilton-milner @ 6059a0d](https://github.com/jtraverso/hilton-milner/tree/6059a0d6f13378b9a92fba297f2d774598ee0f7d) · [archived copy](https://github.com/PalomarArchive/jtraverso--hilton-milner--c43d1f8a75cc/tree/palomar/PALOMAR-2026-10-28-000001-v1/6059a0d6f13378b9a92fba297f2d774598ee0f7d)
