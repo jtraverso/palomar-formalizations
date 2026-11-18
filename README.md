@@ -2,7 +2,7 @@
 
 Computer-checked proofs, written in [Lean 4](https://lean-lang.org) with the [Mathlib](https://github.com/leanprover-community/mathlib4) library, by **Juan Pablo Traverso Gianini**. Every entry below has been accepted by the [Palomar registry](https://palomar-registry.org), which keeps the exact statements, the proofs and the record of their verification.
 
-**111 entries:** 13 from my own research and 98 formalizations of results by other authors, mostly in graph theory and combinatorics.
+**112 entries:** 13 from my own research and 99 formalizations of results by other authors, mostly in graph theory and combinatorics.
 
 In the tables, the title leads to a page with the details of the entry (what is proved, the sources, the code); **Paper** opens a free copy of the original paper when there is one; **DOI** is the publisher's link; **Palomar** is the registered entry.
 
@@ -22,7 +22,7 @@ In the tables, the title leads to a page with the details of the entry (what is 
   * [Extremal graph theory and Ramsey theory](#extremal-graph-theory-and-ramsey-theory) (5)
   * [Probabilistic methods and random graphs](#probabilistic-methods-and-random-graphs) (6)
   * [Decompositions and packings](#decompositions-and-packings) (8)
-  * [Designs, set systems and discrepancy](#designs-set-systems-and-discrepancy) (8)
+  * [Designs, set systems and discrepancy](#designs-set-systems-and-discrepancy) (9)
   * [Algebraic and spectral graph theory](#algebraic-and-spectral-graph-theory) (6)
   * [Number theory](#number-theory) (4)
 * [All entries by registration date](registration-log.md)
@@ -204,6 +204,7 @@ Grouped by subject. **Authors** are those of the main source.
 | [Counting Steiner triple systems: Wilson (1974) and Linial–Luria (2013)](details/designs-set-systems-and-discrepancy.md#counting-steiner-triple-systems-wilson-1974-and-linialluria-2013) | Wilson | [PDF](https://www.tandfonline.com/doi/abs/10.4169/000298910X523380) | [10.1007/BF01215371](https://doi.org/10.1007/BF01215371) | [PALOMAR-2026-10-22-000017](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-22-000017&version=2) (v2) |
 | [Keevash, Counting designs, Theorem 2.1: triangle decompositions of typical graphs](details/designs-set-systems-and-discrepancy.md#keevash-counting-designs-theorem-21-triangle-decompositions-of-typical-graphs) | Keevash | [PDF](https://arxiv.org/pdf/1504.02909) | — | [PALOMAR-2026-11-14-000022](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-14-000022&version=2) (v2) |
 | [Keevash, The existence of designs II, Lemma 3.8 (ext*): extensions in the random algebraic template](details/designs-set-systems-and-discrepancy.md#keevash-the-existence-of-designs-ii-lemma-38-ext-extensions-in-the-random-algebraic-template) | Keevash | [PDF](https://arxiv.org/pdf/1802.05900) | — | [PALOMAR-2026-11-17-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-17-000009&version=1) |
+| [Keevash, The existence of designs II: Lemma e|E (two-sided) and the thinning probability of the nibble](details/designs-set-systems-and-discrepancy.md#keevash-the-existence-of-designs-ii-lemma-ee-two-sided-and-the-thinning-probability-of-the-nibble) | Keevash | [PDF](https://arxiv.org/pdf/1802.05900) | — | [PALOMAR-2026-11-18-000002](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-18-000002&version=1) |
 | [The Hilton–Milner theorem](details/designs-set-systems-and-discrepancy.md#the-hiltonmilner-theorem) | Hilton, Milner | — | [10.1093/qmath/18.1.369](https://doi.org/10.1093/qmath/18.1.369) | [PALOMAR-2026-10-28-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000001&version=1) |
 | [Ray-Chaudhuri–Wilson: uniform families with restricted intersections](details/designs-set-systems-and-discrepancy.md#ray-chaudhuriwilson-uniform-families-with-restricted-intersections) | Ray-Chaudhuri, Wilson | [PDF](https://ir.library.osaka-u.ac.jp/repo/ouka/all/7296/ojm12_03_15.pdf) | [10.18910/7296](https://doi.org/10.18910/7296) | [PALOMAR-2026-10-28-000012](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000012&version=1) |
 | [The Beck–Fiala integer-making theorem](details/designs-set-systems-and-discrepancy.md#the-beckfiala-integer-making-theorem) | Beck, Fiala | [PDF](https://doi.org/10.1016/0166-218x(81)90022-6) | [10.1016/0166-218X(81)90022-6](https://doi.org/10.1016/0166-218X(81)90022-6) | [PALOMAR-2026-10-15-000009](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-15-000009&version=1) |

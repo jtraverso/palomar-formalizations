@@ -67,6 +67,16 @@ Palomar: [PALOMAR-2026-11-17-000009](https://palomar-registry.org/entry.html?id=
 
 </details>
 
+## Keevash, The existence of designs II: Lemma e|E (two-sided) and the thinning probability of the nibble
+
+Palomar: [PALOMAR-2026-11-18-000002](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-18-000002&version=1) (version 1) · code: [jtraverso/keevash-designs-ii-thinning @ 0e5be71](https://github.com/jtraverso/keevash-designs-ii-thinning/tree/0e5be71f8ffb34ad3edd4fc170cb5d7441738bd7) · [archived copy](https://github.com/PalomarArchive/jtraverso--keevash-designs-ii-thinning--accce215e339/tree/palomar/PALOMAR-2026-11-18-000002-v1/0e5be71f8ffb34ad3edd4fc170cb5d7441738bd7)
+
+**What is proved.** A Lean 4 / Mathlib formalization of two probabilistic estimates in the random algebraic template of P. Keevash, "The existence of designs II" (arXiv:1802.05900), as explicit finite-N inequalities. (1) DesignsII.TParams.lemma_e_E (Lemma 3.6 e|E with Remark 3.7(i), two-sided): in the template space conditioned on the values of the colours at a set U of fixed vertices, a copy φ meeting U in at most r−1 vertices, whose revealed values are F-linearly independent, passes the tests of colour j with probability between (1−δ)ρ₀(k) and ρ₀(k)/(1−δ), where δ = (q²+q|U|)/N < 1 and ρ₀(k) = N^(r−q) z^(−C(q,r)) ((q−r)!/q!)^C(q,r) |𝒜|^(−1) k/N_act. (2) DesignsII.TParams.thinning_probability (the computation of P(φ ∈ Φ') in the proof of Lemma 3.9 nibble): for families C_i (i < m) of copies of pairwise distinct colours, with covering masses μ_i = ∑_{x∈C_i} P(x passes) ≤ 1, thinning parameters q_i ∈ [0,1] with μ_i q_i = t for all i, and independent thinning coins whose event for the covering pattern w has probability ∏_i (1 − w_i q_i), the probability that the realised covering pattern's coin succeeds is (1−t)^m up to 2^m((∑_i μ_i)² + (m+1)·errMax), where errMax is an explicit maximum, over subsets of the families, of second-order terms (pairs of copies within a family and copies of different families sharing an edge). Both statements are finite-N inequalities valid for all permitted parameters; no asymptotic claim is part of the statements. Mathlib does not contain these results.
+
+**Sources.**
+
+* Peter Keevash, *The existence of designs II*, arXiv:1802.05900v1: Section 3.3 (Lemma 3.6 e|E, Remark 3.7(i)) and the proof of Lemma 3.9 (nibble), the computation of P(φ ∈ Φ' | E^{e'} ∩ C). [free full text](https://arxiv.org/pdf/1802.05900) (arXiv)
+
 ## The Hilton–Milner theorem
 
 Palomar: [PALOMAR-2026-10-28-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000001&version=1) (version 1) · code: [jtraverso/hilton-milner @ 6059a0d](https://github.com/jtraverso/hilton-milner/tree/6059a0d6f13378b9a92fba297f2d774598ee0f7d) · [archived copy](https://github.com/PalomarArchive/jtraverso--hilton-milner--c43d1f8a75cc/tree/palomar/PALOMAR-2026-10-28-000001-v1/6059a0d6f13378b9a92fba297f2d774598ee0f7d)
