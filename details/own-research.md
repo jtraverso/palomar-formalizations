@@ -217,4 +217,36 @@ Palomar: [PALOMAR-2026-11-16-000019](https://palomar-registry.org/entry.html?id=
 
 </details>
 
+## Entropy and large deviations for Latin squares
+
+Palomar: [PALOMAR-2026-11-17-000016](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-17-000016&version=1) (version 1) · code: [jtraverso/latinon-entropy-ldp-lean @ ec7025d](https://github.com/jtraverso/latinon-entropy-ldp-lean/tree/ec7025d0ecc2292292f3928183e9f03db420f379) · [archived copy](https://github.com/PalomarArchive/jtraverso--latinon-entropy-ldp-lean--62688703585a/tree/palomar/PALOMAR-2026-11-17-000016-v1/ec7025d0ecc2292292f3928183e9f03db420f379)
+
+**What is proved.** A large deviation principle for uniform labeled Latin squares in the full ordered Latinon cut distance, at speed n squared with extended relative entropy as a good rate function. The space retains both row and column orders. For every finite family of strict order patterns and every finite-rate target, the development gives bilateral local logarithmic counts with binomial finite normalization and second-order constant -2. Neighborhood radii may depend on the target and are chosen before the order threshold. Empty compatible fibers have eventually empty finite neighborhoods. The proof includes a uniform lower counting theorem for bounded positive tristochastic profiles and a transportation correction with exact support, bounded entries and l1 cost at most 5/2 times the total margin defect. The entropy convention is Ent = -KL.
+
+**Sources.**
+
+* Juan Pablo Traverso Gianini, *Entropy and large deviations for Latin squares*, https://github.com/jtraverso/latinon-entropy-ldp/releases/tag/latinon-v1.0.
+
+<details><summary>Background references</summary>
+
+* Frederik Garbe, Robert Hancock, Jan Hladký, Maryam Sharifzadeh, *Limits of Latin squares*. [free full text](https://arxiv.org/pdf/2010.07854) (arXiv)
+* Jaikumar Radhakrishnan, *An entropy proof of Bregman's theorem*. [doi:10.1006/jcta.1996.2727](https://doi.org/10.1006/jcta.1996.2727) · [free full text](https://www.sciencedirect.com/science/article/pii/S0097316596927272/pdf)
+* Nathan Linial, Zur Luria, *An upper bound on the number of high-dimensional permutations*. [free full text](https://arxiv.org/pdf/1106.0649) (arXiv)
+* Leonid Gurvits, *Van der Waerden/Schrijver-Valiant like conjectures and stable (aka hyperbolic) homogeneous polynomials: one theorem for all*. [doi:10.37236/790](https://doi.org/10.37236/790) · [free full text](https://www.combinatorics.org/ojs/index.php/eljc/article/download/v15i1r66/pdf)
+* Richard Kenyon, Daniel Král', Charles Radin, Peter Winkler, *Permutations with fixed pattern densities*. [free full text](https://arxiv.org/pdf/1506.02340) (arXiv)
+
+</details>
+
+## The kernel and measure representations of Latinons agree
+
+Palomar: [PALOMAR-2026-11-18-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-18-000001&version=1) (version 1) · code: [jtraverso/latinon-ghhs-bridge-lean @ 7ebcc4b](https://github.com/jtraverso/latinon-ghhs-bridge-lean/tree/7ebcc4b46c78fc900e8d6a9f0881dbb918940fdb) · [archived copy](https://github.com/PalomarArchive/jtraverso--latinon-ghhs-bridge-lean--4d27af40ceb0/tree/palomar/PALOMAR-2026-11-18-000001-v1/7ebcc4b46c78fc900e8d6a9f0881dbb918940fdb)
+
+**What is proved.** On the ground space [0,1], the Latinons of Garbe, Hancock, Hladky and Sharifzadeh, described by Markov kernels with a measure-preserving order map, and the Latinons of the Latinon preprint, described by measures on the unit cube with uniform two-dimensional marginals, are the same objects up to null sets. The correspondence preserves the cut distance, the pattern densities and the entropy, including the value minus infinity; the entropy comparison uses the conditional chain rule for relative entropy, also proved here. Consequently Conjecture 12.4 of Garbe et al., stated with their own definitions and with entropy taken as the negative of relative entropy, follows from the counting theorem of the Latinon preprint. Both the finite case and the case of supremum minus infinity are stated.
+
+**Sources.**
+
+* Juan Pablo Traverso Gianini, *The kernel and measure representations of Latinons agree: a Lean formalization*, https://github.com/jtraverso/latinon-entropy-ldp/releases/tag/ghhsbridge-v1.0.
+* Juan Pablo Traverso Gianini, *Entropy and large deviations for Latin squares*, https://github.com/jtraverso/latinon-entropy-ldp/releases/tag/latinon-v1.0.
+* Frederik Garbe, Robert Hancock, Jan Hladký, Maryam Sharifzadeh, *Limits of Latin squares*. [free full text](https://arxiv.org/pdf/2010.07854) (arXiv)
+
 [← Back to the list](../README.md)

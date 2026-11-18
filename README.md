@@ -2,7 +2,7 @@
 
 Computer-checked proofs, written in [Lean 4](https://lean-lang.org) with the [Mathlib](https://github.com/leanprover-community/mathlib4) library, by **Juan Pablo Traverso Gianini**. Every entry below has been accepted by the [Palomar registry](https://palomar-registry.org), which keeps the exact statements, the proofs and the record of their verification.
 
-**112 entries:** 13 from my own research and 99 formalizations of results by other authors, mostly in graph theory and combinatorics.
+**114 entries:** 15 from my own research and 99 formalizations of results by other authors, mostly in graph theory and combinatorics.
 
 In the tables, the title leads to a page with the details of the entry (what is proved, the sources, the code); **Paper** opens a free copy of the original paper when there is one; **DOI** is the publisher's link; **Palomar** is the registered entry.
 
@@ -12,6 +12,7 @@ In the tables, the title leads to a page with the details of the entry (what is 
   * [Erdős Problem #81 series](#erdős-problem-81-series) (7)
   * [Triangle decompositions series](#triangle-decompositions-series) (4)
   * [Colbourn–Dinitz–Rosa series](#colbourndinitzrosa-series) (2)
+  * [Latinons series](#latinons-series) (2)
 * [Results by other authors](#results-by-other-authors)
   * [Vertex colouring](#vertex-colouring) (8)
   * [Edge colouring and list colouring](#edge-colouring-and-list-colouring) (24)
@@ -66,6 +67,15 @@ Strictly 3-bicolored Steiner triple systems. Paper I determines the exact block-
 | Paper I — [The Exact Block-Type Spectrum in the Colbourn–Dinitz–Rosa Problem](details/own-research.md#the-colbourndinitzrosa-conjecture-and-the-exact-block-type-spectrum) | [PDF](https://github.com/jtraverso/cdr-steiner-preprints/blob/main/preprints/PAPER_I/01_manuscript/spectrum_en.pdf) | [10.5281/zenodo.23987251](https://doi.org/10.5281/zenodo.23987251) | [PALOMAR-2026-11-07-000002](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-07-000002&version=1) |
 | Paper II — [A Proof of the Colbourn–Dinitz–Rosa Conjecture](details/own-research.md#the-colbourndinitzrosa-conjecture-and-the-exact-block-type-spectrum) | [PDF](https://github.com/jtraverso/cdr-steiner-preprints/blob/main/preprints/PAPER_II/01_manuscript/profiles_en.pdf) | [10.5281/zenodo.23987256](https://doi.org/10.5281/zenodo.23987256) | [PALOMAR-2026-11-07-000002](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-07-000002&version=1) |
 | Paper III — [Prescribed Block Types and Abundance in Bicolored Steiner Triple Systems](details/own-research.md#prescribed-block-types-and-abundance-in-bicolored-steiner-triple-systems) | [PDF](https://github.com/jtraverso/cdr-steiner-preprints/blob/main/preprints/PAPER_III/01_manuscript/prescribed_en.pdf) | [10.5281/zenodo.24201563](https://doi.org/10.5281/zenodo.24201563) | [PALOMAR-2026-11-16-000019](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-16-000019&version=1) |
+
+### Latinons series
+
+Latin squares through their limit objects (Latinons). Paper I proves a large deviation principle for uniform Latin squares in the ordered Latinon cut distance, with relative entropy as rate function, and its finite-pattern counting consequences; Research Note I proves that the kernel description of Latinons (Garbe, Hancock, Hladký and Sharifzadeh) and the measure description agree, and derives their Conjecture 12.4. Publication home [jtraverso/latinon-entropy-ldp](https://github.com/jtraverso/latinon-entropy-ldp).
+
+| Publication | PDF | DOI | Palomar |
+|---|---|---|---|
+| Paper I — [Entropy and Large Deviations for Latin Squares](details/own-research.md#entropy-and-large-deviations-for-latin-squares) | [PDF](https://github.com/jtraverso/latinon-entropy-ldp/blob/main/preprints/LATINON/01_manuscript/latinon_en.pdf) |  | [PALOMAR-2026-11-17-000016](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-17-000016&version=1) |
+| Research Note I — [The Kernel and Measure Representations of Latinons Agree](details/own-research.md#the-kernel-and-measure-representations-of-latinons-agree) | [PDF](https://github.com/jtraverso/latinon-entropy-ldp/blob/main/preprints/GHHSBRIDGE/01_manuscript/ghhsbridge_en.pdf) |  | [PALOMAR-2026-11-18-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-18-000001&version=1) |
 
 ## Results by other authors
 
