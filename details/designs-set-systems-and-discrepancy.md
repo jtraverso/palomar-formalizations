@@ -77,6 +77,22 @@ Palomar: [PALOMAR-2026-11-18-000002](https://palomar-registry.org/entry.html?id=
 
 * Peter Keevash, *The existence of designs II*, arXiv:1802.05900v1: Section 3.3 (Lemma 3.6 e|E, Remark 3.7(i)) and the proof of Lemma 3.9 (nibble), the computation of P(φ ∈ Φ' | E^{e'} ∩ C). [free full text](https://arxiv.org/pdf/1802.05900) (arXiv)
 
+## Keevash, The existence of designs II: Lemma kahn+ with equal weights, and the nibble matching for [0,1]-valued tests
+
+Palomar: [PALOMAR-2026-11-19-000022](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-19-000022&version=1) (version 1) · code: [jtraverso/keevash-designs-ii-kahn @ e27207e](https://github.com/jtraverso/keevash-designs-ii-kahn/tree/e27207ee346c481e0cbfc9c236b941c64a8647e8) · [archived copy](https://github.com/PalomarArchive/jtraverso--keevash-designs-ii-kahn--21ba90c2a1ee/tree/palomar/PALOMAR-2026-11-19-000022-v1/e27207ee346c481e0cbfc9c236b941c64a8647e8)
+
+**What is proved.** A Lean 4 / Mathlib formalization of the equal-weight case of Lemma kahn+ of P. Keevash, "The existence of designs II" (arXiv:1802.05900), deduced from the theorem of Ehard, Glock and Joos on pseudorandom hypergraph matchings, and of the form in which it is applied in the proof of Lemma 3.9 (nibble). (1) DesignsII.kahn_plus_equal_weights: for 0 < δ < 1 and k ≥ 2 there is Δ₀ such that, for every real Δ ≥ Δ₀, every finite hypergraph H whose edges have at most k vertices, whose degrees are at most Δ and whose codegrees of distinct vertices are at most Δ^(1−δ), with |H| ≤ exp(Δ^((δ/(50k²))²)), and every family of at most exp(Δ^((δ/(50k²))²)) nonnegative test functions p_j on V(H), there is a matching M ⊆ H such that for every j satisfying the spread condition (every edge sum ∑_{v∈e} p_j(v), multiplied by Δ^(1+δ), is at most the total ∑_{e∈H} ∑_{v∈e} p_j(v)), the covered mass ∑_{v∈⋃M} p_j(v) differs from ∑_{e∈H} ∑_{v∈e} p_j(v)/Δ by at most Δ^(−δ/(50k²)) times the latter. (2) DesignsII.nibble_matching_tests: under the same hypotheses, for every η with 0 ≤ η < 1 and test functions with values in [0,1], the matching can be chosen so that for every j whose support (the vertices with p_j(v) ≠ 0) has degrees at least (1−η)Δ, the mass of p_j on the vertices not covered by M is at most max((η + Δ^(−δ/(50k²)))·∑_v p_j(v), k·Δ^δ/(1−η)). Both statements quantify over all Δ ≥ Δ₀ with Δ₀ depending only on δ and k; Δ₀ is not made explicit. Mathlib does not contain these results.
+
+**Sources.**
+
+* Peter Keevash, *The existence of designs II*, arXiv:1802.05900v1: Section 3.1, Lemma kahn+ (stated there without proof, attributed to Kahn), and its application with uniform weights in the proof of Lemma 3.9 (nibble). [free full text](https://arxiv.org/pdf/1802.05900) (arXiv)
+
+<details><summary>Background references</summary>
+
+* Stefan Ehard, Stefan Glock, Felix Joos, *Pseudorandom hypergraph matchings*, Combinatorics, Probability and Computing 29 (2020), 868–885; arXiv:1907.09946: Theorem 1.2. [doi:10.1017/S0963548320000280](https://doi.org/10.1017/S0963548320000280) · [free full text](https://arxiv.org/pdf/1907.09946) (arXiv)
+
+</details>
+
 ## The Hilton–Milner theorem
 
 Palomar: [PALOMAR-2026-10-28-000001](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-28-000001&version=1) (version 1) · code: [jtraverso/hilton-milner @ 6059a0d](https://github.com/jtraverso/hilton-milner/tree/6059a0d6f13378b9a92fba297f2d774598ee0f7d) · [archived copy](https://github.com/PalomarArchive/jtraverso--hilton-milner--c43d1f8a75cc/tree/palomar/PALOMAR-2026-10-28-000001-v1/6059a0d6f13378b9a92fba297f2d774598ee0f7d)
