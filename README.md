@@ -2,7 +2,7 @@
 
 Computer-checked proofs, written in [Lean 4](https://lean-lang.org) with the [Mathlib](https://github.com/leanprover-community/mathlib4) library, by **Juan Pablo Traverso Gianini**. Every entry below has been accepted by the [Palomar registry](https://palomar-registry.org), which keeps the exact statements, the proofs and the record of their verification.
 
-**114 entries:** 15 from my own research and 99 formalizations of results by other authors, mostly in graph theory and combinatorics.
+**115 entries:** 15 from my own research and 100 formalizations of results by other authors, mostly in graph theory and combinatorics.
 
 In the tables, the title leads to a page with the details of the entry (what is proved, the sources, the code); **Paper** opens a free copy of the original paper when there is one; **DOI** is the publisher's link; **Palomar** is the registered entry.
 
@@ -21,7 +21,7 @@ In the tables, the title leads to a page with the details of the entry (what is 
   * [Cycles and Hamiltonicity](#cycles-and-hamiltonicity) (4)
   * [Matchings, factors and polyhedral combinatorics](#matchings-factors-and-polyhedral-combinatorics) (9)
   * [Extremal graph theory and Ramsey theory](#extremal-graph-theory-and-ramsey-theory) (5)
-  * [Probabilistic methods and random graphs](#probabilistic-methods-and-random-graphs) (6)
+  * [Probabilistic methods and random graphs](#probabilistic-methods-and-random-graphs) (7)
   * [Decompositions and packings](#decompositions-and-packings) (8)
   * [Designs, set systems and discrepancy](#designs-set-systems-and-discrepancy) (9)
   * [Algebraic and spectral graph theory](#algebraic-and-spectral-graph-theory) (6)
@@ -192,6 +192,7 @@ Grouped by subject. **Authors** are those of the main source.
 | [The Hamiltonicity threshold of the random graph G(n, p) (Komlós–Szemerédi)](details/probabilistic-methods-and-random-graphs.md#the-hamiltonicity-threshold-of-the-random-graph-gn-p-komlósszemerédi) | Komlós, Szemerédi | [PDF](https://doi.org/10.1016/0012-365x(83)90021-3) | [10.1016/0012-365X(83)90021-3](https://doi.org/10.1016/0012-365X(83)90021-3) | [PALOMAR-2026-11-01-000032](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000032&version=1) |
 | [Pseudorandom hypergraph matchings (Ehard–Glock–Joos)](details/probabilistic-methods-and-random-graphs.md#pseudorandom-hypergraph-matchings-ehardglockjoos) | Ehard, Glock, Joos | [PDF](https://arxiv.org/pdf/1907.09946) | [10.1017/S0963548320000280](https://doi.org/10.1017/S0963548320000280) | [PALOMAR-2026-10-17-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-17-000004&version=1) |
 | [The Moser–Tardos theorem (algorithmic Lovász Local Lemma)](details/probabilistic-methods-and-random-graphs.md#the-mosertardos-theorem-algorithmic-lovász-local-lemma) | Moser, Tardos | — | [10.1145/1667053.1667060](https://doi.org/10.1145/1667053.1667060) | [PALOMAR-2026-10-29-000008](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-29-000008&version=1) |
+| [Counting matchings in near-regular hypergraphs: Glock-Joos-Kim-Kühn-Lichev, Theorem 3.5 without conflicts](details/probabilistic-methods-and-random-graphs.md#counting-matchings-in-near-regular-hypergraphs-glock-joos-kim-kühn-lichev-theorem-35-without-conflicts) | Glock et al. | [PDF](https://arxiv.org/pdf/2205.05564) | — | [PALOMAR-2026-11-19-000008](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-19-000008&version=1) |
 
 ### Decompositions and packings
 

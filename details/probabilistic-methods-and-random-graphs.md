@@ -88,4 +88,20 @@ Palomar: [PALOMAR-2026-10-29-000008](https://palomar-registry.org/entry.html?id=
 
 * Robin A. Moser, Gábor Tardos, *A constructive proof of the general Lovász Local Lemma*, Journal of the ACM 57 (2010), no. 2, Article 11. [doi:10.1145/1667053.1667060](https://doi.org/10.1145/1667053.1667060)
 
+## Counting matchings in near-regular hypergraphs: Glock-Joos-Kim-Kühn-Lichev, Theorem 3.5 without conflicts
+
+Palomar: [PALOMAR-2026-11-19-000008](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-19-000008&version=1) (version 1) · code: [jtraverso/gjkkl-matching-count @ 2d51367](https://github.com/jtraverso/gjkkl-matching-count/tree/2d51367b7777a669de247e10b5e93229c8e06f1c) · [archived copy](https://github.com/PalomarArchive/jtraverso--gjkkl-matching-count--531f66fb4289/tree/palomar/PALOMAR-2026-11-19-000008-v1/2d51367b7777a669de247e10b5e93229c8e06f1c)
+
+**What is proved.** A lower bound for the number of matchings of a given size in an almost regular uniform hypergraph with small codegrees. For every k >= 2 there is eps_0 > 0 such that for every eps in (0, eps_0) there is d_0 such that, for all d >= d_0, every k-uniform hypergraph H on n <= exp(d^{eps^3}) vertices with (1 - d^{-eps}) d <= delta(H) <= Delta(H) <= d and codegrees at most d^{1-eps} has, for every natural number m <= (1 - d^{-eps^3}) n / k, at least ((1 - d^{-eps^4}) d / e^{k-1})^m matchings with m edges. This is Theorem 3.5 of Glock, Joos, Kim, Kühn and Lichev, Conflict-free hypergraph matchings, in the case of an empty conflict system, stated for every integral size up to the paper's value of m. The proof analyses the random greedy matching process on a finite history tree: the remaining degrees follow the trajectory d(1 - tk/n)^{k-1}, tracked with explicit errors by Freedman's inequality for stopped supermartingales, and the count follows by comparing the probability of each sequence of chosen edges with the number of available edges at each step. The constants eps_0 = 1/(64k^2) and d_0 = max(2, 2^{16/eps}, (19200k^4)^{2/eps}) are explicit.
+
+**Sources.**
+
+* Stefan Glock, Felix Joos, Jaehoon Kim, Marcus Kühn, Lyuben Lichev, *Conflict-free hypergraph matchings*, J. Lond. Math. Soc. (2) 109(5) (2024), e12899; doi:10.1112/jlms.12899. [free full text](https://arxiv.org/pdf/2205.05564) (arXiv)
+
+<details><summary>Background references</summary>
+
+* David A. Freedman, *On tail probabilities for martingales*, Ann. Probab. 3(1) (1975), 100-118. [doi:10.1214/aop/1176996452](https://doi.org/10.1214/aop/1176996452) · [free full text](https://projecteuclid.org/journals/annals-of-probability/volume-3/issue-1/On-Tail-Probabilities-for-Martingales/10.1214/aop/1176996452.pdf)
+
+</details>
+
 [← Back to the list](../README.md)
